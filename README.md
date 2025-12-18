@@ -1,72 +1,52 @@
 # Portfolio
 
-A collection of data science and analysis projects showcasing data exploration, cleaning, visualization, and machine learning work. Built and maintained by Jimmy Pang.
+A collection of **Engineering Leadership resources**, **Data Architecture designs**, and technical data science projects.
 
-## Projects
+Built and maintained by Jimmy Pang.
+
+---
+
+## 🚀 Engineering Leadership & Strategy
+
+### 👥 [Building High-Performing BI Teams](leadership/team-building-framework.md)
+**A comprehensive framework for building and scaling analytics teams.**
+- **Recruitment & Onboarding:** Structured 12-week onboarding roadmap and interview rubrics.
+- **Culture & Operations:** Agile ceremonies, code review norms, and career development tracks.
+- **Strategy:** Defining mission, values, and KPIs for data organizations.
+
+## 🏗️ Data Architecture
+
+### ❄️ [Modern Data Stack Design](architecture/modern-data-stack-design.md)
+**Production-grade architecture patterns for scaling from 0 to 200+ consumers.**
+- **Stack:** Fivetran (Ingest) -> Snowflake (Warehousing) -> dbt (Transform) -> Airflow (Orchestrate).
+- **Patterns:** Layered modeling (Raw -> Staging -> Marts), Data Quality framework (Elementary), and RBAC governance.
+- **Performance:** Clustering strategies and materialization rules for large-scale datasets.
+
+---
+
+## 🛠️ Technical Projects (Hands-on)
 
 ### 📊 [Data Wrangling Exercise](projects/data_wragling_exercise/)
-
 **Overview:** Data wrangling and analysis using Hayes ad unit performance data across multiple years (2014-2017) and geographic regions.
-
-**Key Skills:**
-- Data import and aggregation from multiple CSV sources
-- Time-series and geographic data analysis
-- Data transformation and exploration
-
-**Data:** Multiple ad unit performance datasets across different Canadian provinces (CD, GZ, NJ) and years.
-
----
+**Key Skills:** Data import/aggregation, Time-series analysis.
 
 ### 🏠 [Housing Price Prediction](projects/housing_price/)
-
 **Overview:** Exploratory data analysis and machine learning model development for housing price prediction.
+**Key Skills:** Feature engineering, Regression modeling.
 
-**Key Skills:**
-- Data exploration and visualization
-- Feature engineering and analysis
-- Regression modeling with structured datasets
-
-**Data:** Training and test datasets for housing price prediction with multiple features.
-
----
-
-### 🎵 [Spotify Analysis](projects/Spotify/)
-
+### 🎵 [Spotify Analysis](projects/spotify/)
 **Overview:** Data analysis project for Spotify music streaming data.
+**Key Skills:** API integration, Statistical exploration.
 
-**Key Skills:**
-- Music streaming data analysis
-- Statistical exploration and insights
-
----
-
-### 🪟 [Windows Store Apps Analysis](projects/Windows_Store_Apps/)
-
+### 🪟 [Windows Store Apps Analysis](projects/windows_store_apps/)
 **Overview:** Analysis of Microsoft Store application data including ratings, pricing, and categories.
-
-**Key Features:**
-- Data cleaning and preprocessing (handling special characters like ₹, handling "Free" apps)
-- Statistical analysis by category
-- Price and rating distribution analysis
-- Data quality validation through unit tests
-
-**Data:** Microsoft Store app data with columns including Name, Rating, Category, Date, and Price.
-
-**Note:** Includes data cleaning examples dealing with currency symbols and missing values.
-
----
+**Key Features:** Data cleaning (currency/missing values), Unit testing validation.
 
 ### 🧪 [Testing & Utilities](projects/tests/)
-
 **Overview:** Unit tests and data validation utilities.
-
-**Files:**
-- `test_msft_csv.py` - Tests for Windows Store Apps CSV data structure and integrity
-
----
+**Files:** `test_msft_csv.py` - Structure validation for Windows Store Apps data.
 
 ### 📓 [Data World Experimentation](projects/test_dataworld/)
-
 **Overview:** Exploratory notebook for testing data connections and API integrations.
 
 ---
@@ -75,45 +55,22 @@ A collection of data science and analysis projects showcasing data exploration, 
 
 ```
 portfolio/
-├── projects/
-│   ├── data_wragling_exercise/   # Data wrangling with Hayes ad data
-│   ├── housing_price/            # Housing price prediction
-│   ├── Spotify/                  # Spotify data analysis
-│   ├── Windows_Store_Apps/       # Microsoft Store apps analysis
-│   ├── test_dataworld/           # Data integration experiments
-│   └── tests/                    # Testing utilities
+├── architecture/             # Architecture designs & diagrams
+├── leadership/               # Team building & management frameworks
+├── projects/                 # Coding & Data Science projects
+│   ├── spotify/
+│   ├── windows_store_apps/
+│   ├── housing_price/
+│   └── ...
 ├── README.md
-├── LICENSE
-└── .gitignore
+└── LICENSE
 ```
 
 ## Technologies & Tools
-
-- **Python** - Primary programming language
-- **Pandas** - Data manipulation and analysis
-- **Jupyter Notebooks** - Interactive data exploration and analysis
-- **Unit Testing** - Data validation and quality assurance
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/davnnis2003/portfolio.git
-   cd portfolio
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install pandas jupyter
-   ```
-
-3. Open any notebook:
-   ```bash
-   jupyter notebook projects/<project_name>/<notebook_name>.ipynb
-   ```
+- **Leadership:** Team Building, Recruitment, Agile Management
+- **Architecture:** dbt, Snowflake, Airflow, Data Governance
+- **Tech:** Python, Pandas, Jupyter, Unit Testing
 
 ## License
-
 © Jimmy Pang 2025. All rights reserved.
-
 See [LICENSE](LICENSE) file for details.
