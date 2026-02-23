@@ -1,76 +1,85 @@
-# Portfolio
+# Jimmy Pang — Data Lead
 
-A collection of **Engineering Leadership resources**, **Data Architecture designs**, and technical data science projects.
-
-Built and maintained by Jimmy Pang.
-
----
-
-## 🚀 Engineering Leadership & Strategy
-
-### 👥 [Building High-Performing BI Teams](leadership/team-building-framework.md)
-**A comprehensive framework for building and scaling analytics teams.**
-- **Recruitment & Onboarding:** Structured 12-week onboarding roadmap and interview rubrics.
-- **Culture & Operations:** Agile ceremonies, code review norms, and career development tracks.
-- **Strategy:** Defining mission, values, and KPIs for data organizations.
-
-## 🏗️ Data Architecture
-
-### ❄️ [Modern Data Stack Design](architecture/modern-data-stack-design.md)
-**Production-grade architecture patterns for scaling from 0 to 200+ consumers.**
-- **Stack:** Fivetran (Ingest) -> Snowflake (Warehousing) -> dbt (Transform) -> Airflow (Orchestrate).
-- **Patterns:** Layered modeling (Raw -> Staging -> Marts), Data Quality framework (Elementary), and RBAC governance.
-- **Performance:** Clustering strategies and materialization rules for large-scale datasets.
+**I build data organizations from 0 to 1.**  
+Track record of establishing analytics teams, modernizing data infrastructure, and enabling data-driven decision-making at scale.
 
 ---
 
-## 🛠️ Technical Projects (Hands-on)
+## What I Bring
 
-### 📊 [Data Wrangling Exercise](projects/data_wragling_exercise/)
-**Overview:** Data wrangling and analysis using Hayes ad unit performance data across multiple years (2014-2017) and geographic regions.
-**Key Skills:** Data import/aggregation, Time-series analysis.
+### As a First Data Hire
+When you hire me as your first data person, you don't just get an analyst—you get a **data organization builder**. I've done this before:
 
-### 🏠 [Housing Price Prediction](projects/housing_price/)
-**Overview:** Exploratory data analysis and machine learning model development for housing price prediction.
-**Key Skills:** Feature engineering, Regression modeling.
+- **Vestiaire Collective**: Built BI squad from scratch across Operations, Sustainability, and emerging business lines
+- **Team Leadership**: Recruited, onboarded, and developed high-performing analytics engineers and BI analysts
+- **Stakeholder Partnership**: Established trusted relationships with C-suite and operational leaders
 
-### 🎵 [Spotify Analysis](projects/spotify/)
-**Overview:** Data analysis project for Spotify music streaming data.
-**Key Skills:** API integration, Statistical exploration.
+### My Playbook
 
-### 🪟 [Windows Store Apps Analysis](projects/windows_store_apps/)
-**Overview:** Analysis of Microsoft Store application data including ratings, pricing, and categories.
-**Key Features:** Data cleaning (currency/missing values), Unit testing validation.
+**1. Foundation First**
+- Modern data stack architecture (dbt, Snowflake, Airflow)
+- Data quality frameworks with proactive monitoring
+- Documentation standards and self-service enablement
 
-### 🧪 [Testing & Utilities](projects/tests/)
-**Overview:** Unit tests and data validation utilities.
-**Files:** `test_msft_csv.py` - Structure validation for Windows Store Apps data.
+**2. Operating Rhythms**
+- Structured prioritization frameworks (MoSCoW, NOW/NEXT/LATER)
+- Agile delivery with stakeholder transparency
+- Clear definition of done for data products
 
-### 📓 [Data World Experimentation](projects/test_dataworld/)
-**Overview:** Exploratory notebook for testing data connections and API integrations.
+**3. Team & Culture**
+- 12-week onboarding programs with domain deep-dives
+- Code review practices and technical mentorship
+- Career development tracks (IC and management)
 
 ---
 
-## Repository Structure
+## This Repository
 
 ```
 portfolio/
-├── architecture/             # Architecture designs & diagrams
-├── leadership/               # Team building & management frameworks
-├── projects/                 # Coding & Data Science projects
-│   ├── spotify/
-│   ├── windows_store_apps/
-│   ├── housing_price/
-│   └── ...
-├── README.md
-└── LICENSE
+├── 00-about/                    # My approach and philosophy
+├── 01-data-leadership/          # How I build and lead teams
+│   ├── 01-team-building-playbook/
+│   ├── 02-vestiaire-transformation/
+│   └── 03-operating-model/        # Meeting cadences, rituals, processes
+├── 02-data-strategy/            # Architecture and strategic thinking
+│   ├── 01-stack-design-patterns/
+│   └── 02-commercial-saas-strategy/
+├── 03-execution-excellence/     # Hands-on technical delivery
+│   ├── 01-data-modeling/
+│   ├── 02-analytics-delivery/
+│   └── 03-technical-depth/
+└── 04-resources/                # Templates, rubrics, reusable assets
 ```
 
-## Technologies & Tools
-- **Leadership:** Team Building, Recruitment, Agile Management
-- **Architecture:** dbt, Snowflake, Airflow, Data Governance
-- **Tech:** Python, Pandas, Jupyter, Unit Testing
+---
+
+## Featured Work
+
+### �️ Building BI Teams from Scratch
+`01-data-leadership/02-vestiaire-transformation/`  
+Led formation of Business Intelligence squad at Vestiaire Collective, implementing modern data stack (dbt + Snowflake + Elementary) and establishing stakeholder partnerships across Operations, Sustainability, and emerging domains.
+
+**Results**: 50+ data marts, 40% reduction in ad-hoc requests, 100% team retention
+
+### 📋 Team Building Framework
+`01-data-leadership/01-team-building-playbook/`  
+Comprehensive framework for recruiting, onboarding, and developing analytics teams. Includes interview processes, 12-week onboarding roadmaps, and career development tracks.
+
+### 🏛️ Modern Data Stack Design
+`02-data-strategy/01-stack-design-patterns/`  
+Production-grade architecture patterns for scaling from small teams to 200+ data consumers. Layered modeling, data quality frameworks, and governance best practices.
+
+---
+
+## Technical Stack
+
+**Data Platform**: dbt · Snowflake · Airflow · Fivetran · Elementary  
+**Analytics**: SQL · Python · Pandas · Tableau · Looker  
+**Practices**: Data modeling · Testing strategies · Documentation-as-code · Agile delivery
+
+---
 
 ## License
+
 © Jimmy Pang 2025. All rights reserved.
-See [LICENSE](LICENSE) file for details.
