@@ -1,0 +1,301 @@
+form_id,session_id,submitted_at,form_type,utm_campaign,utm_source,utm_medium
+F200001,S101861,2024-10-20 12:51:00,Newsletter,Lead Generation | DE | Form,direct,
+F200002,S100354,2024-09-06 16:40:00,Content Download,Brand Awareness Q4,direct,social
+F200003,S101334,2024-10-24 20:14:00,Contact Us,Google Brand Campaign,organic,email
+F200004,S100906,2024-10-20 19:08:00,Demo Request,,organic,social
+F200005,S101290,2024-09-19 06:35:00,Contact Us,Google Brand Campaign,organic,email
+F200006,S101274,2024-10-23 17:32:00,Contact Us,Google Brand Campaign,facebook,social
+F200007,S100939,2024-10-07 19:41:00,Demo Request,Lead Generation | DE | Form,organic,cpc
+F200008,S101732,2024-10-05 00:53:00,Contact Us,Google Brand Campaign,google,social
+F200009,S100066,2024-09-28 02:44:00,Contact Us,Retargeting Campaign,organic,email
+F200010,S101324,2024-09-20 12:27:00,Newsletter,Retargeting Campaign,google,referral
+F200011,S100057,2024-10-26 06:04:00,Demo Request,Lead Generation | DE | Form,direct,cpc
+F200012,S101293,2024-09-17 20:55:00,Contact Us,Retargeting Campaign,facebook,cpc
+F200013,S101119,2024-09-27 11:07:00,Demo Request,Lead Generation | DE | Form,facebook,social
+F200014,S100585,2024-09-09 17:15:00,Demo Request,Google Brand Campaign,facebook,social
+F200015,S100375,2024-10-25 11:33:00,Newsletter,Google Brand Campaign,,social
+F200016,S100276,2024-10-04 00:03:00,Newsletter,Lead Generation | DE | Form,facebook,social
+F200017,S100747,2024-10-06 17:46:00,Content Download,Retargeting Campaign,linkedin,organic
+F200018,S100129,2024-09-29 03:45:00,Demo Request,,linkedin,
+F200019,S101647,2024-09-16 11:02:00,Contact Us,Lead Generation | DE | Form,facebook,email
+F200020,S101853,2024-10-30 08:42:00,Content Download,Brand Awareness Q4,facebook,email
+F200021,S100675,2024-09-25 01:50:00,Content Download,Retargeting Campaign,organic,email
+F200022,S101665,2024-10-19 09:40:00,Content Download,Google Brand Campaign,google,
+F200023,S101982,2024-10-01 14:16:00,Newsletter,Retargeting Campaign,,
+F200024,S101084,2024-09-11 08:41:00,Demo Request,Product Launch 2024,linkedin,email
+F200025,S101923,2024-09-21 05:11:00,Newsletter,Brand Awareness Q4,,
+F200026,S100100,2024-10-03 20:42:00,Demo Request,Brand Awareness Q4,direct,referral
+F200027,S101180,2024-09-11 08:19:00,Demo Request,Brand Awareness Q4,linkedin,email
+F200028,S100965,2024-10-21 11:02:00,Contact Us,,google,social
+F200029,S100793,2024-09-18 15:17:00,Content Download,Retargeting Campaign,,organic
+F200030,S100030,2024-10-01 08:11:00,Demo Request,Product Launch 2024,direct,social
+F200031,S100629,2024-10-13 03:09:00,Contact Us,Brand Awareness Q4,organic,
+F200032,S100945,2024-09-14 23:31:00,Content Download,Product Launch 2024,direct,
+F200033,S100573,2024-10-30 00:27:00,Contact Us,Brand Awareness Q4,facebook,referral
+F200034,S100908,2024-09-06 08:37:00,Demo Request,,,
+F200035,S101081,2024-09-05 01:17:00,Newsletter,Lead Generation | DE | Form,organic,
+F200036,S100451,2024-09-27 23:07:00,Demo Request,Product Launch 2024,direct,social
+F200037,S101610,2024-10-09 08:16:00,Content Download,Lead Generation | DE | Form,facebook,social
+F200038,S101291,2024-10-19 20:37:00,Content Download,Brand Awareness Q4,facebook,organic
+F200039,S101079,2024-10-11 00:42:00,Contact Us,Product Launch 2024,,organic
+F200040,S100255,2024-09-09 01:21:00,Content Download,Product Launch 2024,,social
+F200041,S100125,2024-09-19 01:29:00,Demo Request,Retargeting Campaign,,email
+F200042,S101928,2024-10-28 17:43:00,Content Download,Lead Generation | DE | Form,facebook,referral
+F200043,S100252,2024-10-29 08:15:00,Newsletter,Product Launch 2024,linkedin,cpc
+F200044,S100586,2024-10-24 01:21:00,Demo Request,Brand Awareness Q4,direct,cpc
+F200045,S101569,2024-10-18 11:25:00,Contact Us,,,organic
+F200046,S100825,2024-10-30 20:21:00,Contact Us,Brand Awareness Q4,linkedin,
+F200047,S100508,2024-09-02 07:38:00,Contact Us,Retargeting Campaign,,
+F200048,S100890,2024-09-21 05:01:00,Demo Request,Brand Awareness Q4,linkedin,referral
+F200049,S100071,2024-10-14 06:51:00,Newsletter,Product Launch 2024,,social
+F200050,S101609,2024-09-05 05:31:00,Demo Request,Google Brand Campaign,direct,organic
+F200051,S101533,2024-09-02 19:06:00,Demo Request,Google Brand Campaign,direct,email
+F200052,S100248,2024-09-30 09:55:00,Demo Request,Product Launch 2024,organic,organic
+F200053,S101451,2024-10-11 22:26:00,Contact Us,,direct,cpc
+F200054,S100213,2024-10-04 21:38:00,Demo Request,Brand Awareness Q4,google,referral
+F200055,S100910,2024-10-16 13:11:00,Content Download,Google Brand Campaign,organic,social
+F200056,S101742,2024-09-08 06:17:00,Demo Request,Retargeting Campaign,direct,social
+F200057,S101245,2024-10-20 16:08:00,Contact Us,Brand Awareness Q4,,
+F200058,S101697,2024-09-21 22:07:00,Demo Request,,,
+F200059,S101183,2024-10-25 00:22:00,Content Download,Lead Generation | DE | Form,google,cpc
+F200060,S100362,2024-09-28 17:34:00,Content Download,Lead Generation | DE | Form,google,referral
+F200061,S101474,2024-10-20 23:46:00,Content Download,Google Brand Campaign,,referral
+F200062,S100679,2024-09-15 05:43:00,Demo Request,Brand Awareness Q4,organic,social
+F200063,S101622,2024-10-28 15:18:00,Contact Us,Product Launch 2024,google,referral
+F200064,S101090,2024-10-29 00:31:00,Contact Us,Product Launch 2024,google,referral
+F200065,S101988,2024-09-24 19:54:00,Contact Us,Product Launch 2024,linkedin,organic
+F200066,S101848,2024-10-07 02:22:00,Content Download,Google Brand Campaign,linkedin,cpc
+F200067,S100988,2024-10-03 16:03:00,Content Download,,linkedin,referral
+F200068,S101513,2024-10-22 22:08:00,Content Download,Lead Generation | DE | Form,organic,
+F200069,S100112,2024-09-17 07:13:00,Contact Us,,google,email
+F200070,S101488,2024-10-26 20:19:00,Newsletter,Brand Awareness Q4,linkedin,cpc
+F200071,S101454,2024-09-16 23:36:00,Demo Request,Lead Generation | DE | Form,organic,cpc
+F200072,S100384,2024-09-22 07:40:00,Contact Us,Google Brand Campaign,google,referral
+F200073,S101396,2024-09-09 02:37:00,Contact Us,Product Launch 2024,organic,email
+F200074,S101055,2024-09-30 13:22:00,Newsletter,Retargeting Campaign,google,email
+F200075,S100756,2024-10-04 22:41:00,Content Download,Google Brand Campaign,google,
+F200076,S100325,2024-09-30 17:23:00,Newsletter,Google Brand Campaign,linkedin,
+F200077,S101624,2024-09-20 06:01:00,Content Download,Lead Generation | DE | Form,direct,
+F200078,S100788,2024-10-07 19:04:00,Newsletter,,organic,social
+F200079,S100369,2024-10-09 00:10:00,Contact Us,Lead Generation | DE | Form,,
+F200080,S101820,2024-09-16 06:13:00,Contact Us,Product Launch 2024,facebook,organic
+F200081,S100070,2024-10-21 19:01:00,Contact Us,,linkedin,referral
+F200082,S100858,2024-10-20 02:01:00,Content Download,Retargeting Campaign,linkedin,referral
+F200083,S101484,2024-10-20 22:35:00,Content Download,Google Brand Campaign,direct,
+F200084,S101556,2024-09-23 22:51:00,Contact Us,Retargeting Campaign,organic,email
+F200085,S101692,2024-09-06 09:57:00,Demo Request,,direct,referral
+F200086,S101475,2024-10-12 13:16:00,Content Download,Product Launch 2024,,social
+F200087,S101799,2024-10-10 17:58:00,Content Download,Lead Generation | DE | Form,linkedin,referral
+F200088,S100479,2024-10-17 06:55:00,Contact Us,,google,referral
+F200089,S100282,2024-09-14 19:30:00,Newsletter,,direct,social
+F200090,S101648,2024-09-09 03:25:00,Demo Request,Retargeting Campaign,linkedin,social
+F200091,S101557,2024-10-28 01:21:00,Demo Request,Retargeting Campaign,direct,social
+F200092,S101730,2024-09-08 10:43:00,Contact Us,Product Launch 2024,organic,organic
+F200093,S100211,2024-09-29 21:55:00,Demo Request,Product Launch 2024,organic,referral
+F200094,S100298,2024-10-27 20:40:00,Newsletter,Retargeting Campaign,,email
+F200095,S101885,2024-09-08 09:52:00,Contact Us,,linkedin,email
+F200096,S101834,2024-10-16 17:00:00,Demo Request,,organic,email
+F200097,S100652,2024-09-01 10:28:00,Contact Us,,linkedin,organic
+F200098,S101234,2024-09-11 12:59:00,Content Download,Product Launch 2024,linkedin,
+F200099,S101503,2024-09-08 15:57:00,Content Download,Google Brand Campaign,google,social
+F200100,S101932,2024-09-23 03:12:00,Demo Request,Lead Generation | DE | Form,,cpc
+F200101,S100917,2024-10-27 17:32:00,Newsletter,Google Brand Campaign,,organic
+F200102,S100994,2024-10-13 14:42:00,Newsletter,Lead Generation | DE | Form,linkedin,
+F200103,S100430,2024-09-01 03:40:00,Newsletter,Lead Generation | DE | Form,organic,
+F200104,S101371,2024-10-08 18:05:00,Content Download,Lead Generation | DE | Form,google,referral
+F200105,S100240,2024-10-12 21:36:00,Contact Us,Google Brand Campaign,linkedin,cpc
+F200106,S100880,2024-09-12 06:52:00,Contact Us,Product Launch 2024,organic,
+F200107,S100621,2024-10-20 17:55:00,Newsletter,Brand Awareness Q4,organic,cpc
+F200108,S100257,2024-10-06 23:48:00,Demo Request,Google Brand Campaign,direct,cpc
+F200109,S100612,2024-09-09 19:57:00,Content Download,,direct,referral
+F200110,S100545,2024-09-15 22:02:00,Demo Request,Lead Generation | DE | Form,direct,email
+F200111,S100772,2024-10-10 01:02:00,Newsletter,Google Brand Campaign,facebook,referral
+F200112,S101420,2024-10-26 06:44:00,Contact Us,Product Launch 2024,,
+F200113,S101042,2024-09-27 00:54:00,Newsletter,Lead Generation | DE | Form,google,cpc
+F200114,S101790,2024-10-20 22:13:00,Demo Request,Google Brand Campaign,direct,cpc
+F200115,S100760,2024-09-23 08:20:00,Content Download,Google Brand Campaign,google,referral
+F200116,S100383,2024-10-06 19:07:00,Contact Us,,direct,email
+F200117,S101104,2024-09-27 21:27:00,Content Download,Retargeting Campaign,direct,social
+F200118,S100974,2024-09-01 22:54:00,Content Download,Retargeting Campaign,facebook,email
+F200119,S100353,2024-09-11 10:59:00,Contact Us,Google Brand Campaign,direct,cpc
+F200120,S101606,2024-10-29 13:30:00,Demo Request,Product Launch 2024,direct,organic
+F200121,S101826,2024-09-25 22:54:00,Contact Us,Brand Awareness Q4,direct,referral
+F200122,S101037,2024-09-09 04:16:00,Content Download,,organic,referral
+F200123,S101108,2024-10-11 20:56:00,Contact Us,Brand Awareness Q4,,
+F200124,S100495,2024-10-04 17:05:00,Newsletter,,linkedin,social
+F200125,S100394,2024-10-21 12:11:00,Newsletter,Retargeting Campaign,direct,referral
+F200126,S101547,2024-10-06 08:17:00,Content Download,Product Launch 2024,,social
+F200127,S100465,2024-10-02 10:44:00,Content Download,Brand Awareness Q4,,cpc
+F200128,S100887,2024-09-09 06:51:00,Contact Us,Lead Generation | DE | Form,organic,organic
+F200129,S101194,2024-10-11 10:59:00,Content Download,,direct,cpc
+F200130,S100367,2024-10-07 19:57:00,Content Download,,linkedin,social
+F200131,S101894,2024-10-03 14:21:00,Demo Request,Google Brand Campaign,facebook,social
+F200132,S101874,2024-09-08 00:55:00,Content Download,Brand Awareness Q4,linkedin,email
+F200133,S100745,2024-10-25 17:32:00,Contact Us,Google Brand Campaign,linkedin,organic
+F200134,S100530,2024-09-27 06:42:00,Newsletter,Google Brand Campaign,google,
+F200135,S100803,2024-09-15 02:34:00,Contact Us,Retargeting Campaign,linkedin,referral
+F200136,S101224,2024-09-30 15:11:00,Newsletter,,google,cpc
+F200137,S101979,2024-09-08 13:36:00,Newsletter,,,email
+F200138,S101906,2024-09-30 00:19:00,Content Download,Product Launch 2024,linkedin,cpc
+F200139,S101700,2024-09-03 07:17:00,Newsletter,Lead Generation | DE | Form,direct,
+F200140,S101545,2024-09-13 04:41:00,Newsletter,Lead Generation | DE | Form,google,organic
+F200141,S101314,2024-10-18 09:08:00,Newsletter,Brand Awareness Q4,google,
+F200142,S100307,2024-09-04 01:41:00,Content Download,Product Launch 2024,organic,
+F200143,S101667,2024-09-04 10:30:00,Demo Request,Retargeting Campaign,facebook,email
+F200144,S100863,2024-10-21 12:22:00,Content Download,Lead Generation | DE | Form,linkedin,cpc
+F200145,S101567,2024-10-14 22:07:00,Content Download,Google Brand Campaign,,cpc
+F200146,S100531,2024-09-25 22:35:00,Contact Us,Product Launch 2024,organic,referral
+F200147,S100655,2024-10-23 07:14:00,Contact Us,Retargeting Campaign,facebook,referral
+F200148,S101260,2024-09-15 22:30:00,Newsletter,Google Brand Campaign,facebook,referral
+F200149,S100234,2024-09-24 12:18:00,Newsletter,Retargeting Campaign,direct,referral
+F200150,S100121,2024-10-20 16:42:00,Demo Request,Product Launch 2024,direct,email
+F200151,S101698,2024-09-10 15:11:00,Newsletter,Lead Generation | DE | Form,direct,email
+F200152,S100950,2024-09-11 08:29:00,Demo Request,Brand Awareness Q4,organic,organic
+F200153,S100618,2024-09-22 15:30:00,Content Download,Lead Generation | DE | Form,google,referral
+F200154,S101179,2024-09-30 16:00:00,Content Download,Product Launch 2024,direct,
+F200155,S100308,2024-10-05 01:06:00,Contact Us,Brand Awareness Q4,direct,social
+F200156,S100136,2024-10-13 13:03:00,Demo Request,Google Brand Campaign,facebook,referral
+F200157,S100555,2024-09-07 02:41:00,Newsletter,Lead Generation | DE | Form,direct,social
+F200158,S101674,2024-09-22 09:53:00,Demo Request,Google Brand Campaign,direct,cpc
+F200159,S100584,2024-10-23 01:53:00,Content Download,Lead Generation | DE | Form,facebook,email
+F200160,S101641,2024-09-29 23:55:00,Newsletter,Product Launch 2024,facebook,cpc
+F200161,S100671,2024-10-30 12:31:00,Demo Request,Product Launch 2024,,email
+F200162,S100835,2024-10-10 09:27:00,Contact Us,Product Launch 2024,,email
+F200163,S100110,2024-10-13 18:37:00,Demo Request,Product Launch 2024,organic,organic
+F200164,S101165,2024-09-07 22:54:00,Newsletter,Lead Generation | DE | Form,linkedin,referral
+F200165,S101960,2024-10-04 00:06:00,Content Download,,direct,cpc
+F200166,S101465,2024-09-18 15:19:00,Content Download,Retargeting Campaign,direct,referral
+F200167,S101729,2024-09-20 01:07:00,Contact Us,Lead Generation | DE | Form,,organic
+F200168,S101243,2024-09-05 01:45:00,Newsletter,Brand Awareness Q4,organic,referral
+F200169,S100212,2024-09-14 16:09:00,Contact Us,Retargeting Campaign,direct,cpc
+F200170,S101768,2024-09-07 04:28:00,Content Download,Retargeting Campaign,direct,referral
+F200171,S101121,2024-10-16 17:50:00,Newsletter,Brand Awareness Q4,direct,referral
+F200172,S100680,2024-10-05 12:27:00,Demo Request,Retargeting Campaign,google,social
+F200173,S101951,2024-10-20 20:22:00,Demo Request,Google Brand Campaign,organic,email
+F200174,S101839,2024-09-08 02:06:00,Demo Request,,facebook,referral
+F200175,S100412,2024-10-09 20:11:00,Newsletter,Retargeting Campaign,direct,cpc
+F200176,S101325,2024-09-25 03:29:00,Demo Request,Lead Generation | DE | Form,google,organic
+F200177,S100783,2024-09-12 13:37:00,Contact Us,Lead Generation | DE | Form,,organic
+F200178,S101346,2024-09-15 15:28:00,Newsletter,Brand Awareness Q4,linkedin,referral
+F200179,S100875,2024-10-15 23:04:00,Newsletter,Brand Awareness Q4,direct,organic
+F200180,S101653,2024-09-06 07:05:00,Newsletter,Brand Awareness Q4,organic,referral
+F200181,S101279,2024-09-24 23:09:00,Newsletter,Product Launch 2024,linkedin,
+F200182,S100786,2024-09-29 23:35:00,Demo Request,Retargeting Campaign,linkedin,email
+F200183,S101819,2024-09-08 02:10:00,Newsletter,Lead Generation | DE | Form,organic,cpc
+F200184,S101199,2024-09-01 12:21:00,Demo Request,,linkedin,email
+F200185,S100808,2024-09-15 08:25:00,Newsletter,Product Launch 2024,,social
+F200186,S100713,2024-09-17 18:14:00,Contact Us,Google Brand Campaign,direct,
+F200187,S101991,2024-10-07 19:03:00,Newsletter,Retargeting Campaign,,organic
+F200188,S101660,2024-10-10 01:37:00,Contact Us,Product Launch 2024,google,
+F200189,S101191,2024-09-17 17:52:00,Contact Us,Retargeting Campaign,,
+F200190,S101226,2024-10-28 21:41:00,Content Download,Lead Generation | DE | Form,organic,cpc
+F200191,S100603,2024-09-19 03:44:00,Newsletter,Lead Generation | DE | Form,,email
+F200192,S100271,2024-10-15 15:51:00,Demo Request,Google Brand Campaign,linkedin,cpc
+F200193,S101385,2024-10-22 11:47:00,Demo Request,Lead Generation | DE | Form,organic,organic
+F200194,S100232,2024-09-29 04:02:00,Contact Us,Retargeting Campaign,,cpc
+F200195,S100050,2024-09-19 19:20:00,Newsletter,,linkedin,social
+F200196,S100463,2024-10-07 20:31:00,Demo Request,,direct,referral
+F200197,S101106,2024-10-06 15:17:00,Contact Us,Retargeting Campaign,organic,email
+F200198,S100856,2024-10-21 15:13:00,Demo Request,Product Launch 2024,,
+F200199,S100694,2024-09-07 10:18:00,Newsletter,,linkedin,organic
+F200200,S101552,2024-09-08 17:22:00,Contact Us,,organic,referral
+F200201,S101873,2024-09-08 11:48:00,Contact Us,Lead Generation | DE | Form,facebook,social
+F200202,S100527,2024-09-23 07:07:00,Newsletter,Lead Generation | DE | Form,linkedin,email
+F200203,S100174,2024-09-30 11:54:00,Contact Us,,,email
+F200204,S100721,2024-10-16 17:05:00,Demo Request,Retargeting Campaign,,email
+F200205,S100415,2024-09-10 02:28:00,Contact Us,Product Launch 2024,linkedin,referral
+F200206,S100238,2024-09-09 19:51:00,Contact Us,Brand Awareness Q4,linkedin,organic
+F200207,S101473,2024-10-29 03:36:00,Newsletter,Google Brand Campaign,google,social
+F200208,S101336,2024-10-24 04:47:00,Newsletter,Google Brand Campaign,linkedin,referral
+F200209,S101064,2024-10-13 09:21:00,Contact Us,,direct,organic
+F200210,S100024,2024-10-04 19:48:00,Demo Request,Lead Generation | DE | Form,organic,
+F200211,S101767,2024-10-03 11:08:00,Demo Request,Retargeting Campaign,,referral
+F200212,S100064,2024-10-09 16:19:00,Demo Request,Product Launch 2024,organic,social
+F200213,S100290,2024-09-29 15:01:00,Newsletter,Google Brand Campaign,linkedin,social
+F200214,S100189,2024-09-17 01:16:00,Content Download,,direct,organic
+F200215,S100702,2024-10-25 17:32:00,Demo Request,,organic,cpc
+F200216,S101815,2024-10-23 09:41:00,Content Download,Product Launch 2024,,email
+F200217,S101138,2024-09-21 15:28:00,Newsletter,Product Launch 2024,linkedin,referral
+F200218,S100355,2024-09-30 18:17:00,Contact Us,Google Brand Campaign,direct,
+F200219,S100417,2024-09-30 03:20:00,Newsletter,Retargeting Campaign,facebook,referral
+F200220,S101246,2024-10-21 06:16:00,Content Download,Product Launch 2024,facebook,cpc
+F200221,S100931,2024-10-11 07:14:00,Newsletter,Retargeting Campaign,linkedin,cpc
+F200222,S100197,2024-09-29 07:28:00,Demo Request,Retargeting Campaign,direct,referral
+F200223,S100580,2024-10-28 11:12:00,Contact Us,Retargeting Campaign,linkedin,email
+F200224,S101135,2024-10-24 11:26:00,Content Download,Product Launch 2024,google,organic
+F200225,S101814,2024-09-06 01:37:00,Demo Request,,facebook,email
+F200226,S101935,2024-09-13 17:55:00,Demo Request,,facebook,
+F200227,S100434,2024-09-20 10:40:00,Contact Us,Lead Generation | DE | Form,organic,referral
+F200228,S100101,2024-09-24 21:11:00,Newsletter,Product Launch 2024,,social
+F200229,S101655,2024-09-27 23:22:00,Content Download,Product Launch 2024,,
+F200230,S100395,2024-10-15 07:43:00,Contact Us,,facebook,
+F200231,S101939,2024-09-28 02:55:00,Demo Request,Google Brand Campaign,organic,social
+F200232,S100221,2024-10-04 02:52:00,Newsletter,Retargeting Campaign,,email
+F200233,S101676,2024-10-22 00:13:00,Content Download,Retargeting Campaign,organic,cpc
+F200234,S101498,2024-10-22 23:39:00,Contact Us,,direct,social
+F200235,S101785,2024-10-01 18:10:00,Content Download,Product Launch 2024,google,referral
+F200236,S100345,2024-09-22 10:00:00,Demo Request,,organic,cpc
+F200237,S101028,2024-09-26 03:25:00,Newsletter,,,organic
+F200238,S100889,2024-10-29 05:27:00,Newsletter,Brand Awareness Q4,organic,organic
+F200239,S101351,2024-10-25 21:10:00,Content Download,,,organic
+F200240,S100553,2024-10-24 15:59:00,Demo Request,Google Brand Campaign,,
+F200241,S100744,2024-09-24 03:29:00,Newsletter,Product Launch 2024,,organic
+F200242,S101542,2024-09-03 17:27:00,Content Download,Retargeting Campaign,,organic
+F200243,S100539,2024-09-04 08:00:00,Contact Us,Lead Generation | DE | Form,facebook,organic
+F200244,S100907,2024-09-21 14:10:00,Demo Request,Lead Generation | DE | Form,direct,organic
+F200245,S101395,2024-10-27 12:50:00,Content Download,Lead Generation | DE | Form,linkedin,email
+F200246,S100116,2024-09-18 01:04:00,Newsletter,Google Brand Campaign,linkedin,
+F200247,S100830,2024-09-23 11:08:00,Content Download,Product Launch 2024,linkedin,organic
+F200248,S101938,2024-09-13 21:05:00,Contact Us,Brand Awareness Q4,organic,
+F200249,S100809,2024-09-19 21:02:00,Contact Us,Google Brand Campaign,linkedin,referral
+F200250,S101311,2024-10-19 04:36:00,Content Download,,direct,referral
+F200251,S101005,2024-10-14 01:01:00,Demo Request,Brand Awareness Q4,facebook,referral
+F200252,S100306,2024-09-02 02:48:00,Contact Us,Google Brand Campaign,direct,social
+F200253,S101101,2024-09-19 05:59:00,Demo Request,,direct,
+F200254,S100480,2024-10-26 06:25:00,Contact Us,Brand Awareness Q4,google,cpc
+F200255,S101424,2024-09-03 23:29:00,Newsletter,Retargeting Campaign,,referral
+F200256,S101076,2024-09-29 19:42:00,Newsletter,,,cpc
+F200257,S100571,2024-09-11 07:12:00,Contact Us,Lead Generation | DE | Form,google,cpc
+F200258,S100619,2024-09-15 23:26:00,Newsletter,Lead Generation | DE | Form,,cpc
+F200259,S101898,2024-10-30 05:14:00,Demo Request,Google Brand Campaign,facebook,cpc
+F200260,S101266,2024-10-22 05:50:00,Contact Us,Lead Generation | DE | Form,linkedin,
+F200261,S100079,2024-10-24 17:39:00,Contact Us,Lead Generation | DE | Form,,referral
+F200262,S101912,2024-09-08 13:43:00,Newsletter,Google Brand Campaign,,referral
+F200263,S100033,2024-10-05 14:13:00,Newsletter,Product Launch 2024,google,email
+F200264,S101538,2024-09-12 20:12:00,Newsletter,Lead Generation | DE | Form,facebook,organic
+F200265,S101034,2024-09-08 21:43:00,Content Download,Google Brand Campaign,google,email
+F200266,S101563,2024-09-20 21:16:00,Newsletter,Brand Awareness Q4,linkedin,referral
+F200267,S100352,2024-09-04 18:06:00,Newsletter,Google Brand Campaign,google,organic
+F200268,S100164,2024-10-07 11:38:00,Demo Request,Retargeting Campaign,,email
+F200269,S100204,2024-10-19 08:57:00,Newsletter,Lead Generation | DE | Form,direct,organic
+F200270,S101054,2024-09-03 22:54:00,Contact Us,Brand Awareness Q4,linkedin,social
+F200271,S101365,2024-09-30 12:32:00,Content Download,Product Launch 2024,organic,organic
+F200272,S101967,2024-10-07 00:49:00,Contact Us,Lead Generation | DE | Form,direct,email
+F200273,S100496,2024-10-18 08:56:00,Contact Us,Brand Awareness Q4,facebook,email
+F200274,S101625,2024-09-05 04:29:00,Contact Us,Product Launch 2024,google,referral
+F200275,S101966,2024-10-17 12:38:00,Newsletter,Google Brand Campaign,,cpc
+F200276,S101963,2024-09-30 06:07:00,Content Download,Retargeting Campaign,,organic
+F200277,S100611,2024-09-18 07:08:00,Content Download,Lead Generation | DE | Form,organic,social
+F200278,S100433,2024-10-01 03:38:00,Contact Us,Product Launch 2024,facebook,cpc
+F200279,S101492,2024-10-30 15:49:00,Newsletter,Retargeting Campaign,organic,referral
+F200280,S100219,2024-09-08 12:15:00,Demo Request,Retargeting Campaign,google,organic
+F200281,S101931,2024-10-27 13:56:00,Contact Us,Retargeting Campaign,facebook,social
+F200282,S101466,2024-09-29 13:50:00,Newsletter,Google Brand Campaign,,referral
+F200283,S100631,2024-09-30 09:24:00,Newsletter,Product Launch 2024,facebook,cpc
+F200284,S101382,2024-10-17 05:51:00,Content Download,Google Brand Campaign,google,social
+F200285,S101302,2024-10-15 15:59:00,Demo Request,Product Launch 2024,google,social
+F200286,S100060,2024-10-23 14:26:00,Newsletter,Retargeting Campaign,google,social
+F200287,S100299,2024-10-22 21:32:00,Content Download,Retargeting Campaign,direct,cpc
+F200288,S101711,2024-09-24 07:36:00,Contact Us,Retargeting Campaign,linkedin,
+F200289,S100074,2024-09-30 14:02:00,Content Download,,organic,social
+F200290,S100163,2024-09-30 09:37:00,Newsletter,Product Launch 2024,direct,cpc
+F200291,S101275,2024-10-29 11:28:00,Newsletter,,linkedin,
+F200292,S101594,2024-09-22 13:42:00,Content Download,Brand Awareness Q4,organic,referral
+F200293,S101434,2024-09-30 02:19:00,Contact Us,Google Brand Campaign,,social
+F200294,S101613,2024-09-15 01:45:00,Contact Us,Lead Generation | DE | Form,linkedin,cpc
+F200295,S100592,2024-10-01 05:02:00,Demo Request,Lead Generation | DE | Form,organic,cpc
+F200296,S100317,2024-10-01 00:45:00,Contact Us,Retargeting Campaign,,cpc
+F200297,S100046,2024-10-03 08:25:00,Newsletter,Retargeting Campaign,facebook,social
+F200298,S101720,2024-09-02 19:53:00,Newsletter,Google Brand Campaign,facebook,organic
+F200299,S101832,2024-09-30 23:10:00,Newsletter,Lead Generation | DE | Form,linkedin,
+F200300,S100428,2024-10-20 07:52:00,Newsletter,,linkedin,social

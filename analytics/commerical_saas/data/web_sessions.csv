@@ -1,0 +1,2001 @@
+session_id,session_timestamp,utm_campaign,utm_source,utm_medium,page_views,duration_seconds
+S100001,2024-09-14 07:32:00,Google Brand Campaign,facebook,organic,4,568
+S100002,2024-09-27 07:28:00,Google Brand Campaign,linkedin,cpc,3,442
+S100003,2024-09-22 08:09:00,Lead Generation | DE | Form,linkedin,cpc,2,399
+S100004,2024-09-07 11:54:00,Retargeting Campaign,organic,email,1,480
+S100005,2024-10-05 03:59:00,Product Launch 2024,facebook,organic,5,380
+S100006,2024-10-07 06:45:00,Brand Awareness Q4,facebook,,4,306
+S100007,2024-09-06 07:55:00,Brand Awareness Q4,direct,email,8,383
+S100008,2024-09-11 11:22:00,Lead Generation | DE | Form,,email,2,185
+S100009,2024-10-05 23:15:00,Lead Generation | DE | Form,direct,referral,5,580
+S100010,2024-09-15 21:20:00,Brand Awareness Q4,google,cpc,6,420
+S100011,2024-09-18 02:13:00,Google Brand Campaign,,email,4,521
+S100012,2024-09-26 20:29:00,Lead Generation | DE | Form,linkedin,social,4,584
+S100013,2024-10-05 08:47:00,Google Brand Campaign,direct,organic,7,380
+S100014,2024-09-15 04:32:00,Product Launch 2024,facebook,cpc,2,166
+S100015,2024-10-11 05:50:00,,direct,organic,2,404
+S100016,2024-09-25 19:29:00,Google Brand Campaign,linkedin,organic,1,127
+S100017,2024-10-14 17:48:00,Retargeting Campaign,,email,2,310
+S100018,2024-09-28 05:29:00,Brand Awareness Q4,,,5,522
+S100019,2024-10-19 05:32:00,Brand Awareness Q4,,email,9,213
+S100020,2024-09-10 11:48:00,Lead Generation | DE | Form,organic,organic,1,341
+S100021,2024-10-02 00:07:00,Retargeting Campaign,linkedin,social,1,256
+S100022,2024-10-27 18:05:00,Brand Awareness Q4,,referral,2,555
+S100023,2024-10-20 04:08:00,,direct,organic,3,281
+S100024,2024-10-04 19:27:00,Lead Generation | DE | Form,organic,,4,329
+S100025,2024-09-26 21:41:00,Retargeting Campaign,direct,organic,8,133
+S100026,2024-09-16 07:04:00,Retargeting Campaign,facebook,organic,9,245
+S100027,2024-10-08 07:00:00,Brand Awareness Q4,,,1,244
+S100028,2024-09-05 01:55:00,Retargeting Campaign,facebook,organic,4,295
+S100029,2024-10-13 15:13:00,Google Brand Campaign,google,,10,600
+S100030,2024-10-01 07:50:00,Product Launch 2024,direct,social,2,109
+S100031,2024-10-13 13:22:00,Product Launch 2024,direct,referral,1,110
+S100032,2024-09-04 12:46:00,Retargeting Campaign,facebook,social,4,204
+S100033,2024-10-05 14:08:00,Product Launch 2024,google,email,8,265
+S100034,2024-10-26 02:28:00,Google Brand Campaign,facebook,cpc,9,25
+S100035,2024-09-06 07:10:00,Product Launch 2024,direct,referral,4,420
+S100036,2024-10-28 01:10:00,Product Launch 2024,facebook,referral,5,475
+S100037,2024-09-19 13:44:00,,organic,,8,168
+S100038,2024-09-13 09:13:00,Brand Awareness Q4,organic,,9,72
+S100039,2024-10-18 10:03:00,Brand Awareness Q4,organic,referral,9,553
+S100040,2024-09-11 01:32:00,Brand Awareness Q4,google,cpc,10,79
+S100041,2024-10-14 07:25:00,Brand Awareness Q4,organic,social,10,50
+S100042,2024-10-10 02:26:00,,organic,organic,9,333
+S100043,2024-10-30 08:13:00,,,email,4,281
+S100044,2024-09-26 04:42:00,,linkedin,referral,6,84
+S100045,2024-09-01 14:39:00,Google Brand Campaign,facebook,cpc,9,228
+S100046,2024-10-03 08:08:00,Retargeting Campaign,facebook,social,6,301
+S100047,2024-09-11 14:53:00,Google Brand Campaign,,email,10,551
+S100048,2024-09-01 21:52:00,Google Brand Campaign,linkedin,,2,147
+S100049,2024-09-17 03:56:00,Brand Awareness Q4,,organic,3,288
+S100050,2024-09-19 19:13:00,,linkedin,social,5,527
+S100051,2024-10-02 08:57:00,Brand Awareness Q4,facebook,,7,293
+S100052,2024-09-03 00:21:00,Lead Generation | DE | Form,,email,3,462
+S100053,2024-10-06 22:27:00,Google Brand Campaign,facebook,cpc,2,162
+S100054,2024-10-05 01:53:00,Retargeting Campaign,organic,organic,3,450
+S100055,2024-09-09 01:19:00,Retargeting Campaign,facebook,email,4,265
+S100056,2024-10-13 03:22:00,Google Brand Campaign,direct,organic,3,252
+S100057,2024-10-26 05:51:00,Lead Generation | DE | Form,direct,cpc,3,350
+S100058,2024-10-21 13:51:00,,,social,5,173
+S100059,2024-10-21 22:06:00,Product Launch 2024,facebook,referral,4,214
+S100060,2024-10-23 14:22:00,Retargeting Campaign,google,social,1,207
+S100061,2024-09-26 10:17:00,Brand Awareness Q4,linkedin,email,9,419
+S100062,2024-10-14 17:21:00,Brand Awareness Q4,facebook,email,3,281
+S100063,2024-09-03 03:38:00,Product Launch 2024,linkedin,,6,456
+S100064,2024-10-09 16:07:00,Product Launch 2024,organic,social,5,55
+S100065,2024-10-16 13:00:00,Google Brand Campaign,organic,,4,382
+S100066,2024-09-28 02:42:00,Retargeting Campaign,organic,email,2,317
+S100067,2024-10-03 09:42:00,Product Launch 2024,linkedin,referral,5,577
+S100068,2024-09-09 06:26:00,,direct,,3,592
+S100069,2024-09-20 12:35:00,Brand Awareness Q4,linkedin,email,4,450
+S100070,2024-10-21 18:38:00,,linkedin,referral,8,462
+S100071,2024-10-14 06:32:00,Product Launch 2024,,social,2,300
+S100072,2024-10-03 21:40:00,Google Brand Campaign,linkedin,cpc,4,327
+S100073,2024-09-15 06:09:00,Brand Awareness Q4,facebook,social,8,84
+S100074,2024-09-30 13:56:00,,organic,social,7,516
+S100075,2024-09-26 07:09:00,,,cpc,2,445
+S100076,2024-09-15 05:51:00,,organic,referral,1,580
+S100077,2024-09-16 03:29:00,Lead Generation | DE | Form,direct,,9,582
+S100078,2024-10-09 10:48:00,Product Launch 2024,organic,,9,446
+S100079,2024-10-24 17:28:00,Lead Generation | DE | Form,,referral,8,275
+S100080,2024-10-19 07:53:00,,linkedin,organic,8,254
+S100081,2024-09-18 14:04:00,,linkedin,social,5,353
+S100082,2024-09-21 17:05:00,Lead Generation | DE | Form,google,social,7,166
+S100083,2024-10-16 06:04:00,Product Launch 2024,direct,email,9,487
+S100084,2024-09-27 01:13:00,Product Launch 2024,direct,organic,1,599
+S100085,2024-09-25 15:00:00,Retargeting Campaign,linkedin,referral,7,561
+S100086,2024-10-18 23:34:00,Google Brand Campaign,google,referral,4,289
+S100087,2024-09-28 15:01:00,Product Launch 2024,linkedin,,7,179
+S100088,2024-10-24 14:58:00,Lead Generation | DE | Form,organic,organic,1,413
+S100089,2024-10-08 18:42:00,Brand Awareness Q4,facebook,,7,148
+S100090,2024-10-26 14:11:00,Brand Awareness Q4,linkedin,referral,6,226
+S100091,2024-09-30 10:21:00,Product Launch 2024,linkedin,referral,5,93
+S100092,2024-10-01 00:47:00,Google Brand Campaign,facebook,email,4,80
+S100093,2024-10-20 20:02:00,Brand Awareness Q4,google,social,1,166
+S100094,2024-09-16 04:30:00,,facebook,organic,4,486
+S100095,2024-10-15 08:49:00,Retargeting Campaign,google,organic,10,127
+S100096,2024-10-20 05:19:00,Brand Awareness Q4,organic,cpc,5,599
+S100097,2024-10-14 12:25:00,,google,cpc,10,258
+S100098,2024-09-07 22:49:00,Retargeting Campaign,,organic,2,589
+S100099,2024-10-21 01:22:00,Google Brand Campaign,direct,,6,80
+S100100,2024-10-03 20:21:00,Brand Awareness Q4,direct,referral,2,453
+S100101,2024-09-24 20:57:00,Product Launch 2024,,social,7,190
+S100102,2024-10-17 16:41:00,Retargeting Campaign,organic,organic,8,486
+S100103,2024-09-28 23:37:00,Retargeting Campaign,linkedin,social,2,295
+S100104,2024-10-27 14:15:00,Product Launch 2024,organic,organic,7,354
+S100105,2024-09-02 15:54:00,Retargeting Campaign,google,referral,4,373
+S100106,2024-10-22 08:21:00,Retargeting Campaign,organic,,5,579
+S100107,2024-09-01 16:12:00,Brand Awareness Q4,google,,7,510
+S100108,2024-10-06 07:44:00,Product Launch 2024,,,8,468
+S100109,2024-10-21 00:05:00,Retargeting Campaign,google,referral,4,323
+S100110,2024-10-13 18:23:00,Product Launch 2024,organic,organic,6,445
+S100111,2024-10-18 17:21:00,Retargeting Campaign,,referral,5,323
+S100112,2024-09-17 07:07:00,,google,email,2,558
+S100113,2024-10-19 22:11:00,Lead Generation | DE | Form,google,,8,293
+S100114,2024-10-17 18:48:00,Google Brand Campaign,organic,email,2,208
+S100115,2024-09-19 07:23:00,Lead Generation | DE | Form,linkedin,cpc,9,139
+S100116,2024-09-18 01:03:00,Google Brand Campaign,linkedin,,3,512
+S100117,2024-09-07 00:36:00,Retargeting Campaign,direct,referral,8,358
+S100118,2024-09-12 01:16:00,Product Launch 2024,facebook,cpc,7,513
+S100119,2024-09-05 18:40:00,,facebook,social,3,586
+S100120,2024-09-20 02:15:00,Brand Awareness Q4,organic,referral,10,241
+S100121,2024-10-20 16:24:00,Product Launch 2024,direct,email,10,449
+S100122,2024-09-20 18:39:00,Brand Awareness Q4,organic,,2,222
+S100123,2024-10-11 06:16:00,,facebook,social,4,187
+S100124,2024-10-06 02:10:00,Brand Awareness Q4,direct,referral,10,491
+S100125,2024-09-19 01:14:00,Retargeting Campaign,,email,8,82
+S100126,2024-10-14 07:59:00,Retargeting Campaign,,organic,4,445
+S100127,2024-09-08 17:14:00,,google,email,3,83
+S100128,2024-09-04 05:50:00,Retargeting Campaign,organic,,10,305
+S100129,2024-09-29 03:29:00,,linkedin,,7,288
+S100130,2024-10-03 17:31:00,Product Launch 2024,facebook,organic,1,452
+S100131,2024-10-18 10:38:00,Retargeting Campaign,facebook,cpc,4,599
+S100132,2024-10-08 00:48:00,,linkedin,organic,1,189
+S100133,2024-10-01 16:41:00,Product Launch 2024,linkedin,social,10,456
+S100134,2024-10-11 15:05:00,Product Launch 2024,linkedin,referral,6,338
+S100135,2024-10-13 03:54:00,Lead Generation | DE | Form,linkedin,referral,8,305
+S100136,2024-10-13 12:52:00,Google Brand Campaign,facebook,referral,2,332
+S100137,2024-09-17 10:07:00,Product Launch 2024,organic,cpc,9,483
+S100138,2024-09-27 01:12:00,Google Brand Campaign,linkedin,organic,8,462
+S100139,2024-10-19 01:13:00,Retargeting Campaign,organic,social,5,458
+S100140,2024-10-27 22:31:00,Brand Awareness Q4,facebook,,10,255
+S100141,2024-10-16 05:19:00,Google Brand Campaign,facebook,organic,7,105
+S100142,2024-09-15 03:29:00,Brand Awareness Q4,,social,8,308
+S100143,2024-10-03 22:17:00,Product Launch 2024,direct,referral,4,477
+S100144,2024-10-06 04:24:00,Lead Generation | DE | Form,organic,organic,3,81
+S100145,2024-09-18 13:21:00,Google Brand Campaign,linkedin,cpc,5,315
+S100146,2024-10-24 18:37:00,,direct,social,8,561
+S100147,2024-10-01 11:21:00,Google Brand Campaign,organic,referral,8,339
+S100148,2024-10-26 06:44:00,Lead Generation | DE | Form,organic,referral,4,430
+S100149,2024-09-03 10:47:00,Product Launch 2024,,referral,7,165
+S100150,2024-10-02 01:08:00,Google Brand Campaign,organic,email,2,460
+S100151,2024-09-07 16:58:00,Product Launch 2024,facebook,,3,429
+S100152,2024-10-26 20:09:00,Brand Awareness Q4,direct,email,6,417
+S100153,2024-10-12 02:54:00,Retargeting Campaign,,organic,7,334
+S100154,2024-10-11 22:56:00,Product Launch 2024,organic,cpc,10,80
+S100155,2024-09-16 20:43:00,Retargeting Campaign,google,,2,454
+S100156,2024-09-07 20:45:00,Brand Awareness Q4,direct,social,5,39
+S100157,2024-09-03 10:50:00,Brand Awareness Q4,linkedin,email,6,451
+S100158,2024-09-10 07:33:00,Product Launch 2024,organic,,3,184
+S100159,2024-09-12 02:39:00,Product Launch 2024,organic,,4,519
+S100160,2024-10-29 18:09:00,Lead Generation | DE | Form,direct,,5,480
+S100161,2024-09-17 21:00:00,Product Launch 2024,linkedin,,9,171
+S100162,2024-09-05 14:22:00,Google Brand Campaign,linkedin,,7,266
+S100163,2024-09-30 09:12:00,Product Launch 2024,direct,cpc,4,400
+S100164,2024-10-07 11:36:00,Retargeting Campaign,,email,1,415
+S100165,2024-09-18 00:36:00,,,cpc,10,518
+S100166,2024-10-24 09:49:00,Lead Generation | DE | Form,organic,email,4,204
+S100167,2024-10-10 08:43:00,,,,3,109
+S100168,2024-10-28 20:41:00,Brand Awareness Q4,linkedin,referral,1,383
+S100169,2024-10-17 04:05:00,Retargeting Campaign,linkedin,,7,189
+S100170,2024-09-13 04:50:00,Google Brand Campaign,linkedin,organic,9,289
+S100171,2024-10-24 05:16:00,Product Launch 2024,linkedin,,6,127
+S100172,2024-09-30 02:09:00,Lead Generation | DE | Form,,,7,580
+S100173,2024-09-24 02:50:00,Product Launch 2024,facebook,email,9,136
+S100174,2024-09-30 11:43:00,,,email,10,400
+S100175,2024-10-23 20:23:00,Brand Awareness Q4,,social,8,35
+S100176,2024-10-10 17:20:00,Google Brand Campaign,google,,2,485
+S100177,2024-10-29 22:19:00,,direct,cpc,3,56
+S100178,2024-09-03 09:31:00,Brand Awareness Q4,facebook,social,9,148
+S100179,2024-09-25 14:23:00,,,,9,439
+S100180,2024-10-08 23:46:00,Lead Generation | DE | Form,direct,,2,511
+S100181,2024-10-10 13:17:00,Brand Awareness Q4,,email,4,464
+S100182,2024-09-29 07:54:00,Retargeting Campaign,facebook,,6,567
+S100183,2024-10-28 20:22:00,Brand Awareness Q4,direct,email,4,135
+S100184,2024-10-25 14:05:00,,google,,10,31
+S100185,2024-09-04 10:15:00,Lead Generation | DE | Form,organic,social,2,577
+S100186,2024-09-14 18:13:00,Lead Generation | DE | Form,linkedin,social,10,12
+S100187,2024-09-18 04:08:00,Google Brand Campaign,linkedin,social,2,36
+S100188,2024-09-09 00:22:00,Lead Generation | DE | Form,organic,email,1,188
+S100189,2024-09-17 01:08:00,,direct,organic,2,75
+S100190,2024-10-01 14:49:00,Retargeting Campaign,organic,organic,2,472
+S100191,2024-10-03 07:39:00,Brand Awareness Q4,,,9,318
+S100192,2024-09-30 20:01:00,Brand Awareness Q4,direct,referral,7,120
+S100193,2024-10-02 22:58:00,Product Launch 2024,facebook,cpc,6,161
+S100194,2024-09-05 04:17:00,Google Brand Campaign,,organic,9,342
+S100195,2024-09-25 19:33:00,Retargeting Campaign,direct,organic,10,450
+S100196,2024-09-07 22:07:00,,,organic,4,450
+S100197,2024-09-29 07:26:00,Retargeting Campaign,direct,referral,7,107
+S100198,2024-09-21 13:20:00,,linkedin,email,3,495
+S100199,2024-09-05 02:53:00,Brand Awareness Q4,facebook,referral,2,391
+S100200,2024-10-22 04:35:00,Brand Awareness Q4,organic,organic,9,347
+S100201,2024-10-13 03:26:00,Retargeting Campaign,,referral,1,304
+S100202,2024-10-09 09:22:00,Brand Awareness Q4,organic,organic,4,168
+S100203,2024-10-13 15:14:00,Brand Awareness Q4,linkedin,organic,6,127
+S100204,2024-10-19 08:36:00,Lead Generation | DE | Form,direct,organic,10,580
+S100205,2024-09-02 19:59:00,,,email,1,194
+S100206,2024-09-18 22:48:00,Retargeting Campaign,linkedin,email,1,195
+S100207,2024-10-26 04:36:00,,direct,cpc,3,41
+S100208,2024-09-06 23:33:00,Lead Generation | DE | Form,direct,referral,8,359
+S100209,2024-09-11 11:19:00,,linkedin,organic,10,96
+S100210,2024-10-27 01:09:00,Lead Generation | DE | Form,organic,cpc,2,288
+S100211,2024-09-29 21:27:00,Product Launch 2024,organic,referral,7,289
+S100212,2024-09-14 16:07:00,Retargeting Campaign,direct,cpc,5,508
+S100213,2024-10-04 21:19:00,Brand Awareness Q4,google,referral,10,66
+S100214,2024-09-01 06:19:00,Lead Generation | DE | Form,google,email,5,345
+S100215,2024-09-08 00:31:00,,direct,social,3,399
+S100216,2024-10-05 22:14:00,Google Brand Campaign,organic,,6,83
+S100217,2024-09-26 23:02:00,Product Launch 2024,facebook,referral,2,330
+S100218,2024-10-07 13:36:00,Product Launch 2024,,,7,306
+S100219,2024-09-08 12:01:00,Retargeting Campaign,google,organic,8,380
+S100220,2024-09-06 13:54:00,Brand Awareness Q4,google,referral,10,420
+S100221,2024-10-04 02:25:00,Retargeting Campaign,,email,4,351
+S100222,2024-10-20 05:04:00,Google Brand Campaign,,cpc,9,532
+S100223,2024-09-13 11:22:00,,,social,4,115
+S100224,2024-09-10 08:12:00,Lead Generation | DE | Form,organic,social,2,191
+S100225,2024-10-20 20:31:00,Product Launch 2024,organic,organic,8,588
+S100226,2024-10-12 20:39:00,Retargeting Campaign,,email,3,460
+S100227,2024-09-05 15:28:00,,linkedin,email,10,67
+S100228,2024-09-23 16:04:00,Retargeting Campaign,direct,referral,1,68
+S100229,2024-09-24 09:04:00,,facebook,organic,10,529
+S100230,2024-09-25 14:37:00,Google Brand Campaign,,cpc,8,595
+S100231,2024-10-12 06:20:00,Google Brand Campaign,direct,organic,3,73
+S100232,2024-09-29 03:51:00,Retargeting Campaign,,cpc,9,186
+S100233,2024-09-03 07:45:00,Product Launch 2024,direct,organic,9,172
+S100234,2024-09-24 11:58:00,Retargeting Campaign,direct,referral,6,63
+S100235,2024-10-21 20:41:00,Retargeting Campaign,facebook,email,2,581
+S100236,2024-10-14 12:18:00,Retargeting Campaign,,,10,163
+S100237,2024-09-22 02:37:00,,google,email,5,411
+S100238,2024-09-09 19:45:00,Brand Awareness Q4,linkedin,organic,7,346
+S100239,2024-10-23 04:42:00,,,,9,105
+S100240,2024-10-12 21:27:00,Google Brand Campaign,linkedin,cpc,6,326
+S100241,2024-09-12 06:21:00,Product Launch 2024,google,social,3,168
+S100242,2024-09-05 09:54:00,Brand Awareness Q4,organic,organic,9,48
+S100243,2024-10-13 10:56:00,Google Brand Campaign,google,organic,7,167
+S100244,2024-09-11 05:53:00,,organic,social,8,54
+S100245,2024-09-27 11:43:00,,google,referral,10,301
+S100246,2024-10-19 23:50:00,Product Launch 2024,google,organic,4,326
+S100247,2024-10-22 15:57:00,Lead Generation | DE | Form,linkedin,,10,461
+S100248,2024-09-30 09:49:00,Product Launch 2024,organic,organic,7,175
+S100249,2024-10-23 06:51:00,Google Brand Campaign,google,email,1,502
+S100250,2024-10-26 11:35:00,Brand Awareness Q4,,organic,2,301
+S100251,2024-09-06 05:17:00,Product Launch 2024,organic,social,7,103
+S100252,2024-10-29 07:52:00,Product Launch 2024,linkedin,cpc,7,64
+S100253,2024-09-26 16:23:00,Lead Generation | DE | Form,direct,cpc,6,239
+S100254,2024-09-02 10:59:00,Brand Awareness Q4,,,6,159
+S100255,2024-09-09 01:18:00,Product Launch 2024,,social,8,469
+S100256,2024-10-10 00:57:00,Brand Awareness Q4,facebook,email,4,163
+S100257,2024-10-06 23:38:00,Google Brand Campaign,direct,cpc,5,253
+S100258,2024-09-20 03:03:00,Lead Generation | DE | Form,direct,,10,478
+S100259,2024-09-05 03:53:00,Product Launch 2024,organic,organic,1,537
+S100260,2024-10-07 07:45:00,Lead Generation | DE | Form,linkedin,referral,1,371
+S100261,2024-09-16 18:26:00,Lead Generation | DE | Form,,,2,546
+S100262,2024-09-24 02:33:00,Google Brand Campaign,organic,organic,9,30
+S100263,2024-09-25 15:02:00,,direct,email,5,26
+S100264,2024-09-23 02:22:00,Lead Generation | DE | Form,,,2,350
+S100265,2024-09-09 01:22:00,Google Brand Campaign,linkedin,,3,485
+S100266,2024-10-15 15:40:00,Lead Generation | DE | Form,google,cpc,8,47
+S100267,2024-09-19 06:02:00,Lead Generation | DE | Form,facebook,email,5,537
+S100268,2024-09-26 17:30:00,Retargeting Campaign,facebook,,4,302
+S100269,2024-09-23 01:55:00,,linkedin,email,2,386
+S100270,2024-09-28 12:47:00,Product Launch 2024,direct,email,3,518
+S100271,2024-10-15 15:23:00,Google Brand Campaign,linkedin,cpc,7,90
+S100272,2024-09-28 19:52:00,Lead Generation | DE | Form,organic,email,6,115
+S100273,2024-09-06 10:42:00,Retargeting Campaign,linkedin,referral,10,446
+S100274,2024-09-11 22:28:00,Retargeting Campaign,direct,cpc,6,455
+S100275,2024-09-18 20:50:00,Brand Awareness Q4,facebook,,7,382
+S100276,2024-10-03 23:43:00,Lead Generation | DE | Form,facebook,social,10,458
+S100277,2024-09-03 04:04:00,Lead Generation | DE | Form,,email,6,402
+S100278,2024-10-07 01:38:00,Lead Generation | DE | Form,,referral,6,390
+S100279,2024-09-29 02:36:00,Lead Generation | DE | Form,organic,email,7,331
+S100280,2024-10-12 08:15:00,Brand Awareness Q4,facebook,,3,521
+S100281,2024-10-04 12:58:00,Google Brand Campaign,facebook,email,5,466
+S100282,2024-09-14 19:18:00,,direct,social,2,148
+S100283,2024-10-25 02:28:00,Lead Generation | DE | Form,,referral,2,337
+S100284,2024-10-13 11:45:00,Brand Awareness Q4,organic,organic,5,317
+S100285,2024-10-25 05:45:00,,,,3,380
+S100286,2024-10-03 07:07:00,Lead Generation | DE | Form,google,social,8,36
+S100287,2024-09-24 17:36:00,Retargeting Campaign,direct,organic,3,98
+S100288,2024-09-05 09:25:00,,,referral,9,430
+S100289,2024-10-20 13:52:00,Google Brand Campaign,facebook,social,6,85
+S100290,2024-09-29 14:43:00,Google Brand Campaign,linkedin,social,9,196
+S100291,2024-10-20 04:27:00,Google Brand Campaign,facebook,cpc,9,166
+S100292,2024-09-20 05:10:00,Retargeting Campaign,,social,6,541
+S100293,2024-10-28 09:54:00,Brand Awareness Q4,linkedin,social,9,291
+S100294,2024-09-09 20:19:00,Google Brand Campaign,organic,cpc,9,182
+S100295,2024-10-08 18:09:00,Lead Generation | DE | Form,,organic,10,355
+S100296,2024-10-24 18:02:00,Brand Awareness Q4,facebook,cpc,10,281
+S100297,2024-10-12 06:49:00,Google Brand Campaign,direct,organic,1,519
+S100298,2024-10-27 20:34:00,Retargeting Campaign,,email,8,260
+S100299,2024-10-22 21:25:00,Retargeting Campaign,direct,cpc,1,171
+S100300,2024-09-29 13:30:00,Product Launch 2024,google,email,10,157
+S100301,2024-09-21 22:20:00,,linkedin,referral,3,389
+S100302,2024-10-03 17:06:00,Retargeting Campaign,google,referral,2,283
+S100303,2024-09-29 07:09:00,Brand Awareness Q4,facebook,email,7,438
+S100304,2024-09-16 05:52:00,Retargeting Campaign,organic,,6,204
+S100305,2024-10-19 05:31:00,Google Brand Campaign,direct,referral,5,519
+S100306,2024-09-02 02:25:00,Google Brand Campaign,direct,social,4,371
+S100307,2024-09-04 01:18:00,Product Launch 2024,organic,,8,302
+S100308,2024-10-05 00:54:00,Brand Awareness Q4,direct,social,5,384
+S100309,2024-10-19 12:23:00,Brand Awareness Q4,direct,cpc,10,585
+S100310,2024-09-13 11:35:00,Retargeting Campaign,facebook,referral,9,471
+S100311,2024-10-19 17:17:00,Google Brand Campaign,,organic,2,141
+S100312,2024-09-07 12:23:00,Retargeting Campaign,organic,email,3,213
+S100313,2024-10-09 16:25:00,Google Brand Campaign,facebook,cpc,1,150
+S100314,2024-10-16 10:51:00,Product Launch 2024,organic,referral,3,537
+S100315,2024-09-09 10:59:00,Google Brand Campaign,linkedin,social,7,316
+S100316,2024-10-08 10:32:00,Google Brand Campaign,organic,referral,10,316
+S100317,2024-10-01 00:23:00,Retargeting Campaign,,cpc,7,325
+S100318,2024-10-21 23:55:00,,,cpc,10,495
+S100319,2024-09-17 20:50:00,Google Brand Campaign,organic,social,1,501
+S100320,2024-09-11 16:40:00,,organic,referral,3,258
+S100321,2024-09-03 18:44:00,Brand Awareness Q4,google,cpc,8,331
+S100322,2024-09-27 04:26:00,,google,referral,9,492
+S100323,2024-10-26 23:46:00,Brand Awareness Q4,,social,9,222
+S100324,2024-10-06 10:42:00,Product Launch 2024,organic,referral,6,187
+S100325,2024-09-30 17:21:00,Google Brand Campaign,linkedin,,5,505
+S100326,2024-09-13 07:17:00,Google Brand Campaign,linkedin,social,5,305
+S100327,2024-10-16 06:44:00,,direct,email,8,367
+S100328,2024-10-06 23:17:00,Retargeting Campaign,facebook,organic,9,398
+S100329,2024-10-28 12:52:00,Retargeting Campaign,google,email,1,304
+S100330,2024-10-16 02:22:00,Product Launch 2024,,email,8,229
+S100331,2024-09-13 17:17:00,Google Brand Campaign,,email,3,121
+S100332,2024-10-10 23:37:00,Lead Generation | DE | Form,google,cpc,9,241
+S100333,2024-10-11 07:03:00,Brand Awareness Q4,direct,email,8,112
+S100334,2024-10-14 04:00:00,Google Brand Campaign,google,referral,8,498
+S100335,2024-10-12 06:48:00,Retargeting Campaign,linkedin,email,1,101
+S100336,2024-10-12 18:14:00,Google Brand Campaign,,,1,189
+S100337,2024-09-27 05:59:00,Brand Awareness Q4,direct,referral,3,306
+S100338,2024-10-27 01:00:00,Retargeting Campaign,organic,organic,2,353
+S100339,2024-09-19 14:41:00,Google Brand Campaign,organic,referral,3,526
+S100340,2024-09-30 08:12:00,Brand Awareness Q4,linkedin,social,8,273
+S100341,2024-10-16 05:00:00,,linkedin,email,10,207
+S100342,2024-09-12 19:54:00,,direct,referral,9,345
+S100343,2024-09-06 12:42:00,Brand Awareness Q4,google,social,8,341
+S100344,2024-10-30 07:00:00,Retargeting Campaign,direct,social,8,283
+S100345,2024-09-22 09:37:00,,organic,cpc,5,378
+S100346,2024-10-15 07:03:00,,facebook,referral,5,173
+S100347,2024-09-26 21:32:00,,linkedin,,2,312
+S100348,2024-09-24 19:14:00,Lead Generation | DE | Form,google,referral,3,475
+S100349,2024-10-18 19:23:00,Product Launch 2024,,organic,8,560
+S100350,2024-10-22 21:52:00,Lead Generation | DE | Form,google,,10,93
+S100351,2024-10-04 14:33:00,,linkedin,cpc,10,124
+S100352,2024-09-04 17:57:00,Google Brand Campaign,google,organic,9,163
+S100353,2024-09-11 10:54:00,Google Brand Campaign,direct,cpc,4,510
+S100354,2024-09-06 16:28:00,Brand Awareness Q4,direct,social,9,435
+S100355,2024-09-30 18:03:00,Google Brand Campaign,direct,,5,32
+S100356,2024-09-26 08:52:00,Brand Awareness Q4,,social,10,84
+S100357,2024-09-03 13:22:00,,facebook,organic,1,80
+S100358,2024-10-30 15:02:00,Retargeting Campaign,direct,social,3,440
+S100359,2024-09-24 12:28:00,Product Launch 2024,direct,cpc,9,146
+S100360,2024-10-12 11:07:00,Lead Generation | DE | Form,organic,referral,9,140
+S100361,2024-10-17 07:53:00,Brand Awareness Q4,facebook,email,8,567
+S100362,2024-09-28 17:24:00,Lead Generation | DE | Form,google,referral,6,168
+S100363,2024-09-18 06:59:00,,facebook,cpc,7,26
+S100364,2024-09-16 06:04:00,Brand Awareness Q4,organic,cpc,8,59
+S100365,2024-09-16 23:02:00,Product Launch 2024,direct,social,9,232
+S100366,2024-10-19 01:08:00,Google Brand Campaign,linkedin,social,10,336
+S100367,2024-10-07 19:49:00,,linkedin,social,5,156
+S100368,2024-10-13 16:14:00,Product Launch 2024,linkedin,email,1,580
+S100369,2024-10-08 23:58:00,Lead Generation | DE | Form,,,7,579
+S100370,2024-10-02 01:22:00,,,referral,9,336
+S100371,2024-10-15 13:26:00,Lead Generation | DE | Form,linkedin,referral,3,560
+S100372,2024-10-01 07:54:00,Lead Generation | DE | Form,linkedin,,3,484
+S100373,2024-10-29 01:35:00,Product Launch 2024,direct,organic,9,147
+S100374,2024-09-25 07:16:00,Lead Generation | DE | Form,linkedin,,2,470
+S100375,2024-10-25 11:05:00,Google Brand Campaign,,social,1,284
+S100376,2024-09-25 21:38:00,Google Brand Campaign,facebook,cpc,4,582
+S100377,2024-09-14 15:13:00,Retargeting Campaign,linkedin,cpc,4,204
+S100378,2024-10-18 03:47:00,Product Launch 2024,google,,10,219
+S100379,2024-09-26 07:35:00,Retargeting Campaign,linkedin,referral,8,556
+S100380,2024-10-12 11:19:00,Retargeting Campaign,linkedin,organic,8,487
+S100381,2024-09-07 23:30:00,Retargeting Campaign,google,email,6,433
+S100382,2024-09-03 18:55:00,Lead Generation | DE | Form,,social,1,277
+S100383,2024-10-06 18:37:00,,direct,email,3,210
+S100384,2024-09-22 07:24:00,Google Brand Campaign,google,referral,9,355
+S100385,2024-09-17 15:46:00,,,referral,8,182
+S100386,2024-10-17 11:10:00,Lead Generation | DE | Form,,organic,8,198
+S100387,2024-10-29 17:41:00,Brand Awareness Q4,organic,cpc,2,59
+S100388,2024-10-19 00:26:00,Lead Generation | DE | Form,,social,2,164
+S100389,2024-09-01 06:32:00,Product Launch 2024,linkedin,cpc,10,504
+S100390,2024-10-13 15:01:00,Brand Awareness Q4,organic,organic,7,22
+S100391,2024-09-02 16:46:00,Retargeting Campaign,organic,email,1,524
+S100392,2024-10-23 22:43:00,Product Launch 2024,google,cpc,2,546
+S100393,2024-09-10 07:12:00,Google Brand Campaign,organic,email,6,283
+S100394,2024-10-21 12:05:00,Retargeting Campaign,direct,referral,10,259
+S100395,2024-10-15 07:19:00,,facebook,,1,105
+S100396,2024-09-26 12:24:00,Google Brand Campaign,direct,cpc,1,185
+S100397,2024-09-06 15:54:00,Product Launch 2024,,email,10,107
+S100398,2024-10-28 16:58:00,Brand Awareness Q4,google,social,10,496
+S100399,2024-09-18 01:59:00,Brand Awareness Q4,,email,9,587
+S100400,2024-10-13 01:11:00,Retargeting Campaign,facebook,social,10,157
+S100401,2024-10-19 22:52:00,Product Launch 2024,facebook,email,3,587
+S100402,2024-09-16 18:53:00,Product Launch 2024,,organic,6,403
+S100403,2024-10-19 23:08:00,,,cpc,9,364
+S100404,2024-09-04 03:27:00,Lead Generation | DE | Form,facebook,email,10,416
+S100405,2024-10-20 10:01:00,,linkedin,referral,8,243
+S100406,2024-09-23 17:24:00,Product Launch 2024,google,,10,399
+S100407,2024-09-06 19:18:00,Lead Generation | DE | Form,,cpc,2,284
+S100408,2024-09-10 12:45:00,,google,,7,334
+S100409,2024-09-24 03:05:00,Brand Awareness Q4,linkedin,referral,6,286
+S100410,2024-09-07 04:05:00,Lead Generation | DE | Form,direct,referral,9,578
+S100411,2024-10-03 13:06:00,Brand Awareness Q4,facebook,email,9,105
+S100412,2024-10-09 19:50:00,Retargeting Campaign,direct,cpc,5,433
+S100413,2024-09-25 02:46:00,Google Brand Campaign,google,organic,9,183
+S100414,2024-10-14 12:10:00,Lead Generation | DE | Form,linkedin,email,5,514
+S100415,2024-09-10 02:10:00,Product Launch 2024,linkedin,referral,5,505
+S100416,2024-10-21 02:23:00,Retargeting Campaign,google,,8,210
+S100417,2024-09-30 03:08:00,Retargeting Campaign,facebook,referral,6,399
+S100418,2024-10-22 10:28:00,Retargeting Campaign,direct,,10,149
+S100419,2024-09-20 10:38:00,,google,referral,6,191
+S100420,2024-09-26 10:18:00,,,,8,599
+S100421,2024-10-21 07:20:00,Product Launch 2024,linkedin,referral,6,126
+S100422,2024-10-30 18:12:00,Google Brand Campaign,organic,social,9,37
+S100423,2024-10-17 14:45:00,Lead Generation | DE | Form,direct,email,2,428
+S100424,2024-10-14 15:08:00,,linkedin,social,5,167
+S100425,2024-10-16 13:50:00,Product Launch 2024,facebook,referral,10,500
+S100426,2024-10-08 12:34:00,Google Brand Campaign,,referral,9,47
+S100427,2024-10-21 11:44:00,Google Brand Campaign,organic,,2,121
+S100428,2024-10-20 07:42:00,,linkedin,social,10,55
+S100429,2024-10-07 20:43:00,,direct,email,7,118
+S100430,2024-09-01 03:16:00,Lead Generation | DE | Form,organic,,9,581
+S100431,2024-10-08 22:36:00,Lead Generation | DE | Form,direct,email,7,484
+S100432,2024-10-20 21:37:00,,organic,social,6,35
+S100433,2024-10-01 03:18:00,Product Launch 2024,facebook,cpc,3,366
+S100434,2024-09-20 10:29:00,Lead Generation | DE | Form,organic,referral,6,497
+S100435,2024-09-07 14:46:00,,direct,email,2,317
+S100436,2024-09-03 22:07:00,Brand Awareness Q4,linkedin,,2,178
+S100437,2024-10-30 23:15:00,Google Brand Campaign,google,organic,3,348
+S100438,2024-10-06 13:29:00,Lead Generation | DE | Form,direct,,3,200
+S100439,2024-10-11 21:27:00,Product Launch 2024,facebook,,10,212
+S100440,2024-09-29 18:27:00,Product Launch 2024,facebook,,4,220
+S100441,2024-09-18 22:51:00,Brand Awareness Q4,organic,cpc,9,201
+S100442,2024-09-24 10:12:00,Product Launch 2024,facebook,email,8,550
+S100443,2024-10-11 10:38:00,Product Launch 2024,organic,referral,10,126
+S100444,2024-09-23 11:54:00,Product Launch 2024,organic,social,5,96
+S100445,2024-10-14 04:20:00,Brand Awareness Q4,google,email,2,197
+S100446,2024-09-24 22:09:00,Google Brand Campaign,direct,referral,10,151
+S100447,2024-10-07 12:27:00,Lead Generation | DE | Form,direct,,9,187
+S100448,2024-10-06 05:31:00,Retargeting Campaign,google,social,6,471
+S100449,2024-10-10 01:55:00,Retargeting Campaign,facebook,referral,3,209
+S100450,2024-10-23 12:35:00,Google Brand Campaign,,referral,7,513
+S100451,2024-09-27 22:53:00,Product Launch 2024,direct,social,2,588
+S100452,2024-09-02 07:18:00,Brand Awareness Q4,linkedin,social,9,305
+S100453,2024-09-11 14:36:00,,direct,organic,9,125
+S100454,2024-10-07 03:17:00,Google Brand Campaign,linkedin,organic,1,461
+S100455,2024-10-05 06:27:00,Brand Awareness Q4,,,4,314
+S100456,2024-10-26 01:28:00,Retargeting Campaign,linkedin,cpc,8,130
+S100457,2024-10-20 07:13:00,,organic,,6,448
+S100458,2024-09-11 19:08:00,Lead Generation | DE | Form,google,cpc,10,369
+S100459,2024-10-05 08:38:00,Google Brand Campaign,google,email,5,306
+S100460,2024-10-07 08:54:00,Google Brand Campaign,,cpc,3,431
+S100461,2024-10-29 01:17:00,,google,,3,265
+S100462,2024-09-10 22:20:00,Lead Generation | DE | Form,,referral,8,155
+S100463,2024-10-07 20:17:00,,direct,referral,8,87
+S100464,2024-10-11 02:25:00,Google Brand Campaign,,email,6,475
+S100465,2024-10-02 10:37:00,Brand Awareness Q4,,cpc,8,376
+S100466,2024-10-25 02:50:00,Google Brand Campaign,direct,social,7,226
+S100467,2024-10-02 08:20:00,Retargeting Campaign,linkedin,organic,10,143
+S100468,2024-10-07 15:50:00,Retargeting Campaign,,cpc,1,111
+S100469,2024-10-11 14:01:00,Brand Awareness Q4,google,referral,8,10
+S100470,2024-09-28 06:44:00,Lead Generation | DE | Form,,email,3,290
+S100471,2024-09-06 20:23:00,Retargeting Campaign,facebook,email,3,63
+S100472,2024-09-26 20:19:00,,,social,7,103
+S100473,2024-10-16 03:00:00,Lead Generation | DE | Form,direct,cpc,3,241
+S100474,2024-10-04 21:28:00,Brand Awareness Q4,facebook,,6,133
+S100475,2024-10-26 13:44:00,Lead Generation | DE | Form,direct,cpc,4,402
+S100476,2024-09-06 23:51:00,Brand Awareness Q4,facebook,email,6,316
+S100477,2024-09-09 12:49:00,Lead Generation | DE | Form,,,3,80
+S100478,2024-10-04 18:00:00,Google Brand Campaign,,social,8,369
+S100479,2024-10-17 06:40:00,,google,referral,10,463
+S100480,2024-10-26 06:05:00,Brand Awareness Q4,google,cpc,10,403
+S100481,2024-09-23 13:20:00,Lead Generation | DE | Form,google,email,2,264
+S100482,2024-10-06 19:38:00,,organic,email,1,318
+S100483,2024-09-14 16:38:00,Google Brand Campaign,google,,7,312
+S100484,2024-10-12 01:50:00,Lead Generation | DE | Form,direct,referral,2,256
+S100485,2024-10-02 20:38:00,Brand Awareness Q4,organic,cpc,6,334
+S100486,2024-09-09 12:55:00,Google Brand Campaign,direct,email,9,186
+S100487,2024-10-19 15:49:00,Brand Awareness Q4,facebook,organic,2,24
+S100488,2024-09-17 06:02:00,Brand Awareness Q4,direct,organic,5,523
+S100489,2024-10-20 13:27:00,,direct,cpc,9,560
+S100490,2024-10-10 04:17:00,Brand Awareness Q4,linkedin,cpc,9,218
+S100491,2024-10-22 04:34:00,Retargeting Campaign,direct,organic,2,327
+S100492,2024-10-15 13:46:00,Lead Generation | DE | Form,facebook,social,2,454
+S100493,2024-09-08 14:39:00,Google Brand Campaign,facebook,email,3,132
+S100494,2024-09-01 22:08:00,,facebook,social,8,365
+S100495,2024-10-04 16:50:00,,linkedin,social,6,139
+S100496,2024-10-18 08:46:00,Brand Awareness Q4,facebook,email,7,288
+S100497,2024-10-04 02:16:00,,organic,,2,518
+S100498,2024-09-30 16:23:00,Brand Awareness Q4,direct,organic,3,386
+S100499,2024-09-11 08:49:00,Brand Awareness Q4,organic,,2,243
+S100500,2024-10-18 16:00:00,Brand Awareness Q4,facebook,social,1,493
+S100501,2024-09-24 12:58:00,Lead Generation | DE | Form,google,cpc,9,439
+S100502,2024-09-15 10:15:00,Product Launch 2024,,email,5,89
+S100503,2024-10-07 11:07:00,Google Brand Campaign,,cpc,3,238
+S100504,2024-10-22 16:02:00,Product Launch 2024,facebook,referral,5,328
+S100505,2024-09-21 02:35:00,Product Launch 2024,facebook,email,4,308
+S100506,2024-10-07 09:47:00,Google Brand Campaign,google,referral,6,515
+S100507,2024-10-20 06:46:00,Google Brand Campaign,google,social,1,429
+S100508,2024-09-02 07:34:00,Retargeting Campaign,,,1,353
+S100509,2024-09-01 21:24:00,,,email,2,220
+S100510,2024-10-04 07:26:00,Product Launch 2024,facebook,social,5,105
+S100511,2024-09-03 07:57:00,Google Brand Campaign,direct,,6,479
+S100512,2024-10-18 02:37:00,Brand Awareness Q4,organic,social,7,86
+S100513,2024-10-08 18:03:00,Product Launch 2024,,social,4,308
+S100514,2024-09-17 10:59:00,Product Launch 2024,,,6,335
+S100515,2024-09-29 08:14:00,Brand Awareness Q4,google,social,10,121
+S100516,2024-09-10 03:10:00,Product Launch 2024,direct,email,7,133
+S100517,2024-10-05 11:49:00,Lead Generation | DE | Form,direct,email,8,281
+S100518,2024-10-25 03:05:00,Lead Generation | DE | Form,,email,10,51
+S100519,2024-09-14 10:09:00,Brand Awareness Q4,,social,6,415
+S100520,2024-10-03 01:43:00,Retargeting Campaign,linkedin,social,1,424
+S100521,2024-10-25 14:35:00,,organic,social,2,483
+S100522,2024-09-07 04:07:00,Brand Awareness Q4,facebook,social,3,212
+S100523,2024-10-23 12:23:00,,,,2,275
+S100524,2024-10-29 02:01:00,Brand Awareness Q4,google,,8,141
+S100525,2024-09-06 10:07:00,Brand Awareness Q4,direct,cpc,3,597
+S100526,2024-09-28 23:25:00,Product Launch 2024,facebook,referral,7,186
+S100527,2024-09-23 06:58:00,Lead Generation | DE | Form,linkedin,email,8,162
+S100528,2024-09-03 19:39:00,Google Brand Campaign,google,,5,520
+S100529,2024-09-27 17:30:00,Brand Awareness Q4,facebook,email,7,150
+S100530,2024-09-27 06:41:00,Google Brand Campaign,google,,9,29
+S100531,2024-09-25 22:22:00,Product Launch 2024,organic,referral,6,589
+S100532,2024-10-03 10:24:00,Retargeting Campaign,google,cpc,6,234
+S100533,2024-09-02 08:03:00,Product Launch 2024,organic,email,10,248
+S100534,2024-09-11 03:15:00,,google,email,9,67
+S100535,2024-10-19 07:36:00,Product Launch 2024,linkedin,social,3,252
+S100536,2024-10-08 10:51:00,,,email,10,38
+S100537,2024-10-16 22:22:00,Google Brand Campaign,organic,social,10,202
+S100538,2024-10-24 15:34:00,Retargeting Campaign,google,referral,1,102
+S100539,2024-09-04 07:38:00,Lead Generation | DE | Form,facebook,organic,8,10
+S100540,2024-09-22 19:12:00,Lead Generation | DE | Form,linkedin,,3,341
+S100541,2024-09-04 00:09:00,Google Brand Campaign,,social,2,548
+S100542,2024-10-26 11:04:00,Retargeting Campaign,,,7,113
+S100543,2024-09-22 09:20:00,Lead Generation | DE | Form,google,,7,508
+S100544,2024-10-12 10:11:00,,organic,,10,375
+S100545,2024-09-15 21:37:00,Lead Generation | DE | Form,direct,email,5,140
+S100546,2024-09-12 23:00:00,,organic,referral,10,43
+S100547,2024-09-12 19:20:00,Google Brand Campaign,google,,10,116
+S100548,2024-10-30 15:09:00,Retargeting Campaign,,cpc,4,365
+S100549,2024-09-21 05:40:00,Brand Awareness Q4,,,6,467
+S100550,2024-09-01 08:13:00,Lead Generation | DE | Form,,cpc,6,272
+S100551,2024-10-21 03:46:00,Brand Awareness Q4,facebook,referral,8,439
+S100552,2024-09-11 13:31:00,Product Launch 2024,linkedin,organic,7,113
+S100553,2024-10-24 15:50:00,Google Brand Campaign,,,4,176
+S100554,2024-09-29 02:51:00,Brand Awareness Q4,linkedin,cpc,6,277
+S100555,2024-09-07 02:21:00,Lead Generation | DE | Form,direct,social,2,570
+S100556,2024-10-28 02:21:00,Google Brand Campaign,organic,referral,1,451
+S100557,2024-10-12 05:38:00,Product Launch 2024,google,cpc,2,349
+S100558,2024-09-14 06:26:00,,organic,,9,281
+S100559,2024-10-13 09:19:00,Lead Generation | DE | Form,facebook,cpc,7,595
+S100560,2024-10-06 15:09:00,Brand Awareness Q4,linkedin,cpc,7,99
+S100561,2024-09-19 21:40:00,Google Brand Campaign,direct,social,2,36
+S100562,2024-09-14 05:40:00,Retargeting Campaign,facebook,referral,2,325
+S100563,2024-10-21 12:30:00,Product Launch 2024,,email,2,567
+S100564,2024-09-25 05:23:00,Product Launch 2024,linkedin,social,8,55
+S100565,2024-09-17 14:29:00,Retargeting Campaign,google,email,10,73
+S100566,2024-09-10 22:42:00,Brand Awareness Q4,facebook,,6,564
+S100567,2024-09-27 18:14:00,Google Brand Campaign,facebook,referral,9,438
+S100568,2024-10-05 21:55:00,Product Launch 2024,organic,social,8,316
+S100569,2024-09-06 12:57:00,,facebook,organic,10,539
+S100570,2024-10-22 18:43:00,Google Brand Campaign,google,cpc,8,187
+S100571,2024-09-11 06:51:00,Lead Generation | DE | Form,google,cpc,7,90
+S100572,2024-10-14 13:12:00,,google,organic,5,337
+S100573,2024-10-29 23:58:00,Brand Awareness Q4,facebook,referral,9,416
+S100574,2024-10-06 10:54:00,Retargeting Campaign,organic,referral,1,545
+S100575,2024-10-21 13:07:00,Product Launch 2024,google,social,10,112
+S100576,2024-10-30 03:36:00,Brand Awareness Q4,linkedin,organic,6,430
+S100577,2024-09-17 12:41:00,Product Launch 2024,organic,organic,8,48
+S100578,2024-09-12 08:25:00,Lead Generation | DE | Form,organic,organic,7,49
+S100579,2024-09-26 10:44:00,Lead Generation | DE | Form,facebook,,8,285
+S100580,2024-10-28 11:01:00,Retargeting Campaign,linkedin,email,5,513
+S100581,2024-10-25 22:43:00,Brand Awareness Q4,google,social,5,463
+S100582,2024-10-20 10:17:00,,direct,organic,2,202
+S100583,2024-09-29 06:58:00,Product Launch 2024,,referral,9,392
+S100584,2024-10-23 01:32:00,Lead Generation | DE | Form,facebook,email,9,423
+S100585,2024-09-09 16:56:00,Google Brand Campaign,facebook,social,4,215
+S100586,2024-10-24 01:15:00,Brand Awareness Q4,direct,cpc,6,213
+S100587,2024-09-18 11:52:00,Product Launch 2024,organic,referral,2,41
+S100588,2024-09-16 11:31:00,Google Brand Campaign,direct,social,8,574
+S100589,2024-09-23 11:10:00,Retargeting Campaign,,,2,301
+S100590,2024-09-02 12:03:00,Lead Generation | DE | Form,organic,social,4,240
+S100591,2024-10-14 06:17:00,,direct,organic,1,19
+S100592,2024-10-01 04:41:00,Lead Generation | DE | Form,organic,cpc,4,268
+S100593,2024-10-09 09:45:00,,,email,7,395
+S100594,2024-10-25 11:29:00,Retargeting Campaign,google,referral,5,543
+S100595,2024-10-23 19:25:00,Google Brand Campaign,facebook,cpc,9,393
+S100596,2024-10-06 20:38:00,Google Brand Campaign,linkedin,email,2,503
+S100597,2024-09-05 10:17:00,,linkedin,email,5,315
+S100598,2024-09-13 04:33:00,Lead Generation | DE | Form,facebook,organic,7,337
+S100599,2024-10-14 04:46:00,Brand Awareness Q4,,referral,5,275
+S100600,2024-10-29 13:25:00,Product Launch 2024,,cpc,10,595
+S100601,2024-10-23 06:21:00,,,social,9,497
+S100602,2024-10-29 21:22:00,Google Brand Campaign,linkedin,social,9,195
+S100603,2024-09-19 03:30:00,Lead Generation | DE | Form,,email,9,197
+S100604,2024-10-14 10:41:00,Brand Awareness Q4,google,email,4,324
+S100605,2024-09-27 10:23:00,Retargeting Campaign,organic,email,8,130
+S100606,2024-10-01 01:55:00,,organic,organic,10,82
+S100607,2024-10-01 06:32:00,Brand Awareness Q4,,referral,9,315
+S100608,2024-09-27 01:55:00,Lead Generation | DE | Form,google,social,6,429
+S100609,2024-10-07 14:09:00,Retargeting Campaign,,social,2,509
+S100610,2024-09-22 20:11:00,Retargeting Campaign,,cpc,1,472
+S100611,2024-09-18 06:48:00,Lead Generation | DE | Form,organic,social,8,100
+S100612,2024-09-09 19:27:00,,direct,referral,7,498
+S100613,2024-09-25 00:02:00,Google Brand Campaign,google,,6,24
+S100614,2024-10-28 10:48:00,Google Brand Campaign,google,cpc,1,264
+S100615,2024-09-15 22:56:00,Retargeting Campaign,linkedin,social,2,402
+S100616,2024-10-03 18:19:00,Lead Generation | DE | Form,facebook,cpc,5,307
+S100617,2024-09-30 23:33:00,Google Brand Campaign,organic,email,7,147
+S100618,2024-09-22 15:22:00,Lead Generation | DE | Form,google,referral,1,243
+S100619,2024-09-15 23:08:00,Lead Generation | DE | Form,,cpc,10,526
+S100620,2024-09-11 03:23:00,,,cpc,7,271
+S100621,2024-10-20 17:39:00,Brand Awareness Q4,organic,cpc,2,30
+S100622,2024-09-04 22:07:00,Product Launch 2024,direct,referral,2,570
+S100623,2024-09-17 15:44:00,Lead Generation | DE | Form,google,,1,318
+S100624,2024-09-27 21:06:00,,organic,email,10,150
+S100625,2024-09-27 03:32:00,,organic,cpc,5,126
+S100626,2024-10-21 03:31:00,Lead Generation | DE | Form,organic,social,5,545
+S100627,2024-09-13 11:45:00,Product Launch 2024,linkedin,social,1,571
+S100628,2024-10-02 06:44:00,Product Launch 2024,linkedin,social,1,23
+S100629,2024-10-13 02:58:00,Brand Awareness Q4,organic,,8,162
+S100630,2024-09-06 16:04:00,,,cpc,5,246
+S100631,2024-09-30 09:16:00,Product Launch 2024,facebook,cpc,3,50
+S100632,2024-10-25 09:23:00,,linkedin,referral,2,107
+S100633,2024-10-25 01:00:00,Lead Generation | DE | Form,,,3,346
+S100634,2024-09-23 14:39:00,Retargeting Campaign,,cpc,6,360
+S100635,2024-09-12 03:25:00,Product Launch 2024,direct,email,7,499
+S100636,2024-10-22 13:41:00,Lead Generation | DE | Form,facebook,social,1,173
+S100637,2024-09-07 13:58:00,Google Brand Campaign,direct,organic,8,195
+S100638,2024-10-10 12:49:00,Retargeting Campaign,organic,cpc,3,504
+S100639,2024-10-29 15:07:00,Product Launch 2024,direct,cpc,2,277
+S100640,2024-10-12 10:00:00,,,organic,10,588
+S100641,2024-09-15 21:55:00,Retargeting Campaign,organic,organic,10,107
+S100642,2024-09-28 21:46:00,Lead Generation | DE | Form,direct,email,7,162
+S100643,2024-10-24 17:57:00,Google Brand Campaign,facebook,cpc,3,527
+S100644,2024-10-25 15:54:00,Product Launch 2024,google,cpc,8,338
+S100645,2024-09-16 10:17:00,Brand Awareness Q4,organic,social,9,397
+S100646,2024-09-26 07:05:00,Product Launch 2024,direct,organic,8,100
+S100647,2024-10-25 15:28:00,Retargeting Campaign,facebook,referral,1,115
+S100648,2024-09-26 13:02:00,Google Brand Campaign,organic,cpc,2,321
+S100649,2024-10-27 16:35:00,Lead Generation | DE | Form,,,8,359
+S100650,2024-09-24 01:52:00,Lead Generation | DE | Form,direct,email,9,494
+S100651,2024-10-16 21:23:00,,direct,cpc,2,237
+S100652,2024-09-01 10:22:00,,linkedin,organic,9,392
+S100653,2024-10-15 03:02:00,Lead Generation | DE | Form,direct,social,7,119
+S100654,2024-09-17 19:12:00,Lead Generation | DE | Form,facebook,referral,4,478
+S100655,2024-10-23 06:45:00,Retargeting Campaign,facebook,referral,1,136
+S100656,2024-10-20 14:29:00,,organic,organic,3,520
+S100657,2024-09-01 16:47:00,Brand Awareness Q4,organic,referral,10,504
+S100658,2024-10-30 16:49:00,Lead Generation | DE | Form,,organic,3,141
+S100659,2024-09-07 12:42:00,Google Brand Campaign,organic,email,9,403
+S100660,2024-09-27 19:58:00,,google,email,7,361
+S100661,2024-09-19 14:51:00,Lead Generation | DE | Form,google,referral,10,534
+S100662,2024-09-20 22:35:00,Retargeting Campaign,,,9,232
+S100663,2024-09-13 06:39:00,,linkedin,,6,145
+S100664,2024-10-16 20:11:00,Google Brand Campaign,organic,,6,128
+S100665,2024-10-19 11:35:00,Product Launch 2024,organic,organic,7,556
+S100666,2024-09-19 13:51:00,Brand Awareness Q4,organic,cpc,1,400
+S100667,2024-09-10 01:42:00,Brand Awareness Q4,google,email,3,303
+S100668,2024-10-14 08:09:00,Brand Awareness Q4,,email,4,564
+S100669,2024-09-03 11:52:00,Product Launch 2024,facebook,organic,9,239
+S100670,2024-10-18 20:35:00,Product Launch 2024,google,organic,5,58
+S100671,2024-10-30 12:24:00,Product Launch 2024,,email,9,65
+S100672,2024-09-01 23:16:00,Lead Generation | DE | Form,organic,referral,4,386
+S100673,2024-10-19 18:34:00,,organic,social,4,311
+S100674,2024-09-29 05:43:00,Brand Awareness Q4,google,social,9,132
+S100675,2024-09-25 01:27:00,Retargeting Campaign,organic,email,3,174
+S100676,2024-10-08 08:00:00,Retargeting Campaign,direct,,3,50
+S100677,2024-09-10 10:38:00,Brand Awareness Q4,,organic,5,512
+S100678,2024-10-21 18:35:00,Retargeting Campaign,facebook,,6,548
+S100679,2024-09-15 05:33:00,Brand Awareness Q4,organic,social,7,566
+S100680,2024-10-05 12:05:00,Retargeting Campaign,google,social,6,349
+S100681,2024-09-24 09:13:00,Google Brand Campaign,organic,referral,9,19
+S100682,2024-09-08 21:22:00,Product Launch 2024,google,,10,259
+S100683,2024-09-03 21:56:00,Retargeting Campaign,direct,cpc,7,272
+S100684,2024-10-05 23:18:00,Brand Awareness Q4,organic,email,9,530
+S100685,2024-09-29 15:02:00,Retargeting Campaign,,social,6,536
+S100686,2024-09-06 03:10:00,Google Brand Campaign,organic,cpc,2,225
+S100687,2024-10-13 20:49:00,Lead Generation | DE | Form,,referral,2,220
+S100688,2024-10-05 22:56:00,,direct,,2,167
+S100689,2024-09-02 14:45:00,Retargeting Campaign,facebook,cpc,2,65
+S100690,2024-09-12 08:35:00,Brand Awareness Q4,organic,social,5,427
+S100691,2024-09-25 14:40:00,Product Launch 2024,direct,email,1,408
+S100692,2024-10-14 03:34:00,Brand Awareness Q4,,,10,74
+S100693,2024-10-19 23:37:00,Brand Awareness Q4,,cpc,6,524
+S100694,2024-09-07 09:50:00,,linkedin,organic,2,298
+S100695,2024-10-19 14:24:00,Product Launch 2024,,cpc,8,170
+S100696,2024-10-05 07:08:00,,direct,organic,5,157
+S100697,2024-09-20 21:56:00,,,email,1,576
+S100698,2024-10-26 17:09:00,Brand Awareness Q4,facebook,cpc,10,413
+S100699,2024-10-05 17:05:00,Retargeting Campaign,google,,6,226
+S100700,2024-09-27 20:54:00,Google Brand Campaign,google,social,3,236
+S100701,2024-10-10 08:12:00,Brand Awareness Q4,google,,10,65
+S100702,2024-10-25 17:29:00,,organic,cpc,5,78
+S100703,2024-09-17 03:12:00,,organic,referral,6,375
+S100704,2024-09-09 21:41:00,Lead Generation | DE | Form,facebook,email,10,81
+S100705,2024-10-28 06:20:00,Product Launch 2024,direct,email,10,323
+S100706,2024-10-15 18:09:00,Google Brand Campaign,organic,email,6,448
+S100707,2024-09-11 00:20:00,Lead Generation | DE | Form,google,,7,293
+S100708,2024-10-24 11:08:00,,,email,8,483
+S100709,2024-09-29 11:49:00,Retargeting Campaign,direct,organic,2,189
+S100710,2024-10-12 19:05:00,Retargeting Campaign,google,organic,4,279
+S100711,2024-10-17 20:04:00,,facebook,cpc,9,41
+S100712,2024-10-23 18:37:00,Product Launch 2024,organic,social,1,574
+S100713,2024-09-17 17:57:00,Google Brand Campaign,direct,,3,384
+S100714,2024-09-26 07:57:00,Google Brand Campaign,,email,3,485
+S100715,2024-10-03 16:05:00,Product Launch 2024,linkedin,organic,1,254
+S100716,2024-10-25 19:43:00,Lead Generation | DE | Form,organic,social,8,173
+S100717,2024-09-12 18:36:00,,google,,8,377
+S100718,2024-09-03 07:48:00,Product Launch 2024,google,cpc,5,388
+S100719,2024-09-15 01:42:00,Lead Generation | DE | Form,organic,email,7,490
+S100720,2024-10-29 14:56:00,Brand Awareness Q4,facebook,,6,115
+S100721,2024-10-16 16:40:00,Retargeting Campaign,,email,10,567
+S100722,2024-10-07 05:24:00,,direct,email,10,89
+S100723,2024-10-04 08:24:00,Lead Generation | DE | Form,organic,referral,6,363
+S100724,2024-10-02 15:56:00,Google Brand Campaign,facebook,organic,3,460
+S100725,2024-09-11 07:04:00,Google Brand Campaign,,email,4,163
+S100726,2024-09-12 05:23:00,Google Brand Campaign,,cpc,4,434
+S100727,2024-10-22 10:46:00,Brand Awareness Q4,direct,,8,500
+S100728,2024-09-14 18:10:00,,direct,cpc,4,54
+S100729,2024-09-09 18:37:00,Lead Generation | DE | Form,google,,9,50
+S100730,2024-10-28 18:09:00,Brand Awareness Q4,google,email,3,539
+S100731,2024-09-26 19:36:00,,facebook,,5,97
+S100732,2024-09-14 14:38:00,Product Launch 2024,direct,social,4,430
+S100733,2024-10-09 04:50:00,Google Brand Campaign,google,organic,9,280
+S100734,2024-09-11 23:43:00,Retargeting Campaign,direct,organic,10,80
+S100735,2024-09-15 12:24:00,Lead Generation | DE | Form,facebook,cpc,4,545
+S100736,2024-10-26 16:43:00,Product Launch 2024,google,organic,2,191
+S100737,2024-10-01 19:38:00,Brand Awareness Q4,organic,organic,2,105
+S100738,2024-10-01 21:08:00,Google Brand Campaign,organic,cpc,7,544
+S100739,2024-09-27 11:55:00,Brand Awareness Q4,,organic,7,244
+S100740,2024-10-22 15:50:00,Product Launch 2024,linkedin,organic,10,110
+S100741,2024-09-28 04:16:00,Product Launch 2024,google,cpc,5,566
+S100742,2024-09-27 08:12:00,Brand Awareness Q4,,,1,545
+S100743,2024-09-08 16:00:00,Product Launch 2024,,social,6,428
+S100744,2024-09-24 03:09:00,Product Launch 2024,,organic,5,277
+S100745,2024-10-25 17:27:00,Google Brand Campaign,linkedin,organic,5,416
+S100746,2024-10-19 06:26:00,Google Brand Campaign,organic,referral,3,389
+S100747,2024-10-06 17:30:00,Retargeting Campaign,linkedin,organic,6,417
+S100748,2024-10-18 04:54:00,,facebook,,4,467
+S100749,2024-10-21 22:10:00,Brand Awareness Q4,google,organic,7,356
+S100750,2024-10-22 17:39:00,,,,1,174
+S100751,2024-09-25 20:00:00,Brand Awareness Q4,google,referral,10,455
+S100752,2024-09-06 02:16:00,Lead Generation | DE | Form,linkedin,cpc,10,48
+S100753,2024-10-17 12:59:00,Product Launch 2024,organic,,9,303
+S100754,2024-10-16 19:03:00,Lead Generation | DE | Form,,referral,8,20
+S100755,2024-09-13 21:59:00,Google Brand Campaign,linkedin,social,1,532
+S100756,2024-10-04 22:14:00,Google Brand Campaign,google,,1,378
+S100757,2024-09-16 20:00:00,Lead Generation | DE | Form,facebook,email,7,371
+S100758,2024-10-13 12:25:00,Google Brand Campaign,google,organic,1,80
+S100759,2024-10-29 02:35:00,Retargeting Campaign,,organic,10,366
+S100760,2024-09-23 08:14:00,Google Brand Campaign,google,referral,7,598
+S100761,2024-09-01 08:11:00,Product Launch 2024,organic,cpc,9,84
+S100762,2024-10-03 09:21:00,Brand Awareness Q4,organic,email,9,598
+S100763,2024-09-17 22:28:00,Product Launch 2024,organic,referral,4,357
+S100764,2024-10-20 14:43:00,Product Launch 2024,organic,cpc,8,129
+S100765,2024-09-17 02:24:00,,google,,4,333
+S100766,2024-09-27 11:33:00,Google Brand Campaign,facebook,,5,264
+S100767,2024-09-19 02:25:00,,,email,2,577
+S100768,2024-10-30 05:30:00,Retargeting Campaign,linkedin,social,10,285
+S100769,2024-09-12 23:43:00,Lead Generation | DE | Form,direct,,4,250
+S100770,2024-10-18 07:55:00,Retargeting Campaign,google,social,4,265
+S100771,2024-10-24 19:22:00,Lead Generation | DE | Form,facebook,cpc,2,514
+S100772,2024-10-10 00:48:00,Google Brand Campaign,facebook,referral,6,332
+S100773,2024-10-02 18:55:00,Retargeting Campaign,direct,social,9,296
+S100774,2024-09-26 07:48:00,Google Brand Campaign,google,cpc,9,443
+S100775,2024-10-01 17:02:00,Google Brand Campaign,linkedin,referral,3,478
+S100776,2024-09-08 22:33:00,Product Launch 2024,linkedin,,1,22
+S100777,2024-10-14 06:24:00,Google Brand Campaign,facebook,email,6,275
+S100778,2024-09-12 17:16:00,Lead Generation | DE | Form,linkedin,referral,10,361
+S100779,2024-09-24 05:31:00,Product Launch 2024,google,referral,6,383
+S100780,2024-10-25 12:17:00,Product Launch 2024,google,organic,3,599
+S100781,2024-10-14 07:52:00,Brand Awareness Q4,,email,4,578
+S100782,2024-09-28 12:12:00,Lead Generation | DE | Form,,social,8,19
+S100783,2024-09-12 13:31:00,Lead Generation | DE | Form,,organic,9,333
+S100784,2024-10-21 15:19:00,Retargeting Campaign,organic,organic,1,417
+S100785,2024-09-07 22:10:00,Brand Awareness Q4,google,email,8,108
+S100786,2024-09-29 23:21:00,Retargeting Campaign,linkedin,email,9,580
+S100787,2024-10-30 08:22:00,Brand Awareness Q4,direct,cpc,6,213
+S100788,2024-10-07 18:41:00,,organic,social,5,373
+S100789,2024-09-21 21:32:00,Product Launch 2024,,referral,2,400
+S100790,2024-10-10 09:29:00,,google,social,6,441
+S100791,2024-10-11 19:36:00,Product Launch 2024,facebook,cpc,3,361
+S100792,2024-09-15 10:20:00,,linkedin,,5,414
+S100793,2024-09-18 14:49:00,Retargeting Campaign,,organic,9,471
+S100794,2024-09-27 05:11:00,Brand Awareness Q4,google,,4,267
+S100795,2024-10-18 22:47:00,Brand Awareness Q4,google,social,7,115
+S100796,2024-09-07 02:59:00,Product Launch 2024,organic,cpc,1,416
+S100797,2024-10-04 02:06:00,Retargeting Campaign,organic,social,2,409
+S100798,2024-09-20 07:15:00,,linkedin,referral,3,144
+S100799,2024-10-04 05:01:00,Brand Awareness Q4,,email,6,497
+S100800,2024-09-30 17:59:00,Retargeting Campaign,organic,referral,3,562
+S100801,2024-09-12 18:38:00,Product Launch 2024,,,10,455
+S100802,2024-10-04 20:40:00,Google Brand Campaign,linkedin,email,8,562
+S100803,2024-09-15 02:28:00,Retargeting Campaign,linkedin,referral,5,169
+S100804,2024-09-20 00:00:00,Google Brand Campaign,google,email,5,490
+S100805,2024-10-05 00:44:00,Product Launch 2024,direct,email,1,450
+S100806,2024-10-22 09:38:00,Lead Generation | DE | Form,facebook,organic,6,203
+S100807,2024-09-27 17:27:00,Product Launch 2024,google,social,7,397
+S100808,2024-09-15 08:05:00,Product Launch 2024,,social,9,288
+S100809,2024-09-19 20:47:00,Google Brand Campaign,linkedin,referral,4,80
+S100810,2024-09-12 04:18:00,Brand Awareness Q4,,referral,10,473
+S100811,2024-09-18 22:39:00,Product Launch 2024,google,email,1,165
+S100812,2024-09-04 17:01:00,Lead Generation | DE | Form,facebook,email,5,138
+S100813,2024-10-16 14:46:00,Brand Awareness Q4,google,cpc,3,25
+S100814,2024-10-02 06:21:00,Product Launch 2024,linkedin,referral,6,484
+S100815,2024-10-15 01:21:00,Brand Awareness Q4,google,cpc,5,411
+S100816,2024-09-05 17:30:00,Lead Generation | DE | Form,google,email,7,22
+S100817,2024-09-08 22:15:00,Product Launch 2024,direct,social,1,213
+S100818,2024-09-30 23:49:00,Brand Awareness Q4,organic,,4,494
+S100819,2024-09-25 21:19:00,Retargeting Campaign,google,,1,572
+S100820,2024-10-04 03:16:00,Product Launch 2024,,email,4,379
+S100821,2024-10-27 01:55:00,,google,cpc,4,454
+S100822,2024-09-21 00:10:00,Retargeting Campaign,organic,cpc,7,258
+S100823,2024-09-01 01:37:00,,direct,,10,168
+S100824,2024-09-24 02:15:00,Lead Generation | DE | Form,direct,cpc,10,356
+S100825,2024-10-30 20:03:00,Brand Awareness Q4,linkedin,,3,559
+S100826,2024-10-21 03:08:00,Product Launch 2024,google,email,9,365
+S100827,2024-10-22 14:46:00,Lead Generation | DE | Form,facebook,,7,376
+S100828,2024-10-17 04:16:00,Brand Awareness Q4,direct,,8,582
+S100829,2024-09-19 17:44:00,Product Launch 2024,google,organic,3,566
+S100830,2024-09-23 10:46:00,Product Launch 2024,linkedin,organic,9,174
+S100831,2024-09-05 16:09:00,Product Launch 2024,linkedin,email,9,385
+S100832,2024-09-30 00:49:00,,organic,referral,3,29
+S100833,2024-10-10 11:49:00,Google Brand Campaign,google,email,2,561
+S100834,2024-10-23 12:12:00,Google Brand Campaign,,referral,9,167
+S100835,2024-10-10 09:20:00,Product Launch 2024,,email,2,108
+S100836,2024-10-04 21:04:00,Brand Awareness Q4,google,social,1,216
+S100837,2024-09-07 15:12:00,Brand Awareness Q4,facebook,organic,7,511
+S100838,2024-10-04 19:44:00,Google Brand Campaign,linkedin,cpc,6,236
+S100839,2024-10-09 22:04:00,Brand Awareness Q4,google,,8,91
+S100840,2024-09-30 20:03:00,Retargeting Campaign,organic,,7,387
+S100841,2024-10-21 22:03:00,Google Brand Campaign,linkedin,organic,1,82
+S100842,2024-10-24 09:04:00,Lead Generation | DE | Form,organic,cpc,2,246
+S100843,2024-10-05 12:12:00,Lead Generation | DE | Form,organic,,4,593
+S100844,2024-10-11 05:35:00,,organic,referral,2,600
+S100845,2024-09-23 21:29:00,,,referral,2,180
+S100846,2024-10-21 05:35:00,Product Launch 2024,organic,email,3,556
+S100847,2024-10-09 14:59:00,Retargeting Campaign,linkedin,organic,6,390
+S100848,2024-09-27 20:27:00,,linkedin,organic,4,586
+S100849,2024-10-05 06:24:00,Google Brand Campaign,,email,6,473
+S100850,2024-09-29 12:00:00,,facebook,email,10,26
+S100851,2024-10-04 04:56:00,Retargeting Campaign,facebook,email,4,229
+S100852,2024-10-25 10:01:00,,linkedin,organic,9,579
+S100853,2024-10-07 18:09:00,Brand Awareness Q4,facebook,referral,6,169
+S100854,2024-09-09 08:23:00,Google Brand Campaign,google,social,5,317
+S100855,2024-09-06 18:25:00,Google Brand Campaign,google,,2,342
+S100856,2024-10-21 15:11:00,Product Launch 2024,,,10,107
+S100857,2024-10-09 20:19:00,Brand Awareness Q4,,organic,7,90
+S100858,2024-10-20 01:58:00,Retargeting Campaign,linkedin,referral,7,133
+S100859,2024-10-26 07:47:00,,organic,cpc,7,65
+S100860,2024-09-20 16:02:00,Retargeting Campaign,organic,organic,3,344
+S100861,2024-10-03 22:14:00,Lead Generation | DE | Form,facebook,,7,466
+S100862,2024-10-19 19:36:00,Google Brand Campaign,facebook,social,7,306
+S100863,2024-10-21 12:09:00,Lead Generation | DE | Form,linkedin,cpc,8,595
+S100864,2024-10-18 01:35:00,Product Launch 2024,linkedin,cpc,7,523
+S100865,2024-09-28 22:08:00,Lead Generation | DE | Form,direct,organic,4,509
+S100866,2024-09-26 20:36:00,Lead Generation | DE | Form,organic,organic,9,262
+S100867,2024-09-16 02:17:00,Product Launch 2024,linkedin,,10,101
+S100868,2024-09-08 21:26:00,Product Launch 2024,linkedin,email,4,338
+S100869,2024-09-23 19:41:00,Brand Awareness Q4,linkedin,social,6,462
+S100870,2024-10-10 04:28:00,Brand Awareness Q4,google,social,6,169
+S100871,2024-10-19 23:54:00,Brand Awareness Q4,facebook,,1,258
+S100872,2024-10-10 04:55:00,Retargeting Campaign,facebook,email,2,322
+S100873,2024-09-29 15:01:00,Retargeting Campaign,google,,9,226
+S100874,2024-09-14 17:33:00,Retargeting Campaign,organic,referral,10,154
+S100875,2024-10-15 22:42:00,Brand Awareness Q4,direct,organic,9,54
+S100876,2024-09-17 05:03:00,Retargeting Campaign,google,,10,287
+S100877,2024-09-04 14:41:00,Brand Awareness Q4,facebook,referral,5,378
+S100878,2024-10-26 03:01:00,Retargeting Campaign,,referral,4,399
+S100879,2024-10-03 22:06:00,Retargeting Campaign,direct,organic,9,100
+S100880,2024-09-12 06:32:00,Product Launch 2024,organic,,1,50
+S100881,2024-09-16 16:19:00,Retargeting Campaign,direct,referral,3,28
+S100882,2024-09-23 21:22:00,Retargeting Campaign,,email,4,523
+S100883,2024-09-18 01:40:00,Retargeting Campaign,direct,cpc,9,296
+S100884,2024-09-15 04:21:00,Product Launch 2024,,social,2,401
+S100885,2024-10-04 21:39:00,,,social,7,256
+S100886,2024-10-07 04:27:00,Retargeting Campaign,organic,email,8,565
+S100887,2024-09-09 06:41:00,Lead Generation | DE | Form,organic,organic,4,151
+S100888,2024-09-20 22:45:00,Google Brand Campaign,google,referral,3,588
+S100889,2024-10-29 05:20:00,Brand Awareness Q4,organic,organic,2,198
+S100890,2024-09-21 04:46:00,Brand Awareness Q4,linkedin,referral,7,320
+S100891,2024-09-29 23:59:00,,,email,3,202
+S100892,2024-09-07 04:11:00,Brand Awareness Q4,organic,organic,5,590
+S100893,2024-10-10 07:38:00,Lead Generation | DE | Form,google,,1,377
+S100894,2024-09-06 22:49:00,Product Launch 2024,google,organic,10,490
+S100895,2024-10-16 20:23:00,Lead Generation | DE | Form,direct,referral,8,150
+S100896,2024-09-11 06:14:00,Brand Awareness Q4,direct,cpc,5,432
+S100897,2024-09-15 23:42:00,Lead Generation | DE | Form,google,cpc,3,459
+S100898,2024-10-26 19:31:00,,linkedin,referral,4,447
+S100899,2024-09-26 01:38:00,,direct,,6,413
+S100900,2024-10-10 23:36:00,Google Brand Campaign,organic,organic,1,543
+S100901,2024-09-07 14:29:00,Brand Awareness Q4,google,organic,9,415
+S100902,2024-10-18 01:35:00,Product Launch 2024,organic,,1,204
+S100903,2024-09-19 14:25:00,Retargeting Campaign,linkedin,referral,3,442
+S100904,2024-09-19 19:58:00,Brand Awareness Q4,,organic,3,484
+S100905,2024-10-24 20:28:00,Brand Awareness Q4,,organic,2,194
+S100906,2024-10-20 18:57:00,,organic,social,7,433
+S100907,2024-09-21 14:01:00,Lead Generation | DE | Form,direct,organic,4,475
+S100908,2024-09-06 08:20:00,,,,3,136
+S100909,2024-09-06 03:45:00,Product Launch 2024,,email,2,546
+S100910,2024-10-16 12:46:00,Google Brand Campaign,organic,social,7,573
+S100911,2024-09-25 01:49:00,Lead Generation | DE | Form,linkedin,organic,3,176
+S100912,2024-10-26 04:11:00,,facebook,referral,5,326
+S100913,2024-10-17 14:18:00,,google,cpc,3,217
+S100914,2024-09-01 19:48:00,Retargeting Campaign,facebook,referral,8,520
+S100915,2024-10-05 00:38:00,Product Launch 2024,google,social,10,497
+S100916,2024-09-30 13:28:00,Brand Awareness Q4,organic,organic,1,260
+S100917,2024-10-27 17:17:00,Google Brand Campaign,,organic,4,60
+S100918,2024-09-12 04:03:00,,linkedin,cpc,3,43
+S100919,2024-10-13 18:53:00,Google Brand Campaign,linkedin,email,2,60
+S100920,2024-09-07 13:11:00,Lead Generation | DE | Form,,email,10,596
+S100921,2024-10-21 17:11:00,Product Launch 2024,,organic,6,46
+S100922,2024-09-06 09:20:00,Retargeting Campaign,direct,cpc,7,573
+S100923,2024-09-05 09:30:00,Lead Generation | DE | Form,facebook,,5,347
+S100924,2024-10-04 13:33:00,Lead Generation | DE | Form,,social,10,69
+S100925,2024-09-07 18:46:00,,organic,cpc,8,304
+S100926,2024-09-28 19:54:00,Retargeting Campaign,linkedin,organic,10,372
+S100927,2024-10-30 04:39:00,Google Brand Campaign,direct,organic,8,514
+S100928,2024-10-22 05:56:00,Google Brand Campaign,google,,5,208
+S100929,2024-09-01 03:01:00,Product Launch 2024,,cpc,4,434
+S100930,2024-09-27 01:21:00,Retargeting Campaign,organic,,4,21
+S100931,2024-10-11 06:44:00,Retargeting Campaign,linkedin,cpc,5,317
+S100932,2024-10-03 17:20:00,Brand Awareness Q4,facebook,,6,359
+S100933,2024-09-26 23:36:00,Google Brand Campaign,facebook,social,4,348
+S100934,2024-10-24 10:59:00,,direct,referral,1,149
+S100935,2024-10-01 04:40:00,Product Launch 2024,organic,email,8,433
+S100936,2024-10-30 23:03:00,Google Brand Campaign,linkedin,organic,6,578
+S100937,2024-10-05 00:13:00,Google Brand Campaign,,email,6,77
+S100938,2024-09-10 08:53:00,Brand Awareness Q4,linkedin,referral,9,179
+S100939,2024-10-07 19:24:00,Lead Generation | DE | Form,organic,cpc,5,332
+S100940,2024-10-16 01:17:00,Product Launch 2024,facebook,referral,4,390
+S100941,2024-09-29 09:13:00,Google Brand Campaign,linkedin,social,2,393
+S100942,2024-10-21 01:49:00,Lead Generation | DE | Form,facebook,referral,9,35
+S100943,2024-10-22 15:57:00,Google Brand Campaign,google,social,6,505
+S100944,2024-10-17 16:19:00,Retargeting Campaign,google,cpc,9,145
+S100945,2024-09-14 23:02:00,Product Launch 2024,direct,,9,128
+S100946,2024-09-01 09:59:00,Brand Awareness Q4,,organic,2,351
+S100947,2024-09-30 01:06:00,Google Brand Campaign,,,5,33
+S100948,2024-10-07 09:40:00,Lead Generation | DE | Form,linkedin,social,4,303
+S100949,2024-09-18 17:20:00,Product Launch 2024,,cpc,5,162
+S100950,2024-09-11 08:07:00,Brand Awareness Q4,organic,organic,9,114
+S100951,2024-09-14 17:22:00,Google Brand Campaign,linkedin,email,3,300
+S100952,2024-10-07 07:10:00,Brand Awareness Q4,linkedin,organic,6,563
+S100953,2024-09-29 01:08:00,Brand Awareness Q4,direct,,1,118
+S100954,2024-09-25 01:05:00,Product Launch 2024,direct,social,10,466
+S100955,2024-10-10 11:19:00,Retargeting Campaign,google,,9,90
+S100956,2024-10-30 14:36:00,Lead Generation | DE | Form,facebook,,8,109
+S100957,2024-09-30 09:43:00,,,referral,8,247
+S100958,2024-09-15 04:55:00,Google Brand Campaign,linkedin,email,7,197
+S100959,2024-10-15 21:21:00,Retargeting Campaign,direct,referral,1,76
+S100960,2024-10-01 03:22:00,Product Launch 2024,direct,social,5,366
+S100961,2024-10-09 18:08:00,Google Brand Campaign,facebook,referral,2,343
+S100962,2024-10-06 20:04:00,Retargeting Campaign,organic,referral,7,433
+S100963,2024-09-16 19:15:00,Google Brand Campaign,google,referral,7,77
+S100964,2024-09-22 06:52:00,,organic,referral,7,590
+S100965,2024-10-21 10:34:00,,google,social,2,597
+S100966,2024-10-24 15:07:00,Google Brand Campaign,organic,referral,6,578
+S100967,2024-09-07 14:11:00,Retargeting Campaign,direct,cpc,10,121
+S100968,2024-10-14 19:49:00,Product Launch 2024,linkedin,referral,1,102
+S100969,2024-09-14 04:56:00,Google Brand Campaign,,cpc,3,162
+S100970,2024-09-29 17:18:00,Product Launch 2024,organic,organic,8,210
+S100971,2024-09-14 21:56:00,Retargeting Campaign,linkedin,organic,5,455
+S100972,2024-10-16 11:05:00,Google Brand Campaign,facebook,organic,9,423
+S100973,2024-10-25 04:54:00,Retargeting Campaign,facebook,email,9,64
+S100974,2024-09-01 22:35:00,Retargeting Campaign,facebook,email,1,250
+S100975,2024-09-28 22:37:00,Product Launch 2024,,email,7,425
+S100976,2024-09-25 13:34:00,Lead Generation | DE | Form,,social,8,152
+S100977,2024-09-13 17:24:00,Retargeting Campaign,direct,social,5,138
+S100978,2024-09-09 00:04:00,,facebook,social,8,457
+S100979,2024-09-09 02:08:00,,direct,referral,10,445
+S100980,2024-10-10 05:29:00,Google Brand Campaign,direct,organic,8,403
+S100981,2024-09-23 07:11:00,Product Launch 2024,organic,cpc,10,520
+S100982,2024-10-25 23:15:00,,organic,email,7,569
+S100983,2024-10-07 11:02:00,Brand Awareness Q4,organic,referral,6,125
+S100984,2024-10-08 15:44:00,Brand Awareness Q4,google,,9,296
+S100985,2024-09-30 16:05:00,Google Brand Campaign,organic,cpc,4,493
+S100986,2024-10-11 23:42:00,,facebook,,9,329
+S100987,2024-10-10 01:57:00,Retargeting Campaign,organic,cpc,8,474
+S100988,2024-10-03 15:36:00,,linkedin,referral,6,311
+S100989,2024-09-19 05:02:00,,organic,,5,587
+S100990,2024-09-17 01:40:00,Product Launch 2024,organic,social,10,62
+S100991,2024-10-13 09:51:00,,organic,cpc,5,506
+S100992,2024-09-06 04:32:00,Brand Awareness Q4,linkedin,email,3,297
+S100993,2024-09-18 08:00:00,,facebook,organic,3,164
+S100994,2024-10-13 14:23:00,Lead Generation | DE | Form,linkedin,,4,506
+S100995,2024-09-12 16:55:00,Brand Awareness Q4,linkedin,cpc,3,167
+S100996,2024-10-24 15:48:00,Product Launch 2024,direct,social,8,181
+S100997,2024-09-14 18:46:00,Retargeting Campaign,facebook,,5,128
+S100998,2024-09-04 05:29:00,Product Launch 2024,direct,email,8,555
+S100999,2024-09-15 12:43:00,,direct,referral,5,158
+S101000,2024-10-04 13:00:00,Retargeting Campaign,direct,referral,6,552
+S101001,2024-10-14 01:06:00,Google Brand Campaign,,email,7,289
+S101002,2024-09-22 08:17:00,Brand Awareness Q4,linkedin,,10,410
+S101003,2024-09-30 21:47:00,Lead Generation | DE | Form,,,10,209
+S101004,2024-10-04 10:43:00,,google,email,9,20
+S101005,2024-10-14 00:53:00,Brand Awareness Q4,facebook,referral,2,547
+S101006,2024-09-07 21:28:00,Retargeting Campaign,google,,5,267
+S101007,2024-09-13 01:01:00,Google Brand Campaign,facebook,cpc,10,232
+S101008,2024-10-09 20:07:00,,facebook,cpc,10,143
+S101009,2024-09-25 21:48:00,,organic,social,2,198
+S101010,2024-09-17 09:29:00,,facebook,,8,293
+S101011,2024-10-20 13:44:00,,linkedin,email,3,85
+S101012,2024-09-18 01:24:00,Product Launch 2024,linkedin,cpc,5,281
+S101013,2024-09-12 14:04:00,Product Launch 2024,google,organic,7,192
+S101014,2024-10-12 15:06:00,Lead Generation | DE | Form,organic,referral,4,118
+S101015,2024-10-29 14:45:00,Retargeting Campaign,facebook,cpc,2,82
+S101016,2024-10-07 23:16:00,Product Launch 2024,facebook,referral,3,10
+S101017,2024-10-30 01:42:00,Product Launch 2024,linkedin,social,6,410
+S101018,2024-10-07 00:32:00,,direct,referral,7,423
+S101019,2024-10-25 23:49:00,Brand Awareness Q4,organic,social,1,403
+S101020,2024-10-15 15:07:00,Google Brand Campaign,organic,email,6,320
+S101021,2024-09-26 01:40:00,,facebook,email,9,358
+S101022,2024-09-06 14:48:00,Retargeting Campaign,,social,3,577
+S101023,2024-09-03 12:42:00,Lead Generation | DE | Form,linkedin,,7,119
+S101024,2024-10-11 22:22:00,Product Launch 2024,facebook,,8,204
+S101025,2024-09-09 01:12:00,Brand Awareness Q4,,organic,4,510
+S101026,2024-09-25 02:50:00,Google Brand Campaign,,email,8,556
+S101027,2024-10-24 14:01:00,Brand Awareness Q4,linkedin,cpc,6,53
+S101028,2024-09-26 03:13:00,,,organic,8,559
+S101029,2024-09-10 23:37:00,Lead Generation | DE | Form,facebook,cpc,3,510
+S101030,2024-10-12 00:30:00,Google Brand Campaign,facebook,social,3,24
+S101031,2024-09-12 20:03:00,Retargeting Campaign,facebook,referral,10,184
+S101032,2024-10-24 18:04:00,Brand Awareness Q4,facebook,referral,10,235
+S101033,2024-09-05 06:27:00,Retargeting Campaign,,,7,342
+S101034,2024-09-08 21:36:00,Google Brand Campaign,google,email,4,56
+S101035,2024-10-08 05:21:00,Brand Awareness Q4,facebook,email,3,435
+S101036,2024-09-11 22:23:00,Google Brand Campaign,google,referral,4,51
+S101037,2024-09-09 03:50:00,,organic,referral,3,26
+S101038,2024-10-27 15:05:00,Brand Awareness Q4,facebook,social,2,300
+S101039,2024-09-27 22:51:00,Product Launch 2024,,social,4,156
+S101040,2024-10-11 08:33:00,Product Launch 2024,direct,social,3,48
+S101041,2024-10-09 05:45:00,Product Launch 2024,organic,cpc,5,366
+S101042,2024-09-27 00:35:00,Lead Generation | DE | Form,google,cpc,9,107
+S101043,2024-10-10 11:55:00,Google Brand Campaign,organic,social,8,223
+S101044,2024-09-18 01:12:00,Brand Awareness Q4,google,,8,519
+S101045,2024-09-12 05:42:00,Brand Awareness Q4,facebook,,6,301
+S101046,2024-09-14 13:16:00,Retargeting Campaign,organic,referral,1,116
+S101047,2024-10-18 01:59:00,Google Brand Campaign,google,social,1,506
+S101048,2024-10-03 03:04:00,Lead Generation | DE | Form,,referral,10,343
+S101049,2024-09-27 06:47:00,,linkedin,social,2,343
+S101050,2024-09-15 03:15:00,,direct,social,7,235
+S101051,2024-09-05 15:37:00,Product Launch 2024,facebook,referral,3,231
+S101052,2024-10-30 19:29:00,Lead Generation | DE | Form,direct,email,3,478
+S101053,2024-10-17 06:40:00,Retargeting Campaign,linkedin,social,6,140
+S101054,2024-09-03 22:36:00,Brand Awareness Q4,linkedin,social,2,486
+S101055,2024-09-30 13:10:00,Retargeting Campaign,google,email,10,170
+S101056,2024-10-21 20:39:00,Lead Generation | DE | Form,organic,organic,4,98
+S101057,2024-09-27 16:31:00,Lead Generation | DE | Form,organic,referral,8,295
+S101058,2024-09-01 23:27:00,,google,social,6,454
+S101059,2024-10-08 07:57:00,Google Brand Campaign,google,organic,1,437
+S101060,2024-09-03 01:30:00,,organic,cpc,7,553
+S101061,2024-09-26 15:51:00,,facebook,referral,8,256
+S101062,2024-09-06 17:48:00,Brand Awareness Q4,,,7,233
+S101063,2024-09-09 11:18:00,Lead Generation | DE | Form,,cpc,1,501
+S101064,2024-10-13 09:10:00,,direct,organic,10,34
+S101065,2024-09-30 14:49:00,Lead Generation | DE | Form,,referral,3,389
+S101066,2024-10-11 14:45:00,,facebook,,2,404
+S101067,2024-10-28 22:21:00,Google Brand Campaign,facebook,email,7,286
+S101068,2024-10-15 19:34:00,Google Brand Campaign,google,,2,353
+S101069,2024-10-18 01:32:00,,linkedin,cpc,2,402
+S101070,2024-09-24 14:39:00,Brand Awareness Q4,linkedin,email,3,582
+S101071,2024-10-16 02:35:00,,google,social,6,254
+S101072,2024-10-05 03:41:00,Product Launch 2024,,organic,4,240
+S101073,2024-09-21 11:57:00,Retargeting Campaign,organic,,7,293
+S101074,2024-09-04 02:23:00,Retargeting Campaign,direct,referral,9,549
+S101075,2024-10-24 03:30:00,,organic,,9,309
+S101076,2024-09-29 19:23:00,,,cpc,4,478
+S101077,2024-09-06 02:25:00,Lead Generation | DE | Form,linkedin,cpc,2,178
+S101078,2024-09-18 03:44:00,Lead Generation | DE | Form,direct,social,4,543
+S101079,2024-10-11 00:18:00,Product Launch 2024,,organic,3,495
+S101080,2024-09-23 13:28:00,,,cpc,5,203
+S101081,2024-09-05 00:55:00,Lead Generation | DE | Form,organic,,6,431
+S101082,2024-10-08 10:41:00,,linkedin,referral,10,552
+S101083,2024-10-24 17:28:00,Product Launch 2024,linkedin,organic,3,323
+S101084,2024-09-11 08:14:00,Product Launch 2024,linkedin,email,1,161
+S101085,2024-09-23 09:29:00,Lead Generation | DE | Form,organic,social,9,302
+S101086,2024-09-12 05:53:00,,,,3,175
+S101087,2024-09-16 03:02:00,Retargeting Campaign,organic,social,8,276
+S101088,2024-09-24 05:13:00,Google Brand Campaign,,cpc,6,362
+S101089,2024-09-10 11:28:00,Google Brand Campaign,google,organic,5,134
+S101090,2024-10-29 00:25:00,Product Launch 2024,google,referral,6,169
+S101091,2024-09-01 23:34:00,Google Brand Campaign,linkedin,,5,495
+S101092,2024-10-28 09:48:00,Google Brand Campaign,,social,10,462
+S101093,2024-09-22 22:07:00,,direct,cpc,3,574
+S101094,2024-09-08 09:01:00,Product Launch 2024,organic,social,8,375
+S101095,2024-09-06 10:03:00,Google Brand Campaign,,social,10,549
+S101096,2024-09-15 08:12:00,Brand Awareness Q4,facebook,organic,8,99
+S101097,2024-10-03 12:12:00,Product Launch 2024,linkedin,organic,10,533
+S101098,2024-09-04 21:23:00,Product Launch 2024,google,,7,388
+S101099,2024-09-25 11:00:00,Retargeting Campaign,linkedin,email,5,466
+S101100,2024-10-26 17:05:00,Lead Generation | DE | Form,,referral,7,463
+S101101,2024-09-19 05:51:00,,direct,,7,152
+S101102,2024-10-24 18:38:00,Brand Awareness Q4,google,social,5,496
+S101103,2024-10-26 16:21:00,Brand Awareness Q4,organic,referral,2,16
+S101104,2024-09-27 20:58:00,Retargeting Campaign,direct,social,9,483
+S101105,2024-10-16 18:48:00,Lead Generation | DE | Form,google,social,7,306
+S101106,2024-10-06 15:02:00,Retargeting Campaign,organic,email,8,582
+S101107,2024-10-18 14:14:00,Brand Awareness Q4,facebook,social,5,317
+S101108,2024-10-11 20:30:00,Brand Awareness Q4,,,5,437
+S101109,2024-09-12 15:58:00,,,social,1,132
+S101110,2024-10-19 08:31:00,Brand Awareness Q4,organic,,6,502
+S101111,2024-10-07 13:55:00,Retargeting Campaign,,,8,132
+S101112,2024-09-24 16:46:00,Google Brand Campaign,facebook,email,3,69
+S101113,2024-09-10 10:29:00,,google,email,3,64
+S101114,2024-09-18 11:26:00,,linkedin,cpc,5,308
+S101115,2024-10-04 20:59:00,Brand Awareness Q4,organic,social,3,106
+S101116,2024-10-09 05:34:00,Retargeting Campaign,linkedin,,5,287
+S101117,2024-10-14 22:44:00,Retargeting Campaign,facebook,organic,10,370
+S101118,2024-10-23 04:00:00,Lead Generation | DE | Form,organic,email,6,506
+S101119,2024-09-27 10:58:00,Lead Generation | DE | Form,facebook,social,3,525
+S101120,2024-09-15 06:50:00,Google Brand Campaign,organic,,9,554
+S101121,2024-10-16 17:44:00,Brand Awareness Q4,direct,referral,2,129
+S101122,2024-10-23 04:59:00,Brand Awareness Q4,direct,email,5,381
+S101123,2024-09-09 14:56:00,Google Brand Campaign,organic,email,3,321
+S101124,2024-09-02 23:52:00,Brand Awareness Q4,google,social,3,242
+S101125,2024-09-20 04:13:00,Lead Generation | DE | Form,facebook,referral,2,89
+S101126,2024-09-02 15:48:00,Product Launch 2024,facebook,social,2,43
+S101127,2024-10-21 21:32:00,Google Brand Campaign,facebook,referral,2,269
+S101128,2024-09-03 02:19:00,,facebook,cpc,2,220
+S101129,2024-10-08 06:11:00,,linkedin,cpc,2,159
+S101130,2024-10-25 23:17:00,Google Brand Campaign,linkedin,email,3,522
+S101131,2024-10-20 23:39:00,Lead Generation | DE | Form,organic,organic,2,111
+S101132,2024-10-23 18:48:00,Brand Awareness Q4,organic,social,4,298
+S101133,2024-09-11 17:00:00,,facebook,social,9,496
+S101134,2024-09-24 22:37:00,Lead Generation | DE | Form,direct,,2,195
+S101135,2024-10-24 11:24:00,Product Launch 2024,google,organic,4,427
+S101136,2024-09-08 10:07:00,Product Launch 2024,facebook,organic,3,517
+S101137,2024-10-19 11:45:00,Retargeting Campaign,organic,,1,94
+S101138,2024-09-21 15:07:00,Product Launch 2024,linkedin,referral,10,329
+S101139,2024-10-14 14:14:00,Google Brand Campaign,direct,email,7,203
+S101140,2024-10-25 02:57:00,Product Launch 2024,,email,3,23
+S101141,2024-10-14 15:43:00,Brand Awareness Q4,direct,referral,9,97
+S101142,2024-09-08 04:25:00,Product Launch 2024,,organic,2,182
+S101143,2024-09-05 11:12:00,Retargeting Campaign,google,organic,7,135
+S101144,2024-09-15 13:46:00,Product Launch 2024,linkedin,,10,289
+S101145,2024-10-19 20:25:00,Retargeting Campaign,direct,,10,424
+S101146,2024-10-02 16:17:00,Lead Generation | DE | Form,direct,cpc,2,266
+S101147,2024-10-02 15:14:00,,google,cpc,2,64
+S101148,2024-10-24 02:31:00,,facebook,social,7,344
+S101149,2024-09-10 09:39:00,Google Brand Campaign,facebook,cpc,9,514
+S101150,2024-10-21 14:12:00,Retargeting Campaign,,referral,8,526
+S101151,2024-09-17 17:21:00,Google Brand Campaign,organic,cpc,1,450
+S101152,2024-10-27 03:24:00,Product Launch 2024,linkedin,referral,8,480
+S101153,2024-09-03 01:11:00,Google Brand Campaign,,email,3,513
+S101154,2024-09-28 04:19:00,,direct,referral,2,592
+S101155,2024-10-14 15:42:00,Google Brand Campaign,,organic,10,491
+S101156,2024-10-01 17:54:00,Lead Generation | DE | Form,organic,cpc,7,279
+S101157,2024-10-02 18:24:00,Google Brand Campaign,,email,5,338
+S101158,2024-09-04 00:37:00,Brand Awareness Q4,google,email,6,37
+S101159,2024-10-19 20:21:00,Product Launch 2024,facebook,referral,6,375
+S101160,2024-09-27 11:03:00,,google,social,4,329
+S101161,2024-10-08 02:58:00,,facebook,email,2,355
+S101162,2024-09-11 00:34:00,Retargeting Campaign,facebook,referral,7,591
+S101163,2024-10-03 13:17:00,Brand Awareness Q4,,referral,10,32
+S101164,2024-09-21 12:36:00,Product Launch 2024,linkedin,organic,2,510
+S101165,2024-09-07 22:43:00,Lead Generation | DE | Form,linkedin,referral,9,357
+S101166,2024-09-11 19:19:00,Retargeting Campaign,direct,social,8,87
+S101167,2024-10-24 17:13:00,Retargeting Campaign,linkedin,cpc,5,597
+S101168,2024-09-26 07:39:00,,facebook,,10,107
+S101169,2024-10-08 10:17:00,Brand Awareness Q4,organic,organic,8,447
+S101170,2024-09-14 11:50:00,Brand Awareness Q4,,email,9,317
+S101171,2024-09-28 21:34:00,Retargeting Campaign,google,referral,7,267
+S101172,2024-10-10 16:29:00,,organic,social,1,538
+S101173,2024-10-26 05:36:00,Product Launch 2024,google,,8,284
+S101174,2024-10-30 20:34:00,Google Brand Campaign,direct,organic,1,544
+S101175,2024-09-13 11:29:00,Lead Generation | DE | Form,google,social,5,455
+S101176,2024-09-27 10:55:00,Brand Awareness Q4,,social,7,283
+S101177,2024-10-23 09:41:00,Lead Generation | DE | Form,linkedin,,10,251
+S101178,2024-09-26 07:07:00,Lead Generation | DE | Form,google,cpc,4,327
+S101179,2024-09-30 15:35:00,Product Launch 2024,direct,,1,216
+S101180,2024-09-11 08:08:00,Brand Awareness Q4,linkedin,email,9,190
+S101181,2024-10-12 01:46:00,Product Launch 2024,facebook,cpc,2,331
+S101182,2024-10-09 09:55:00,Brand Awareness Q4,direct,email,2,416
+S101183,2024-10-24 23:53:00,Lead Generation | DE | Form,google,cpc,10,522
+S101184,2024-10-30 03:33:00,,organic,organic,5,518
+S101185,2024-10-27 02:15:00,Google Brand Campaign,facebook,email,6,409
+S101186,2024-10-22 23:47:00,Lead Generation | DE | Form,direct,social,3,119
+S101187,2024-09-12 06:17:00,Product Launch 2024,direct,email,10,67
+S101188,2024-10-02 17:23:00,,facebook,email,9,443
+S101189,2024-10-01 21:15:00,Retargeting Campaign,google,email,8,386
+S101190,2024-10-23 09:01:00,,organic,cpc,1,255
+S101191,2024-09-17 17:24:00,Retargeting Campaign,,,6,134
+S101192,2024-10-05 07:54:00,Product Launch 2024,direct,cpc,7,271
+S101193,2024-09-20 02:59:00,Lead Generation | DE | Form,linkedin,social,3,459
+S101194,2024-10-11 10:56:00,,direct,cpc,5,92
+S101195,2024-10-23 15:30:00,,direct,email,7,112
+S101196,2024-10-23 05:44:00,Retargeting Campaign,organic,cpc,6,440
+S101197,2024-10-09 23:52:00,Google Brand Campaign,,email,8,38
+S101198,2024-10-19 01:41:00,,google,,8,149
+S101199,2024-09-01 12:12:00,,linkedin,email,10,94
+S101200,2024-09-08 05:15:00,Google Brand Campaign,,,3,430
+S101201,2024-10-21 10:28:00,Product Launch 2024,,social,5,187
+S101202,2024-10-14 18:52:00,Retargeting Campaign,linkedin,social,2,434
+S101203,2024-09-24 05:25:00,Product Launch 2024,organic,social,1,33
+S101204,2024-10-30 17:41:00,Google Brand Campaign,,social,2,483
+S101205,2024-09-13 08:44:00,Lead Generation | DE | Form,facebook,referral,10,449
+S101206,2024-10-09 08:09:00,Brand Awareness Q4,linkedin,social,10,130
+S101207,2024-09-01 22:33:00,Product Launch 2024,direct,,8,131
+S101208,2024-09-15 22:13:00,Lead Generation | DE | Form,linkedin,email,8,401
+S101209,2024-09-09 13:54:00,Lead Generation | DE | Form,organic,social,5,203
+S101210,2024-09-27 05:26:00,Lead Generation | DE | Form,facebook,email,5,251
+S101211,2024-10-10 14:58:00,Lead Generation | DE | Form,linkedin,organic,8,97
+S101212,2024-09-01 15:08:00,Retargeting Campaign,,referral,4,402
+S101213,2024-10-16 13:47:00,Google Brand Campaign,linkedin,cpc,2,580
+S101214,2024-09-04 01:21:00,Lead Generation | DE | Form,direct,email,10,56
+S101215,2024-09-01 08:32:00,Google Brand Campaign,direct,email,7,389
+S101216,2024-09-09 17:02:00,Google Brand Campaign,google,email,3,525
+S101217,2024-10-02 10:56:00,Product Launch 2024,google,cpc,6,553
+S101218,2024-09-28 04:16:00,Brand Awareness Q4,linkedin,cpc,3,521
+S101219,2024-10-26 08:47:00,Retargeting Campaign,direct,email,5,280
+S101220,2024-10-04 10:27:00,Lead Generation | DE | Form,linkedin,,8,164
+S101221,2024-10-06 21:40:00,Product Launch 2024,facebook,social,3,65
+S101222,2024-09-15 05:02:00,Product Launch 2024,linkedin,social,8,456
+S101223,2024-09-08 15:02:00,Product Launch 2024,linkedin,,9,506
+S101224,2024-09-30 15:07:00,,google,cpc,6,105
+S101225,2024-09-14 09:11:00,Lead Generation | DE | Form,,organic,5,586
+S101226,2024-10-28 21:37:00,Lead Generation | DE | Form,organic,cpc,9,594
+S101227,2024-09-12 13:58:00,Brand Awareness Q4,google,referral,2,346
+S101228,2024-09-02 09:43:00,,facebook,referral,6,118
+S101229,2024-10-24 10:09:00,Brand Awareness Q4,facebook,referral,8,474
+S101230,2024-10-11 08:38:00,,facebook,email,1,473
+S101231,2024-09-21 23:46:00,Google Brand Campaign,google,social,1,299
+S101232,2024-09-21 01:47:00,Brand Awareness Q4,organic,organic,7,104
+S101233,2024-09-26 08:11:00,Lead Generation | DE | Form,direct,cpc,1,223
+S101234,2024-09-11 12:49:00,Product Launch 2024,linkedin,,3,133
+S101235,2024-09-20 15:51:00,Product Launch 2024,,email,10,144
+S101236,2024-09-23 21:06:00,Retargeting Campaign,organic,social,8,466
+S101237,2024-10-27 12:30:00,Retargeting Campaign,organic,organic,7,102
+S101238,2024-10-19 13:51:00,Retargeting Campaign,organic,social,7,446
+S101239,2024-09-06 01:32:00,Retargeting Campaign,direct,,4,168
+S101240,2024-10-30 15:33:00,,,organic,2,307
+S101241,2024-09-30 13:05:00,Product Launch 2024,linkedin,social,3,317
+S101242,2024-10-24 07:33:00,Product Launch 2024,linkedin,organic,1,574
+S101243,2024-09-05 01:32:00,Brand Awareness Q4,organic,referral,7,106
+S101244,2024-09-30 21:46:00,Google Brand Campaign,linkedin,email,5,93
+S101245,2024-10-20 16:01:00,Brand Awareness Q4,,,8,193
+S101246,2024-10-21 05:53:00,Product Launch 2024,facebook,cpc,7,314
+S101247,2024-09-21 18:46:00,Product Launch 2024,,referral,10,281
+S101248,2024-09-22 05:13:00,Lead Generation | DE | Form,facebook,,10,275
+S101249,2024-10-26 21:06:00,Product Launch 2024,organic,cpc,1,414
+S101250,2024-09-08 00:10:00,,direct,referral,7,508
+S101251,2024-09-20 19:52:00,Google Brand Campaign,linkedin,,7,319
+S101252,2024-09-06 04:08:00,Brand Awareness Q4,google,cpc,1,202
+S101253,2024-10-25 00:13:00,Product Launch 2024,,social,4,456
+S101254,2024-10-24 20:54:00,Google Brand Campaign,google,cpc,5,484
+S101255,2024-09-10 15:27:00,Brand Awareness Q4,facebook,social,3,465
+S101256,2024-10-02 15:01:00,Product Launch 2024,organic,social,4,311
+S101257,2024-10-07 12:03:00,Retargeting Campaign,facebook,cpc,7,435
+S101258,2024-10-25 15:47:00,Google Brand Campaign,organic,,9,307
+S101259,2024-09-03 15:25:00,Product Launch 2024,organic,organic,10,509
+S101260,2024-09-15 22:03:00,Google Brand Campaign,facebook,referral,10,333
+S101261,2024-10-06 02:17:00,,direct,referral,2,516
+S101262,2024-10-10 20:22:00,Product Launch 2024,,referral,1,175
+S101263,2024-09-19 23:12:00,Product Launch 2024,linkedin,referral,4,529
+S101264,2024-09-15 18:58:00,,linkedin,organic,8,144
+S101265,2024-10-27 09:46:00,,direct,referral,6,493
+S101266,2024-10-22 05:39:00,Lead Generation | DE | Form,linkedin,,2,504
+S101267,2024-09-09 05:12:00,Lead Generation | DE | Form,organic,referral,2,435
+S101268,2024-10-02 09:15:00,Lead Generation | DE | Form,organic,cpc,1,377
+S101269,2024-10-27 08:22:00,,google,social,9,42
+S101270,2024-10-22 02:21:00,Product Launch 2024,facebook,organic,4,133
+S101271,2024-10-06 07:31:00,Retargeting Campaign,linkedin,email,1,580
+S101272,2024-09-18 04:54:00,,organic,organic,2,61
+S101273,2024-10-30 14:51:00,Product Launch 2024,facebook,cpc,10,114
+S101274,2024-10-23 17:02:00,Google Brand Campaign,facebook,social,2,220
+S101275,2024-10-29 11:10:00,,linkedin,,8,528
+S101276,2024-10-02 23:55:00,Brand Awareness Q4,google,,6,352
+S101277,2024-10-23 04:07:00,Lead Generation | DE | Form,direct,referral,1,261
+S101278,2024-10-24 15:21:00,Retargeting Campaign,organic,social,2,282
+S101279,2024-09-24 22:48:00,Product Launch 2024,linkedin,,4,165
+S101280,2024-10-19 16:26:00,Lead Generation | DE | Form,google,referral,7,429
+S101281,2024-10-28 14:54:00,Google Brand Campaign,,email,1,463
+S101282,2024-09-10 00:45:00,Google Brand Campaign,facebook,cpc,6,332
+S101283,2024-09-26 05:27:00,Brand Awareness Q4,direct,cpc,3,598
+S101284,2024-09-04 20:45:00,,organic,email,7,421
+S101285,2024-10-27 21:44:00,Google Brand Campaign,linkedin,,6,362
+S101286,2024-09-01 08:57:00,Google Brand Campaign,organic,social,7,466
+S101287,2024-10-12 06:56:00,Google Brand Campaign,organic,organic,8,363
+S101288,2024-10-27 20:25:00,Lead Generation | DE | Form,linkedin,cpc,1,560
+S101289,2024-09-22 12:46:00,,,social,9,563
+S101290,2024-09-19 06:05:00,Google Brand Campaign,organic,email,9,358
+S101291,2024-10-19 20:10:00,Brand Awareness Q4,facebook,organic,10,274
+S101292,2024-09-16 09:46:00,Product Launch 2024,organic,cpc,1,391
+S101293,2024-09-17 20:32:00,Retargeting Campaign,facebook,cpc,2,469
+S101294,2024-09-20 18:47:00,Brand Awareness Q4,direct,email,4,589
+S101295,2024-10-16 20:42:00,Google Brand Campaign,organic,social,6,316
+S101296,2024-09-19 21:50:00,,organic,,3,396
+S101297,2024-10-04 23:15:00,Brand Awareness Q4,linkedin,organic,10,207
+S101298,2024-10-23 11:29:00,Brand Awareness Q4,google,,7,431
+S101299,2024-09-06 02:03:00,Product Launch 2024,google,referral,4,466
+S101300,2024-09-05 11:43:00,Google Brand Campaign,direct,organic,9,541
+S101301,2024-10-20 12:55:00,Retargeting Campaign,organic,referral,7,460
+S101302,2024-10-15 15:46:00,Product Launch 2024,google,social,9,140
+S101303,2024-10-02 22:29:00,Lead Generation | DE | Form,,organic,9,130
+S101304,2024-10-15 06:29:00,Product Launch 2024,facebook,,3,582
+S101305,2024-09-24 03:38:00,Product Launch 2024,facebook,cpc,6,595
+S101306,2024-09-19 01:33:00,Lead Generation | DE | Form,facebook,email,5,393
+S101307,2024-09-20 09:31:00,Brand Awareness Q4,google,social,10,441
+S101308,2024-09-04 09:56:00,Retargeting Campaign,google,social,8,12
+S101309,2024-09-08 17:22:00,Brand Awareness Q4,facebook,referral,8,596
+S101310,2024-09-20 18:28:00,Retargeting Campaign,direct,referral,10,145
+S101311,2024-10-19 04:32:00,,direct,referral,8,162
+S101312,2024-10-26 23:20:00,Brand Awareness Q4,organic,,10,429
+S101313,2024-09-25 07:57:00,Product Launch 2024,linkedin,organic,1,463
+S101314,2024-10-18 08:41:00,Brand Awareness Q4,google,,1,595
+S101315,2024-10-11 22:19:00,Google Brand Campaign,,cpc,9,97
+S101316,2024-09-13 19:34:00,Google Brand Campaign,facebook,organic,9,203
+S101317,2024-10-19 15:32:00,Brand Awareness Q4,facebook,,9,194
+S101318,2024-09-02 08:50:00,Lead Generation | DE | Form,google,,10,464
+S101319,2024-09-06 17:38:00,Retargeting Campaign,direct,organic,1,513
+S101320,2024-10-26 00:21:00,Product Launch 2024,google,referral,1,550
+S101321,2024-09-21 12:16:00,Brand Awareness Q4,facebook,cpc,9,182
+S101322,2024-09-19 04:11:00,Retargeting Campaign,facebook,social,5,427
+S101323,2024-10-14 05:03:00,Google Brand Campaign,linkedin,social,1,69
+S101324,2024-09-20 12:06:00,Retargeting Campaign,google,referral,6,274
+S101325,2024-09-25 03:03:00,Lead Generation | DE | Form,google,organic,10,252
+S101326,2024-10-02 16:48:00,Google Brand Campaign,direct,cpc,5,72
+S101327,2024-09-21 14:35:00,Product Launch 2024,facebook,referral,1,427
+S101328,2024-10-11 07:58:00,Brand Awareness Q4,linkedin,organic,10,113
+S101329,2024-09-16 17:41:00,Lead Generation | DE | Form,linkedin,organic,7,466
+S101330,2024-09-06 20:32:00,Lead Generation | DE | Form,google,email,9,182
+S101331,2024-10-21 07:34:00,Product Launch 2024,organic,referral,1,11
+S101332,2024-10-23 14:53:00,Google Brand Campaign,linkedin,,3,10
+S101333,2024-09-04 15:17:00,Google Brand Campaign,linkedin,,7,369
+S101334,2024-10-24 20:13:00,Google Brand Campaign,organic,email,1,175
+S101335,2024-10-18 17:36:00,Brand Awareness Q4,linkedin,cpc,7,135
+S101336,2024-10-24 04:46:00,Google Brand Campaign,linkedin,referral,4,526
+S101337,2024-10-22 10:56:00,,linkedin,,5,473
+S101338,2024-09-18 07:42:00,Retargeting Campaign,linkedin,social,8,346
+S101339,2024-09-02 22:08:00,,facebook,organic,8,14
+S101340,2024-10-28 00:43:00,Lead Generation | DE | Form,direct,organic,8,412
+S101341,2024-10-05 02:50:00,,,cpc,9,41
+S101342,2024-10-28 21:28:00,,facebook,email,7,376
+S101343,2024-09-25 05:53:00,,facebook,cpc,8,389
+S101344,2024-10-30 06:28:00,Brand Awareness Q4,google,,1,297
+S101345,2024-10-14 22:22:00,Lead Generation | DE | Form,facebook,organic,5,236
+S101346,2024-09-15 15:23:00,Brand Awareness Q4,linkedin,referral,10,224
+S101347,2024-09-01 06:52:00,,direct,cpc,5,592
+S101348,2024-10-03 15:10:00,Google Brand Campaign,google,,10,588
+S101349,2024-09-12 02:37:00,Lead Generation | DE | Form,,cpc,3,275
+S101350,2024-10-30 18:54:00,Lead Generation | DE | Form,organic,,5,206
+S101351,2024-10-25 21:01:00,,,organic,10,268
+S101352,2024-10-14 17:56:00,Product Launch 2024,facebook,referral,1,340
+S101353,2024-09-28 13:17:00,Brand Awareness Q4,,organic,8,517
+S101354,2024-09-24 16:48:00,Brand Awareness Q4,,social,1,294
+S101355,2024-10-29 13:34:00,Product Launch 2024,linkedin,cpc,7,209
+S101356,2024-09-22 02:56:00,Google Brand Campaign,facebook,,4,443
+S101357,2024-09-05 07:12:00,Lead Generation | DE | Form,linkedin,email,2,109
+S101358,2024-09-02 15:27:00,Brand Awareness Q4,organic,,6,266
+S101359,2024-09-16 03:30:00,Lead Generation | DE | Form,linkedin,cpc,6,542
+S101360,2024-10-21 07:04:00,Google Brand Campaign,organic,referral,2,467
+S101361,2024-10-08 03:05:00,Brand Awareness Q4,facebook,referral,6,76
+S101362,2024-10-21 04:03:00,Product Launch 2024,facebook,email,10,452
+S101363,2024-09-05 03:43:00,Brand Awareness Q4,organic,cpc,5,400
+S101364,2024-09-26 03:39:00,Product Launch 2024,google,organic,10,20
+S101365,2024-09-30 12:29:00,Product Launch 2024,organic,organic,2,357
+S101366,2024-10-12 21:50:00,Brand Awareness Q4,direct,organic,6,207
+S101367,2024-09-07 03:00:00,Google Brand Campaign,,cpc,10,208
+S101368,2024-10-28 18:08:00,,organic,email,6,441
+S101369,2024-10-01 23:39:00,Product Launch 2024,google,social,3,55
+S101370,2024-09-04 04:19:00,Google Brand Campaign,direct,organic,6,328
+S101371,2024-10-08 17:49:00,Lead Generation | DE | Form,google,referral,5,361
+S101372,2024-09-19 11:00:00,Google Brand Campaign,organic,,3,68
+S101373,2024-09-16 16:52:00,Google Brand Campaign,facebook,referral,6,210
+S101374,2024-09-13 20:58:00,Lead Generation | DE | Form,facebook,email,4,497
+S101375,2024-10-15 22:29:00,Google Brand Campaign,,email,10,589
+S101376,2024-09-22 19:19:00,Product Launch 2024,linkedin,social,2,475
+S101377,2024-10-27 01:31:00,Lead Generation | DE | Form,facebook,,4,245
+S101378,2024-09-30 19:13:00,Lead Generation | DE | Form,direct,,6,394
+S101379,2024-09-14 12:11:00,Brand Awareness Q4,linkedin,cpc,2,376
+S101380,2024-09-02 17:07:00,Lead Generation | DE | Form,linkedin,referral,4,378
+S101381,2024-09-03 00:12:00,Lead Generation | DE | Form,linkedin,social,4,278
+S101382,2024-10-17 05:21:00,Google Brand Campaign,google,social,4,32
+S101383,2024-09-12 08:58:00,Brand Awareness Q4,facebook,,3,398
+S101384,2024-10-12 03:21:00,Lead Generation | DE | Form,linkedin,referral,4,388
+S101385,2024-10-22 11:42:00,Lead Generation | DE | Form,organic,organic,7,76
+S101386,2024-09-08 04:56:00,Lead Generation | DE | Form,google,social,9,397
+S101387,2024-10-15 11:20:00,Google Brand Campaign,direct,,4,57
+S101388,2024-10-19 19:37:00,Lead Generation | DE | Form,organic,email,3,345
+S101389,2024-09-16 01:40:00,Retargeting Campaign,google,organic,10,510
+S101390,2024-09-14 23:05:00,Product Launch 2024,,organic,2,181
+S101391,2024-10-03 12:48:00,,organic,email,8,541
+S101392,2024-09-30 05:20:00,,linkedin,organic,8,516
+S101393,2024-10-01 08:37:00,Product Launch 2024,,organic,1,222
+S101394,2024-09-15 06:28:00,Lead Generation | DE | Form,direct,social,5,445
+S101395,2024-10-27 12:36:00,Lead Generation | DE | Form,linkedin,email,9,96
+S101396,2024-09-09 02:18:00,Product Launch 2024,organic,email,4,52
+S101397,2024-09-30 16:39:00,Retargeting Campaign,direct,referral,8,452
+S101398,2024-09-27 11:51:00,Product Launch 2024,linkedin,email,7,35
+S101399,2024-09-12 14:14:00,Retargeting Campaign,,cpc,6,94
+S101400,2024-09-19 16:32:00,Google Brand Campaign,,cpc,5,243
+S101401,2024-09-07 03:04:00,Retargeting Campaign,facebook,organic,4,351
+S101402,2024-09-13 21:21:00,Retargeting Campaign,linkedin,,5,205
+S101403,2024-10-16 19:08:00,,,organic,5,18
+S101404,2024-10-20 09:18:00,Retargeting Campaign,direct,referral,10,22
+S101405,2024-10-01 20:32:00,Lead Generation | DE | Form,direct,social,4,224
+S101406,2024-10-01 07:33:00,Google Brand Campaign,organic,referral,8,358
+S101407,2024-10-21 02:20:00,Lead Generation | DE | Form,direct,,7,224
+S101408,2024-09-29 14:54:00,Google Brand Campaign,facebook,email,3,141
+S101409,2024-09-20 23:00:00,Product Launch 2024,,email,6,240
+S101410,2024-09-27 13:43:00,Product Launch 2024,,organic,5,343
+S101411,2024-10-08 00:36:00,Brand Awareness Q4,google,social,6,591
+S101412,2024-10-11 19:58:00,Google Brand Campaign,organic,referral,7,219
+S101413,2024-09-26 02:34:00,Product Launch 2024,google,referral,2,346
+S101414,2024-10-07 14:40:00,Retargeting Campaign,facebook,social,2,576
+S101415,2024-09-12 01:52:00,,organic,referral,1,201
+S101416,2024-09-13 02:58:00,Product Launch 2024,linkedin,social,4,308
+S101417,2024-10-13 16:04:00,Product Launch 2024,facebook,email,9,21
+S101418,2024-09-11 10:55:00,Product Launch 2024,direct,social,2,142
+S101419,2024-10-05 13:30:00,,facebook,referral,4,143
+S101420,2024-10-26 06:19:00,Product Launch 2024,,,8,172
+S101421,2024-10-09 18:19:00,Google Brand Campaign,google,organic,8,292
+S101422,2024-09-13 00:09:00,Product Launch 2024,facebook,referral,10,262
+S101423,2024-10-04 10:58:00,Google Brand Campaign,direct,referral,8,599
+S101424,2024-09-03 23:05:00,Retargeting Campaign,,referral,6,314
+S101425,2024-09-26 19:52:00,Lead Generation | DE | Form,direct,social,3,452
+S101426,2024-09-30 12:58:00,,google,,10,107
+S101427,2024-09-26 22:02:00,Lead Generation | DE | Form,google,email,9,308
+S101428,2024-10-13 02:44:00,,,social,8,431
+S101429,2024-10-19 17:07:00,Retargeting Campaign,facebook,cpc,9,343
+S101430,2024-09-27 14:10:00,Retargeting Campaign,google,organic,1,483
+S101431,2024-09-02 02:40:00,,,,8,400
+S101432,2024-09-22 23:25:00,Lead Generation | DE | Form,direct,cpc,1,266
+S101433,2024-09-08 22:58:00,Lead Generation | DE | Form,linkedin,,8,506
+S101434,2024-09-30 02:05:00,Google Brand Campaign,,social,8,153
+S101435,2024-10-01 08:53:00,Lead Generation | DE | Form,google,cpc,10,112
+S101436,2024-09-12 09:07:00,Google Brand Campaign,,referral,3,89
+S101437,2024-10-13 00:43:00,Retargeting Campaign,google,referral,6,192
+S101438,2024-09-14 22:02:00,,organic,social,8,58
+S101439,2024-10-24 20:51:00,Google Brand Campaign,,,2,409
+S101440,2024-10-15 09:28:00,Brand Awareness Q4,organic,cpc,1,396
+S101441,2024-10-20 06:59:00,Lead Generation | DE | Form,linkedin,social,4,103
+S101442,2024-09-02 13:01:00,Brand Awareness Q4,linkedin,social,2,235
+S101443,2024-10-27 03:51:00,,google,,3,55
+S101444,2024-09-27 16:06:00,Retargeting Campaign,linkedin,organic,4,222
+S101445,2024-10-30 17:25:00,Product Launch 2024,facebook,social,4,118
+S101446,2024-09-23 10:11:00,Brand Awareness Q4,direct,,6,22
+S101447,2024-09-25 06:29:00,Lead Generation | DE | Form,facebook,,5,387
+S101448,2024-09-03 02:56:00,Lead Generation | DE | Form,direct,email,10,521
+S101449,2024-09-07 22:34:00,Google Brand Campaign,google,email,2,342
+S101450,2024-10-11 22:24:00,,,social,6,189
+S101451,2024-10-11 22:20:00,,direct,cpc,6,28
+S101452,2024-10-09 18:28:00,Product Launch 2024,organic,,4,525
+S101453,2024-10-08 22:00:00,Lead Generation | DE | Form,facebook,organic,2,326
+S101454,2024-09-16 23:27:00,Lead Generation | DE | Form,organic,cpc,1,150
+S101455,2024-09-24 15:18:00,Lead Generation | DE | Form,google,referral,4,48
+S101456,2024-09-16 23:38:00,Product Launch 2024,,email,3,294
+S101457,2024-09-21 20:50:00,Brand Awareness Q4,organic,referral,5,34
+S101458,2024-09-15 23:21:00,Retargeting Campaign,google,social,9,65
+S101459,2024-10-29 21:15:00,,,,4,400
+S101460,2024-10-04 10:11:00,Product Launch 2024,,cpc,2,513
+S101461,2024-09-05 06:03:00,,google,social,3,103
+S101462,2024-09-12 18:35:00,Lead Generation | DE | Form,google,organic,2,446
+S101463,2024-10-17 14:19:00,Lead Generation | DE | Form,,social,4,444
+S101464,2024-09-12 19:15:00,Retargeting Campaign,linkedin,organic,8,216
+S101465,2024-09-18 15:05:00,Retargeting Campaign,direct,referral,3,492
+S101466,2024-09-29 13:32:00,Google Brand Campaign,,referral,3,503
+S101467,2024-09-02 12:27:00,Brand Awareness Q4,linkedin,organic,9,166
+S101468,2024-10-06 23:11:00,Retargeting Campaign,direct,referral,5,474
+S101469,2024-09-19 12:35:00,Google Brand Campaign,direct,cpc,6,149
+S101470,2024-10-16 15:12:00,Lead Generation | DE | Form,google,cpc,1,522
+S101471,2024-10-17 23:23:00,Product Launch 2024,direct,referral,7,392
+S101472,2024-09-25 15:19:00,,organic,cpc,7,49
+S101473,2024-10-29 03:24:00,Google Brand Campaign,google,social,7,271
+S101474,2024-10-20 23:22:00,Google Brand Campaign,,referral,6,69
+S101475,2024-10-12 12:59:00,Product Launch 2024,,social,4,499
+S101476,2024-09-03 11:40:00,,,cpc,3,277
+S101477,2024-10-09 14:43:00,Lead Generation | DE | Form,linkedin,social,10,175
+S101478,2024-09-01 03:49:00,Brand Awareness Q4,,,7,417
+S101479,2024-10-16 18:57:00,Brand Awareness Q4,organic,social,7,179
+S101480,2024-10-24 13:16:00,,linkedin,organic,9,401
+S101481,2024-10-08 09:46:00,Product Launch 2024,,cpc,2,596
+S101482,2024-10-20 11:52:00,Lead Generation | DE | Form,linkedin,,4,417
+S101483,2024-10-15 09:00:00,Lead Generation | DE | Form,direct,cpc,2,81
+S101484,2024-10-20 22:26:00,Google Brand Campaign,direct,,5,451
+S101485,2024-09-11 05:23:00,Lead Generation | DE | Form,,social,4,508
+S101486,2024-09-12 16:07:00,Product Launch 2024,organic,social,3,215
+S101487,2024-09-04 23:11:00,Lead Generation | DE | Form,linkedin,referral,8,121
+S101488,2024-10-26 20:10:00,Brand Awareness Q4,linkedin,cpc,7,137
+S101489,2024-09-18 02:21:00,Brand Awareness Q4,organic,social,8,506
+S101490,2024-10-14 03:00:00,Brand Awareness Q4,linkedin,cpc,10,52
+S101491,2024-09-07 06:33:00,Brand Awareness Q4,direct,organic,9,282
+S101492,2024-10-30 15:30:00,Retargeting Campaign,organic,referral,6,389
+S101493,2024-10-14 10:20:00,Lead Generation | DE | Form,linkedin,,7,397
+S101494,2024-10-10 01:22:00,Retargeting Campaign,facebook,cpc,8,421
+S101495,2024-10-17 04:01:00,Google Brand Campaign,facebook,organic,5,264
+S101496,2024-09-24 14:39:00,,,referral,9,433
+S101497,2024-10-13 06:00:00,,linkedin,cpc,6,56
+S101498,2024-10-22 23:20:00,,direct,social,10,506
+S101499,2024-09-26 23:39:00,Brand Awareness Q4,linkedin,referral,8,112
+S101500,2024-10-17 12:18:00,Google Brand Campaign,google,,3,542
+S101501,2024-10-27 18:50:00,,organic,cpc,3,519
+S101502,2024-10-21 02:19:00,,organic,referral,3,466
+S101503,2024-09-08 15:42:00,Google Brand Campaign,google,social,4,184
+S101504,2024-10-19 21:44:00,Brand Awareness Q4,facebook,referral,1,174
+S101505,2024-10-30 10:57:00,Product Launch 2024,linkedin,social,5,497
+S101506,2024-10-28 21:07:00,,google,organic,8,102
+S101507,2024-10-21 22:21:00,Lead Generation | DE | Form,organic,organic,2,361
+S101508,2024-09-25 22:47:00,,,referral,9,457
+S101509,2024-10-22 07:14:00,Retargeting Campaign,facebook,email,2,124
+S101510,2024-09-06 10:47:00,Google Brand Campaign,google,,2,596
+S101511,2024-09-24 04:54:00,Retargeting Campaign,direct,organic,1,328
+S101512,2024-09-04 18:34:00,Lead Generation | DE | Form,direct,referral,6,383
+S101513,2024-10-22 21:59:00,Lead Generation | DE | Form,organic,,10,237
+S101514,2024-09-07 12:00:00,Google Brand Campaign,direct,email,3,313
+S101515,2024-10-24 07:31:00,,direct,social,10,300
+S101516,2024-09-10 23:42:00,,facebook,organic,6,326
+S101517,2024-10-03 22:07:00,Retargeting Campaign,,organic,8,230
+S101518,2024-10-02 09:45:00,Product Launch 2024,facebook,email,3,225
+S101519,2024-10-25 23:59:00,Lead Generation | DE | Form,,,1,193
+S101520,2024-10-25 15:46:00,Product Launch 2024,linkedin,,3,32
+S101521,2024-10-06 12:21:00,Product Launch 2024,,referral,6,410
+S101522,2024-09-26 02:33:00,,linkedin,email,4,571
+S101523,2024-09-26 03:08:00,Retargeting Campaign,organic,cpc,5,478
+S101524,2024-10-12 05:36:00,Lead Generation | DE | Form,direct,,8,308
+S101525,2024-10-28 04:13:00,Lead Generation | DE | Form,,social,1,380
+S101526,2024-10-17 18:06:00,,google,referral,7,182
+S101527,2024-10-30 01:06:00,Retargeting Campaign,direct,social,1,130
+S101528,2024-10-03 20:21:00,Google Brand Campaign,direct,social,7,260
+S101529,2024-09-03 03:15:00,Product Launch 2024,direct,email,10,186
+S101530,2024-10-12 23:24:00,,,,2,484
+S101531,2024-10-26 20:24:00,Retargeting Campaign,,,8,386
+S101532,2024-09-01 03:07:00,Brand Awareness Q4,facebook,referral,9,240
+S101533,2024-09-02 18:36:00,Google Brand Campaign,direct,email,2,195
+S101534,2024-09-25 15:41:00,,direct,email,10,138
+S101535,2024-09-07 10:04:00,,organic,social,7,30
+S101536,2024-09-26 17:52:00,Google Brand Campaign,organic,referral,2,541
+S101537,2024-10-24 18:34:00,,,cpc,4,130
+S101538,2024-09-12 19:44:00,Lead Generation | DE | Form,facebook,organic,8,331
+S101539,2024-09-08 01:08:00,Google Brand Campaign,google,,3,99
+S101540,2024-10-06 08:54:00,Brand Awareness Q4,facebook,cpc,9,315
+S101541,2024-09-24 17:10:00,Product Launch 2024,,cpc,4,317
+S101542,2024-09-03 16:57:00,Retargeting Campaign,,organic,8,153
+S101543,2024-10-07 15:44:00,Retargeting Campaign,organic,email,10,561
+S101544,2024-10-03 06:44:00,Brand Awareness Q4,,cpc,4,47
+S101545,2024-09-13 04:19:00,Lead Generation | DE | Form,google,organic,9,231
+S101546,2024-10-08 11:17:00,Lead Generation | DE | Form,,organic,7,86
+S101547,2024-10-06 08:16:00,Product Launch 2024,,social,7,477
+S101548,2024-09-06 08:43:00,Product Launch 2024,,social,9,218
+S101549,2024-09-05 20:46:00,Retargeting Campaign,,,4,391
+S101550,2024-10-07 21:41:00,Google Brand Campaign,organic,social,7,167
+S101551,2024-09-21 13:24:00,Brand Awareness Q4,organic,social,2,286
+S101552,2024-09-08 17:07:00,,organic,referral,2,347
+S101553,2024-10-11 02:23:00,Retargeting Campaign,linkedin,social,4,290
+S101554,2024-09-01 03:24:00,Lead Generation | DE | Form,direct,cpc,2,189
+S101555,2024-10-04 23:56:00,Retargeting Campaign,organic,referral,2,551
+S101556,2024-09-23 22:36:00,Retargeting Campaign,organic,email,10,111
+S101557,2024-10-28 01:10:00,Retargeting Campaign,direct,social,6,554
+S101558,2024-10-06 19:56:00,Product Launch 2024,direct,organic,3,275
+S101559,2024-09-01 21:32:00,,google,,3,156
+S101560,2024-09-25 18:47:00,Retargeting Campaign,facebook,,6,265
+S101561,2024-10-14 19:26:00,,direct,social,8,372
+S101562,2024-10-22 14:32:00,Retargeting Campaign,linkedin,referral,9,244
+S101563,2024-09-20 20:54:00,Brand Awareness Q4,linkedin,referral,6,102
+S101564,2024-10-11 02:04:00,,google,cpc,3,599
+S101565,2024-09-04 02:47:00,Retargeting Campaign,organic,referral,1,444
+S101566,2024-10-14 16:59:00,,google,referral,8,537
+S101567,2024-10-14 21:56:00,Google Brand Campaign,,cpc,7,24
+S101568,2024-10-10 06:58:00,,facebook,,7,557
+S101569,2024-10-18 11:15:00,,,organic,10,53
+S101570,2024-10-09 14:10:00,,organic,social,3,86
+S101571,2024-09-24 04:32:00,Retargeting Campaign,facebook,referral,8,398
+S101572,2024-09-11 11:07:00,Retargeting Campaign,,social,9,130
+S101573,2024-09-19 09:30:00,Retargeting Campaign,linkedin,social,1,592
+S101574,2024-09-26 06:59:00,Retargeting Campaign,,organic,1,484
+S101575,2024-10-28 19:54:00,Product Launch 2024,facebook,email,1,481
+S101576,2024-09-22 09:22:00,Brand Awareness Q4,facebook,email,3,421
+S101577,2024-09-23 00:06:00,Product Launch 2024,direct,social,2,551
+S101578,2024-10-03 04:26:00,Brand Awareness Q4,direct,cpc,3,266
+S101579,2024-09-15 15:25:00,Retargeting Campaign,linkedin,email,7,196
+S101580,2024-10-05 08:06:00,Product Launch 2024,,referral,3,153
+S101581,2024-09-23 23:27:00,Brand Awareness Q4,linkedin,,4,123
+S101582,2024-09-13 09:02:00,Lead Generation | DE | Form,direct,referral,6,42
+S101583,2024-09-11 21:12:00,Product Launch 2024,,email,2,441
+S101584,2024-10-02 17:31:00,,,social,6,419
+S101585,2024-10-03 23:59:00,,direct,social,2,120
+S101586,2024-10-21 00:08:00,Lead Generation | DE | Form,linkedin,organic,1,252
+S101587,2024-09-04 21:53:00,Retargeting Campaign,direct,organic,1,454
+S101588,2024-10-01 09:18:00,Product Launch 2024,facebook,referral,4,166
+S101589,2024-10-17 16:11:00,Lead Generation | DE | Form,linkedin,cpc,5,263
+S101590,2024-10-13 13:12:00,Product Launch 2024,,cpc,9,195
+S101591,2024-09-13 18:40:00,,google,social,2,145
+S101592,2024-09-26 01:17:00,Lead Generation | DE | Form,google,referral,1,214
+S101593,2024-09-06 01:24:00,Product Launch 2024,organic,email,4,237
+S101594,2024-09-22 13:30:00,Brand Awareness Q4,organic,referral,1,321
+S101595,2024-09-08 08:23:00,Retargeting Campaign,linkedin,,7,262
+S101596,2024-09-21 01:11:00,Brand Awareness Q4,facebook,cpc,6,227
+S101597,2024-09-19 15:17:00,Google Brand Campaign,facebook,referral,3,268
+S101598,2024-10-02 11:21:00,Retargeting Campaign,facebook,cpc,1,575
+S101599,2024-10-20 04:21:00,Retargeting Campaign,,email,10,551
+S101600,2024-10-09 11:15:00,,linkedin,social,10,403
+S101601,2024-09-06 03:08:00,,,organic,2,52
+S101602,2024-10-08 20:52:00,Lead Generation | DE | Form,google,,8,111
+S101603,2024-09-05 17:39:00,Retargeting Campaign,linkedin,,8,216
+S101604,2024-10-05 23:09:00,Brand Awareness Q4,google,social,7,573
+S101605,2024-10-16 08:57:00,Google Brand Campaign,linkedin,email,8,130
+S101606,2024-10-29 13:04:00,Product Launch 2024,direct,organic,9,32
+S101607,2024-09-11 19:17:00,,google,email,1,589
+S101608,2024-09-04 22:12:00,,direct,referral,9,535
+S101609,2024-09-05 05:28:00,Google Brand Campaign,direct,organic,7,420
+S101610,2024-10-09 08:13:00,Lead Generation | DE | Form,facebook,social,10,233
+S101611,2024-10-08 22:00:00,Google Brand Campaign,direct,organic,9,275
+S101612,2024-09-20 07:18:00,,linkedin,organic,2,185
+S101613,2024-09-15 01:34:00,Lead Generation | DE | Form,linkedin,cpc,3,294
+S101614,2024-10-30 04:17:00,Brand Awareness Q4,,social,4,557
+S101615,2024-09-08 00:41:00,Retargeting Campaign,,organic,6,342
+S101616,2024-09-06 22:56:00,Google Brand Campaign,linkedin,,3,428
+S101617,2024-10-28 19:18:00,Retargeting Campaign,facebook,,1,374
+S101618,2024-09-15 23:17:00,Lead Generation | DE | Form,linkedin,cpc,9,118
+S101619,2024-10-17 23:44:00,Product Launch 2024,,email,10,574
+S101620,2024-09-14 14:14:00,Retargeting Campaign,linkedin,social,10,414
+S101621,2024-09-10 14:14:00,,,referral,6,161
+S101622,2024-10-28 15:05:00,Product Launch 2024,google,referral,3,190
+S101623,2024-09-13 18:31:00,,google,,5,31
+S101624,2024-09-20 05:56:00,Lead Generation | DE | Form,direct,,10,202
+S101625,2024-09-05 04:04:00,Product Launch 2024,google,referral,7,112
+S101626,2024-10-17 16:08:00,,facebook,organic,2,396
+S101627,2024-09-25 00:07:00,Brand Awareness Q4,,cpc,3,264
+S101628,2024-10-20 02:17:00,Lead Generation | DE | Form,,organic,1,19
+S101629,2024-10-21 03:34:00,,linkedin,,2,217
+S101630,2024-09-09 15:48:00,Google Brand Campaign,direct,social,5,349
+S101631,2024-10-01 04:15:00,Brand Awareness Q4,organic,,5,566
+S101632,2024-09-08 00:52:00,Brand Awareness Q4,facebook,organic,5,115
+S101633,2024-10-03 13:09:00,Brand Awareness Q4,google,cpc,4,447
+S101634,2024-09-25 04:22:00,,linkedin,social,7,125
+S101635,2024-10-02 05:07:00,Lead Generation | DE | Form,facebook,email,6,88
+S101636,2024-10-10 10:07:00,Retargeting Campaign,facebook,cpc,10,164
+S101637,2024-09-12 13:33:00,Retargeting Campaign,organic,social,7,163
+S101638,2024-10-28 21:43:00,Retargeting Campaign,organic,email,6,116
+S101639,2024-09-18 15:42:00,Retargeting Campaign,linkedin,,2,12
+S101640,2024-10-26 04:49:00,,google,email,3,409
+S101641,2024-09-29 23:50:00,Product Launch 2024,facebook,cpc,10,447
+S101642,2024-10-17 08:09:00,Brand Awareness Q4,linkedin,social,3,404
+S101643,2024-09-23 10:31:00,Product Launch 2024,direct,,7,351
+S101644,2024-09-09 20:58:00,Lead Generation | DE | Form,direct,referral,9,519
+S101645,2024-10-05 17:31:00,Google Brand Campaign,organic,social,7,95
+S101646,2024-10-08 22:26:00,Google Brand Campaign,organic,,4,99
+S101647,2024-09-16 11:00:00,Lead Generation | DE | Form,facebook,email,9,495
+S101648,2024-09-09 03:03:00,Retargeting Campaign,linkedin,social,5,481
+S101649,2024-09-10 17:59:00,Product Launch 2024,google,social,4,67
+S101650,2024-10-18 04:07:00,,,social,7,36
+S101651,2024-10-15 13:23:00,Brand Awareness Q4,,cpc,10,85
+S101652,2024-10-01 19:55:00,Lead Generation | DE | Form,facebook,social,6,154
+S101653,2024-09-06 07:04:00,Brand Awareness Q4,organic,referral,3,196
+S101654,2024-10-01 23:08:00,,organic,,5,491
+S101655,2024-09-27 23:21:00,Product Launch 2024,,,1,303
+S101656,2024-09-08 04:03:00,,facebook,organic,3,525
+S101657,2024-09-11 00:25:00,Product Launch 2024,,referral,9,274
+S101658,2024-10-29 18:32:00,Retargeting Campaign,,social,7,170
+S101659,2024-09-18 02:33:00,Product Launch 2024,google,,4,420
+S101660,2024-10-10 01:14:00,Product Launch 2024,google,,9,89
+S101661,2024-10-23 22:29:00,Product Launch 2024,linkedin,,7,399
+S101662,2024-09-11 01:51:00,Retargeting Campaign,,referral,4,286
+S101663,2024-09-07 03:04:00,Retargeting Campaign,organic,email,1,255
+S101664,2024-09-19 05:34:00,Brand Awareness Q4,facebook,social,10,21
+S101665,2024-10-19 09:12:00,Google Brand Campaign,google,,1,256
+S101666,2024-09-18 02:36:00,Google Brand Campaign,facebook,organic,8,56
+S101667,2024-09-04 10:05:00,Retargeting Campaign,facebook,email,5,417
+S101668,2024-10-03 06:20:00,Product Launch 2024,,email,3,109
+S101669,2024-09-22 13:57:00,,organic,cpc,9,163
+S101670,2024-09-02 18:50:00,Product Launch 2024,direct,organic,1,307
+S101671,2024-09-11 04:43:00,Product Launch 2024,facebook,,2,247
+S101672,2024-10-27 06:51:00,,,social,3,523
+S101673,2024-10-04 23:38:00,,organic,email,8,144
+S101674,2024-09-22 09:23:00,Google Brand Campaign,direct,cpc,7,254
+S101675,2024-09-14 19:38:00,Brand Awareness Q4,google,organic,8,109
+S101676,2024-10-22 00:09:00,Retargeting Campaign,organic,cpc,8,106
+S101677,2024-09-30 10:10:00,Retargeting Campaign,google,cpc,5,600
+S101678,2024-09-24 11:05:00,Brand Awareness Q4,google,,8,274
+S101679,2024-10-01 08:48:00,Product Launch 2024,,social,2,592
+S101680,2024-10-02 01:23:00,Retargeting Campaign,direct,referral,10,142
+S101681,2024-09-29 11:32:00,Google Brand Campaign,linkedin,email,2,433
+S101682,2024-10-03 14:16:00,,facebook,organic,1,260
+S101683,2024-10-15 17:00:00,Lead Generation | DE | Form,facebook,email,7,172
+S101684,2024-10-07 12:54:00,Brand Awareness Q4,google,referral,8,105
+S101685,2024-09-23 14:29:00,,organic,referral,2,97
+S101686,2024-09-12 23:06:00,Product Launch 2024,direct,social,7,346
+S101687,2024-09-05 10:21:00,Google Brand Campaign,direct,social,8,127
+S101688,2024-09-18 14:02:00,Google Brand Campaign,google,referral,3,228
+S101689,2024-09-21 18:02:00,Google Brand Campaign,direct,cpc,6,450
+S101690,2024-10-01 06:03:00,Lead Generation | DE | Form,facebook,,7,286
+S101691,2024-09-17 20:11:00,Brand Awareness Q4,google,cpc,5,424
+S101692,2024-09-06 09:55:00,,direct,referral,9,229
+S101693,2024-10-13 08:11:00,Brand Awareness Q4,facebook,referral,6,314
+S101694,2024-09-11 06:22:00,Product Launch 2024,direct,referral,9,174
+S101695,2024-10-15 13:22:00,,organic,referral,1,584
+S101696,2024-10-21 19:12:00,Brand Awareness Q4,,,10,158
+S101697,2024-09-21 21:52:00,,,,6,24
+S101698,2024-09-10 14:59:00,Lead Generation | DE | Form,direct,email,2,426
+S101699,2024-09-17 16:46:00,Brand Awareness Q4,direct,social,8,109
+S101700,2024-09-03 06:47:00,Lead Generation | DE | Form,direct,,9,180
+S101701,2024-10-09 12:13:00,Retargeting Campaign,google,social,10,24
+S101702,2024-09-24 11:01:00,Retargeting Campaign,linkedin,organic,2,521
+S101703,2024-10-12 14:26:00,Product Launch 2024,linkedin,email,9,446
+S101704,2024-10-04 10:07:00,Lead Generation | DE | Form,direct,referral,6,191
+S101705,2024-10-06 19:10:00,Google Brand Campaign,direct,referral,5,457
+S101706,2024-10-11 09:44:00,Google Brand Campaign,facebook,cpc,2,101
+S101707,2024-10-12 00:39:00,Product Launch 2024,facebook,referral,10,567
+S101708,2024-09-07 20:28:00,Google Brand Campaign,organic,cpc,5,440
+S101709,2024-09-14 07:49:00,Product Launch 2024,organic,referral,2,210
+S101710,2024-10-25 15:07:00,Retargeting Campaign,direct,referral,7,17
+S101711,2024-09-24 07:32:00,Retargeting Campaign,linkedin,,5,324
+S101712,2024-10-24 13:43:00,Lead Generation | DE | Form,facebook,referral,1,25
+S101713,2024-09-02 04:50:00,Retargeting Campaign,organic,,10,335
+S101714,2024-09-22 05:36:00,Product Launch 2024,google,organic,7,207
+S101715,2024-10-10 20:25:00,Brand Awareness Q4,organic,referral,3,409
+S101716,2024-10-17 05:25:00,Retargeting Campaign,organic,social,7,246
+S101717,2024-09-07 22:51:00,Lead Generation | DE | Form,organic,cpc,10,411
+S101718,2024-10-24 20:58:00,Retargeting Campaign,organic,social,6,218
+S101719,2024-09-06 02:01:00,Product Launch 2024,facebook,,10,166
+S101720,2024-09-02 19:45:00,Google Brand Campaign,facebook,organic,7,35
+S101721,2024-10-18 23:08:00,Product Launch 2024,,,6,201
+S101722,2024-09-16 20:57:00,Lead Generation | DE | Form,linkedin,social,9,261
+S101723,2024-10-17 12:49:00,Retargeting Campaign,,cpc,5,94
+S101724,2024-10-30 04:40:00,Brand Awareness Q4,,organic,2,123
+S101725,2024-09-30 19:07:00,Brand Awareness Q4,google,email,5,194
+S101726,2024-09-06 02:31:00,Retargeting Campaign,google,referral,2,512
+S101727,2024-10-21 00:26:00,Brand Awareness Q4,direct,,2,225
+S101728,2024-10-14 13:24:00,Retargeting Campaign,,referral,3,194
+S101729,2024-09-20 00:57:00,Lead Generation | DE | Form,,organic,10,42
+S101730,2024-09-08 10:22:00,Product Launch 2024,organic,organic,9,15
+S101731,2024-09-11 16:47:00,Retargeting Campaign,facebook,social,10,40
+S101732,2024-10-05 00:33:00,Google Brand Campaign,google,social,6,127
+S101733,2024-10-28 06:01:00,Retargeting Campaign,google,social,2,139
+S101734,2024-09-18 08:30:00,Lead Generation | DE | Form,facebook,email,9,311
+S101735,2024-09-30 23:51:00,Product Launch 2024,direct,organic,7,207
+S101736,2024-09-17 05:12:00,,,email,7,115
+S101737,2024-10-08 18:19:00,Lead Generation | DE | Form,google,,8,453
+S101738,2024-10-27 14:27:00,Google Brand Campaign,,email,6,120
+S101739,2024-10-09 12:27:00,Lead Generation | DE | Form,organic,email,6,75
+S101740,2024-09-29 05:56:00,Brand Awareness Q4,organic,email,10,429
+S101741,2024-09-19 19:52:00,,organic,email,7,40
+S101742,2024-09-08 05:51:00,Retargeting Campaign,direct,social,6,261
+S101743,2024-09-05 06:42:00,Retargeting Campaign,linkedin,social,6,135
+S101744,2024-09-01 10:44:00,Brand Awareness Q4,,email,4,486
+S101745,2024-10-07 10:57:00,Lead Generation | DE | Form,organic,cpc,7,300
+S101746,2024-10-09 06:33:00,Lead Generation | DE | Form,facebook,organic,5,86
+S101747,2024-10-07 20:26:00,,direct,email,6,212
+S101748,2024-09-13 01:51:00,Product Launch 2024,direct,cpc,5,441
+S101749,2024-09-08 03:28:00,Lead Generation | DE | Form,organic,email,10,402
+S101750,2024-09-16 18:01:00,Retargeting Campaign,facebook,,10,14
+S101751,2024-10-29 14:18:00,Lead Generation | DE | Form,direct,cpc,9,550
+S101752,2024-09-03 10:41:00,Brand Awareness Q4,facebook,referral,2,435
+S101753,2024-10-17 09:17:00,Retargeting Campaign,linkedin,referral,2,579
+S101754,2024-10-20 10:31:00,Google Brand Campaign,facebook,referral,5,475
+S101755,2024-10-02 20:58:00,Brand Awareness Q4,linkedin,organic,2,39
+S101756,2024-09-15 01:52:00,Brand Awareness Q4,google,cpc,6,456
+S101757,2024-09-15 05:05:00,Lead Generation | DE | Form,,email,9,15
+S101758,2024-10-30 22:55:00,Brand Awareness Q4,linkedin,cpc,2,59
+S101759,2024-09-20 02:16:00,Retargeting Campaign,,organic,7,286
+S101760,2024-10-15 05:59:00,Lead Generation | DE | Form,organic,referral,2,139
+S101761,2024-09-21 04:48:00,Google Brand Campaign,direct,,8,135
+S101762,2024-10-04 16:15:00,Google Brand Campaign,direct,,8,297
+S101763,2024-09-21 23:30:00,Lead Generation | DE | Form,facebook,email,5,94
+S101764,2024-09-23 17:53:00,Lead Generation | DE | Form,,,4,89
+S101765,2024-09-05 15:03:00,Lead Generation | DE | Form,facebook,,4,489
+S101766,2024-10-23 12:12:00,Product Launch 2024,facebook,email,4,550
+S101767,2024-10-03 10:48:00,Retargeting Campaign,,referral,3,526
+S101768,2024-09-07 04:14:00,Retargeting Campaign,direct,referral,10,535
+S101769,2024-09-13 12:12:00,Brand Awareness Q4,linkedin,referral,3,324
+S101770,2024-10-26 18:41:00,Brand Awareness Q4,google,referral,2,122
+S101771,2024-09-16 00:57:00,Product Launch 2024,google,email,1,497
+S101772,2024-10-13 16:28:00,Retargeting Campaign,linkedin,cpc,9,96
+S101773,2024-09-23 13:13:00,Lead Generation | DE | Form,direct,organic,7,530
+S101774,2024-09-22 01:28:00,Retargeting Campaign,linkedin,cpc,1,401
+S101775,2024-10-17 13:12:00,Retargeting Campaign,google,referral,3,292
+S101776,2024-10-04 19:31:00,Google Brand Campaign,direct,cpc,1,264
+S101777,2024-09-08 07:07:00,Brand Awareness Q4,facebook,organic,5,254
+S101778,2024-09-05 17:06:00,Retargeting Campaign,google,organic,7,411
+S101779,2024-09-26 03:14:00,,,email,8,220
+S101780,2024-09-11 06:22:00,,linkedin,,10,304
+S101781,2024-10-17 00:06:00,Lead Generation | DE | Form,organic,,10,498
+S101782,2024-10-18 09:54:00,,google,social,6,81
+S101783,2024-09-11 05:21:00,Product Launch 2024,google,cpc,8,448
+S101784,2024-09-22 00:11:00,Retargeting Campaign,facebook,social,1,370
+S101785,2024-10-01 18:00:00,Product Launch 2024,google,referral,2,56
+S101786,2024-10-23 00:36:00,,linkedin,social,9,525
+S101787,2024-09-11 04:49:00,Brand Awareness Q4,facebook,email,6,473
+S101788,2024-10-02 23:22:00,Google Brand Campaign,linkedin,,8,269
+S101789,2024-09-24 14:00:00,Retargeting Campaign,linkedin,,6,540
+S101790,2024-10-20 21:54:00,Google Brand Campaign,direct,cpc,5,541
+S101791,2024-10-17 20:01:00,Lead Generation | DE | Form,direct,social,3,375
+S101792,2024-10-02 00:15:00,Google Brand Campaign,,,7,378
+S101793,2024-09-14 23:05:00,Lead Generation | DE | Form,direct,,2,290
+S101794,2024-10-27 20:43:00,Google Brand Campaign,direct,organic,3,281
+S101795,2024-10-29 21:22:00,Retargeting Campaign,direct,organic,7,292
+S101796,2024-09-20 06:02:00,Google Brand Campaign,organic,,6,135
+S101797,2024-09-28 14:36:00,Retargeting Campaign,linkedin,cpc,1,520
+S101798,2024-10-30 21:09:00,Product Launch 2024,,social,9,306
+S101799,2024-10-10 17:42:00,Lead Generation | DE | Form,linkedin,referral,5,76
+S101800,2024-10-22 09:00:00,Product Launch 2024,facebook,social,5,136
+S101801,2024-09-04 15:19:00,Brand Awareness Q4,direct,email,1,61
+S101802,2024-09-17 04:22:00,Retargeting Campaign,organic,,9,168
+S101803,2024-09-06 22:17:00,Lead Generation | DE | Form,,social,7,92
+S101804,2024-09-19 07:02:00,Product Launch 2024,linkedin,social,7,442
+S101805,2024-09-26 03:57:00,Retargeting Campaign,linkedin,organic,5,187
+S101806,2024-10-07 13:43:00,Retargeting Campaign,organic,social,4,266
+S101807,2024-09-09 13:35:00,Lead Generation | DE | Form,linkedin,email,2,314
+S101808,2024-10-07 20:29:00,Google Brand Campaign,google,referral,7,108
+S101809,2024-09-09 16:28:00,,linkedin,organic,6,489
+S101810,2024-09-23 13:29:00,Product Launch 2024,direct,referral,1,582
+S101811,2024-09-02 13:05:00,Lead Generation | DE | Form,organic,email,4,534
+S101812,2024-09-24 04:39:00,Google Brand Campaign,organic,email,1,412
+S101813,2024-09-09 12:42:00,Brand Awareness Q4,direct,organic,8,65
+S101814,2024-09-06 01:17:00,,facebook,email,10,109
+S101815,2024-10-23 09:36:00,Product Launch 2024,,email,1,134
+S101816,2024-10-18 18:43:00,Google Brand Campaign,,,1,219
+S101817,2024-10-04 04:35:00,,direct,social,4,168
+S101818,2024-09-20 20:19:00,,facebook,referral,10,215
+S101819,2024-09-08 02:00:00,Lead Generation | DE | Form,organic,cpc,9,109
+S101820,2024-09-16 06:06:00,Product Launch 2024,facebook,organic,8,410
+S101821,2024-09-04 03:19:00,Product Launch 2024,direct,social,4,569
+S101822,2024-09-17 19:43:00,Product Launch 2024,,organic,2,452
+S101823,2024-09-10 20:01:00,Lead Generation | DE | Form,google,,4,184
+S101824,2024-10-03 23:44:00,Google Brand Campaign,google,referral,8,306
+S101825,2024-09-19 21:06:00,Google Brand Campaign,direct,email,5,410
+S101826,2024-09-25 22:51:00,Brand Awareness Q4,direct,referral,7,161
+S101827,2024-09-02 09:29:00,Brand Awareness Q4,organic,referral,1,320
+S101828,2024-09-03 20:41:00,,organic,referral,1,373
+S101829,2024-09-09 14:56:00,,direct,email,1,172
+S101830,2024-09-23 16:54:00,Google Brand Campaign,google,email,9,409
+S101831,2024-10-03 02:11:00,,google,email,10,357
+S101832,2024-09-30 22:54:00,Lead Generation | DE | Form,linkedin,,5,413
+S101833,2024-09-05 20:30:00,Product Launch 2024,direct,organic,3,599
+S101834,2024-10-16 16:49:00,,organic,email,3,341
+S101835,2024-10-08 18:22:00,Google Brand Campaign,organic,referral,2,56
+S101836,2024-09-02 23:10:00,Lead Generation | DE | Form,facebook,,2,521
+S101837,2024-10-30 21:30:00,Retargeting Campaign,google,,4,117
+S101838,2024-10-28 05:46:00,Product Launch 2024,direct,cpc,1,266
+S101839,2024-09-08 01:54:00,,facebook,referral,6,40
+S101840,2024-10-30 05:20:00,Brand Awareness Q4,,referral,7,146
+S101841,2024-10-11 18:35:00,Lead Generation | DE | Form,google,email,8,458
+S101842,2024-10-14 09:14:00,Lead Generation | DE | Form,,social,7,551
+S101843,2024-10-22 06:05:00,Google Brand Campaign,facebook,,2,218
+S101844,2024-09-03 04:57:00,Brand Awareness Q4,linkedin,referral,10,569
+S101845,2024-10-26 02:21:00,Lead Generation | DE | Form,,,9,518
+S101846,2024-09-13 06:36:00,Product Launch 2024,organic,email,6,582
+S101847,2024-10-25 04:51:00,Brand Awareness Q4,direct,referral,7,82
+S101848,2024-10-07 02:08:00,Google Brand Campaign,linkedin,cpc,2,520
+S101849,2024-09-15 01:38:00,Google Brand Campaign,linkedin,cpc,4,306
+S101850,2024-10-30 08:24:00,,linkedin,cpc,3,304
+S101851,2024-09-05 17:36:00,Lead Generation | DE | Form,organic,organic,9,329
+S101852,2024-09-26 19:03:00,Google Brand Campaign,,cpc,10,492
+S101853,2024-10-30 08:41:00,Brand Awareness Q4,facebook,email,7,277
+S101854,2024-09-13 10:56:00,Brand Awareness Q4,google,social,9,347
+S101855,2024-10-30 21:58:00,Brand Awareness Q4,google,referral,2,587
+S101856,2024-10-28 19:44:00,Brand Awareness Q4,linkedin,cpc,7,92
+S101857,2024-10-27 17:30:00,Lead Generation | DE | Form,linkedin,,1,116
+S101858,2024-09-03 15:32:00,Lead Generation | DE | Form,,email,7,499
+S101859,2024-09-20 07:01:00,Brand Awareness Q4,facebook,social,9,398
+S101860,2024-10-14 21:47:00,Brand Awareness Q4,organic,referral,1,406
+S101861,2024-10-20 12:44:00,Lead Generation | DE | Form,direct,,7,572
+S101862,2024-09-09 03:28:00,Brand Awareness Q4,organic,email,6,208
+S101863,2024-09-22 13:58:00,Brand Awareness Q4,google,social,2,20
+S101864,2024-09-15 13:47:00,Google Brand Campaign,organic,cpc,1,265
+S101865,2024-10-23 01:04:00,Brand Awareness Q4,google,referral,3,299
+S101866,2024-09-03 10:22:00,Google Brand Campaign,,social,5,142
+S101867,2024-10-09 12:30:00,,facebook,,2,88
+S101868,2024-09-17 17:13:00,Product Launch 2024,,,6,235
+S101869,2024-09-29 22:19:00,Retargeting Campaign,organic,email,4,549
+S101870,2024-10-28 08:20:00,,organic,organic,2,65
+S101871,2024-09-23 13:45:00,Google Brand Campaign,direct,email,2,218
+S101872,2024-10-29 04:53:00,Google Brand Campaign,google,email,9,225
+S101873,2024-09-08 11:46:00,Lead Generation | DE | Form,facebook,social,8,474
+S101874,2024-09-08 00:31:00,Brand Awareness Q4,linkedin,email,10,403
+S101875,2024-09-20 02:03:00,Retargeting Campaign,organic,referral,8,29
+S101876,2024-10-26 12:24:00,Product Launch 2024,facebook,social,4,398
+S101877,2024-09-12 21:27:00,Google Brand Campaign,facebook,,5,42
+S101878,2024-10-05 11:59:00,Brand Awareness Q4,organic,email,5,231
+S101879,2024-10-19 00:21:00,,organic,referral,7,68
+S101880,2024-10-22 03:35:00,Product Launch 2024,,,5,557
+S101881,2024-09-30 13:36:00,,organic,organic,5,176
+S101882,2024-09-25 14:47:00,Lead Generation | DE | Form,google,cpc,5,290
+S101883,2024-09-06 07:49:00,Google Brand Campaign,linkedin,email,10,414
+S101884,2024-09-03 19:17:00,Retargeting Campaign,linkedin,,5,22
+S101885,2024-09-08 09:36:00,,linkedin,email,3,464
+S101886,2024-09-30 00:28:00,Brand Awareness Q4,direct,cpc,6,501
+S101887,2024-10-11 17:13:00,Product Launch 2024,facebook,organic,2,293
+S101888,2024-10-28 19:35:00,Retargeting Campaign,facebook,referral,3,274
+S101889,2024-10-20 08:16:00,Product Launch 2024,google,social,3,160
+S101890,2024-10-26 19:41:00,Brand Awareness Q4,google,cpc,1,198
+S101891,2024-10-14 16:55:00,Product Launch 2024,organic,email,1,576
+S101892,2024-10-16 07:03:00,,linkedin,email,1,371
+S101893,2024-10-05 22:02:00,Google Brand Campaign,google,email,2,89
+S101894,2024-10-03 14:07:00,Google Brand Campaign,facebook,social,4,343
+S101895,2024-10-07 11:53:00,,direct,cpc,7,299
+S101896,2024-09-10 00:20:00,Google Brand Campaign,linkedin,email,7,393
+S101897,2024-10-01 09:39:00,Brand Awareness Q4,google,email,1,307
+S101898,2024-10-30 04:58:00,Google Brand Campaign,facebook,cpc,10,226
+S101899,2024-10-22 10:32:00,,,organic,10,362
+S101900,2024-09-14 12:53:00,Google Brand Campaign,facebook,,3,400
+S101901,2024-10-19 20:05:00,Brand Awareness Q4,google,organic,9,598
+S101902,2024-10-11 17:46:00,Product Launch 2024,organic,,2,550
+S101903,2024-10-22 01:38:00,Product Launch 2024,,organic,9,461
+S101904,2024-09-21 08:12:00,Google Brand Campaign,linkedin,social,6,258
+S101905,2024-10-22 11:14:00,Product Launch 2024,linkedin,,2,256
+S101906,2024-09-29 23:56:00,Product Launch 2024,linkedin,cpc,6,583
+S101907,2024-10-03 02:58:00,Retargeting Campaign,,referral,10,245
+S101908,2024-09-29 13:14:00,Google Brand Campaign,google,organic,4,427
+S101909,2024-10-14 18:42:00,Lead Generation | DE | Form,organic,email,5,359
+S101910,2024-09-21 03:05:00,Product Launch 2024,direct,organic,3,599
+S101911,2024-10-02 20:56:00,Lead Generation | DE | Form,google,referral,1,180
+S101912,2024-09-08 13:16:00,Google Brand Campaign,,referral,2,139
+S101913,2024-10-26 01:53:00,Product Launch 2024,facebook,,3,84
+S101914,2024-09-09 16:55:00,Google Brand Campaign,direct,referral,6,140
+S101915,2024-09-26 22:35:00,Lead Generation | DE | Form,,email,2,354
+S101916,2024-10-28 10:37:00,Google Brand Campaign,organic,cpc,1,85
+S101917,2024-10-18 11:28:00,Product Launch 2024,,referral,7,306
+S101918,2024-10-19 15:44:00,Lead Generation | DE | Form,,social,10,531
+S101919,2024-09-06 04:57:00,Brand Awareness Q4,organic,organic,6,474
+S101920,2024-09-25 10:28:00,Lead Generation | DE | Form,organic,,10,296
+S101921,2024-10-20 03:14:00,Retargeting Campaign,direct,email,1,587
+S101922,2024-10-04 16:37:00,Google Brand Campaign,direct,email,6,403
+S101923,2024-09-21 05:09:00,Brand Awareness Q4,,,4,450
+S101924,2024-10-04 08:36:00,Google Brand Campaign,linkedin,cpc,6,301
+S101925,2024-09-11 03:18:00,Retargeting Campaign,direct,referral,4,183
+S101926,2024-09-19 08:38:00,Brand Awareness Q4,google,,5,154
+S101927,2024-09-07 06:35:00,Google Brand Campaign,google,cpc,10,50
+S101928,2024-10-28 17:34:00,Lead Generation | DE | Form,facebook,referral,1,388
+S101929,2024-09-14 09:36:00,Product Launch 2024,,referral,9,139
+S101930,2024-10-24 14:18:00,Brand Awareness Q4,,,2,465
+S101931,2024-10-27 13:31:00,Retargeting Campaign,facebook,social,5,129
+S101932,2024-09-23 02:47:00,Lead Generation | DE | Form,,cpc,6,170
+S101933,2024-10-03 10:17:00,Product Launch 2024,,,9,85
+S101934,2024-10-16 22:20:00,Brand Awareness Q4,direct,cpc,9,335
+S101935,2024-09-13 17:42:00,,facebook,,1,261
+S101936,2024-09-09 18:24:00,Lead Generation | DE | Form,,social,5,491
+S101937,2024-09-10 15:52:00,Lead Generation | DE | Form,,referral,5,144
+S101938,2024-09-13 20:56:00,Brand Awareness Q4,organic,,4,13
+S101939,2024-09-28 02:31:00,Google Brand Campaign,organic,social,3,49
+S101940,2024-09-27 22:16:00,Google Brand Campaign,direct,,10,250
+S101941,2024-10-11 11:30:00,Google Brand Campaign,,social,5,247
+S101942,2024-10-27 09:42:00,Product Launch 2024,direct,,7,375
+S101943,2024-10-05 15:18:00,Brand Awareness Q4,google,cpc,5,439
+S101944,2024-09-29 10:15:00,,direct,cpc,3,485
+S101945,2024-09-21 21:07:00,Retargeting Campaign,,referral,3,505
+S101946,2024-10-24 15:38:00,Product Launch 2024,,social,1,307
+S101947,2024-09-18 16:13:00,Product Launch 2024,facebook,organic,6,277
+S101948,2024-10-14 10:26:00,Product Launch 2024,direct,referral,7,276
+S101949,2024-10-29 01:17:00,Product Launch 2024,,social,6,56
+S101950,2024-09-20 14:26:00,Lead Generation | DE | Form,organic,social,9,221
+S101951,2024-10-20 20:07:00,Google Brand Campaign,organic,email,3,562
+S101952,2024-09-02 23:01:00,Product Launch 2024,facebook,,6,371
+S101953,2024-10-20 17:04:00,,facebook,organic,4,380
+S101954,2024-10-05 06:10:00,Google Brand Campaign,direct,,4,307
+S101955,2024-10-22 05:58:00,Retargeting Campaign,linkedin,referral,4,576
+S101956,2024-10-17 07:00:00,Brand Awareness Q4,facebook,organic,2,523
+S101957,2024-09-26 15:02:00,Lead Generation | DE | Form,linkedin,email,1,245
+S101958,2024-10-11 22:15:00,Brand Awareness Q4,linkedin,,2,396
+S101959,2024-10-12 12:08:00,,linkedin,cpc,2,85
+S101960,2024-10-03 23:45:00,,direct,cpc,1,564
+S101961,2024-10-09 04:06:00,,organic,referral,4,329
+S101962,2024-10-21 10:27:00,Google Brand Campaign,,cpc,5,290
+S101963,2024-09-30 06:06:00,Retargeting Campaign,,organic,8,395
+S101964,2024-09-19 13:05:00,Lead Generation | DE | Form,direct,organic,5,504
+S101965,2024-09-19 22:34:00,Google Brand Campaign,google,referral,1,518
+S101966,2024-10-17 12:23:00,Google Brand Campaign,,cpc,8,239
+S101967,2024-10-07 00:25:00,Lead Generation | DE | Form,direct,email,8,586
+S101968,2024-09-07 20:19:00,Retargeting Campaign,google,,2,107
+S101969,2024-10-06 05:13:00,Product Launch 2024,organic,social,2,154
+S101970,2024-09-26 19:53:00,Product Launch 2024,organic,,10,248
+S101971,2024-09-04 15:16:00,Product Launch 2024,linkedin,,6,164
+S101972,2024-09-03 10:44:00,Google Brand Campaign,organic,referral,1,284
+S101973,2024-10-15 06:48:00,Google Brand Campaign,direct,organic,8,330
+S101974,2024-10-12 07:20:00,Product Launch 2024,,referral,9,578
+S101975,2024-10-25 23:46:00,Brand Awareness Q4,facebook,referral,2,394
+S101976,2024-09-09 00:10:00,Google Brand Campaign,,cpc,3,212
+S101977,2024-09-29 03:02:00,Product Launch 2024,direct,social,9,508
+S101978,2024-09-09 23:55:00,Google Brand Campaign,direct,referral,1,313
+S101979,2024-09-08 13:18:00,,,email,9,340
+S101980,2024-10-10 11:36:00,,google,social,5,545
+S101981,2024-10-14 06:51:00,Google Brand Campaign,,email,9,267
+S101982,2024-10-01 14:13:00,Retargeting Campaign,,,3,178
+S101983,2024-10-04 22:53:00,Product Launch 2024,facebook,email,7,193
+S101984,2024-09-10 15:04:00,Brand Awareness Q4,linkedin,,4,214
+S101985,2024-10-15 03:34:00,Product Launch 2024,linkedin,cpc,1,489
+S101986,2024-10-09 05:04:00,Retargeting Campaign,,organic,4,363
+S101987,2024-10-11 00:59:00,Lead Generation | DE | Form,linkedin,email,7,323
+S101988,2024-09-24 19:49:00,Product Launch 2024,linkedin,organic,9,217
+S101989,2024-09-05 18:09:00,Brand Awareness Q4,,social,5,192
+S101990,2024-09-17 18:06:00,Lead Generation | DE | Form,organic,organic,7,348
+S101991,2024-10-07 18:38:00,Retargeting Campaign,,organic,8,224
+S101992,2024-09-11 00:50:00,Lead Generation | DE | Form,google,cpc,10,160
+S101993,2024-09-10 05:30:00,Brand Awareness Q4,linkedin,cpc,1,150
+S101994,2024-10-03 14:27:00,,direct,email,5,522
+S101995,2024-10-19 03:15:00,Google Brand Campaign,direct,referral,7,495
+S101996,2024-09-23 09:53:00,Google Brand Campaign,linkedin,organic,2,229
+S101997,2024-09-11 20:53:00,Retargeting Campaign,,social,7,583
+S101998,2024-09-29 15:44:00,Retargeting Campaign,,cpc,9,455
+S101999,2024-10-12 11:11:00,Brand Awareness Q4,linkedin,referral,6,444
+S102000,2024-09-14 19:35:00,Lead Generation | DE | Form,direct,email,3,20
