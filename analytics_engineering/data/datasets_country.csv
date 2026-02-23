@@ -1,0 +1,246 @@
+﻿ID_COUNTRY,REGION,COUNTRY
+123,EMEA,Lithuania
+117,EMEA,Latvia
+67,EMEA,Estonia
+84,EMEA,Greece
+175,EMEA,Romania
+170,EMEA,Poland
+189,EMEA,Slovakia
+97,EMEA,Hungary
+56,EMEA,Czech Republic
+26,AMER,Bolivia
+18,APAC,Bangladesh
+50,APAC,Cook Islands
+115,APAC,Kyrgyzstan
+179,AMER,Saint Lucia
+211,APAC,Tokelau
+149,APAC,Nepal
+181,APAC,Samoa
+213,AMER,Trinidad and Tobago
+22,AMER,Belize
+54,AMER,Cuba
+87,AMER,Guadeloupe
+151,AMER,Netherlands Antilles
+60,AMER,Dominican Republic
+93,AMER,Haiti
+125,APAC,Macao
+157,APAC,Niue
+99,APAC,India
+163,APAC,Palau
+0,UNKNOWN,UNKNOWN
+32,APAC,Brunei Darussalam
+64,AMER,El Salvador
+226,APAC,Uzbekistan
+88,APAC,Guam
+152,APAC,New Caledonia
+216,APAC,Turkmenistan
+86,AMER,Granada
+25,APAC,Bhutan
+154,AMER,Nicaragua
+218,APAC,Tuvalu
+100,APAC,Indonesia
+164,AMER,Panama
+196,APAC,Sri Lanka
+229,AMER,Venezuela
+19,AMER,Barbados
+51,AMER,Costa Rica
+116,APAC,Laos
+148,APAC,Nauru
+180,AMER,Saint Vincent and The Grenadines
+212,APAC,Tonga
+61,APAC,Timor-Leste
+94,APAC,Heard Island and McDonald Islands
+158,APAC,Norfolk Island
+59,AMER,Dominica
+92,AMER,Guyana
+4,APAC,American Samoa
+36,APAC,Cambodia
+133,APAC,Marshall Islands
+165,APAC,Papua New Guinea
+230,APAC,Vietnam
+167,AMER,Peru
+232,AMER,Virgin Islands (U.S.)
+130,APAC,Maldives
+162,APAC,Pakistan
+227,APAC,Vanuatu
+8,APAC,Antarctica
+40,AMER,Cayman Islands
+169,APAC,Pitcairn
+46,APAC,Cocos (Keeling) Islands
+111,APAC,Kiribati
+143,AMER,Montserrat
+207,APAC,Tajikistan
+243,AMER,Saint Barthélemy
+10,AMER,Argentina
+75,AMER,French Guiana
+107,APAC,Japan
+139,APAC,Micronesia
+53,EMEA,Croatia
+190,EMEA,Slovenia
+33,EMEA,Bulgaria
+2,EMEA,Albania
+126,EMEA,Macedonia
+27,EMEA,Bosnia and Herzegovina
+236,EMEA,Serbia
+9,AMER,Antigua and Barbuda
+106,AMER,Jamaica
+138,AMER,Mexico
+12,AMER,Aruba
+44,APAC,China
+77,APAC,French Southern Territories
+47,AMER,Colombia
+112,APAC,Korea (Democratic People’s Republic of)
+244,AMER,Saint Martin
+24,AMER,Bermuda
+89,AMER,Guatemala
+217,AMER,Turks and Caicos Islands
+43,AMER,Chile
+76,APAC,French Polynesia
+172,AMER,Puerto Rico
+223,AMER,United States
+38,AMER,Canada
+153,APAC,New Zealand
+13,APAC,Australia
+45,APAC,Christmas Island
+142,APAC,Mongolia
+7,AMER,Anguilla
+71,APAC,Fiji
+168,APAC,Philippines
+200,AMER,Suriname
+233,APAC,Wallis and Futuna
+146,APAC,Myanmar
+178,AMER,Saint Kitts And Nevis
+69,EMEA,Falklan Islands
+134,AMER,Martinique
+166,AMER,Paraguay
+198,AMER,Saint Pierre and Miquelon
+231,AMER,Virgin Islands (British)
+16,AMER,Bahamas
+113,APAC,Korea (Republic of)
+209,APAC,Thailand
+30,AMER,Brazil
+62,AMER,Ecuador
+95,AMER,Honduras
+159,APAC,Northern Mariana Islands
+191,APAC,Solomon Islands
+224,APAC,United States Minor Outlying Islands
+31,APAC,British Indian Ocean Territory
+222,EMEA,United Kingdom
+103,EMEA,Ireland
+141,EMEA,Monaco
+174,EMEA,Réunion
+248,EMEA,Guernsey
+247,EMEA,Isle of Man
+245,EMEA,Jersey
+21,EMEA,Belgium
+150,EMEA,Netherlands
+124,EMEA,Luxembourg
+74,EMEA,France
+129,APAC,Malaysia
+188,APAC,Singapore
+105,EMEA,Italy
+57,EMEA,Denmark
+72,EMEA,Finland
+203,EMEA,Sweden
+195,EMEA,Spain
+171,EMEA,Portugal
+249,EMEA,Canary Islands
+5,EMEA,Andorra
+14,EMEA,Austria
+81,EMEA,Germany
+122,EMEA,Liechtenstein
+204,EMEA,Switzerland
+206,APAC,Taiwan
+96,APAC,Hong Kong
+55,EMEA,Cyprus
+132,EMEA,Malta
+20,EMEA,Belarus
+85,EMEA,Greenland
+215,EMEA,Turkey
+228,EMEA,Vatican City
+182,EMEA,San Marino
+29,EMEA,Bouvet Island
+220,EMEA,Ukraine
+70,EMEA,Faroe Islands
+98,EMEA,Iceland
+201,EMEA,Svalbard
+176,EMEA,Russia
+140,EMEA,Moldova
+160,EMEA,Norway
+58,EMEA,Djibouti
+91,EMEA,Guinea-Bissau
+155,EMEA,Niger
+187,EMEA,Sierra Leone
+219,EMEA,Uganda
+83,EMEA,Gibraltar
+147,EMEA,Namibia
+52,EMEA,Cote d'Ivoire
+119,EMEA,Lesotho
+183,EMEA,Sao Tome and Principe
+28,EMEA,Botswana
+221,EMEA,United Arab Emirates
+34,EMEA,Burkina Faso
+66,EMEA,Eritrea
+131,EMEA,Mali
+161,EMEA,Oman
+193,EMEA,South Africa
+23,EMEA,Benin
+120,EMEA,Liberia
+184,EMEA,Saudi Arabia
+118,EMEA,Lebanon
+214,EMEA,Tunisia
+90,EMEA,Guinea
+186,EMEA,Seychelles
+3,EMEA,Algeria
+35,EMEA,Burundi
+156,EMEA,Nigeria
+68,EMEA,Ethiopia
+101,EMEA,Iran
+197,EMEA,Saint Helena
+6,EMEA,Angola
+135,EMEA,Mauritania
+199,EMEA,South Sudan
+1,EMEA,Afghanistan
+65,EMEA,Equatorial Guinea
+194,EMEA,South Georgia and the South Sandwich Islands
+137,EMEA,Mayotte
+234,EMEA,Western Sahara
+79,EMEA,Gambia
+42,EMEA,Chad
+41,EMEA,Central African Republic
+202,EMEA,Swaziland
+235,EMEA,Yemen
+109,EMEA,Kazakhstan
+173,EMEA,Qatar
+205,EMEA,Syria
+238,EMEA,Zambia
+15,EMEA,Azerbaijan
+80,EMEA,Georgia
+144,EMEA,Morocco
+208,EMEA,Tanzania
+121,EMEA,Libya
+185,EMEA,Senegal
+11,EMEA,Armenia
+108,EMEA,Jordan
+237,EMEA,"CONGO, Democratic Republic of (was Zaire)"
+78,EMEA,Gabon
+110,EMEA,Kenya
+239,EMEA,Zimbabwe
+39,EMEA,Cabo Verde
+104,EMEA,Israel
+136,EMEA,Mauritius
+17,EMEA,Bahrain
+49,EMEA,Congo
+82,EMEA,Ghana
+114,EMEA,Kuwait
+210,EMEA,Togo
+37,EMEA,Cameroon
+102,EMEA,Iraq
+48,EMEA,Comoros
+145,EMEA,Mozambique
+177,EMEA,Rwanda
+127,EMEA,Madagascar
+63,EMEA,Egypt
+128,EMEA,Malawi
+192,EMEA,Somalia
+225,AMER,Uruguay
