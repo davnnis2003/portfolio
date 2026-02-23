@@ -1,6 +1,6 @@
 # Case Study Spec
 
-# Staff Data Analyst \- Case Study
+# Staff Data Analyst - Case Study
 
 ## Jimmy Pang
 
@@ -9,35 +9,35 @@ This doc has two parts:
 1. Sections 0–7 with the proposed MVP, architecture, and business logic;  
 2. Appendices with detailed exploration notes in another tab. The main sections are enough to evaluate the solution; the appendices show extra depth behind the solution.
 
-# 0\. Executive Summary
+# 0. Executive Summary
 
 **Problem (what’s broken)**
 
 * No trusted view of which campaigns/channels actually create customers, not just leads.  
-* Data quality issues (UTMs, campaign naming, campaign\_metadata coverage) block reliable attribution and CAC.  
+* Data quality issues (UTMs, campaign naming, campaign_metadata coverage) block reliable attribution and CAC.  
 * No shared marketing performance mart or dashboard, so Marketing and Sales argue without a common source of truth.
 
 **Key findings from the data**
 
-* \~€260k ad spend over 2 months → 830 leads → 352 opportunities → 47 customers: CAC is high, with funnel performance varying strongly by channel and cohort.  
-* \~17% of leads are missing lead\_utm\_campaign and only \~40% of distinct lead\_utm\_campaign values are mapped in internal campaign\_metadata, creating a large “unattributed/unmapped” bucket.  
-* lead\_status (“Qualified”, “Nurture”, etc.) does not correlate strongly with conversion, so current SQL‑based views of “good leads” are misleading.
+* ~€260k ad spend over 2 months → 830 leads → 352 opportunities → 47 customers: CAC is high, with funnel performance varying strongly by channel and cohort.  
+* ~17% of leads are missing lead_utm_campaign and only ~40% of distinct lead_utm_campaign values are mapped in internal campaign_metadata, creating a large “unattributed/unmapped” bucket.  
+* lead_status (“Qualified”, “Nurture”, etc.) does not correlate strongly with conversion, so current SQL‑based views of “good leads” are misleading.
 
 **Next‑sprint deliverables (MVP)**
 
-* fct\_marketing\_performance: monthly view of spend → sessions → leads → opportunities → customers by source and campaign\_group, with CPL and CAC.  
-* fct\_lead\_lifecycle: one row per lead with UTM data, cohort, derived lead\_quality, and opportunity/customer outcomes.  
+* fct_marketing_performance: monthly view of spend → sessions → leads → opportunities → customers by source and campaign_group, with CPL and CAC.  
+* fct_lead_lifecycle: one row per lead with UTM data, cohort, derived lead_quality, and opportunity/customer outcomes.  
 * “Marketing & Sales Performance” dashboard with 3 tabs:  
   * Overview: BANs, funnel over time, and channel breakdown.  
   * Cohorts: cohort heatmap and month‑over‑month (e.g. Sep vs Oct) comparison.  
   * Lead Quality: quality distribution and conversion by source/segment.  
-* Basic dbt tests and monitoring on UTM completeness and campaign\_metadata coverage to prevent data quality from degrading again.
+* Basic dbt tests and monitoring on UTM completeness and campaign_metadata coverage to prevent data quality from degrading again.
 
 **Strategic bet (beyond the MVP)**
 
-* Make data quality monitoring and clear ownership of UTMs/campaign\_metadata between Marketing and Data the first strategic initiative, so attribution, CAC, and lead‑quality reporting remain trustworthy and can support future work (multi‑touch attribution, advanced lead scoring, and budget reallocation).
+* Make data quality monitoring and clear ownership of UTMs/campaign_metadata between Marketing and Data the first strategic initiative, so attribution, CAC, and lead‑quality reporting remain trustworthy and can support future work (multi‑touch attribution, advanced lead scoring, and budget reallocation).
 
-# 1\. Investigation & Analysis
+# 1. Investigation & Analysis
 
 *What did you discover exploring the data? What business questions need answers? What*  
 *problems did you identify? How would you prioritize?*
@@ -46,47 +46,47 @@ Details of exact steps taken can be found under Appendix.
 
 **Key quantitative findings**
 
-* \~€260k ad spend over 2 months produced 830 leads, 352 opportunities, and 47 customers; CPL and CAC are high for a B2B SaaS context, with a steep drop‑off from leads to customers.  
-* Cohorts by lead\_created\_at month show October leads converting better than September (higher lead→customer rate), so performance varies meaningfully over time, not just by volume.  
-* Conversion by lead\_status (New / Contacted / Nurture / Qualified) is very similar, so today’s MQL/SQL logic based on status alone is a weak proxy for “good” leads.
+* ~€260k ad spend over 2 months produced 830 leads, 352 opportunities, and 47 customers; CPL and CAC are high for a B2B SaaS context, with a steep drop‑off from leads to customers.  
+* Cohorts by lead_created_at month show October leads converting better than September (higher lead→customer rate), so performance varies meaningfully over time, not just by volume.  
+* Conversion by lead_status (New / Contacted / Nurture / Qualified) is very similar, so today’s MQL/SQL logic based on status alone is a weak proxy for “good” leads.
 
 **Data quality issues & unclear logic**
 
-* Around 17% of leads have missing or null UTM fields (especially campaign), and only \~40% of distinct lead\_utm\_campaign values are mapped in campaign\_metadata, creating a persistent “unattributed/unmapped” bucket; in the MVP I surface this explicitly instead of hiding it.  
-* Web analytics show inconsistent UTM combinations (e.g., utm\_campaign \= “Google Brand Campaign” with utm\_source \= “facebook”), and there is no clear convention on whether these are cross‑channel brand labels or just mis‑tagging.  
+* Around 17% of leads have missing or null UTM fields (especially campaign), and only ~40% of distinct lead_utm_campaign values are mapped in campaign_metadata, creating a persistent “unattributed/unmapped” bucket; in the MVP I surface this explicitly instead of hiding it.  
+* Web analytics show inconsistent UTM combinations (e.g., utm_campaign = “Google Brand Campaign” with utm_source = “facebook”), and there is no clear convention on whether these are cross‑channel brand labels or just mis‑tagging.  
 * Currency handling and timezones are underspecified: Google Ads and internal cost allocation are explicitly EUR but Facebook has no currency field and everything is implicitly treated as EUR; ad, web, and CRM timestamps may be in different timezones, which can add noise at the day level, though month‑level cohorts remain robust once standardized.
 
-![!\[\]\[image1\]](images/insights.png)
+![![][image1]](images/insights.png)
 
-**Source:** Aggregated crm\_leads (leadutmsource) \+ opps/custs JOIN leadid \+ ad spend UNION. Sep: 5% lead2cust; Oct: 8%.
+**Source:** Aggregated crm_leads (leadutmsource) + opps/custs JOIN leadid + ad spend UNION. Sep: 5% lead2cust; Oct: 8%.
 
 **Core business questions**
 
-* **Channel & campaign performance:** Which channels (Google, Facebook, non‑paid) and campaign\_groups (Brand, Product Launch, Retargeting, Lead Gen) actually drive leads, opportunities, customers, and MRR, and where are we over‑ or under‑invested?  
-* **CAC & efficiency:** What are CAC, cost per lead, cost per opportunity, and cost per customer by channel, campaign\_group, and cohort (month/quarter)?  
+* **Channel & campaign performance:** Which channels (Google, Facebook, non‑paid) and campaign_groups (Brand, Product Launch, Retargeting, Lead Gen) actually drive leads, opportunities, customers, and MRR, and where are we over‑ or under‑invested?  
+* **CAC & efficiency:** What are CAC, cost per lead, cost per opportunity, and cost per customer by channel, campaign_group, and cohort (month/quarter)?  
 * **Lead quality by source:** Which sources and campaigns consistently produce leads that become opportunities/customers vs those that mostly stall, and where are we over‑optimistic because we only look at volume (impressions, clicks, leads)?  
 * **Cohorts & “good leads”:** How do different lead cohorts (e.g. Sep vs Oct) perform over time, and how should we define “good” leads in a way Sales trusts—based on real outcomes (opportunity created, stage, revenue) rather than CRM status labels alone?  
-* **Impact of data quality:** How much spend and how many leads are currently unattributed or unmapped, and how would fixing UTMs and campaign\_metadata coverage change our view of which channels/campaigns work?
+* **Impact of data quality:** How much spend and how many leads are currently unattributed or unmapped, and how would fixing UTMs and campaign_metadata coverage change our view of which channels/campaigns work?
 
 **Problems identified**
 
-* **Data quality & governance:** Incomplete UTM tagging (≈17% missing campaign, \~9% missing source/medium) and partial campaign\_metadata coverage (\~40% of distinct lead\_utm\_campaign mapped) guarantee a non‑trivial unattributed/unmapped bucket; questionable UTM combinations in web data further blur channel insights.  
-* **Modeling & business logic:** lead\_status is a weak proxy for quality; attribution is implicit (no agreed first‑ vs last‑touch, CRM vs web); and CAC definitions are fuzzy (EUR assumed for Facebook, no clear line between media‑only vs fully‑loaded CAC).  
-* **Visibility & decision‑making:** There is no single, trusted performance mart linking spend → sessions → leads → opportunities → customers at a consistent grain, so cohort differences (e.g. Oct \> Sep) are not explained by channel/campaign/ICP, and Sales and Marketing debate anecdotes instead of shared numbers.  
-* **Structural gaps (for later sprints):** Channel taxonomy is not normalized (raw utm\_source / lead\_utm\_source vs a small set of channels like Paid Search, Paid Social, Organic, Direct, Referral); there is no explicit ICP layer; web→lead stitching (sessions/forms to leads) is not modeled; and there is no agreed treatment of non‑paid channels in CAC.
+* **Data quality & governance:** Incomplete UTM tagging (≈17% missing campaign, ~9% missing source/medium) and partial campaign_metadata coverage (~40% of distinct lead_utm_campaign mapped) guarantee a non‑trivial unattributed/unmapped bucket; questionable UTM combinations in web data further blur channel insights.  
+* **Modeling & business logic:** lead_status is a weak proxy for quality; attribution is implicit (no agreed first‑ vs last‑touch, CRM vs web); and CAC definitions are fuzzy (EUR assumed for Facebook, no clear line between media‑only vs fully‑loaded CAC).  
+* **Visibility & decision‑making:** There is no single, trusted performance mart linking spend → sessions → leads → opportunities → customers at a consistent grain, so cohort differences (e.g. Oct > Sep) are not explained by channel/campaign/ICP, and Sales and Marketing debate anecdotes instead of shared numbers.  
+* **Structural gaps (for later sprints):** Channel taxonomy is not normalized (raw utm_source / lead_utm_source vs a small set of channels like Paid Search, Paid Social, Organic, Direct, Referral); there is no explicit ICP layer; web→lead stitching (sessions/forms to leads) is not modeled; and there is no agreed treatment of non‑paid channels in CAC.
 
 **Prioritization**
 
 * **Short term (next sprint – MVP / quick wins):**  
-  * Deliver a marketing performance mart linking Facebook & Google ad spend → Leads → Opportunities → Customers at a monthly × source × campaign\_group level using first‑touch UTM attribution and existing campaign\_metadata.  
-  * Clean up and backfill campaign\_metadata so that current CRM UTM campaign strings are mapped to canonical campaign\_groups, and surface unattributed/unmapped segments clearly in the mart and dashboard.  
-  * Enforce basic UTM completeness for new leads via dbt not\_null/accepted\_values tests and monitoring, and ship a first dashboard where Marketing and Sales can see CAC, conversion, and cohort performance by channel and campaign\_group.  
+  * Deliver a marketing performance mart linking Facebook & Google ad spend → Leads → Opportunities → Customers at a monthly × source × campaign_group level using first‑touch UTM attribution and existing campaign_metadata.  
+  * Clean up and backfill campaign_metadata so that current CRM UTM campaign strings are mapped to canonical campaign_groups, and surface unattributed/unmapped segments clearly in the mart and dashboard.  
+  * Enforce basic UTM completeness for new leads via dbt not_null/accepted_values tests and monitoring, and ship a first dashboard where Marketing and Sales can see CAC, conversion, and cohort performance by channel and campaign_group.  
 * **Longer term (following sprints – foundations):**  
   * Run a joint workshop with Marketing and Sales to lock in shared definitions for lead quality, the default attribution model, “paid CAC” vs “fully loaded CAC”, and campaign/UTM standards.  
-  * Evolve from simple first‑touch to multi‑touch / journey‑based attribution using web.sessions and web.form\_submissions once the basic funnel is trusted.  
-  * Formalize data quality monitoring (dbt tests \+ alerts) around UTMs, campaign mapping, and CRM linkages so that once fixed, these issues stay fixed.
+  * Evolve from simple first‑touch to multi‑touch / journey‑based attribution using web.sessions and web.form_submissions once the basic funnel is trusted.  
+  * Formalize data quality monitoring (dbt tests + alerts) around UTMs, campaign mapping, and CRM linkages so that once fixed, these issues stay fixed.
 
-# 2\. Data Architecture
+# 2. Data Architecture
 
 *dbt project structure, key models, data flow diagram, naming conventions, materialization*  
 *strategy. How will you handle the challenges you found?*
@@ -96,20 +96,20 @@ I structure the dbt project into source‑specific staging models, marketing int
 **Project structure & key models**
 
 * **Staging (models/staging/)**  
-  * Facebook Ads: stg\_facebook\_ads\_\_basic\_campaign, \_\_basic\_ad\_set, \_\_basic\_ad, \_\_ad\_history.  
-  * Google Ads: stg\_google\_ads\_\_campaign\_stats, \_\_ad\_stats.  
-  * CRM: stg\_crm\_\_leads, stg\_crm\_\_opportunities, stg\_crm\_\_customers.  
-  * Web: stg\_web\_\_sessions, stg\_web\_\_form\_submissions.  
-  * Internal: stg\_internal\_\_campaign\_metadata, stg\_internal\_\_cost\_allocation.  
+  * Facebook Ads: stg_facebook_ads__basic_campaign, __basic_ad_set, __basic_ad, __ad_history.  
+  * Google Ads: stg_google_ads__campaign_stats, __ad_stats.  
+  * CRM: stg_crm__leads, stg_crm__opportunities, stg_crm__customers.  
+  * Web: stg_web__sessions, stg_web__form_submissions.  
+  * Internal: stg_internal__campaign_metadata, stg_internal__cost_allocation.  
 * **Marketing intermediates (models/marts/marketing/intermediate/)**  
-  * int\_marketing\_\_daily\_spend\_by\_campaign: unifies Facebook \+ Google spend by campaign, date, and platform.  
-  * int\_marketing\_\_lead\_enriched: joins leads to opportunities/customers with lifecycle flags and first\_opportunity\_\* fields.  
-  * int\_marketing\_\_sessions\_with\_forms: links sessions and form submissions to model session → form → lead journeys (incl. organic).  
+  * int_marketing__daily_spend_by_campaign: unifies Facebook + Google spend by campaign, date, and platform.  
+  * int_marketing__lead_enriched: joins leads to opportunities/customers with lifecycle flags and first_opportunity_* fields.  
+  * int_marketing__sessions_with_forms: links sessions and form submissions to model session → form → lead journeys (incl. organic).  
 * **Marts & dimensions (models/marts/marketing/)**  
-  * fct\_marketing\_performance: end‑to‑end view of spend → sessions → leads → opportunities → customers and efficiency metrics (CPL, CAC) by month × source × campaign\_group.  
-  * fct\_lead\_lifecycle: one row per lead with UTM data, cohort, derived lead\_quality, and downstream outcomes.  
-  * dim\_campaigns: canonical campaign dimension combining internal campaign\_metadata with platform campaign identifiers (shared source of truth for campaign\_name and campaign\_group across CRM, web, and ad platforms).  
-  * dim\_cost\_allocation (or mnl\_cost\_allocation): cleaned view over finance’s cost\_allocation, mapping additional marketing costs (e.g., tools, agencies, brand) into periods and, where possible, campaign\_groups to support “full CAC” alongside media‑only CAC.
+  * fct_marketing_performance: end‑to‑end view of spend → sessions → leads → opportunities → customers and efficiency metrics (CPL, CAC) by month × source × campaign_group.  
+  * fct_lead_lifecycle: one row per lead with UTM data, cohort, derived lead_quality, and downstream outcomes.  
+  * dim_campaigns: canonical campaign dimension combining internal campaign_metadata with platform campaign identifiers (shared source of truth for campaign_name and campaign_group across CRM, web, and ad platforms).  
+  * dim_cost_allocation (or mnl_cost_allocation): cleaned view over finance’s cost_allocation, mapping additional marketing costs (e.g., tools, agencies, brand) into periods and, where possible, campaign_groups to support “full CAC” alongside media‑only CAC.
 
 **Data flow (see diagram)**
 
@@ -119,71 +119,71 @@ All marketing reporting must go through `fct_marketing_performance` and `fct_lea
 
 **Naming conventions**
 
-* **Layers:** stg\_ (staging), int\_ (intermediate), fct\_ (fact), dim\_ (dimension), mnl\_ (manual), sum\_ (summary).  
-* **Namespaces:** domain/source in the name, e.g. stg\_crm\_\_leads, stg\_web\_\_sessions, stg\_internal\_\_campaign\_metadata, int\_marketing\_\_lead\_enriched, fct\_marketing\_performance, dim\_campaigns, dim\_cost\_allocation.  
-* **Grain clarity:** grain added when non‑obvious (e.g. int\_marketing\_\_daily\_spend\_by\_campaign is daily × campaign).  
-* **Columns:** snake\_case with consistent keys (lead\_id, account\_id, campaign\_id, session\_id), and re‑used business fields (campaign\_group) with identical semantics across models.
+* **Layers:** stg_ (staging), int_ (intermediate), fct_ (fact), dim_ (dimension), mnl_ (manual), sum_ (summary).  
+* **Namespaces:** domain/source in the name, e.g. stg_crm__leads, stg_web__sessions, stg_internal__campaign_metadata, int_marketing__lead_enriched, fct_marketing_performance, dim_campaigns, dim_cost_allocation.  
+* **Grain clarity:** grain added when non‑obvious (e.g. int_marketing__daily_spend_by_campaign is daily × campaign).  
+* **Columns:** snake_case with consistent keys (lead_id, account_id, campaign_id, session_id), and re‑used business fields (campaign_group) with identical semantics across models.
 
 **Materialization strategy**
 
-* **Staging (stg\_\*)** – views: thin, cleaned projections over raw Fivetran tables for cheap, debuggable transforms.  
-* **Intermediates (int\_marketing\_\_\*)** – tables: heavier joins and business logic (spend unification, campaign mapping, lead enrichment, cost allocation), reused by multiple marts.  
-* **Marts & dimensions (fct\_\*, dim\_\*)** – tables with full refresh at this scale:  
-  * fct\_marketing\_performance: rebuilt daily; can later be incremental on (month, source, campaign\_group) if volume grows.  
-  * fct\_lead\_lifecycle: starts as full refresh; can become incremental on lead\_created\_at with lead\_id as unique key.  
-  * dim\_campaigns, dim\_cost\_allocation: small dimensions refreshed when upstream metadata or cost input changes.
+* **Staging (stg_*)** – views: thin, cleaned projections over raw Fivetran tables for cheap, debuggable transforms.  
+* **Intermediates (int_marketing__*)** – tables: heavier joins and business logic (spend unification, campaign mapping, lead enrichment, cost allocation), reused by multiple marts.  
+* **Marts & dimensions (fct_*, dim_*)** – tables with full refresh at this scale:  
+  * fct_marketing_performance: rebuilt daily; can later be incremental on (month, source, campaign_group) if volume grows.  
+  * fct_lead_lifecycle: starts as full refresh; can become incremental on lead_created_at with lead_id as unique key.  
+  * dim_campaigns, dim_cost_allocation: small dimensions refreshed when upstream metadata or cost input changes.
 
 **Handling key challenges via architecture**
 
-* **Campaign naming & mapping gaps:** stg\_internal\_\_campaign\_metadata feeds dim\_campaigns, which normalizes messy UTM campaign strings (e.g. “…;1004;Cold Traffic;2010”) into canonical campaign\_name and campaign\_group used consistently in marts and dashboards.  
-* **Additional marketing costs & CAC definitions:** dim\_cost\_allocation standardizes finance’s cost\_allocation table and allows us to report both media‑only CAC (ad spend) and full CAC (ad spend \+ allocated marketing overhead) from the same mart.  
+* **Campaign naming & mapping gaps:** stg_internal__campaign_metadata feeds dim_campaigns, which normalizes messy UTM campaign strings (e.g. “…;1004;Cold Traffic;2010”) into canonical campaign_name and campaign_group used consistently in marts and dashboards.  
+* **Additional marketing costs & CAC definitions:** dim_cost_allocation standardizes finance’s cost_allocation table and allows us to report both media‑only CAC (ad spend) and full CAC (ad spend + allocated marketing overhead) from the same mart.  
 * **Missing/inconsistent UTMs:** staging models preserve nulls; marts surface “Unattributed” / “Unmapped” segments explicitly, while dbt tests measure UTM completeness and mapping coverage over time.  
-* **Lead status vs real quality:** int\_marketing\_\_lead\_enriched and fct\_lead\_lifecycle derive outcome‑based lead\_quality; dashboards rely on it while still exposing raw lead\_status.  
-* **Attribution & source of truth:** the MVP locks in first‑touch lead‑level UTM attribution, documented in model descriptions; fct\_marketing\_performance and fct\_lead\_lifecycle are the only tables used by the Sales & Marketing dashboard for “spend → leads → pipeline → revenue” and cohorts, ensuring everyone sees the same numbers.
+* **Lead status vs real quality:** int_marketing__lead_enriched and fct_lead_lifecycle derive outcome‑based lead_quality; dashboards rely on it while still exposing raw lead_status.  
+* **Attribution & source of truth:** the MVP locks in first‑touch lead‑level UTM attribution, documented in model descriptions; fct_marketing_performance and fct_lead_lifecycle are the only tables used by the Sales & Marketing dashboard for “spend → leads → pipeline → revenue” and cohorts, ensuring everyone sees the same numbers.
 
-# 3\. Business Logic
+# 3. Business Logic
 
 *Define with clear formulas:*  
-*● CAC \- Calculation, costs included, edge cases*  
-*● Lead Quality \- Classification criteria, edge cases*  
-*● Attribution \- Approach, rationale, trade-offs*  
-*● Cohort Analysis \- Definition, measurement approach*
+*● CAC - Calculation, costs included, edge cases*  
+*● Lead Quality - Classification criteria, edge cases*  
+*● Attribution - Approach, rationale, trade-offs*  
+*● Cohort Analysis - Definition, measurement approach*
 
-### CAC \- Calculation, costs included, edge cases
+### CAC - Calculation, costs included, edge cases
 
 **Business definition**  
-CAC (Customer Acquisition Cost) tells us how much we spend in marketing to acquire one new paying customer in a given period, for a given segment (e.g., channel, campaign\_group, cohort).
+CAC (Customer Acquisition Cost) tells us how much we spend in marketing to acquire one new paying customer in a given period, for a given segment (e.g., channel, campaign_group, cohort).
 
 **Calculation (conceptual)**  
 For a month M, CAC is:
 
-* All marketing costs in that month (ad spend \+ agreed extra costs)  
+* All marketing costs in that month (ad spend + agreed extra costs)  
 * Divided by the number of new customers that started paying in that month, linked back to marketing.
 
 **Formula**  
-For month M and segment S (e.g. , channel, campaign\_group):
+For month M and segment S (e.g. , channel, campaign_group):
 
-**CAC (M, S) \= Total Marketing Cost (M, S) /New Customers (M, S)**  
+**CAC (M, S) = Total Marketing Cost (M, S) /New Customers (M, S)**  
    
 Where:
 
-* Total Marketing Cost (M, S) \=  
-  * Facebook spent in M,S from facebook\_ads.basic\_campaign.spend  
-  * Google spend in M,S from google\_ads.campaign\_stats.cost\_micros / 1,000,000  
-  * Marketing costs in M from internal.cost\_allocation (department \= Marketing), optionally allocated to segments.  
-* New Customers (M,S) \=  
-  * Distinct account\_id in crm.customers with customer\_since in month M, joined via crm.opportunities.lead\_id to leads whose **attributed channel / campaign\_group** is S.
+* Total Marketing Cost (M, S) =  
+  * Facebook spent in M,S from facebook_ads.basic_campaign.spend  
+  * Google spend in M,S from google_ads.campaign_stats.cost_micros / 1,000,000  
+  * Marketing costs in M from internal.cost_allocation (department = Marketing), optionally allocated to segments.  
+* New Customers (M,S) =  
+  * Distinct account_id in crm.customers with customer_since in month M, joined via crm.opportunities.lead_id to leads whose **attributed channel / campaign_group** is S.
 
 I’d expose:
 
 * `paid_cac` (ad spend only)  
-* `full_cac` (ad spend \+ internal cost\_allocation).
+* `full_cac` (ad spend + internal cost_allocation).
 
 **Edge cases**
 
-* If New Customers M,S \= 0 → show NULL / “n/a” for CAC (not a huge number).  
+* If New Customers M,S = 0 → show NULL / “n/a” for CAC (not a huge number).  
 * If there is spend but **no mapped leads/customers** (UTM or mapping issues), show this as “Unattributed” segment with its own spend and 0 customers.  
-* If customers exist without any paid spend (purely organic), report CAC \= 0 for that segment and label it clearly as “Non-paid”.
+* If customers exist without any paid spend (purely organic), report CAC = 0 for that segment and label it clearly as “Non-paid”.
 
 ### Lead Quality
 
@@ -200,7 +200,7 @@ Per lead, we look at outcomes:
 
 **Rules / formula**
 
-Per lead (from int\_marketing\_\_lead\_enriched):
+Per lead (from int_marketing__lead_enriched):
 
 * Inputs:  
   * `has_opportunity` (TRUE/FALSE)  
@@ -211,26 +211,26 @@ Per lead (from int\_marketing\_\_lead\_enriched):
 * Logic:
 
 ```sql
-IF is\_customer   
-   OR (has\_opportunity   
-       AND first\_opportunity\_amount \> median\_opp\_amount  
-       AND first\_opportunity\_stage IN ('Proposal', 'Negotiation', 'Closed Won')  
+IF is_customer   
+   OR (has_opportunity   
+       AND first_opportunity_amount > median_opp_amount  
+       AND first_opportunity_stage IN ('Proposal', 'Negotiation', 'Closed Won')  
 )  
-   THEN lead\_quality \= 'High'  
-ELSE IF has\_opportunity   
-   THEN lead\_quality \= 'Medium'  
-ELSE IF lead\_age\_days \<= 14  
-   THEN lead\_quality \= 'Too early'  
+   THEN lead_quality = 'High'  
+ELSE IF has_opportunity   
+   THEN lead_quality = 'Medium'  
+ELSE IF lead_age_days <= 14  
+   THEN lead_quality = 'Too early'  
 ELSE  
-   lead\_quality \= 'Low'  
+   lead_quality = 'Low'  
 END
 ```
 
 **Edge cases**
 
-* Very recent leads (lead\_age\_days \<= 14) are tagged as **“Too early”** so we don’t punish new campaigns.​  
-* Leads with broken linkage (no opportunity\_id despite evidence elsewhere) will fall into “Low” but we can additionally flag them as “unlinked” for data cleanup.  
-* We keep lead\_status (New/Contacted/Nurture/Qualified/Not Interested) for context, but we explicitly **don’t** use it as the primary definition because its conversion patterns are noisy.
+* Very recent leads (lead_age_days <= 14) are tagged as **“Too early”** so we don’t punish new campaigns.​  
+* Leads with broken linkage (no opportunity_id despite evidence elsewhere) will fall into “Low” but we can additionally flag them as “unlinked” for data cleanup.  
+* We keep lead_status (New/Contacted/Nurture/Qualified/Not Interested) for context, but we explicitly **don’t** use it as the primary definition because its conversion patterns are noisy.
 
 ### Attribution
 
@@ -247,31 +247,31 @@ For this MVP, we:
 
 Per lead:
 
-* attributed\_source:  
-  * lead\_utm\_source, or  
-  * if null, inferred from campaign\_metadata.platform (facebook/google/linkedin), else 'unknown'.  
-* attributed\_medium:  
-  * lead\_utm\_medium or 'unknown'.​  
-* attributed\_campaign & attributed\_campaign\_group:  
-  * From int\_marketing\_\_campaigns\_normalized, which maps raw lead\_utm\_campaign via internal.campaign\_metadata.
+* attributed_source:  
+  * lead_utm_source, or  
+  * if null, inferred from campaign_metadata.platform (facebook/google/linkedin), else 'unknown'.  
+* attributed_medium:  
+  * lead_utm_medium or 'unknown'.​  
+* attributed_campaign & attributed_campaign_group:  
+  * From int_marketing__campaigns_normalized, which maps raw lead_utm_campaign via internal.campaign_metadata.
 
-Then for each (month, attributed\_source, attributed\_campaign\_group):
+Then for each (month, attributed_source, attributed_campaign_group):
 
-* leads \= count of leads.  
-* opps \= count of leads that became opps.  
-* customers \= count of leads that became customers.  
-* spend \= ad spend from FB/Google mapped into that (month, source, campaign\_group).
+* leads = count of leads.  
+* opps = count of leads that became opps.  
+* customers = count of leads that became customers.  
+* spend = ad spend from FB/Google mapped into that (month, source, campaign_group).
 
 **Rationale**
 
-* lead\_utm\_\* is the cleanest, most complete attribution signal we have today; session-level chains are not modeled yet.  
+* lead_utm_* is the cleanest, most complete attribution signal we have today; session-level chains are not modeled yet.  
 * First-touch is enough to answer “what should we keep funding to acquire new leads/customers?” within one sprint.
 
 **Trade-offs**
 
 * We ignore multi-touch / last-touch influence (e.g. Retargeting campaigns that help close).  
-* Leads with missing UTMs are bucketed as source \= 'unknown' / campaign\_group \= 'Unmapped', which we can track and try to shrink as data quality improves.  
-* Future extension: build session \+ form → lead journeys and add a **second model** (e.g. position-based) rather than silently changing the first-touch logic.
+* Leads with missing UTMs are bucketed as source = 'unknown' / campaign_group = 'Unmapped', which we can track and try to shrink as data quality improves.  
+* Future extension: build session + form → lead journeys and add a **second model** (e.g. position-based) rather than silently changing the first-touch logic.
 
 ### Cohort Analysis
 
@@ -279,72 +279,72 @@ Then for each (month, attributed\_source, attributed\_campaign\_group):
 Cohort analysis asks: **do leads acquired in a given time / campaign context behave differently over their lifetime?** Think “Sep cohort vs Oct cohort” and “Brand vs Retargeting cohorts.”
 
 **Calculation (conceptual)**  
-We group leads by a **cohort key** (e.g. acquisition month \+ campaign\_group) and then track how many of them become opportunities/customers and how much revenue they generate over time.
+We group leads by a **cohort key** (e.g. acquisition month + campaign_group) and then track how many of them become opportunities/customers and how much revenue they generate over time.
 
 **Rules / formula**
 
 Primary cohort key:
 
-* cohort\_month \= date\_trunc('month', lead\_created\_at).
+* cohort_month = date_trunc('month', lead_created_at).
 
 Additional dimensions:
 
-* cohort\_campaign\_group \= attributed\_campaign\_group (Brand Awareness, Product Launch, Retargeting, Lead Gen, Other).  
-* cohort\_source \= attributed\_source.
+* cohort_campaign_group = attributed_campaign_group (Brand Awareness, Product Launch, Retargeting, Lead Gen, Other).  
+* cohort_source = attributed_source.
 
-Per cohort (cohort\_month, cohort\_campaign\_group, cohort\_source):
+Per cohort (cohort_month, cohort_campaign_group, cohort_source):
 
-* leads \= count of leads.  
-* opps \= count with has\_opportunity \= 1.  
-* customers \= count with is\_customer \= 1.  
-* lead\_to\_opp\_rate \= opps / leads.  
-* lead\_to\_customer\_rate \= customers / leads.  
-* avg\_opp\_value \= avg opportunity amount.​  
+* leads = count of leads.  
+* opps = count with has_opportunity = 1.  
+* customers = count with is_customer = 1.  
+* lead_to_opp_rate = opps / leads.  
+* lead_to_customer_rate = customers / leads.  
+* avg_opp_value = avg opportunity amount.​  
 * Optional: 30/60/90-day conversion if we define fixed time windows.
 
 **Edge cases**
 
 * Very small cohorts (e.g., only a few leads) should be flagged or hidden by default to avoid over-interpreting noise (e.g. the tiny Nov cohort).  
 * Late conversions (customers created long after the cohort month) should either:  
-  * be included with a fixed observation window (e.g., 90 days after lead\_created), or  
+  * be included with a fixed observation window (e.g., 90 days after lead_created), or  
   * be clearly documented as “lifetime to date” to avoid confusion in early cohorts.
 
-# 4\. dbt Models
+# 4. dbt Models
 
 *3-4 examples with SQL, config, documentation, tests:*  
 *● 1 staging model*  
 *● 1 intermediate model*  
 *● 1 mart model*
 
-### 1 staging model \- staging\_\_stg\_crm\_leads.sql
+### 1 staging model - staging__stg_crm_leads.sql
 
 **Purpose**  
 Clean CRM leads, standardize UTM fields, and cast timestamps for attribution, cohorts, and lead quality.
 
 {{ config(  
-  materialized \= 'view',  
-  schema \= 'staging',  
-  alias \= 'stg\_crm\_leads',  
-  tags \= \['staging', 'crm'\]  
+  materialized = 'view',  
+  schema = 'staging',  
+  alias = 'stg_crm_leads',  
+  tags = ['staging', 'crm']  
 ) }}
 
 with source as (  
-  select \* from {{ source('crm', 'leads') }}  
+  select * from {{ source('crm', 'leads') }}  
 )
 
 select  
-  lead\_id,  
+  lead_id,  
   email,  
-  lead\_created\_at::timestamp          as lead\_created\_at,  
-  nullif(lead\_utm\_campaign, '')       as lead\_utm\_campaign\_raw,  
-  lower(nullif(lead\_utm\_source, ''))  as lead\_utm\_source,  
-  lower(nullif(lead\_utm\_medium, ''))  as lead\_utm\_medium,  
-  lower(nullif(lead\_utm\_content, '')) as lead\_utm\_content,  
-  lower(nullif(lead\_utm\_term, ''))    as lead\_utm\_term,  
-  company\_name,  
+  lead_created_at::timestamp          as lead_created_at,  
+  nullif(lead_utm_campaign, '')       as lead_utm_campaign_raw,  
+  lower(nullif(lead_utm_source, ''))  as lead_utm_source,  
+  lower(nullif(lead_utm_medium, ''))  as lead_utm_medium,  
+  lower(nullif(lead_utm_content, '')) as lead_utm_content,  
+  lower(nullif(lead_utm_term, ''))    as lead_utm_term,  
+  company_name,  
   industry,  
   country,  
-  lead\_status  
+  lead_status  
 from source;
 
 **Key tests (schema.yml excerpt)**
@@ -352,306 +352,306 @@ from source;
 version: 2
 
 models:  
-  \- name: staging\_\_stg\_crm\_leads  
+  - name: staging__stg_crm_leads  
     description: "Cleaned CRM leads with standardized UTM fields and timestamps."  
     meta:  
       owner: data-team  
-      business\_purpose: "Base model for attribution, cohorts, and lead quality."  
+      business_purpose: "Base model for attribution, cohorts, and lead quality."  
     columns:  
-      \- name: lead\_id  
+      - name: lead_id  
         description: "Unique identifier for a lead in the CRM."  
-        tests: \[not\_null, unique\]  
-      \- name: lead\_created\_at  
+        tests: [not_null, unique]  
+      - name: lead_created_at  
         description: "Timestamp when the lead was created."  
-        tests: \[not\_null\]  
-      \- name: lead\_utm\_campaign\_raw  
+        tests: [not_null]  
+      - name: lead_utm_campaign_raw  
         description: "Raw UTM campaign string as captured in the CRM."  
-      \- name: lead\_utm\_source  
+      - name: lead_utm_source  
         description: "UTM source (google, facebook, linkedin, etc.)."  
-      \- name: lead\_status  
+      - name: lead_status  
         description: "CRM lead status (New, Contacted, Nurture, Qualified, Not Interested)."
 
-### Intermediate model – intermediate\_\_int\_marketing\_lead\_enriched
+### Intermediate model – intermediate__int_marketing_lead_enriched
 
 **Purpose**  
-Enrich each lead with its first opportunity and downstream customer, and derive lifecycle flags (has\_opportunity, is\_customer). This is the backbone for lead quality, cohorts, and the marketing mart.
+Enrich each lead with its first opportunity and downstream customer, and derive lifecycle flags (has_opportunity, is_customer). This is the backbone for lead quality, cohorts, and the marketing mart.
 
 {{ config(  
-  materialized \= 'table',  
-  schema \= intermediate,  
-  alias \= 'int\_marketing\_lead\_enriched',  
-  tags \= \['marketing', 'intermediate'\]  
+  materialized = 'table',  
+  schema = intermediate,  
+  alias = 'int_marketing_lead_enriched',  
+  tags = ['marketing', 'intermediate']  
 ) }}
 
 with leads as (  
-  select \* from {{ ref('staging\_\_stg\_crm\_leads') }}  
+  select * from {{ ref('staging__stg_crm_leads') }}  
 ),
 
 opportunities as (  
   select  
-    lead\_id,  
-    account\_id,  
-    opportunity\_id,  
-    opportunity\_created\_at::timestamp as opportunity\_created\_at,  
-    stage\_name,  
+    lead_id,  
+    account_id,  
+    opportunity_id,  
+    opportunity_created_at::timestamp as opportunity_created_at,  
+    stage_name,  
     amount  
-  from {{ ref('staging\_\_stg\_crm\_opportunities') }}  
+  from {{ ref('staging__stg_crm_opportunities') }}  
 ),
 
 customers as (  
   select  
-    account\_id,  
-    customer\_since::date as customer\_since,  
+    account_id,  
+    customer_since::date as customer_since,  
     mrr,  
-    churn\_date::date      as churn\_date  
-  from {{ ref('staging\_\_stg\_crm\_customers') }}  
+    churn_date::date      as churn_date  
+  from {{ ref('staging__stg_crm_customers') }}  
 ),
 
-lead\_first\_opportunity as (  
+lead_first_opportunity as (  
   select  
-    lead\_id,  
-    min\_by(opportunity\_id, opportunity\_created\_at) as first\_opportunity\_id,  
-    min(opportunity\_created\_at)                    as first\_opportunity\_created\_at  
+    lead_id,  
+    min_by(opportunity_id, opportunity_created_at) as first_opportunity_id,  
+    min(opportunity_created_at)                    as first_opportunity_created_at  
   from opportunities  
-  group by lead\_id  
+  group by lead_id  
 ),
 
-opportunity\_with\_customer as (  
+opportunity_with_customer as (  
   select  
-    opportunities.opportunity\_id,  
-    opportunities.lead\_id,  
-    opportunities.account\_id,  
-    opportunities.stage\_name,  
+    opportunities.opportunity_id,  
+    opportunities.lead_id,  
+    opportunities.account_id,  
+    opportunities.stage_name,  
     opportunities.amount,  
-    customers.customer\_since,  
+    customers.customer_since,  
     customers.mrr,  
-    customers.churn\_date  
+    customers.churn_date  
   from opportunities  
   left join customers  
-    on opportunities.account\_id \= customers.account\_id  
+    on opportunities.account_id = customers.account_id  
 )
 
 select  
-  leads.\*,  
-  lead\_first\_opportunity.first\_opportunity\_id,  
-  opportunity\_with\_customer.stage\_name  as first\_opportunity\_stage,  
-  opportunity\_with\_customer.amount      as first\_opportunity\_amount,  
-  opportunity\_with\_customer.customer\_since,  
-  opportunity\_with\_customer.mrr,  
-  opportunity\_with\_customer.churn\_date,  
-  case when lead\_first\_opportunity.first\_opportunity\_id is not null then 1 else 0 end as has\_opportunity,  
-  case when opportunity\_with\_customer.customer\_since      is not null then 1 else 0 end as is\_customer  
+  leads.*,  
+  lead_first_opportunity.first_opportunity_id,  
+  opportunity_with_customer.stage_name  as first_opportunity_stage,  
+  opportunity_with_customer.amount      as first_opportunity_amount,  
+  opportunity_with_customer.customer_since,  
+  opportunity_with_customer.mrr,  
+  opportunity_with_customer.churn_date,  
+  case when lead_first_opportunity.first_opportunity_id is not null then 1 else 0 end as has_opportunity,  
+  case when opportunity_with_customer.customer_since      is not null then 1 else 0 end as is_customer  
 from leads  
-left join lead\_first\_opportunity  
-  on leads.lead\_id \= lead\_first\_opportunity.lead\_id  
-left join opportunity\_with\_customer  
-  on lead\_first\_opportunity.first\_opportunity\_id \= opportunity\_with\_customer.opportunity\_id;
+left join lead_first_opportunity  
+  on leads.lead_id = lead_first_opportunity.lead_id  
+left join opportunity_with_customer  
+  on lead_first_opportunity.first_opportunity_id = opportunity_with_customer.opportunity_id;
 
 **Key tests (schema.yml excerpt)**
 
 version: 2
 
 models:  
-  \- name: intermediate\_\_int\_marketing\_lead\_enriched  
+  - name: intermediate__int_marketing_lead_enriched  
     description: "Leads enriched with first opportunity and customer info plus lifecycle flags."  
     meta:  
       owner: data-team  
-      business\_purpose: "Base for lead quality, cohorts, and marketing performance."  
+      business_purpose: "Base for lead quality, cohorts, and marketing performance."  
     columns:  
-      \- name: lead\_id  
-        tests: \[not\_null, unique\]  
-      \- name: first\_opportunity\_id  
+      - name: lead_id  
+        tests: [not_null, unique]  
+      - name: first_opportunity_id  
         description: "ID of the first opportunity created from this lead (if any)."  
-      \- name: has\_opportunity  
+      - name: has_opportunity  
         description: "1 if the lead created at least one opportunity."  
         tests:  
-          \- accepted\_values:  
-              values: \[0, 1\]  
-      \- name: is\_customer  
+          - accepted_values:  
+              values: [0, 1]  
+      - name: is_customer  
         description: "1 if the lead eventually became a customer."  
         tests:  
-          \- accepted\_values:  
-              values: \[0, 1\]  
-      \- name: account\_id  
+          - accepted_values:  
+              values: [0, 1]  
+      - name: account_id  
         description: "Account linked to the first opportunity (if present)."
 
-### Mart model \- marts\_\_fct\_marketing\_performance
+### Mart model - marts__fct_marketing_performance
 
 **Purpose**  
-Combine media spend, web sessions, and enriched leads into a single monthly × source × campaign\_group mart with funnel and efficiency metrics (sessions, leads, opps, customers, pipeline, CPL, CAC, conversion rates).
+Combine media spend, web sessions, and enriched leads into a single monthly × source × campaign_group mart with funnel and efficiency metrics (sessions, leads, opps, customers, pipeline, CPL, CAC, conversion rates).
 
 Note: If this model becomes too heavy in the future, the CTEs can be moved upstream and become separate intermediate models themselves.
 
 {{ config(  
-  materialized \= 'table',  
-  schema \= 'marts,  
-  alias \= 'fct\_marketing\_performance',  
-  tags \= \['marketing', 'mart'\]  
+  materialized = 'table',  
+  schema = 'marts,  
+  alias = 'fct_marketing_performance',  
+  tags = ['marketing', 'mart']  
 ) }}
 
-with facebook\_spend as (  
+with facebook_spend as (  
   select  
-    date\_trunc('month', date) as month,  
+    date_trunc('month', date) as month,  
     'facebook'::text          as source,  
-    campaign\_id,  
-    spend::numeric            as spend\_eur  
-  from {{ ref('staging\_\_stg\_facebook\_ads\_basic\_campaign') }}  
+    campaign_id,  
+    spend::numeric            as spend_eur  
+  from {{ ref('staging__stg_facebook_ads_basic_campaign') }}  
 ),
 
-google\_spend as (  
+google_spend as (  
   select  
-    date\_trunc('month', date)          as month,  
+    date_trunc('month', date)          as month,  
     'google'::text                     as source,  
-    campaign\_id,  
-    (cost\_micros::numeric / 1\_000\_000) as spend\_eur  
-  from {{ ref('staging\_\_stg\_google\_ads\_campaign\_stats') }}  
+    campaign_id,  
+    (cost_micros::numeric / 1_000_000) as spend_eur  
+  from {{ ref('staging__stg_google_ads_campaign_stats') }}  
 ),
 
-union\_spend as (  
-  select month, source, campaign\_id, spend\_eur from facebook\_spend  
+union_spend as (  
+  select month, source, campaign_id, spend_eur from facebook_spend  
   union all  
-  select month, source, campaign\_id, spend\_eur from google\_spend  
+  select month, source, campaign_id, spend_eur from google_spend  
 ),
 
-campaign\_metadata as (  
+campaign_metadata as (  
   select  
-    utm\_campaign\_name as utm\_campaign\_raw,  
+    utm_campaign_name as utm_campaign_raw,  
     platform,  
-    actual\_campaign\_name,  
-    campaign\_group  
-  from {{ ref('staging\_\_stg\_internal\_campaign\_metadata') }}  
+    actual_campaign_name,  
+    campaign_group  
+  from {{ ref('staging__stg_internal_campaign_metadata') }}  
 ),
 
-marketing\_leads as (  
+marketing_leads as (  
   select  
-    date\_trunc('month', lead\_created\_at)          as month,  
-    coalesce(lead\_utm\_source, 'unknown')         as source,  
-    coalesce(cm.campaign\_group, 'Unmapped')      as campaign\_group,  
-    has\_opportunity,  
-    is\_customer,  
-    coalesce(first\_opportunity\_amount, 0\)        as opportunity\_amount  
-  from {{ ref('intermediate\_\_int\_marketing\_\_lead\_enriched') }} l  
-  left join campaign\_metadata cm  
-    on l.lead\_utm\_campaign\_raw \= cm.utm\_campaign\_raw  
+    date_trunc('month', lead_created_at)          as month,  
+    coalesce(lead_utm_source, 'unknown')         as source,  
+    coalesce(cm.campaign_group, 'Unmapped')      as campaign_group,  
+    has_opportunity,  
+    is_customer,  
+    coalesce(first_opportunity_amount, 0)        as opportunity_amount  
+  from {{ ref('intermediate__int_marketing__lead_enriched') }} l  
+  left join campaign_metadata cm  
+    on l.lead_utm_campaign_raw = cm.utm_campaign_raw  
 ),
 
-aggregated\_leads as (  
-  select  
-    month,  
-    source,  
-    campaign\_group,  
-    count(\*)                     as leads,  
-    sum(has\_opportunity)         as opportunities,  
-    sum(is\_customer)             as customers,  
-    sum(opportunity\_amount)      as pipeline\_value  
-  from marketing\_leads  
-  group by month, source, campaign\_group  
-),
-
-aggregated\_spend as (  
+aggregated_leads as (  
   select  
     month,  
     source,  
-    'All'::text as campaign\_group,  
-    sum(spend\_eur) as ad\_spend\_eur  
-  from union\_spend  
-  group by month, source, campaign\_group  
+    campaign_group,  
+    count(*)                     as leads,  
+    sum(has_opportunity)         as opportunities,  
+    sum(is_customer)             as customers,  
+    sum(opportunity_amount)      as pipeline_value  
+  from marketing_leads  
+  group by month, source, campaign_group  
 ),
 
-web\_sessions as (  
+aggregated_spend as (  
   select  
-    date\_trunc('month', session\_timestamp) as month,  
-    coalesce(utm\_source, 'unknown')        as source,  
-    utm\_campaign                           as utm\_campaign\_raw,  
-    count(\*)                               as sessions  
-  from {{ ref('staging\_\_stg\_web\_sessions') }}  
-  group by month, source, utm\_campaign\_raw  
+    month,  
+    source,  
+    'All'::text as campaign_group,  
+    sum(spend_eur) as ad_spend_eur  
+  from union_spend  
+  group by month, source, campaign_group  
 ),
 
-web\_sessions\_with\_group as (  
+web_sessions as (  
+  select  
+    date_trunc('month', session_timestamp) as month,  
+    coalesce(utm_source, 'unknown')        as source,  
+    utm_campaign                           as utm_campaign_raw,  
+    count(*)                               as sessions  
+  from {{ ref('staging__stg_web_sessions') }}  
+  group by month, source, utm_campaign_raw  
+),
+
+web_sessions_with_group as (  
   select  
     ws.month,  
     ws.source,  
-    coalesce(cm.campaign\_group, 'Unmapped') as campaign\_group,  
+    coalesce(cm.campaign_group, 'Unmapped') as campaign_group,  
     ws.sessions  
-  from web\_sessions ws  
-  left join campaign\_metadata cm  
-    on ws.utm\_campaign\_raw \= cm.utm\_campaign\_raw  
+  from web_sessions ws  
+  left join campaign_metadata cm  
+    on ws.utm_campaign_raw = cm.utm_campaign_raw  
 ),
 
-aggregated\_web\_traffic as (  
+aggregated_web_traffic as (  
   select  
     month,  
     source,  
-    campaign\_group,  
+    campaign_group,  
     sum(sessions) as sessions  
-  from web\_sessions\_with\_group  
-  group by month, source, campaign\_group  
+  from web_sessions_with_group  
+  group by month, source, campaign_group  
 )
 
 select  
   coalesce(al.month, aspend.month, awt.month)                          as month,  
   coalesce(al.source, aspend.source, awt.source)                        as source,  
-  coalesce(al.campaign\_group, aspend.campaign\_group, awt.campaign\_group) as campaign\_group,  
-  coalesce(aspend.ad\_spend\_eur, 0\)                                     as ad\_spend\_eur,  
-  coalesce(awt.sessions, 0\)                                            as sessions,  
-  coalesce(al.leads, 0\)                                                as leads,  
-  coalesce(al.opportunities, 0\)                                        as opportunities,  
-  coalesce(al.customers, 0\)                                            as customers,  
-  coalesce(al.pipeline\_value, 0\)                                       as pipeline\_value,  
-  case when sessions   \> 0 then leads::numeric       / sessions   end  as visit\_to\_lead\_rate,  
-  case when leads      \> 0 then ad\_spend\_eur         / leads      end  as cost\_per\_lead,  
-  case when customers  \> 0 then ad\_spend\_eur         / customers  end  as paid\_cac,  
-  case when leads      \> 0 then opportunities::numeric / leads    end  as lead\_to\_opportunity\_rate,  
-  case when leads      \> 0 then customers::numeric     / leads    end  as lead\_to\_customer\_rate  
-from aggregated\_leads al  
-full outer join aggregated\_spend       aspend on al.month \= aspend.month  
-                                       and al.source \= aspend.source  
-                                       and al.campaign\_group \= aspend.campaign\_group  
-full outer join aggregated\_web\_traffic awt    on coalesce(al.month,   aspend.month)   \= awt.month  
-                                       and coalesce(al.source, aspend.source)        \= awt.source  
-                                       and coalesce(al.campaign\_group, aspend.campaign\_group) \= awt.campaign\_group;
+  coalesce(al.campaign_group, aspend.campaign_group, awt.campaign_group) as campaign_group,  
+  coalesce(aspend.ad_spend_eur, 0)                                     as ad_spend_eur,  
+  coalesce(awt.sessions, 0)                                            as sessions,  
+  coalesce(al.leads, 0)                                                as leads,  
+  coalesce(al.opportunities, 0)                                        as opportunities,  
+  coalesce(al.customers, 0)                                            as customers,  
+  coalesce(al.pipeline_value, 0)                                       as pipeline_value,  
+  case when sessions   > 0 then leads::numeric       / sessions   end  as visit_to_lead_rate,  
+  case when leads      > 0 then ad_spend_eur         / leads      end  as cost_per_lead,  
+  case when customers  > 0 then ad_spend_eur         / customers  end  as paid_cac,  
+  case when leads      > 0 then opportunities::numeric / leads    end  as lead_to_opportunity_rate,  
+  case when leads      > 0 then customers::numeric     / leads    end  as lead_to_customer_rate  
+from aggregated_leads al  
+full outer join aggregated_spend       aspend on al.month = aspend.month  
+                                       and al.source = aspend.source  
+                                       and al.campaign_group = aspend.campaign_group  
+full outer join aggregated_web_traffic awt    on coalesce(al.month,   aspend.month)   = awt.month  
+                                       and coalesce(al.source, aspend.source)        = awt.source  
+                                       and coalesce(al.campaign_group, aspend.campaign_group) = awt.campaign_group;
 
 **Key tests (schema.yml excerpt)**
 
 version: 2
 
 models:  
-  \- name: mart\_\_fct\_marketing\_performance  
-    description: \>  
-      Monthly marketing performance by source and campaign\_group with spend,  
+  - name: mart__fct_marketing_performance  
+    description: >  
+      Monthly marketing performance by source and campaign_group with spend,  
       sessions, funnel metrics, and efficiency (CPL, CAC, conversion rates).  
     meta:  
       owner: data-team  
-      business\_purpose: "Single source of truth for Marketing & Sales to discuss channel and campaign performance."  
+      business_purpose: "Single source of truth for Marketing & Sales to discuss channel and campaign performance."  
     columns:  
-      \- name: month  
+      - name: month  
         description: "Reporting / cohort month (first day of the month)."  
-        tests: \[not\_null\]  
-      \- name: source  
+        tests: [not_null]  
+      - name: source  
         description: "Attributed traffic/source channel (facebook, google, linkedin, direct, organic, unknown)."  
-      \- name: campaign\_group  
+      - name: campaign_group  
         description: "Canonical campaign grouping (Brand Awareness, Product Launch, Retargeting, Lead Gen, Other, Unmapped)."  
-      \- name: ad\_spend\_eur  
+      - name: ad_spend_eur  
         description: "Paid media spend in EUR from Facebook and Google for this month/source."  
-      \- name: sessions  
-        description: "Number of web sessions for this month/source/campaign\_group (paid \+ organic)."  
-      \- name: leads  
-        description: "Number of leads created in this month/source/campaign\_group."  
-        tests: \[not\_null\]  
-      \- name: customers  
+      - name: sessions  
+        description: "Number of web sessions for this month/source/campaign_group (paid + organic)."  
+      - name: leads  
+        description: "Number of leads created in this month/source/campaign_group."  
+        tests: [not_null]  
+      - name: customers  
         description: "Number of leads in this segment that became customers."  
-        tests: \[not\_null\]  
-      \- name: cost\_per\_lead  
+        tests: [not_null]  
+      - name: cost_per_lead  
         description: "Ad spend per lead (media-only CPL)."  
-      \- name: paid\_cac  
+      - name: paid_cac  
         description: "Ad spend per new customer (media-only CAC)."
 
-# 5\. Dashboard Design
+# 5. Dashboard Design
 
 *Layout, visualizations, key metrics, filters, access controls*
 
-I’d ship a single “Marketing & Sales Performance” dashboard with three tabs: Overview, Cohorts, and Lead Quality, all powered by the two marts (fct\_marketing\_performance, fct\_lead\_lifecycle) and a thin reporting layer.
+I’d ship a single “Marketing & Sales Performance” dashboard with three tabs: Overview, Cohorts, and Lead Quality, all powered by the two marts (fct_marketing_performance, fct_lead_lifecycle) and a thin reporting layer.
 
 ## **Tab 1 – Overview**
 
@@ -669,43 +669,43 @@ Give Marketing, Sales, and leadership one place to answer “how are we doing ov
 * **Main chart – funnel over time (combo)**  
   * X‑axis: month (or week).  
   * Lines: impressions, sessions, leads, customers.  
-  * Bars: ad\_spend\_eur.  
+  * Bars: ad_spend_eur.  
   * Shows how top‑of‑funnel and spend relate to conversions over time.  
-* **Channel breakdown (table \+ bar chart)**  
-  * Table, one row per source (facebook, google, organic, direct, unknown, etc.; optionally campaign\_group \= “All”):  
-    * sessions, leads, opportunities, customers, pipeline\_value, visit\_to\_lead\_rate, lead\_to\_customer\_rate, ad\_spend\_eur, cost\_per\_lead, paid\_cac.  
-  * Side bar chart: X‑axis \= source; bars \= customers; line \= paid\_cac.
+* **Channel breakdown (table + bar chart)**  
+  * Table, one row per source (facebook, google, organic, direct, unknown, etc.; optionally campaign_group = “All”):  
+    * sessions, leads, opportunities, customers, pipeline_value, visit_to_lead_rate, lead_to_customer_rate, ad_spend_eur, cost_per_lead, paid_cac.  
+  * Side bar chart: X‑axis = source; bars = customers; line = paid_cac.
 
 **Filters (global)**
 
 * Date range (default last 3 months, month granularity).  
 * Source.  
-* Campaign\_group.  
+* Campaign_group.  
 * Country, industry.  
   ---
 
 ## **Tab 2 – Cohort View**
 
 **Purpose**  
-Answer “Are newer cohorts better?” and “Which campaign\_groups/sources actually create strong cohorts?”
+Answer “Are newer cohorts better?” and “Which campaign_groups/sources actually create strong cohorts?”
 
 **Layout**
 
-* **Cohort heatmap** (from fct\_lead\_lifecycle aggregated by (cohort\_month, campaign\_group)):  
-  * X‑axis: cohort\_month (Sep, Oct, …).  
-  * Y‑axis: campaign\_group (Brand Awareness, Product Launch, Retargeting, Lead Gen, Other, Unmapped).  
-  * Cell: primary \= lead\_to\_customer\_rate; toggle \= customers per 100 leads.  
+* **Cohort heatmap** (from fct_lead_lifecycle aggregated by (cohort_month, campaign_group)):  
+  * X‑axis: cohort_month (Sep, Oct, …).  
+  * Y‑axis: campaign_group (Brand Awareness, Product Launch, Retargeting, Lead Gen, Other, Unmapped).  
+  * Cell: primary = lead_to_customer_rate; toggle = customers per 100 leads.  
 * **Cohort comparison small multiples**  
-  * One tile per cohort\_month (e.g., Sep vs Oct).  
-  * Within each tile: bar chart by campaign\_group showing leads, customers, and lead\_to\_customer\_rate.  
-  * Makes it obvious, for example, that Oct cohorts outperform Sep and which campaign\_groups drive the difference.  
+  * One tile per cohort_month (e.g., Sep vs Oct).  
+  * Within each tile: bar chart by campaign_group showing leads, customers, and lead_to_customer_rate.  
+  * Makes it obvious, for example, that Oct cohorts outperform Sep and which campaign_groups drive the difference.  
 * **Optional second heatmap**  
-  * X‑axis: cohort\_month, Y‑axis: source, cell \= lead\_to\_customer\_rate.
+  * X‑axis: cohort_month, Y‑axis: source, cell = lead_to_customer_rate.
 
 **Filters**
 
-* Cohort\_month range.  
-* Campaign\_group.  
+* Cohort_month range.  
+* Campaign_group.  
 * Source.  
 * Country, industry.  
   ---
@@ -717,15 +717,15 @@ Help Sales and Marketing understand where High/Medium/Low quality leads come fro
 
 **Layout**
 
-* **Lead quality distribution** (from fct\_lead\_lifecycle):  
+* **Lead quality distribution** (from fct_lead_lifecycle):  
   * Stacked bar chart:  
     * X‑axis: source.  
-    * Stack: lead\_quality (High / Medium / Low / Too early).  
+    * Stack: lead_quality (High / Medium / Low / Too early).  
     * Y‑axis: number of leads.  
   * Shows which channels skew towards high‑quality vs low‑quality leads.  
 * **Quality vs conversion table**  
-  * Grouped by (source, lead\_quality):  
-    * leads, opportunities, customers, lead\_to\_customer\_rate, optional average opportunity amount.  
+  * Grouped by (source, lead_quality):  
+    * leads, opportunities, customers, lead_to_customer_rate, optional average opportunity amount.  
   * Answers: “For each channel, what share of leads are actually High quality, and how do they convert?”  
 * **Optional ICP / segment drill‑down**  
   * Filters/columns for country and industry to slice within High‑quality leads (e.g. “High‑quality DACH Manufacturing leads via Retargeting”).
@@ -737,7 +737,7 @@ Help Sales and Marketing understand where High/Medium/Low quality leads come fro
 * Marketing & Sales: read‑only access to all 3 tabs.  
 * Data team: full edit rights and ownership of the marts, definitions, and reporting layer.
 
-# 6\. Stakeholder Communication
+# 6. Stakeholder Communication
 
 *15-minute meeting outline: findings, questions needed, decisions required, timeline*
 
@@ -745,31 +745,31 @@ Help Sales and Marketing understand where High/Medium/Low quality leads come fro
 
 * Remind them of the ask: “€50k+/month on ads, no clarity on what works, Sales says leads are bad, no cohort view.”  
 * Say what was done: pulled FB/Google, web, CRM, and internal cost/campaign data; built a draft spend → web → lead → opp → customer model.  
-* **Goal of this meeting**: agree on logic \+ decisions so we can ship an MVP dashboard next sprint.
+* **Goal of this meeting**: agree on logic + decisions so we can ship an MVP dashboard next sprint.
 
 **3–7 min – Key findings**
 
-* Funnel snapshot: \~€260k spend → 830 leads → 352 opps → 47 customers; CAC and CPL are high but not hopeless.  
+* Funnel snapshot: ~€260k spend → 830 leads → 352 opps → 47 customers; CAC and CPL are high but not hopeless.  
 * Data issues:  
-  *  \~17% leads missing UTM campaign, partial campaign\_metadata coverage (\~40% of CRM campaigns mapped), odd UTM combos in web data.  
+  *  ~17% leads missing UTM campaign, partial campaign_metadata coverage (~40% of CRM campaigns mapped), odd UTM combos in web data.  
 * Process issue:   
-  * lead\_status doesn’t track true quality;   
+  * lead_status doesn’t track true quality;   
   * “Nurture” converts nearly as well as “Qualified”.  
 * Signal:  
   *  Oct cohorts perform better than Sep;   
-  * Some sources/campaign\_groups clearly outperform, but this isn’t visible today.
+  * Some sources/campaign_groups clearly outperform, but this isn’t visible today.
 
 **7–11 min – Proposed solution (MVP)**
 
 * Data models:  
-  * fct\_marketing\_performance: monthly performance by source × campaign\_group (sessions, leads, opps, customers, pipeline, CPL, CAC).  
-  * fct\_lead\_lifecycle: per-lead lifecycle with UTM, cohort\_month, lead\_quality, outcomes.  
+  * fct_marketing_performance: monthly performance by source × campaign_group (sessions, leads, opps, customers, pipeline, CPL, CAC).  
+  * fct_lead_lifecycle: per-lead lifecycle with UTM, cohort_month, lead_quality, outcomes.  
 * Business logic:  
   * CAC: show paid CAC and full CAC (with internal cost allocation).  
   * Lead quality: High / Medium / Low / Too early based on opp/customer outcomes, not CRM status.  
   * Attribution: first-touch UTM at lead level as default; multi-touch as a later extension.  
 * Dashboard:  
-  * Tab 1: Overview (BANs \+ combo chart \+ channel breakdown).  
+  * Tab 1: Overview (BANs + combo chart + channel breakdown).  
   * Tab 2: Cohorts (cohort heatmap, Sep vs Oct).  
   * Tab 3: Lead quality (quality by source/ICP).
 
@@ -778,53 +778,53 @@ Help Sales and Marketing understand where High/Medium/Low quality leads come fro
 * Attribution: OK to use **first-touch** as the official MVP model (and add multi-touch later as a separate view)?  
 * CAC scope: should “default” CAC be media-only, full, or do we always show both?  
 * Lead quality: do the High/Medium/Low rules (based on opp/customer) match how Sales thinks about “good leads”, or any tweaks?  
-* Ownership: who in Marketing owns UTMs and campaign\_metadata so that mapping gaps get fixed at source?​
+* Ownership: who in Marketing owns UTMs and campaign_metadata so that mapping gaps get fixed at source?​
 
 **13–15 min – Timeline & next steps**
 
 * Next sprint (2 weeks):  
-  * Implement dbt models \+ tests and ship the 3-tab dashboard.  
+  * Implement dbt models + tests and ship the 3-tab dashboard.  
   * Start tracking UTM completeness and campaign mapping coverage.  
 * Following sprint:  
-  * Iterate on definitions (lead quality thresholds, CAC view), add Finance tab if wanted, and explore multi-touch attribution using web sessions \+ forms.
+  * Iterate on definitions (lead quality thresholds, CAC view), add Finance tab if wanted, and explore multi-touch attribution using web sessions + forms.
 
-# 7\. Strategic Recommendation \- Data Quality Monitoring
+# 7. Strategic Recommendation - Data Quality Monitoring
 
 Why this first?
 
 * All the key questions (which campaigns work, which channels bring good leads, which cohorts are better) depend on **UTM quality, campaign mapping, and CRM linkages** being consistently correct.  
 * Right now:  
-  * \~17% of leads are missing lead\_utm\_campaign.  
-  * Only \~40% of CRM campaigns are mapped in campaign\_metadata.  
-  * Web UTMs are inconsistent, and lead\_status doesn’t reflect true quality.  
+  * ~17% of leads are missing lead_utm_campaign.  
+  * Only ~40% of CRM campaigns are mapped in campaign_metadata.  
+  * Web UTMs are inconsistent, and lead_status doesn’t reflect true quality.  
 * If we don’t monitor and enforce this, any attribution/CAC model will degrade again in a few weeks.
 
 ### What I’d implement
 
-**1\. dbt tests on critical fields**
+**1. dbt tests on critical fields**
 
-* On stg\_crm\_\_leads and stg\_web\_\_form\_submissions:  
-  * Not-null tests on lead\_utm\_campaign, lead\_utm\_source, utm\_campaign, utm\_source (with some allowed % of nulls initially).  
-* On stg\_internal\_\_campaign\_metadata:  
+* On stg_crm__leads and stg_web__form_submissions:  
+  * Not-null tests on lead_utm_campaign, lead_utm_source, utm_campaign, utm_source (with some allowed % of nulls initially).  
+* On stg_internal__campaign_metadata:  
   * Relationship tests to ensure all “used” UTM campaign values in CRM and web are either mapped or explicitly flagged as unmapped.  
-* On int\_marketing\_\_lead\_enriched / fct\_marketing\_performance:  
-  * Sanity checks on rates (e.g., lead\_to\_customer\_rate between 0 and 1).
+* On int_marketing__lead_enriched / fct_marketing_performance:  
+  * Sanity checks on rates (e.g., lead_to_customer_rate between 0 and 1).
 
-**2\. Simple monitoring & alerting**
+**2. Simple monitoring & alerting**
 
 * Daily dbt run that:  
   * Calculates **UTM completeness %** (e.g., share of leads with non-null UTM campaign/source).  
-  * Calculates **campaign mapping coverage %** (share of lead\_utm\_campaign values mapped in campaign\_metadata).  
+  * Calculates **campaign mapping coverage %** (share of lead_utm_campaign values mapped in campaign_metadata).  
 * Push a short summary to Slack/Teams:  
   * “Yesterday: 92% leads with UTM campaign, 80% campaign strings mapped. Target: 98% / 100%.”​
 
-**3\. Clear ownership & process**
+**3. Clear ownership & process**
 
 * Nominate:  
-  * A **Marketing owner** for UTMs and campaign\_metadata (creates entries before new campaigns go live, fixes unmapped ones).​​  
+  * A **Marketing owner** for UTMs and campaign_metadata (creates entries before new campaigns go live, fixes unmapped ones).​​  
   * The **Data team** as owner of tests and monitoring (they surface issues, not fix tags in ad tools/web).  
 * Lightweight rules:  
-  * New campaign checklist: UTM structure, entry in campaign\_metadata, agreed campaign\_group, platform.  
+  * New campaign checklist: UTM structure, entry in campaign_metadata, agreed campaign_group, platform.  
   * Quarterly review: clean up “Unmapped/Unknown” buckets and update mapping.
 
 ### Impact
@@ -837,9 +837,9 @@ Why this first?
 
 ## Links
 
-* Exploration Conversation with AI (Perplexity): [https://www.perplexity.ai/search/so-here-i-ve-got-the-take-home-Z6dVz64uSnCAMxHtPwS8pg\#18](https://www.perplexity.ai/search/so-here-i-ve-got-the-take-home-Z6dVz64uSnCAMxHtPwS8pg#18)  
-* Revision Conversation with AI (Perplexity): [https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-l6WSIc2\_SP6tDehUS2HZuw\#0](https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-l6WSIc2_SP6tDehUS2HZuw#0)  
-* Final Review Conversation with AI (Perplexity): [https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-GJDCkcDCQWGyTDvaFYlzug\#0](https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-GJDCkcDCQWGyTDvaFYlzug#0)
+* Exploration Conversation with AI (Perplexity): [https://www.perplexity.ai/search/so-here-i-ve-got-the-take-home-Z6dVz64uSnCAMxHtPwS8pg#18](https://www.perplexity.ai/search/so-here-i-ve-got-the-take-home-Z6dVz64uSnCAMxHtPwS8pg#18)  
+* Revision Conversation with AI (Perplexity): [https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-l6WSIc2_SP6tDehUS2HZuw#0](https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-l6WSIc2_SP6tDehUS2HZuw#0)  
+* Final Review Conversation with AI (Perplexity): [https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-GJDCkcDCQWGyTDvaFYlzug#0](https://www.perplexity.ai/search/hi-i-am-finalizing-the-take-ho-GJDCkcDCQWGyTDvaFYlzug#0)
 
 # Details Steps done for Investigation & Analysis
 
@@ -864,24 +864,24 @@ First, I looked at the business scenario to establish a basic understanding of:
 Then, I establish a high-level overview of all existing data to have an idea of what applications are generating the data (i.e., Facebook Ads, Google Ads, Web Tracking, and internal applications):  
 ![alt text](images/data_discovery.png)
 
-Then, I read the content of DATA\_DICTIONARY.MD to obtain a better understanding of all given data. Basically, here are the “roles” per CSV files:
+Then, I read the content of DATA_DICTIONARY.MD to obtain a better understanding of all given data. Basically, here are the “roles” per CSV files:
 
 * Facebook Ads  
-  * account\_history: a Dimension table of all company Facebook Ads account  
-  * Basic\_campaign: a Summary table that aggregate Ad performance in terms of \# Impressions, \# Inline link Clicks , and Cost on the level of Campaign, Account, and daily level  
-  * Basic\_ad: a Summary table that aggregate Ad performance in terms of \# Impressions, \# Inline link Clicks , Spending on the level of Ad, Facebook Account ID, and daily level  
-  * Basic\_ad\_set: a Summary table that aggregate Ad performance in terms of Spending on the level of Ad Set, Campaign, and daily level  
-  * Ad\_history: a Dimension table of Facebook Ads, along with their related Ad Set IDs, Campaign ID, and related Facebook Ad account ID  
+  * account_history: a Dimension table of all company Facebook Ads account  
+  * Basic_campaign: a Summary table that aggregate Ad performance in terms of # Impressions, # Inline link Clicks , and Cost on the level of Campaign, Account, and daily level  
+  * Basic_ad: a Summary table that aggregate Ad performance in terms of # Impressions, # Inline link Clicks , Spending on the level of Ad, Facebook Account ID, and daily level  
+  * Basic_ad_set: a Summary table that aggregate Ad performance in terms of Spending on the level of Ad Set, Campaign, and daily level  
+  * Ad_history: a Dimension table of Facebook Ads, along with their related Ad Set IDs, Campaign ID, and related Facebook Ad account ID  
 * Google Ads  
-  * Campaign\_stats: a Summary table that aggregate Ad performance in terms of \# Impressions, \# Clicks, Cost micros on the level of Campaign, and daily level  
-  * Ad\_stats: a Summary table that aggregate Ad performance in terms of \# Impressions, \# Clicks, Cost micros on the level of Campaign, and daily level  
+  * Campaign_stats: a Summary table that aggregate Ad performance in terms of # Impressions, # Clicks, Cost micros on the level of Campaign, and daily level  
+  * Ad_stats: a Summary table that aggregate Ad performance in terms of # Impressions, # Clicks, Cost micros on the level of Campaign, and daily level  
 * CRM data  
   * Leads: A Fact table of all CRM leads. Which wraps potential JOIN keys in concatenate STRING values like Retargeting Campaign;1003;Retargeting;2007. Usable for analytical purposes but pretty bad key in strict data engineering sense  
   * Opportunities: A Fact table of all CRM Opportunities, which is a step happening after Leads. Also has good Forigen Key to use to JOIN Leads.  
   * customers: A Dimension table of Customers, along with  their MRR and churn date (only populated if churned)  
 * Web analytics data  
   * Sessions: A Fact table of all web tracking data in terms of Sessions, likely coming from Google Analytics. It also contains the session level of Page Views & Duration  
-  * Form\_submissions: A Fact table of Form Submission in Web.  
+  * Form_submissions: A Fact table of Form Submission in Web.  
 * Internal Data  
-  * campaign\_metadata: A Dimension table of all Marketing Campaigns, should be a good source of truth in terms of all Campaigns across different platforms  
-  * Cost\_allocation: A Fact table of all additional Marketing costs reported by the Finance team.
+  * campaign_metadata: A Dimension table of all Marketing Campaigns, should be a good source of truth in terms of all Campaigns across different platforms  
+  * Cost_allocation: A Fact table of all additional Marketing costs reported by the Finance team.
