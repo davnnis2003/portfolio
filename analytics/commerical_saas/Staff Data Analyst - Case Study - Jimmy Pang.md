@@ -316,11 +316,12 @@ Per cohort (cohort_month, cohort_campaign_group, cohort_source):
 *● 1 intermediate model*  
 *● 1 mart model*
 
-### 1 staging model - staging__stg_crm_leads.sql
+### 1 staging model - `staging__stg_crm_leads`
 
 **Purpose**  
 Clean CRM leads, standardize UTM fields, and cast timestamps for attribution, cohorts, and lead quality.
 
+```sql
 {{ config(  
   materialized = 'view',  
   schema = 'staging',  
@@ -347,8 +348,11 @@ select
   lead_status  
 from source;
 
+```
+
 **Key tests (schema.yml excerpt)**
 
+```yml
 version: 2
 
 models:  
@@ -371,11 +375,14 @@ models:
       - name: lead_status  
         description: "CRM lead status (New, Contacted, Nurture, Qualified, Not Interested)."
 
-### Intermediate model – intermediate__int_marketing_lead_enriched
+```
+
+### Intermediate model – `intermediate__int_marketing_lead_enriched`
 
 **Purpose**  
 Enrich each lead with its first opportunity and downstream customer, and derive lifecycle flags (has_opportunity, is_customer). This is the backbone for lead quality, cohorts, and the marketing mart.
 
+```sql
 {{ config(  
   materialized = 'table',  
   schema = intermediate,  
@@ -447,8 +454,11 @@ left join lead_first_opportunity
 left join opportunity_with_customer  
   on lead_first_opportunity.first_opportunity_id = opportunity_with_customer.opportunity_id;
 
+```
+
 **Key tests (schema.yml excerpt)**
 
+```yml
 version: 2
 
 models:  
@@ -474,6 +484,7 @@ models:
               values: [0, 1]  
       - name: account_id  
         description: "Account linked to the first opportunity (if present)."
+```
 
 ### Mart model - marts__fct_marketing_performance
 
@@ -482,6 +493,7 @@ Combine media spend, web sessions, and enriched leads into a single monthly × s
 
 Note: If this model becomes too heavy in the future, the CTEs can be moved upstream and become separate intermediate models themselves.
 
+```sql
 {{ config(  
   materialized = 'table',  
   schema = 'marts,  
@@ -612,8 +624,11 @@ full outer join aggregated_web_traffic awt    on coalesce(al.month,   aspend.mon
                                        and coalesce(al.source, aspend.source)        = awt.source  
                                        and coalesce(al.campaign_group, aspend.campaign_group) = awt.campaign_group;
 
+```
+
 **Key tests (schema.yml excerpt)**
 
+```yml
 version: 2
 
 models:  
@@ -646,6 +661,8 @@ models:
         description: "Ad spend per lead (media-only CPL)."  
       - name: paid_cac  
         description: "Ad spend per new customer (media-only CAC)."
+```
+
 
 # 5. Dashboard Design
 
@@ -730,7 +747,6 @@ Help Sales and Marketing understand where High/Medium/Low quality leads come fro
 * **Optional ICP / segment drill‑down**  
   * Filters/columns for country and industry to slice within High‑quality leads (e.g. “High‑quality DACH Manufacturing leads via Retargeting”).
 
-  ---
 
 ## **Access & ownership**
 
