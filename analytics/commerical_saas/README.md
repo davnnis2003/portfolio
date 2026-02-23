@@ -2,10 +2,6 @@
 
 # Overview
 Time: 4-6 hours | Format: Single document (Markdown, Google Doc, Notion, or PDF)
-
-Line one[space][space]
-Line two. \
-
   
 ---
 
