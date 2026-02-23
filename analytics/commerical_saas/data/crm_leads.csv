@@ -1,0 +1,831 @@
+lead_id,email,lead_created_at,lead_utm_campaign,lead_utm_source,lead_utm_medium,lead_utm_content,lead_utm_term,company_name,industry,country,lead_status
+L10001,36511f493daf8143e4540f9a3b73e6d4fea495c19ed45b2190d6d0dde4245597,2024-10-11 03:00:00,Retargeting Campaign;1003;Retargeting;2007,google,organic,content_7,keyword_3,Company G,Manufacturing,Austria,Nurture
+L10002,01c0466b19752ba2bfd2e0fdfd0163908e25fb8ecb38d3c8c50376080b42ab0d,2024-09-02 17:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,organic,content_1,,Company F,Education,Switzerland,Qualified
+L10003,8039aa5b6755e61449c9b9d0bbe772bbb800fc48fb0a58416aae0c5976f294e6,2024-09-18 04:00:00,Retargeting Campaign;1003;Retargeting;2007,direct,email,content_1,,Company R,Software,Switzerland,New
+L10004,b4541e116f443909c8d566fdaf0e5a3b78846a12de5cf38b11d49595dd0c431e,2024-10-06 09:00:00,,linkedin,cpc,content_4,,Company C,Manufacturing,Germany,Not Interested
+L10005,7ba6d88ef36bfc6fdd1c494f702c9b408b03010914061388579084fca07e0318,2024-09-18 14:00:00,Content Downloads,linkedin,email,,,Company C,Healthcare,France,Nurture
+L10006,4890dd3342d5a148ac6562eaa10826940735802c88991518a70ff491a676f913,2024-10-17 07:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,email,,,Company H,Software,Netherlands,Not Interested
+L10007,6862efc96e5df55a4beb1775d99c3eb7f81807c25efe08fff8a80f8c46559ae1,2024-09-18 02:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,referral,content_8,keyword_5,Company H,Education,Austria,Nurture
+L10008,10807d37d4eb7b0b8e8d31a9bf58c6c7e3591d58ddb23268216483b218ddd2b2,2024-09-17 23:00:00,Google Brand Campaign,google,cpc,,,Company E,Education,France,Not Interested
+L10009,c6600196f589d2d7f7967b070966f3fb8734b252ff7bb8dd78a7214ce4c6e12c,2024-10-09 02:00:00,Google Search Prospecting,organic,cpc,content_2,,Company R,Retail,Netherlands,New
+L10010,ab86eebf95fef1e623723956c588875455779cf5cd54676b89bbfe2b58512706,2024-09-19 13:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,,email,,,Company Q,Software,Netherlands,Nurture
+L10011,dcc3093dd32a3add062e60466c2c7a3bd7b9213251613d394d3b78c710391a82,2024-10-09 06:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,,content_8,keyword_12,Company J,Manufacturing,Germany,Contacted
+L10012,dacd34c9a0308ac6c68e43840558944545204f4677fe8e93253510affd548aa6,2024-10-27 18:00:00,,direct,organic,,keyword_16,Company R,Manufacturing,Netherlands,Nurture
+L10013,00138431db2b671f67f466fcf18089cbb34c4a9c57c9c1b8bac3becb1be4a000,2024-10-26 19:00:00,Product Launch 2024,,social,,keyword_12,Company O,Healthcare,Switzerland,New
+L10014,200c7b2abb5b9444e66ee1d3b3c4a23af5a78c3041333b3e7864a1700c9d81e7,2024-09-16 07:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,cpc,content_1,keyword_2,Company K,Software,Austria,Contacted
+L10015,763afffe4563f8b80bd82c4c2bfb9860875a963f247085c32e55e6d9a7027b5f,2024-09-18 21:00:00,Retargeting Campaign,organic,social,,,Company G,Software,Germany,Not Interested
+L10016,d44259a0e9926e0305ef005416a0f12c11bcd8d11459d6f341270e52aac4da55,2024-09-23 13:00:00,Brand Awareness Q4,facebook,email,,keyword_7,Company G,Healthcare,Switzerland,Contacted
+L10017,914099bfdfa6597e268c4df776faf2321478a6e62c6b15bfba904d1d8fa3af8d,2024-09-28 05:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,facebook,organic,content_9,,Company C,Manufacturing,France,Not Interested
+L10018,5ddc6e6378c2a9130a538044a1128d22cf8cf68d4d479fc703f9a974b872565d,2024-10-02 15:00:00,Product Launch 2024;1004;Cold Traffic;2010,,cpc,,keyword_15,Company J,Finance,Austria,Not Interested
+L10019,69b76a6d8d16674358fc2718466cc1fda0a77268fc869317f86d074aba6817dd,2024-09-10 06:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,organic,email,content_10,keyword_17,Company F,Software,Austria,New
+L10020,7703412c94092ef8f8ed6d77af757fd04138f00e1b360cfe916b6dcf931f3c70,2024-10-25 05:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,organic,content_10,keyword_3,Company N,Education,Austria,Nurture
+L10021,8435e83bfd7254ae7fb6530629177498430d69beee83cbf3eac65ffadf66743a,2024-10-04 10:00:00,,linkedin,referral,content_5,keyword_3,Company A,Finance,Austria,Nurture
+L10022,c5ee3ffca2862ad9f5a00d0ab53811dcfeaeed42c6673bb763a9cd85b2c0a301,2024-09-07 02:00:00,Demo Requests Campaign,linkedin,social,content_3,keyword_18,Company J,Healthcare,Austria,New
+L10023,9ae30795592ca84b49eab01949bb6c7bdbf80654bfa31306a6e02e9bc3907dfd,2024-10-13 17:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,google,cpc,,keyword_10,Company T,Manufacturing,Netherlands,Contacted
+L10024,ef821487ae03a4f288445dfa0bf202822516a858b9d9439ea50fa5d8b7806b09,2024-10-14 20:00:00,,linkedin,,,keyword_14,Company I,Software,Germany,Qualified
+L10025,793b53c4096059d526cccdd5d5e61a61e6220b5439251f6c17cdfe30961565bf,2024-10-20 04:00:00,Demo Requests Campaign,direct,referral,content_2,keyword_5,Company R,Software,Netherlands,Nurture
+L10026,5114fa5810a2a6bf5215634986917a3ada3b85d0b4d905bba86965e02460af55,2024-10-06 04:00:00,Brand Awareness Q4,facebook,social,content_2,keyword_18,Company N,Healthcare,France,Contacted
+L10027,1f21e08b1d25fb6c61d2b587dcb051df39449c1eb568273ff6df239ff8156671,2024-10-26 05:00:00,,direct,email,,keyword_8,Company I,Manufacturing,Germany,Not Interested
+L10028,fd0e1ae857a1c5239d7953c5fcfb9ecee79f44c8316342cdb8aa0416b3bd0dc2,2024-10-26 01:00:00,,direct,social,content_4,keyword_9,Company C,Retail,Netherlands,Nurture
+L10029,158af17f27c798c02d011f03f9ce264005729de96121707cd3392136b0130b83,2024-09-26 21:00:00,,facebook,email,content_5,keyword_20,Company N,Retail,Netherlands,Not Interested
+L10030,31bc0a8039b6aa4a5bf0293e630d47ccee57dbe9a85745ad2bbba7e3a7f4e411,2024-10-09 16:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,cpc,content_9,,Company G,Retail,Switzerland,New
+L10031,d93a7c96f1f08e137399fe3c61522794ce6c0b6985f03e52d86ba237e196d32e,2024-10-13 10:00:00,Lead Generation | DE | Form,linkedin,referral,content_5,,Company G,Finance,Switzerland,Contacted
+L10032,d3e8f795c84d63f981f3eef34ed4097dbcd9f0171114f327076715a1957c2427,2024-10-10 18:00:00,Brand Awareness Q4,google,organic,content_6,keyword_15,Company G,Healthcare,Switzerland,Contacted
+L10033,70d416137a6ad140a60ca9ff2e78e59426ae2fefbb9148c7f88f681e14e60aeb,2024-10-13 02:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,linkedin,social,content_4,,Company E,Software,Germany,Contacted
+L10034,340fdee4d8f469bb38088a55738f2547dbf78fd72590eb58141a16975a1fb5e3,2024-10-01 19:00:00,,direct,organic,content_7,keyword_8,Company E,Education,Germany,New
+L10035,9e738ce2f01f5502e5134639b7136fc1a125456ccb4e0b48289a95e903922677,2024-10-20 13:00:00,Content Downloads;1006;Lookalike Audience;2016,facebook,cpc,content_8,,Company R,Healthcare,Netherlands,Not Interested
+L10036,cc3dd79951995d901f00c682119966b9cc66bee388682a0f268058cda756d790,2024-10-10 23:00:00,,organic,social,,keyword_9,Company H,Education,Netherlands,Nurture
+L10037,c31ebdd324df61fb671765580b0dd7e556a4dd1e94c3f0ca23f6bf5f4cc7d2d6,2024-10-02 20:00:00,Product Launch 2024;1004;Cold Traffic;2010,linkedin,email,content_9,keyword_5,Company H,Finance,France,Contacted
+L10038,4bb8995b877e6e0a93c84372c87c1efc6b6f606f7dfd47e9cf43f7b6de36b14f,2024-09-05 13:00:00,Google Search Prospecting,google,referral,,,Company A,Healthcare,Switzerland,Not Interested
+L10039,5859c319da0f9265dbe7fbe72ab5096f426e8e47be80bd84ea8ecce929794d52,2024-09-01 11:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,direct,organic,,,Company P,Manufacturing,Netherlands,Not Interested
+L10040,efb719617a4d4208262e595c90a0dcd0ff385b52a98517360f94715b6b2caec4,2024-10-02 00:00:00,Google Brand Campaign,direct,,,,Company M,Healthcare,Austria,New
+L10041,b08e76a209ee166fe5a09281919e2795317a6515edac896224c9a0a7d9330259,2024-09-06 20:00:00,Google Search Prospecting,linkedin,social,content_6,,Company M,Retail,Switzerland,Qualified
+L10042,73a76c55fab2051977104a758d430b340f91b182babc309bab8551cfeeab4ccc,2024-10-24 02:00:00,Brand Awareness Q4,,cpc,,,Company A,Manufacturing,France,New
+L10043,2f7d21aa4ae5c0eeb0c08423f5405a9c8b7498533486e6868b30e38044e18bf0,2024-10-10 04:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,,content_5,,Company F,Healthcare,Austria,New
+L10044,2bfb7056915274a75e29ce91f2867c1d889a175e566effb73ce329b9e28899b1,2024-10-20 05:00:00,,facebook,,content_7,keyword_7,Company C,Healthcare,France,New
+L10045,89678e3842a473d538b389c14dec314247b4e5d7467eecab370aa992201e0a07,2024-10-15 09:00:00,,facebook,organic,,keyword_14,Company L,Software,Austria,Qualified
+L10046,c7a604dc7d4ea40f92b71b60a3de185cf0e8836711d7928418e40f321aef430b,2024-09-01 13:00:00,,linkedin,referral,,keyword_17,Company I,Healthcare,Austria,Not Interested
+L10047,5d1fdfd4407c958d21ff23cb51ee81af8ab158af59421bc40b80fb963569988d,2024-09-30 13:00:00,,linkedin,cpc,content_8,keyword_15,Company S,Healthcare,Switzerland,Qualified
+L10048,394a87e394822176ca31865589cc62cabc6447534a08f53339fabd61b36c32f6,2024-09-02 15:00:00,,google,email,content_10,,Company I,Healthcare,Germany,Nurture
+L10049,e2dd7d6aa661f89d1f1924396fe002722653984601be6c637579d52ca4c7d6f3,2024-09-13 02:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,referral,content_1,keyword_8,Company M,Education,France,Qualified
+L10050,9b6f1123532f0c24ce3c8b51d9a1fbaf8912f5f992329c7b580c4699f8b75706,2024-10-13 18:00:00,Content Downloads,organic,referral,content_5,keyword_7,Company K,Software,Austria,Contacted
+L10051,561d2ec9c2ec8f696348876c74fb4ffcb631d392cd43cac0ea8a8094f9e6d9bd,2024-09-13 06:00:00,Test Campaign;1002;,organic,cpc,,keyword_12,Company F,Retail,Germany,Nurture
+L10052,1d6331caa422f10f91090ceb094e5f08e73f6a9a666ef5eb0ccb100719916cae,2024-09-09 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,referral,content_1,,Company P,Finance,Switzerland,Qualified
+L10053,cb86709cd5f0da234e81a39e8530f871f3050f7434d4b556dcad47a40b28f13b,2024-09-12 01:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,facebook,cpc,content_1,keyword_19,Company J,Software,France,New
+L10054,3611f651ef1574d665f096105dcab05a6fd04eedbcc15240ce41ca0b9bcf4a43,2024-10-06 13:00:00,Product Launch 2024,direct,referral,content_10,,Company J,Healthcare,Austria,New
+L10055,6a1d9cbaec86558f68b7591ca54a248f277fc653e66e4ea0e9092eb95da3928b,2024-10-10 23:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,social,content_9,keyword_1,Company N,Finance,Austria,Not Interested
+L10056,b480949529e768b5856645494647763caf34847633f219b78fe6ac80512ca3b9,2024-09-19 01:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,social,,,Company S,Education,France,Not Interested
+L10057,566a8e6b3765650bbba52e7c06180e4c51a6cbebe3376438dd0dc31afd3cab0b,2024-09-08 17:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,,cpc,content_5,,Company S,Retail,Switzerland,New
+L10058,b187264f95aa8d49ad6e13c15ae19161ef8196eb386df32bae7a59961f739eb9,2024-09-30 22:00:00,Google Brand Campaign,,referral,content_10,keyword_14,Company K,Healthcare,Netherlands,New
+L10059,847b1d227419f3cb9879093d9fb7e4a80115bff20112341b6330ac91a78cb6c5,2024-09-06 07:00:00,,organic,cpc,,,Company I,Healthcare,Germany,Contacted
+L10060,45dbdf9994ec159cebf2ba0b85c129655eaf9379c0eaf0e385b41162e3a92426,2024-10-01 16:00:00,Demo Requests Campaign,organic,referral,,keyword_14,Company K,Retail,Germany,Contacted
+L10061,4953b01980c811371fd28329a01d42e85d399f291fe45aa306bbd44f138972ba,2024-09-22 13:00:00,Demo Requests Campaign,direct,organic,content_2,keyword_11,Company D,Finance,Austria,New
+L10062,2c8f5902cf60d790f9ce95df97f95a262a79998f766a579629dd33c66af3916c,2024-10-13 17:00:00,Brand Awareness Q4,linkedin,referral,content_1,keyword_18,Company E,Retail,Switzerland,Not Interested
+L10063,5e4de52f4c441637e5531fcd3aacb74da4f3c81041e65587f3cc305cf19a8b1c,2024-09-08 00:00:00,,google,email,content_9,keyword_8,Company D,Finance,Germany,Contacted
+L10064,8c3c32460893f32077a7be0545227907a88eb4cf9c77111b5d07073d2e6ede8d,2024-10-02 22:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,direct,,content_9,keyword_7,Company T,Healthcare,France,New
+L10065,10bb2b424743dcd0d204aff3bc21a1fad835dec2fe6c2f8858bfe518086c4efa,2024-09-18 13:00:00,Demo Requests Campaign,linkedin,organic,content_8,,Company O,Healthcare,Switzerland,Qualified
+L10066,e2e6948d16ff693713785ffc1666cb4a8f664fcd6519366e5f1b3aa624d1afb3,2024-09-22 17:00:00, Lead Generation | DE | Form ,linkedin,social,content_4,,Company N,Software,Netherlands,Not Interested
+L10067,200603b5603386587a08827a3a82b59836caa6d03f0086592a7feeac3115f101,2024-10-16 12:00:00,Retargeting Campaign,facebook,organic,content_2,,Company O,Software,Austria,Not Interested
+L10068,e6593e865d302253324bcd5e183d4184f579e181b86f7b22ccbdf7157adcf4b6,2024-09-01 23:00:00,Content Downloads;1006;Lookalike Audience;2016,,email,content_7,,Company K,Education,Austria,Not Interested
+L10069,dcbabcf400d5a55a5a7697b6cd78e3f71fccdad9d9e456b8c4a9ee6dee38b950,2024-09-21 20:00:00,Test Campaign;1002;,facebook,social,content_5,,Company C,Finance,Germany,New
+L10070,8bbc41fdce5a2ab38d474eed6901c872f10ec2f4b4aef85822d1bcb2dc36af12,2024-09-29 05:00:00,Brand Awareness Q4,facebook,email,content_4,,Company S,Education,France,Contacted
+L10071,ad9d74ab022e4a21d819b8a517cf8cc38464943dacc4455a09a977b948e12614,2024-09-12 02:00:00,Google Brand Campaign,google,organic,content_8,,Company O,Retail,Germany,Not Interested
+L10072,039708b78838f8515721f35d37c37d618518d2757beaeb3699a4d306ad3a5f72,2024-10-28 09:00:00,Retargeting Campaign,linkedin,,content_7,,Company O,Retail,France,Not Interested
+L10073,8ae33ebf82a8edfc7cfb9d76fa5ef40316454b8b450ce48f5795b2a8f95e0d28,2024-10-25 15:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,email,content_7,keyword_19,Company B,Healthcare,Switzerland,Qualified
+L10074,4ec147a1d4abde898dd4e0899c6c7174310359b951bdc9869c819e65eb1ea472,2024-10-20 07:00:00,Content Downloads,google,social,content_1,keyword_15,Company B,Healthcare,Netherlands,Contacted
+L10075,918efef035b7ef3d0e7fee0f1dc4b3f48c6601cb753d8ca1cef5637bcb03cdfb,2024-09-06 09:00:00,Google Brand Campaign,google,email,content_5,,Company I,Finance,Netherlands,Qualified
+L10076,18d84b6aebebd9ce05119c1a0110e7b3f80c57d6cebf42aa23a6f3a415c81647,2024-10-22 03:00:00,Lead Generation | DE | Form,google,referral,,,Company L,Software,Switzerland,New
+L10077,8ceb33c1577266ac2c95ed3f796c2457774f35222ba68d48333649d87ae900d0,2024-09-17 17:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,email,content_4,keyword_20,Company R,Retail,Austria,Contacted
+L10078,b5211e48e2b097723155815afe8944d91e8e026e4fbc16c868d31633d7d55198,2024-10-12 02:00:00,Google Search Prospecting,,referral,content_1,,Company J,Finance,Germany,New
+L10079,a37190128336f163143c0436c18e1863ebde5d6589cc02181f346d4aade3d589,2024-09-16 17:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,social,,,Company P,Healthcare,Switzerland,Qualified
+L10080,0155033fe8f1759dd8331d9880b9dc3f210fb23957c81e33c44221523b17afbc,2024-09-03 22:00:00,Google Search Prospecting,google,cpc,,keyword_12,Company B,Finance,Netherlands,Contacted
+L10081,30810b001f9c71e8d1885812314445aefc2e4341a1f914d6bbc22c556a19ea02,2024-09-08 14:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,,content_6,keyword_5,Company S,Manufacturing,Germany,Nurture
+L10082,f4faa3732a841793274c00c2338074a0d5439692c7fe69e09e4582620efa1826,2024-09-14 18:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,organic,content_3,,Company R,Retail,France,New
+L10083,0695eaa64ea1e310390a3296b45cef309f9ad5d69e960e4535b573f3ac3f0a12,2024-10-13 00:00:00,Retargeting Campaign;1003;Retargeting;2007,google,cpc,content_1,keyword_14,Company Q,Software,Germany,Not Interested
+L10084,89f4a611cf3312ac71f3bd752765f0076db952b92fda8c61637a6a95a2205845,2024-09-29 11:00:00,Lead Generation | DE | Form,google,,content_9,keyword_1,Company B,Finance,Switzerland,Not Interested
+L10085,b44c75d2b05150b75a9b146a91b4724b043b2095c422fcc40fd51915569658e4,2024-10-14 03:00:00,Google Search Prospecting,facebook,social,content_5,,Company S,Healthcare,Netherlands,Not Interested
+L10086,09226f28a6a62b8a14a9d1a60a11ddc89065f538dee77b8a63e1b07cc9dd1528,2024-10-09 16:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,facebook,cpc,,,Company R,Education,France,Not Interested
+L10087,0d15e0e783709ed6ad21f5924d5ed5c22e4920fd954b06e0eca1979ae3b9b039,2024-09-29 07:00:00,Google Search Prospecting,facebook,email,content_6,,Company P,Software,Germany,New
+L10088,1c8fec571093581ed9c0d098dd829b0ccfc125ed2e166a627f4fb84bf75de25f,2024-09-06 13:00:00,Content Downloads;1006;Lookalike Audience;2016,google,organic,,,Company D,Finance,Netherlands,Not Interested
+L10089,226fe72ed27392799b90aaa205de1df4fbc65c00119f657c91e929562b9985bd,2024-10-26 23:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,organic,content_8,keyword_4,Company L,Healthcare,Netherlands,New
+L10090,3e9edaccb437a75dbd4502714479412176c75fe58e453bec6a9aaf0765917bfe,2024-10-19 08:00:00,Google Brand Campaign,organic,organic,content_5,keyword_9,Company J,Retail,Netherlands,New
+L10091,bd7000938a55a69c8b1e04532bc1200f6701af4832ac52f7794fc8fb6ff96b05,2024-09-12 04:00:00,Google Brand Campaign,facebook,organic,content_7,keyword_6,Company L,Retail,Netherlands,Nurture
+L10092,33fb69f4c347aef0130654bdd4bc3d0d8497b869aa948cd19f56a609ffb7eab1,2024-10-09 02:00:00,,organic,cpc,content_7,keyword_15,Company N,Retail,France,Nurture
+L10093,491b929087906fe5d26cb966dfacbb20dbf72fb78a09137c13bc61a5b0873bba,2024-09-08 11:00:00,Demo Requests Campaign,organic,email,content_7,,Company B,Software,France,Qualified
+L10094,81d955a73a3e1f878215257182a8a5262a60524e58d586312a38c3fd7fd60e90,2024-09-14 04:00:00,Product  Launch  2024,facebook,referral,content_7,,Company H,Healthcare,Austria,Qualified
+L10095,274f945a1e7f0ab2e8bce368b7e05de8016801cb26c50772aa72574d2ccd8937,2024-09-05 12:00:00,,facebook,cpc,,,Company S,Finance,Switzerland,Qualified
+L10096,70ba465b10b8edf57b80175d4aa62bb568d7dbc6026ff5db5d1887e98f97e9b4,2024-09-08 12:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,email,content_2,keyword_19,Company M,Healthcare,Germany,Not Interested
+L10097,463ab5fadbe22c190bb3663b42d490d6180c8f87a48f7545566e1531c25c0ce7,2024-10-26 09:00:00,Brand Campaign;1001,google,cpc,content_4,,Company L,Retail,France,Contacted
+L10098,27ee025742bfaa4613bf1b52e3029dbde0e49cd4db3b676e5d9a20b1b99d8383,2024-09-07 04:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,facebook,referral,content_10,,Company O,Education,Austria,Nurture
+L10099,13e1eb32a9dc03609dc6a63c226693931c6b8ded02b2f7c5f69660651d715747,2024-09-21 20:00:00,Google Search Prospecting,direct,email,content_6,,Company J,Finance,Switzerland,New
+L10100,7f0047f6ea34078947e645247af6f7792d775c710d54f3ffe17bcd92a5720d43,2024-09-04 11:00:00,,facebook,organic,content_10,,Company B,Finance,Austria,Contacted
+L10101,a6949d212d353301537f63ef68582db91147db8e15516fdf6da13bf01a35e2d8,2024-09-21 19:00:00,Retargeting Campaign,,email,,keyword_6,Company B,Manufacturing,Switzerland,Not Interested
+L10102,6ef11ca641b4ad94bcb9c28d0eeb8ec83a0d7e1d138563dc3422f491ae32b283,2024-10-04 16:00:00,Content Downloads,linkedin,email,content_1,,Company K,Software,Netherlands,New
+L10103,54bf6cbd09712f4156dfab3eb8dba48c1e4cf3aa22894c5409015b0364db6bb1,2024-10-06 21:00:00,Demo Requests Campaign,organic,email,content_3,,Company J,Education,Switzerland,Contacted
+L10104,f0ab8aec567e8c77f032a0b17a5f3905b90b5f7969bd1b08bc9aef2ac73f14eb,2024-10-09 22:00:00,,direct,email,,,Company Q,Software,Switzerland,Nurture
+L10105,34a23b46c82901b85105f5400b2f3cac4f098930a80e142c51d0848cb9496206,2024-09-24 00:00:00,Retargeting Campaign,,referral,content_3,keyword_10,Company D,Healthcare,Austria,Nurture
+L10106,f85670f6af6069392303c2cda23a562fdb8fdd82f0cd9279e4a91fb3f506a49a,2024-09-03 21:00:00,Retargeting Campaign,google,organic,,keyword_15,Company B,Finance,Netherlands,Contacted
+L10107,321ad76129334fb8ea8138fe28582d974246426f32d22f326839b2b58a18830b,2024-09-29 19:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,google,email,,,Company G,Retail,Austria,Not Interested
+L10108,5e7e1c0bb70ed04b688fc5f28ce5f0add40c045e563c65944c411e07f26f3863,2024-09-30 09:00:00, Lead Generation | DE | Form ,,organic,content_5,keyword_16,Company L,Healthcare,Germany,Nurture
+L10109,e69bd1728b2cbc3a4dffacc44060d6c42857335b871871b83e0258ca71235562,2024-10-25 03:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,organic,referral,content_4,,Company L,Software,Switzerland,New
+L10110,2c27c820f2a9d301cfc65a1fc4a1fb29cf3e70ef457c07873e58745999bfbf7d,2024-09-26 16:00:00,Google Brand Campaign,,cpc,content_2,,Company K,Manufacturing,France,New
+L10111,9697ad3a7377156f2e3603983838abfb024c178c3d7e08902119151afaf7b00a,2024-09-19 15:00:00,Retargeting Campaign,direct,cpc,,keyword_7,Company E,Healthcare,Austria,Nurture
+L10112,93f4e383835dbfe8ff8f477403babea40aff47f9a7d9083f3817ea363427eaee,2024-09-28 03:00:00,RETARGETING CAMPAIGN,facebook,organic,content_2,,Company P,Healthcare,Austria,New
+L10113,48553de298e1e63e2f1a22fd3fcd99a79fe59f48805b96ee05db0cc05640375e,2024-10-11 16:00:00,Retargeting Campaign,facebook,social,content_3,,Company C,Healthcare,Netherlands,New
+L10114,01dbe57f96797890352bd2a43fbd46585fef776e532db197773a7823eaac2f3b,2024-10-04 17:00:00,Brand Awareness Q4,direct,referral,,keyword_1,Company L,Software,Netherlands,Contacted
+L10115,0a8de6a4b891075fcc9ff7ec2581450909b265dac9132adf73f790a5e78b959e,2024-10-17 21:00:00,Content Downloads,linkedin,social,,,Company P,Education,France,Contacted
+L10116,7be05069e50b2aa2fbb5ce2add0959d9c081247effbd46e3f70725c5d423c961,2024-09-05 22:00:00, Lead Generation | DE | Form ,google,social,,keyword_10,Company Q,Finance,Austria,Not Interested
+L10117,2fda8114a652e94fccefa3307fe0cc0411b327ffbf26fb266bf0fcd2372deff0,2024-09-17 01:00:00,RETARGETING CAMPAIGN,facebook,email,content_6,keyword_13,Company O,Finance,Netherlands,Contacted
+L10118,3abdb2ccae50ec225a744e73519b3832e3c5a2e5d44bff9e98e626e65570bc4e,2024-10-02 22:00:00,Demo Requests Campaign,direct,organic,,keyword_10,Company K,Software,Germany,Qualified
+L10119,e4e72606b499845a39b7100ad8ecab59d64bcc225c2951fbcf7ba7af60599165,2024-10-13 09:00:00,Google Brand Campaign,direct,cpc,,,Company T,Finance,Netherlands,New
+L10120,67bae23124e98f094cbe82d40ab68468fa3c305f5dee316cdcb3d93af887eef3,2024-09-05 21:00:00,Content Downloads,google,,content_10,,Company O,Software,France,New
+L10121,9677932077e7c977a3a1fa34c6f1f89e116250e4331f9af4d292ef11bca737ef,2024-09-16 20:00:00,Google Brand Campaign,,social,content_6,keyword_3,Company S,Manufacturing,Austria,Qualified
+L10122,282cecf8688c4ef6a5860ce276466478b2cf0707ce36563909028c20dab6cbfb,2024-09-26 10:00:00,Product Launch 2024,,social,content_7,,Company D,Retail,Netherlands,Not Interested
+L10123,5498736633fcbf0c01b3331178cf4e00a06df37b4534c864a0843a7603d38cb2,2024-09-14 19:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,google,referral,content_8,,Company K,Education,Netherlands,New
+L10124,74ccbf3b6c3266c5d8ed6134bdab4b53355c10bc55c592351dc1bd5d46cf1fde,2024-10-06 17:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,google,organic,content_4,,Company H,Finance,Germany,Qualified
+L10125,42ea224c269e9358e6bf16607eb5f93d0130170e98812120515f137aed7c0c57,2024-10-06 18:00:00,Retargeting Campaign,facebook,referral,,,Company Q,Finance,Switzerland,Nurture
+L10126,6f39537f9ac390d31c02fb40d6dc7392040380d420709ffdece6b4a91ac9f205,2024-09-05 04:00:00,,direct,organic,content_9,,Company F,Manufacturing,Switzerland,Nurture
+L10127,b389bc56869381447dd9cadea591dd855d95d46807e1423d6095f964ce3ee6c7,2024-10-29 01:00:00,,linkedin,email,,keyword_17,Company J,Software,Netherlands,Contacted
+L10128,379b4bb1692258a23f5a80e6c6071eb436707b007bfcd7937aa8b31e97cc171e,2024-10-11 17:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,organic,social,content_10,keyword_20,Company T,Retail,Austria,New
+L10129,9dd61eca0c5e13744d5484b5c3b2ebfaa9af389be65e0ff3795c02b5acdb00c0,2024-10-23 00:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,organic,content_1,keyword_18,Company J,Education,Netherlands,Not Interested
+L10130,ee97f687f31af36df04a271e328cea649656a1376de22f1db11ff551cfe00451,2024-09-16 21:00:00,Google Search Prospecting,facebook,referral,content_4,keyword_5,Company K,Education,Netherlands,Qualified
+L10131,f9ae5f6f7d1b503ac8911ba56d2b1d803d3486662cf9e066c2caae08154d0c56,2024-09-26 04:00:00,brand awareness q4,direct,referral,content_2,keyword_13,Company T,Finance,France,Contacted
+L10132,887a795f072f91ed9e17c90d6a7a6d837d3f93994ed3a74adcc373b6408ecbfd,2024-10-23 10:00:00,,google,referral,,keyword_10,Company P,Software,Germany,Not Interested
+L10133,6845b059bba3137cadf75e99c2105ee5cf554ba249c00bf7ca35eb5bf5d4b372,2024-10-03 14:00:00,,linkedin,email,content_8,keyword_1,Company D,Finance,France,Qualified
+L10134,1660e9457f370d9c2c35903501bfc2a0ac85989ab1c08dee249a107f1b0e609a,2024-10-17 11:00:00,Product  Launch  2024,facebook,social,content_5,keyword_17,Company O,Healthcare,Netherlands,Nurture
+L10135,7a9a04b214c7fa2ac62e3c6b82644619e044d7c47fae6e8188d88a72ac0782c9,2024-10-14 19:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,linkedin,email,,keyword_17,Company M,Healthcare,Germany,New
+L10136,31bc16b656afc69b3905e857a646420e71c4caac26addb93e70e806129f01b25,2024-09-03 04:00:00,Test Campaign;1002;,google,organic,content_10,keyword_13,Company T,Education,Netherlands,Nurture
+L10137,2eaf1f988ea578b2e1c13b4bb229c8ba11dc4280385f3aca4d84b04f97c27de6,2024-09-22 16:00:00,,organic,cpc,content_2,,Company S,Retail,Germany,Nurture
+L10138,4bf0598e7a25f96c717919ab9e8c1f65607eb03ca4ae20da37415a646a87317b,2024-10-01 08:00:00,,organic,cpc,content_3,,Company T,Finance,France,Contacted
+L10139,800a469a1b0bbe2dc4e37193b0f5245f6f8a6050ebcb24e5c4627391fe8bdc17,2024-09-03 18:00:00,,facebook,referral,content_4,keyword_20,Company P,Education,Germany,Contacted
+L10140,a2751bb8fee1e14267454338897555444ab9193e412e89a6cdbf5ae1bac37f67,2024-10-04 06:00:00,Google Search Prospecting,linkedin,,content_9,keyword_12,Company I,Healthcare,Switzerland,Contacted
+L10141,bf9190acd44ad5dc21fb8d4d6d8b72315267dc21d403a34d90de35f3432b97ad,2024-09-16 08:00:00,Product Launch 2024,,,,,Company P,Retail,Switzerland,Qualified
+L10142,351a7b634c33265f864bd19e59b2a2e82d46be1447b36271e54637d5f248a453,2024-10-06 23:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,organic,referral,,,Company E,Retail,Germany,Qualified
+L10143,b07883c6554616e64dda1adb3ae2d04eee27b1e5e2cfeb1ee4f99f1676a6e7ed,2024-10-16 02:00:00,Google Search Prospecting,direct,organic,content_9,,Company E,Software,Austria,Nurture
+L10144,ec1298065fa72141048f1f058d83170104456f2ddcd192198e8fb0ef9bad56d9,2024-09-16 07:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,google,referral,content_8,keyword_5,Company A,Healthcare,France,Not Interested
+L10145,a30be7891cde669d3e779248d9f9d383952e2988945f255e7cf48f0eeac03a3e,2024-10-12 15:00:00,Product Launch 2024,linkedin,cpc,,keyword_19,Company H,Healthcare,Germany,Contacted
+L10146,db1089d1d48a02ff8a483c08bfffeaa874ae33e51fd3e53c9a0fb29a7695219f,2024-09-27 05:00:00,,direct,social,,,Company J,Software,Germany,Qualified
+L10147,1266380612714be3b0f6923357998f840f19065e4ce833210a4a05921741a893,2024-10-07 19:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,social,,keyword_7,Company D,Retail,France,Not Interested
+L10148,a79f48479fd9343942abee672b229552db7ee8d4a4692288722cd5210e0d36cb,2024-10-12 08:00:00,Brand Campaign;1001,linkedin,social,content_7,,Company Q,Retail,Germany,Not Interested
+L10149,5da66044f4e134f68d12c90c1a948f8d208806169288ef79dd88f250a0ffc89b,2024-10-13 03:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,referral,content_5,,Company J,Healthcare,Austria,New
+L10150,83a8de9d701e26dbb747786881d3f8834dd41dbf7c8ac864a675cfa54129d76e,2024-09-17 20:00:00,Product Launch 2024,facebook,social,content_9,,Company J,Education,Germany,Qualified
+L10151,336f35696de84f339aa2ab6ce2bfea73aea93d9cacbfdbbbf82ed73f9bde477b,2024-09-24 19:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,organic,content_9,,Company R,Education,France,Contacted
+L10152,bf090c9dbdf6ecccc5cc9a28c3a81db7978ab5ed94263937ba7f425a11426698,2024-10-14 19:00:00,,direct,email,content_10,keyword_18,Company Q,Manufacturing,Austria,Nurture
+L10153,6556faf3a22c9cae978102f1bf00b2103e462bcebd3d05b011af2adbf20069be,2024-09-10 05:00:00,Google Search Prospecting,google,referral,content_9,keyword_2,Company O,Manufacturing,Austria,Not Interested
+L10154,6ae9dbf2b50b102d7b2b9b22b92ac049f87ae393cd163619b4b802756d6a0435,2024-09-30 18:00:00,Product Launch 2024;1004;Cold Traffic;2010,linkedin,referral,content_1,,Company S,Software,Germany,Not Interested
+L10155,f7b8a4c4102f5864977df49260f8111dedd8669ae1b7c848a534e47056cb7f82,2024-09-23 22:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,,referral,content_7,keyword_5,Company N,Retail,Switzerland,Not Interested
+L10156,f2c0f284f5dd1fd88916a8886137b431d7fd23eb46c90fa7f1e7825bd99f9b6b,2024-10-26 12:00:00,Retargeting Campaign,linkedin,organic,content_3,,Company H,Software,Germany,Qualified
+L10157,cc0e7622b3c61598ace84f6ec84e0b94acc65dfaf5f6a183c8484526c2d3ad7a,2024-09-30 21:00:00,Test Campaign;1002;,google,email,content_4,,Company D,Software,Switzerland,Nurture
+L10158,5e0d3a2a8ae732d1d071e972deadcbb4ac28e38a0768909e1b3716a0883f34b3,2024-10-20 00:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,cpc,content_1,keyword_8,Company R,Manufacturing,Germany,Contacted
+L10159,c632983b3a8b50c7189d59f81c61121888fedca824e5e4c7a2350d070fdf6d6d,2024-10-03 09:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,email,content_3,,Company Q,Manufacturing,Switzerland,Qualified
+L10160,531134ac063bb6590ee29af4761b2832fa150851b28004600db2c1e61f18dac1,2024-09-18 01:00:00,Retargeting Campaign,direct,cpc,,,Company M,Healthcare,Netherlands,Not Interested
+L10161,f401381f904cd8c7e691a402122d92b0b0cb64120716ef176679b1cae65451ea,2024-09-27 04:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,direct,social,content_3,,Company B,Healthcare,Switzerland,Not Interested
+L10162,13e2b93c2ff14ad9d1c05f5cd06761b78a69980548ca35f01fad77cf5932be1d,2024-10-06 16:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,referral,,keyword_7,Company B,Retail,Switzerland,Nurture
+L10163,276e9b6a6875542fa49a412abfff740a0baec3cc4ccd87e14baffbc4f6c630c1,2024-10-09 01:00:00,,organic,organic,content_4,,Company K,Retail,Germany,Contacted
+L10164,0668e213746e0ebe26f125a39853cba4f85d1b63fb05ab269a101e13511d46f5,2024-10-30 06:00:00,,direct,,content_4,keyword_8,Company R,Retail,Netherlands,Not Interested
+L10165,572fc42342a52fc82cc23117a39302750aa1047411755ecc8eea81291fdb3687,2024-09-30 17:00:00,Demo Requests Campaign,organic,referral,content_8,,Company K,Manufacturing,Netherlands,Qualified
+L10166,ffd207e325d1f6a831772b8981ee5cc23a4cc2533b6641b40368088deb493ca6,2024-09-27 01:00:00,Product Launch 2024,facebook,organic,content_7,keyword_7,Company K,Manufacturing,Switzerland,Nurture
+L10167,4155f75475b2e4e2dde2e6ba2f90d28f84f69f07e50aa1973d3cb5f8ae05a405,2024-10-24 07:00:00,Content Downloads,direct,,content_8,keyword_12,Company F,Manufacturing,Austria,Not Interested
+L10168,98a75ac95274ac6b5329e372072d8d297619a38ff34bb250c006fc1a18e3d915,2024-09-12 17:00:00,,,cpc,,,Company A,Finance,France,Contacted
+L10169,0ab488864e1fc7cfbac96a11416a0c080c1c9acf56bd02f71dea296acab5abd7,2024-09-05 22:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,organic,,,Company A,Software,Austria,Nurture
+L10170,fdd3694132d510d8866ff2bbda5a5e26b6bd6a3f29c66e2333ea6452211d56fd,2024-09-27 00:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,referral,,,Company D,Software,Austria,Contacted
+L10171,472f9e8997add5ebd481519735e8f4abe2826866350675084a3dbbdbde02018f,2024-09-16 06:00:00,Demo Requests Campaign,linkedin,cpc,content_7,keyword_8,Company H,Retail,Germany,New
+L10172,1f94867b48f841a973e9a16e16831978f1d0f8eadf236e3d349c5d72f5e366cb,2024-09-06 12:00:00,Google Search Prospecting,facebook,cpc,content_7,,Company K,Healthcare,Germany,Nurture
+L10173,23b7b0d98b6d233bce5452c0b3661fd52883c8df9fe69fc2a58e626d15e37bb1,2024-10-29 01:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,cpc,content_5,,Company S,Education,Germany,Contacted
+L10174,b340560a2e0d0a82f4165d26f8af05944d89e1d1a35827d5d4833a76af13422a,2024-10-30 10:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,,content_10,keyword_13,Company R,Retail,Switzerland,Contacted
+L10175,475f380362ad1e88db93ec92a25e8d6d4cbf7ef9a37fa6568aa75bbb6905c360,2024-10-21 22:00:00,;1003;Ad Group;2001,linkedin,referral,content_2,keyword_20,Company T,Finance,Netherlands,New
+L10176,921d302aff2398d71402d9ebbf4b34284292017155c9aef1f8b1298934a638a0,2024-10-11 08:00:00, Lead Generation | DE | Form ,linkedin,referral,content_10,,Company C,Healthcare,Netherlands,Contacted
+L10177,f1c887441f5f1f5c0baa10a41cddf3c96aafbf028c27a8ee3343d4b98957cbfb,2024-10-16 02:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,email,content_2,keyword_10,Company O,Retail,Netherlands,New
+L10178,78b1ad0065d9f01f0e0e6f899ec1c94e419c67fdd993afb830ac9c78ef1f505b,2024-09-09 02:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,cpc,content_9,keyword_20,Company K,Finance,Germany,Qualified
+L10179,56f4568a0457a21a5b57aae80d8109216dea3d99806272253310c24df3ae6514,2024-09-27 12:00:00,RETARGETING CAMPAIGN,google,social,content_5,keyword_5,Company C,Manufacturing,Switzerland,Qualified
+L10180,b3bf2d30e836c24d821c6b590a03000abe2b524a1252370d8b174f01eaebd592,2024-09-27 09:00:00,Lead Generation | DE | Form,google,referral,content_4,keyword_5,Company J,Software,Switzerland,Qualified
+L10181,0cf2c7de837218e6dbbcdb340f6f73b9b2f97c4d6ce540e78a752c3022d94eda,2024-10-24 19:00:00,Content Downloads,direct,organic,content_6,,Company G,Finance,Netherlands,Contacted
+L10182,01ce52aaaafe2a1fe786d4821c59d5457026018c4d0a4d45a985a4cabeafae47,2024-09-26 10:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,organic,email,content_7,keyword_19,Company G,Healthcare,Austria,Contacted
+L10183,70fd6af1c9dc1aa470b3a72018e1a1e5934dec968b5b930b19efa1155bb38aa2,2024-10-14 17:00:00,Content Downloads;1006;Lookalike Audience;2016,google,email,,keyword_14,Company P,Manufacturing,Netherlands,Contacted
+L10184,36ca37813eaf7ebcd20b4a322ccadc525322f723658008b8fe9578eb963bbcd9,2024-09-17 21:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,organic,content_7,,Company N,Healthcare,Germany,Qualified
+L10185,5f55fdac42cea768f1c0c046ee3ac94a296e018f03c48fca266527b8955f544a,2024-10-15 17:00:00,Lead Generation | DE | Form,google,email,content_10,keyword_13,Company K,Finance,Germany,New
+L10186,4f972d5303c0423421918e5c90d0c1b3078a55a15bc96fd9aa8f6e886c8a6aac,2024-09-07 08:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,social,content_7,keyword_19,Company Q,Manufacturing,Netherlands,New
+L10187,90c432d3acc106ebd7731af173b81f7ace4513254b116148da60fb4b66cae960,2024-10-01 03:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,google,email,content_4,,Company L,Finance,Germany,Not Interested
+L10188,3de6d0e40b8eb59db3f172c5aa321342f3d9e54c5e506506c80a14aa1bdd64c2,2024-10-17 22:00:00,Lead Generation | DE | Form,facebook,email,content_3,,Company H,Healthcare,France,Nurture
+L10189,a3bf8442c95e73bfac3d4337bcf806dd50c31bbff8483b6e4b7de088b138e353,2024-09-11 10:00:00,Google Search Prospecting,direct,social,content_7,keyword_20,Company G,Finance,Austria,Not Interested
+L10190,efef0d8a746721d2a4935560ea2554682a6fe1e82439da64c159a0a50f28cd58,2024-09-25 00:00:00,Brand Campaign;1001,facebook,organic,content_6,keyword_4,Company I,Education,Switzerland,Nurture
+L10191,7c54e230d07531fd4f7a5d9966b84d3a39ff51276a5ee536f4ebaacb012d51ea,2024-10-11 10:00:00,Google Brand Campaign,linkedin,referral,content_5,,Company S,Software,France,Qualified
+L10192,2d528735bab3d5b8a1aac32f2f4134152afdf17cbb5399b9efcceb0f5f94901b,2024-09-08 07:00:00,Retargeting Campaign,google,referral,content_10,keyword_6,Company P,Education,Austria,Contacted
+L10193,d835dbcb24e60a1a692cbe6e8bbe09865a690e11e371e40753d424dd0231690e,2024-10-06 05:00:00,Retargeting Campaign,direct,email,,keyword_7,Company M,Healthcare,Austria,Not Interested
+L10194,2b55d8c11b200650781a585c5abba5c0691454208c1254afada6c74e70d4bc03,2024-09-27 21:00:00,Google Search Prospecting,facebook,social,content_5,keyword_10,Company F,Finance,Austria,Not Interested
+L10195,de12b383284e8c1cd2601dd8ed38d8f60d68052c9cff4859a9cf7ba56bb49c2a,2024-10-06 16:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,email,content_1,,Company O,Healthcare,France,Not Interested
+L10196,ca3cc87aff1f09da9f80163daf92ec2336c0fddd527a86444f2dc85c3591b304,2024-09-07 23:00:00,,linkedin,cpc,content_6,,Company C,Finance,Germany,Contacted
+L10197,24f1dea8a01f5545ae58ab1232e56ab9e3704257ff9bab8eed2425c0fb41213b,2024-09-14 23:00:00,Content Downloads,organic,social,content_4,,Company B,Healthcare,Netherlands,Nurture
+L10198,a17e0c406d38b9d8aa8c2b3fdb2dd62ae28995bf47d63a54eed2b6017abd8722,2024-09-18 19:00:00,Content Downloads,,organic,content_9,,Company D,Manufacturing,Switzerland,New
+L10199,6fe5a7e8c56aad41e2b2a134571ce0e0d3fd99922f19af6273b869ed61a828a8,2024-09-18 20:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,referral,content_10,,Company N,Finance,Switzerland,New
+L10200,0c588cd116877d95ae922f865af6083a24b365549a19c6ec49f7d0b65dcc40ca,2024-10-11 02:00:00,Demo Requests Campaign,linkedin,referral,content_1,,Company C,Education,Switzerland,Qualified
+L10201,71eee61469c0dd1fb1e4d1ecfd52e14e8d885d1694ce3fa47e4b324687b07991,2024-10-25 02:00:00, Lead Generation | DE | Form ,direct,referral,content_5,keyword_19,Company E,Healthcare,Switzerland,Qualified
+L10202,d75005338958e0f95a5bd57b2f51ab038108b9bcded8639af03001c611b247c3,2024-10-28 21:00:00,brand awareness q4,direct,social,content_1,,Company N,Manufacturing,France,Qualified
+L10203,5194a2ce6d307968f1163793b326d73d8b76cbb544eac1d997cff2322fcd2efd,2024-09-11 08:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,social,content_5,,Company H,Finance,Germany,New
+L10204,ef94bb577e23387e9e004669085b29308d81562503fb0ad7820bdf43c4aad2a9,2024-09-01 06:00:00,Retargeting Campaign,organic,cpc,content_6,,Company N,Education,France,Not Interested
+L10205,0795d87385f15a80bbeb9ee9e19fcd2c95afb6c1672a6a0cebee1ec4ebc09aa0,2024-09-05 07:00:00,Lead Generation | DE | Form,linkedin,social,content_3,,Company E,Software,Austria,Nurture
+L10206,15e538e1a5869310d1b1d4b0dbbf6f36681410195ae212213eb2775e136eae10,2024-09-01 19:00:00,Google Search Prospecting,google,social,,,Company O,Manufacturing,Germany,New
+L10207,2b9dbe7845c1c46a51695304f7e53d06a907d81ea789b61b7ae1b0d5c8819685,2024-09-09 03:00:00,Google Brand Campaign,direct,social,content_2,keyword_20,Company T,Education,Austria,Qualified
+L10208,f7637aa0c360a2e2f20d21dc7304092950492b6d8da56a9aa3d87972babfa9f9,2024-10-20 22:00:00,Content Downloads;1006;Lookalike Audience;2016,google,organic,content_7,keyword_2,Company H,Finance,Switzerland,New
+L10209,5ef9e2d2f514430829ebb2d9ef14685ea3ec7b468eba5b2a5ec6bcb200e89423,2024-09-16 15:00:00,Lead Generation | DE | Form,facebook,,,keyword_19,Company N,Retail,Austria,Contacted
+L10210,b829727aac74a9af68c58067e72343939483cf46a5ad993025b9b98ea42b710b,2024-10-19 15:00:00,,facebook,cpc,content_1,,Company M,Healthcare,Netherlands,Nurture
+L10211,b952dc40b1b13476d72af4ae0cef70791e12c6713ee7f1543a306455c5f025e8,2024-10-20 13:00:00,Google Brand Campaign,organic,social,content_5,keyword_7,Company E,Healthcare,Netherlands,Not Interested
+L10212,5142139233d017c48ba67a030bdfc987fba3843393c2afb3c8386c541fbcacac,2024-10-08 20:00:00,brand awareness q4,direct,social,content_2,,Company D,Finance,Austria,Nurture
+L10213,1536954c53f08beedacca2d8d69438c4dcd07eba75d9a6507b36a1419d015b1a,2024-09-04 09:00:00,Retargeting Campaign,google,social,content_6,,Company I,Manufacturing,Netherlands,Contacted
+L10214,1f42ab22ce10d50258ba01d3371fa444dd9a669f218fdce0a97b39336b5c4333,2024-10-18 08:00:00,Brand Campaign;1001,facebook,referral,content_2,keyword_19,Company C,Finance,Switzerland,Nurture
+L10215,5ab6e34df86ddc3e60d05af0efe2ed24db171397864aed97c209a87ceb258663,2024-09-24 01:00:00,Retargeting Campaign,linkedin,organic,content_2,keyword_17,Company A,Software,Germany,Contacted
+L10216,565dd37d46841944e517da05e6705b1ce805426f3799da3d5bb6cd59de4c573c,2024-09-03 15:00:00,Retargeting Campaign,facebook,referral,content_4,keyword_11,Company I,Software,Austria,Qualified
+L10217,cc6acb2c4173fa45e34264a3dfaec98034c9ab1d180c44b9cea89168b3c9e06a,2024-09-08 16:00:00,Brand Awareness Q4,organic,,,keyword_15,Company J,Retail,Netherlands,New
+L10218,cdbe3893928068f26b811e62af1477df994f44307062424e953e2539ccd16af9,2024-10-06 14:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,social,content_10,,Company G,Education,Austria,Contacted
+L10219,89e0e98f9634989426683a86ef1d8d8171ef993cc9b3cbe27f26e242c6a68bd4,2024-09-10 00:00:00,,organic,cpc,,keyword_13,Company J,Software,France,Nurture
+L10220,1b126439e55ca13870c50448edc1d73842a4e7a5f7ed89ddbd2ef6467b85f8be,2024-09-16 13:00:00,Brand Awareness Q4,,email,content_4,,Company Q,Finance,Netherlands,Not Interested
+L10221,951d11f88b0cab64fcc7ddc87d71cb1b8b190a33b30a94e79ae6113a513b32d4,2024-10-18 02:00:00,Retargeting Campaign,direct,organic,content_3,keyword_9,Company K,Finance,Netherlands,Qualified
+L10222,ee04b8f22e7f38ac2ac18189d6cf084105090504285ca04d5a3a9a1d75943bbd,2024-09-29 08:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,cpc,content_8,keyword_4,Company R,Retail,France,Not Interested
+L10223,2ccc90bd0b8869a27256be1764f9f976eea8662315d6af4933898a7ca15d8ec0,2024-09-20 14:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,organic,content_6,keyword_8,Company L,Finance,Austria,New
+L10224,79ff95cdec30f021b8f2d0e8e4ac6ff62d48cf7cf53b272fb15b54705ec4189a,2024-10-14 09:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,direct,organic,,keyword_15,Company D,Manufacturing,Germany,New
+L10225,95097bfd7c4f0b06b810e12d88c544b65a3a17de02430b5279b4aaeada4a8079,2024-09-04 07:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,email,,keyword_3,Company G,Education,Switzerland,Contacted
+L10226,d10e46a9b31e5929849010332302ab5e5fa0809306fdba92ac1eaac71bfcb50c,2024-09-06 10:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,referral,content_7,,Company F,Retail,France,Contacted
+L10227,ad775d3cde4736c0f5155bf3c1e4e4653e11a1e473a7458aa7862624af385786,2024-09-18 08:00:00,Retargeting Campaign,organic,email,content_9,keyword_3,Company I,Finance,France,Not Interested
+L10228,b8fe511d6846a8a74f8db6d4b557bb11494e8d6ac7efa1c7aad5e08d50209476,2024-09-13 20:00:00,,organic,referral,,keyword_18,Company P,Retail,Austria,Nurture
+L10229,cdfc37ac4dee99d2147c56a300c73df98e9eae43d6a28fd17f8cd7dac99304aa,2024-09-21 12:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,google,email,content_8,,Company S,Manufacturing,France,New
+L10230,3fe73383c28b5d3840051da41c816b25c771af8fe67e582d57482d0227e957ff,2024-09-16 21:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,social,content_7,keyword_6,Company F,Manufacturing,Austria,Qualified
+L10231,87f906cafafb8053a34738e776cb9262f947e6c5ea0bd992567202ef0fcbdbb7,2024-10-22 23:00:00,Brand Awareness Q4,linkedin,,content_10,,Company P,Healthcare,Netherlands,Contacted
+L10232,cc9968606e98a574aa9e39230125ef22465752e7323a23b4d4bfdabe385783cc,2024-10-02 01:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,facebook,cpc,content_10,keyword_5,Company K,Education,France,Qualified
+L10233,c1aa0d415974ced3f8bd3c3d3b7752efb7c53f5ac10abf6a3fdcb7b9f4f1c07a,2024-09-04 00:00:00,Content Downloads;1006;Lookalike Audience;2016,,organic,,,Company L,Education,Switzerland,Nurture
+L10234,d011b3baeb7c359be222e9460e130267b89d2289a80bdc9b2084a4e50459a9b4,2024-09-07 10:00:00,Retargeting Campaign,,referral,,,Company K,Manufacturing,Austria,Nurture
+L10235,095889322864081e9ff399a2c590c9b6a99f8fa5f36a56cea577390ac2addce1,2024-10-21 11:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,direct,email,content_1,,Company S,Finance,Austria,New
+L10236,a2971097e4b5fe3a5dadfa917f473cbf5ad6a4e9ca3eb3036ab192bc6f7638af,2024-09-12 19:00:00,Product Launch 2024,facebook,,content_2,keyword_11,Company F,Education,Germany,Qualified
+L10237,13221abbb8d17a79ce895cc24e4bc05fd74c4aed8338ea3033f004038835d350,2024-09-29 00:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,cpc,,keyword_15,Company N,Manufacturing,Switzerland,Not Interested
+L10238,740223ab024c1e5b1d9d81ae80fad6b485160ab4af620830a1e07f630db0aca1,2024-10-27 12:00:00,Google Brand Campaign,direct,organic,content_4,keyword_3,Company B,Retail,Germany,Qualified
+L10239,de10124eada4571ebbf307a44c88344b5d070dde890c62a633aa374f979c6332,2024-09-17 03:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,organic,,,Company K,Healthcare,Austria,Not Interested
+L10240,3b696f7f4b79e6efb3437f7acf687089da21cc26324e96a593d620cc1f305179,2024-10-16 00:00:00,Retargeting Campaign,direct,cpc,content_4,keyword_18,Company R,Retail,Netherlands,Qualified
+L10241,002aa70b18818bbc9bec04ab2220642a0b4ff643b92b9c290f324bf81b4f8ecf,2024-09-16 03:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,direct,email,content_2,keyword_20,Company P,Manufacturing,Germany,New
+L10242,1a8eccc6236c46dffae80d67b85718e5f618fe6aca0c88a3c41125cd97b92fdd,2024-09-14 05:00:00,Lead Generation | DE | Form,facebook,referral,content_5,keyword_18,Company M,Manufacturing,Netherlands,Not Interested
+L10243,773066a0bf8bee61bcf63f114bb9fb41f140c44bc36cf1d7591012ef7ab602c8,2024-09-24 05:00:00,Demo Requests Campaign,linkedin,email,content_3,,Company D,Software,Netherlands,Nurture
+L10244,a1e4e5b67d0359a7441e537d20895d41017c04b02f0f9b428b639bb36fdf25f3,2024-09-27 18:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,organic,content_8,,Company H,Finance,Netherlands,New
+L10245,5f88ef86a9555a6da54a6df206bf6b3ce71a5ac9fd43e9a13fb2910409e42d81,2024-09-26 22:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,,organic,content_8,keyword_6,Company G,Manufacturing,France,New
+L10246,4f476200632ba5234981705fa5049c492569420e2d3147173540db157044b700,2024-09-28 02:00:00,,google,email,content_2,keyword_18,Company M,Healthcare,Netherlands,Qualified
+L10247,b910e4192aaab4cf71a29356fbb49b21fc1f23177988f724de95e7eb1039dfee,2024-10-04 14:00:00,,organic,referral,content_3,keyword_19,Company S,Software,Germany,Nurture
+L10248,5d44377a00cbdde3e034ea725cd14dc50fe06493e92639789726594316aefcd8,2024-10-20 03:00:00,Product  Launch  2024,linkedin,referral,content_8,keyword_9,Company M,Manufacturing,Austria,Nurture
+L10249,c02f57a4e81495c1dc91712a433d6f03801af2ef3b8406716c8de20043a1371b,2024-10-14 22:00:00,Google Brand Campaign,linkedin,cpc,,,Company L,Software,Netherlands,Qualified
+L10250,a2d51426ad630ad12c03634ec4e7b343519ab82ff55eae0ab27a5e3e577c9909,2024-09-20 08:00:00,,facebook,,content_5,,Company O,Retail,Netherlands,Not Interested
+L10251,35b0fcd9cf2fc3fdfd2d4c02b4d837ddade6564cc9ce88650198c122a8b431c3,2024-10-09 20:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,organic,,,Company Q,Manufacturing,Germany,Qualified
+L10252,9bd9dd67ddb80d44588ed82beddc49f0cf154bbc71fe6235032226bd1c7b63f5,2024-10-16 16:00:00,Brand Awareness Q4,google,social,content_1,,Company G,Retail,Netherlands,Not Interested
+L10253,41909cc527db1cfe1934c26582ff40acf20ec54ec1f94fc656a1856f0ae4dbe2,2024-10-03 12:00:00,Lead Generation | DE | Form,google,organic,content_8,,Company L,Retail,France,Qualified
+L10254,5f8784e22fa604f330d44a55fbf728feaadf9ad4c538847934b9e87ef5beba14,2024-10-18 22:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,social,,,Company G,Retail,Switzerland,Nurture
+L10255,7880f9a23abf0ba4c8398b4958f6d3cdd2d666a7f303748e9fdf9ab6c17d8bed,2024-09-02 21:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,social,content_5,,Company I,Finance,Switzerland,Qualified
+L10256,2d08134cf08b81f8da1d683ecd6f87f17e52ccdf8fc131f8ad1739e090a0075d,2024-09-30 08:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,cpc,content_6,,Company T,Healthcare,Netherlands,Qualified
+L10257,dec3d64d62d4e36eba24486b014181e8c9668022a8b194d99c39a7cd96b08c9f,2024-10-14 03:00:00,Content Downloads,,email,content_5,keyword_17,Company H,Software,Austria,Not Interested
+L10258,41dcba57e8c04b73f32c95c73a547fef849110f1016ffc54b27359a619d990ed,2024-10-13 10:00:00,Brand Awareness Q4,linkedin,referral,content_1,,Company S,Manufacturing,Netherlands,Contacted
+L10259,0faad2bd3994db0dc8ed7d991ce11445863ac2e75a2d30870336e13e648b0301,2024-10-14 17:00:00,Google Search Prospecting,,organic,content_3,,Company R,Manufacturing,Netherlands,New
+L10260,d4e667cf0f660e0fbb72481f3766cdead3cb466a00d7b2ec29e8dfbaceb8e966,2024-10-01 04:00:00,;1003;Ad Group;2001,google,,,,Company H,Retail,France,Qualified
+L10261,0596290cfa1d96c9d9667b158d566ef5b340b739ab7bdf5a5f0c5c21cadb36b6,2024-09-27 10:00:00,Demo Requests Campaign,facebook,organic,content_10,keyword_7,Company Q,Software,Switzerland,Nurture
+L10262,b24aa2a8ad8bd4d38178831586cb7f0b5d6487d966dd72551ef18fda867b726d,2024-09-20 13:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,organic,,,Company E,Retail,France,New
+L10263,60f1567851df570dd446baaa9b9a8c2fae48c71b0092b100fbba93a7536197b9,2024-10-02 10:00:00,Retargeting Campaign,facebook,email,content_3,,Company F,Finance,Germany,Contacted
+L10264,38e71fb05f8b1610e49f2ff732843b8f2e660a85f7150cf5ea0ee5543c7aa003,2024-10-10 13:00:00,Google Brand Campaign,direct,cpc,content_6,,Company K,Healthcare,France,New
+L10265,d351ac26c6992ae88b4f341ccf31b014cb3ae1be17b2511052fb6fa90bdab0cf,2024-10-14 00:00:00,Product Launch 2024,linkedin,cpc,content_10,keyword_3,Company B,Retail,Netherlands,Not Interested
+L10266,1a6121ada977a7bb90219b233f69e47a8e3c7d0808f34880e030a8cc3c317016,2024-10-17 16:00:00,Content Downloads,google,referral,content_4,keyword_13,Company A,Manufacturing,France,Contacted
+L10267,5ff3a6af65000450225338ffb4d6515c1828251842c9d09bb65ecc182aadba15,2024-09-14 23:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,cpc,content_5,,Company T,Software,Austria,New
+L10268,21f60a8ae344ac0facd4ed116881ce600f876b0eb05e69b65f797a2ef0e61101,2024-10-13 03:00:00,Brand Awareness Q4,facebook,referral,content_5,keyword_5,Company G,Education,Germany,Qualified
+L10269,5244cd5a5975d029487df40bb0f3fdc3d3f1efdbe917796cd7c89bc723f291ae,2024-09-27 21:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,referral,,keyword_20,Company D,Retail,Germany,New
+L10270,81ce50986b73fbce7ad254be9c50ca04634791ea31c0e791c4970a946f7ba537,2024-10-02 06:00:00,Demo Requests Campaign,google,referral,content_1,,Company G,Education,Switzerland,Qualified
+L10271,84e71405672edb2d95ea50d61fffd890e209881b4848ebabbb1349aaa069065c,2024-09-16 00:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,,referral,content_2,,Company C,Education,Germany,Qualified
+L10272,d59b74f30cfc735168b1a8098d7552639c29ac2655bacebab8a1bd1e3dca0c28,2024-10-12 07:00:00,Demo Requests Campaign,facebook,social,,,Company L,Education,Netherlands,Not Interested
+L10273,839b706e267156a77b7d85e055010eddd187de03481d5094edd9af956cb705d6,2024-10-18 03:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,social,content_8,,Company I,Education,Germany,Qualified
+L10274,f323b3fe6b389f32b17df64b3cc891d2d2b36188ff7aaf46893decdac2191e5a,2024-10-23 10:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,referral,content_8,,Company F,Software,France,New
+L10275,120ffc88c2ad00ca0ba09989d3517995e89ff0a5ec60fc4cf2cc796149e9ce2c,2024-10-25 05:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,social,content_6,,Company E,Finance,Switzerland,New
+L10276,4321163d676fa86f8f916563c0938179964e934577470c76d621822a2cead0ea,2024-10-27 13:00:00,Lead Generation | DE | Form,linkedin,organic,,,Company S,Manufacturing,Netherlands,Nurture
+L10277,c144a6bf98353be96e0d5e3ed7fa28639c0a9275ddc2476b31b5e4b1bdef2fae,2024-10-04 22:00:00,Brand Campaign;1001,google,referral,content_9,,Company T,Software,Germany,Contacted
+L10278,b9f4b150fbb938a2c80af784d1879eabadfae73ae46da088d3cd804cf5941b12,2024-10-03 15:00:00,,facebook,email,content_5,keyword_8,Company R,Education,Switzerland,Not Interested
+L10279,3bb4d304e0962d7751da1cc0bd94f0fb141fd40c268a9df3af5aab8da38985f7,2024-10-23 07:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,referral,content_2,,Company A,Software,Switzerland,Not Interested
+L10280,125608f803aeaf34bb9e53fe5ec39d4f1dc6f14e8813cc975dbdcf8271ef9fed,2024-09-03 17:00:00,Lead Generation | DE | Form,organic,organic,content_8,,Company L,Software,France,Not Interested
+L10281,3d16af8d52f6b72aafd3236de3b61ef9e90d3009b6a324ec155a1c52bf0512ff,2024-09-22 17:00:00, Lead Generation | DE | Form ,linkedin,cpc,content_4,keyword_12,Company J,Healthcare,Austria,Qualified
+L10282,88aeb2d0a53d315efb8f36b7e4b94bdf54cdc97e12d34b90eaebbab197701856,2024-10-15 03:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,organic,content_2,,Company M,Manufacturing,Switzerland,Contacted
+L10283,4c2c426a12d94a6c7e5a98a1a694ca6bf3462939d99788ec91d1e713f52680fa,2024-10-16 10:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,referral,content_10,,Company E,Finance,Germany,Nurture
+L10284,062bd8340d853f1742126ed557065530ecc3514eb85a0f36199c1763c64a1bdb,2024-10-18 01:00:00,Google Brand Campaign,direct,,,,Company S,Manufacturing,France,New
+L10285,2a89e57fa942fc19c60575c46e4097c08522e91436e00c981a48dab71111f635,2024-09-25 21:00:00,Content Downloads,direct,organic,,,Company I,Finance,Netherlands,Qualified
+L10286,7932dd19a69b9081d9e2c779cebda65a86316823486bff6147d346bb8e143360,2024-09-29 04:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,organic,,,Company R,Education,France,Contacted
+L10287,45ab3cea8810b06c37e7dbec0869a7588fff5fe2c18519d598fe83d18fd66f1d,2024-09-14 19:00:00,;1003;Ad Group;2001,google,,content_3,,Company K,Education,Germany,Qualified
+L10288,bb76e4a9e991b77b6b3afb6227d6c0ded616b12f560231a4f7a95015487b5114,2024-10-06 15:00:00,Google Brand Campaign,organic,referral,,,Company A,Finance,France,New
+L10289,40672ef8ccb67571a9b48b96e612a2da9c90808f30d757b6e16261c26b9a7678,2024-10-13 01:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,,social,,,Company J,Manufacturing,Austria,New
+L10290,6bf8da804a34b50bb048679a773ddb1acd86082b832ef205159d63f882622bbd,2024-09-23 14:00:00,Content Downloads;1006;Lookalike Audience;2016,google,organic,content_9,,Company J,Education,Germany,Not Interested
+L10291,669aaaa7ca52554a2382fc0f2ab6434b094ba5f84ed853ef5d04848a97c60ee8,2024-09-25 13:00:00,,,organic,content_5,keyword_15,Company H,Education,Netherlands,Nurture
+L10292,ea83a2b7debb5c24aefcf3a46f7cd7367201de508cea6d7b7ecd943cf20789d8,2024-10-05 23:00:00,Product Launch 2024,google,,content_3,,Company D,Finance,Germany,Not Interested
+L10293,9641b4410a2a447c07ec522d2582c4c1c5e448bd30feb2c016a86d2d11295678,2024-09-18 17:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,referral,,keyword_5,Company K,Healthcare,Germany,Nurture
+L10294,4d378b2486d06dbc73ebe22024ff9945a6b388dfbf0371af2998e1e51138ce66,2024-10-24 21:00:00,Content Downloads,linkedin,social,content_9,keyword_18,Company R,Finance,Germany,Qualified
+L10295,c56c704ffe29417299900b9061ec05a532f78e57d8ee011393a84cad76d4514f,2024-09-15 06:00:00,Content Downloads,google,,content_8,,Company A,Software,Netherlands,Not Interested
+L10296,047e366dc95f5d2b5cdc39988352826193c1fb7d5d49b64af286d99daa3c6508,2024-09-16 20:00:00,Product Launch 2024,,email,content_2,keyword_18,Company J,Software,Austria,Qualified
+L10297,c757ec34d5f23a0c9fa323f38777513c2113430a55b073d95313405940a237e1,2024-10-03 16:00:00,Brand Awareness Q4,google,cpc,,keyword_18,Company R,Software,Germany,Contacted
+L10298,605feb4b85a958548026d4bf1f7b2680fb0434cf77009851d7670ed0f3d5f860,2024-10-13 20:00:00, Lead Generation | DE | Form ,google,referral,content_2,,Company E,Software,Switzerland,Qualified
+L10299,a423198ca8b124cc40dab9ab977f733f1713dd3a2e96b4e45d967c794fa38e00,2024-09-03 02:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,social,,keyword_15,Company M,Finance,Netherlands,New
+L10300,6a6ebca3275c84e3dd60bf374e5ff3eba8bf2e87f82daad545f2f55f24730362,2024-09-25 21:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,organic,content_2,keyword_17,Company D,Retail,Netherlands,Nurture
+L10301,8373b1a23e433910556b9ed856270ccf104647c99c905aa77321537b8edf1924,2024-09-06 09:00:00, Lead Generation | DE | Form ,facebook,organic,content_7,,Company R,Retail,France,Qualified
+L10302,61b0b45a53ee527af1a91bf2a565edfb2e565a7aa31502d4af9745086ca28526,2024-10-14 23:00:00,Brand Awareness Q4,organic,cpc,content_10,keyword_18,Company C,Retail,France,Qualified
+L10303,3d15a7fcce1eb8f6c3180809b92fb7c87c76f70a21f80629c227536f1f90e734,2024-09-14 13:00:00,,google,social,content_5,keyword_6,Company S,Software,Austria,Not Interested
+L10304,2dcc957c8d777e2ccf37ee5aa46f83f02c23f6e22f23500b9254ebf1c861dc0c,2024-10-12 17:00:00,Content Downloads;1006;Lookalike Audience;2016,facebook,organic,content_6,keyword_8,Company D,Retail,Austria,New
+L10305,940a36caca7587ac93e32865a033fb27089f4c25471f523ec0f1ff776bee1f35,2024-10-28 06:00:00,Google Search Prospecting,linkedin,social,content_6,,Company N,Manufacturing,Germany,Qualified
+L10306,7808fce89742662b7cc5e42cbb6aefb8ae048fd45a4e536c92efc93a35798e50,2024-09-16 07:00:00,;1003;Ad Group;2001,linkedin,email,,keyword_12,Company J,Finance,Austria,New
+L10307,4d502dd487864d5e73b9e70ca2235bf4738ea0085f35eaa9dd721bd2ac11a33a,2024-09-12 20:00:00,Demo Requests Campaign,google,social,content_2,,Company A,Healthcare,Germany,Nurture
+L10308,1d663fe7b127215de9a7f1091dcaa1aaa0524418e38d11b22a8b30e1231fdca7,2024-10-08 12:00:00,RETARGETING CAMPAIGN,,organic,,,Company E,Retail,Switzerland,Contacted
+L10309,a24946a1a871e9fef171f34f4b4bac7c0f691a553029d69dbe71a0dc637d3049,2024-10-28 18:00:00,Test Campaign;1002;,organic,referral,content_1,,Company T,Education,France,Nurture
+L10310,fa7cc8a2068b7d7057ad3c8b05081aee8d31daee0362a7ad1183638c823bb8f3,2024-09-09 14:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,,social,,keyword_12,Company B,Manufacturing,Switzerland,Contacted
+L10311,dc297eee926bb27d94d8a319d8bcb138faa9bfb543154515a0bb28f5ac2b50af,2024-09-05 08:00:00,Brand Awareness Q4,organic,,content_8,,Company B,Software,Netherlands,New
+L10312,7ffb9033957643e5083314365dbf16c3ec5d41746928f07d9ed39ece8a473c6c,2024-10-16 16:00:00,Demo Requests Campaign,linkedin,organic,content_7,keyword_3,Company Q,Retail,Switzerland,Contacted
+L10313,03b9182b9c0ddbc5a57618c177c23e82ca3960016971010e767dafe58a81b237,2024-10-04 12:00:00,Content Downloads,direct,cpc,content_3,keyword_8,Company C,Healthcare,Netherlands,Contacted
+L10314,6a59601e55d50c764c840b3ac19ac05f58d99046d37322145079441f56b735e1,2024-09-10 05:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,referral,,,Company P,Education,Switzerland,Not Interested
+L10315,71be360b5cde8e5c701ea340bfb087c63595c0200fa7db31b3b165618dc870fa,2024-09-14 18:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,organic,content_9,keyword_19,Company E,Software,France,Qualified
+L10316,54eeee2045b8269daa0b1991e09472b84f3969334b18eaae0ad8344bab78f4f6,2024-10-30 05:00:00,Google Brand Campaign,organic,email,,keyword_20,Company P,Finance,France,Contacted
+L10317,03723cc4a4c292b8c8a766ddfb614804772c65e2ce82a6d601541e738d203d1d,2024-10-24 13:00:00,Retargeting Campaign,organic,email,,,Company C,Manufacturing,Switzerland,Not Interested
+L10318,b37b87b71f93f86a1275546d109bd4f49fa18f783946e4c75eb477715c12aa3d,2024-09-09 03:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,social,content_3,keyword_20,Company T,Software,Austria,Nurture
+L10319,9d931bef3e8716d6086f9211f17bcb8fe821218c3a6434b3c3440330b8a6070f,2024-10-19 03:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,cpc,,,Company N,Healthcare,Switzerland,Qualified
+L10320,012103f6a1dc3d790b9d4d0d061289778f99fcb2dff4860d14afd243ecad2579,2024-10-26 01:00:00,Google Brand Campaign,direct,referral,content_10,keyword_5,Company I,Finance,France,New
+L10321,820f500e4c3b2a9fa67950ca33582eacbfbd9e5a021f101e2d43e3c8a5934573,2024-09-19 19:00:00,,google,cpc,content_2,,Company M,Education,France,Qualified
+L10322,0a9e28ea2c3996b268c80b7bd1c5590ce0c867c329c5d210f6b2d79102a59aa7,2024-09-27 11:00:00,Product Launch 2024;1004;Cold Traffic;2010,linkedin,organic,content_6,,Company M,Manufacturing,Switzerland,Nurture
+L10323,0a9e2252b335f6291cb3e1469d436b43ed2b202f2a520901e163aec7b374d771,2024-10-21 17:00:00,Content Downloads,direct,email,content_7,,Company D,Education,France,Not Interested
+L10324,10e9a73318ab7ac86f02f633216e45424c0fc8395b401cd53465e7996b39ee1d,2024-10-21 22:00:00,,organic,email,,,Company B,Manufacturing,Switzerland,New
+L10325,ff3bfe27d52c2d1825d90ce2ca3a2c0a02dac62a28666ab59076c020e9a5a484,2024-10-22 02:00:00,,organic,cpc,content_6,keyword_2,Company M,Finance,Austria,Nurture
+L10326,ae30885a271f967b342ac8adf94119c0c05def86bff2df6ba3fe519c8ba3019e,2024-09-19 22:00:00,,google,referral,content_9,keyword_2,Company T,Healthcare,Austria,Contacted
+L10327,c1ecd8b435d2bcf4cfcae0012164b852b00dce3a164fac767da55ba2b7edb433,2024-10-10 05:00:00,Content Downloads,facebook,,content_5,,Company L,Education,Switzerland,Not Interested
+L10328,6b0aad2f0dea250e80a10af8fbf5d8b90d70cafe7a8b67e080dfc352b88381e4,2024-10-08 06:00:00,Lead Generation | DE | Form,,organic,,keyword_9,Company H,Healthcare,France,Not Interested
+L10329,cf3eac8a77af34650fc40da7c4e7fab5a76b277701d15ad3604191b641303644,2024-10-30 12:00:00,Demo Requests Campaign,organic,cpc,content_6,,Company Q,Retail,Austria,Nurture
+L10330,8c5b49e7bf281a1e253bea04a90078cccf159ed651bb77abfba1476172ebcffe,2024-09-17 22:00:00,Google Brand Campaign,google,referral,content_10,,Company P,Software,Netherlands,New
+L10331,f4c36842a29ec6e653d8b0d0ccd22e34ead5dc99a3b35cf461bfacc70b5ed4a6,2024-09-25 20:00:00,RETARGETING CAMPAIGN,google,referral,,,Company A,Education,Netherlands,Contacted
+L10332,f4ed3e4f5676b88f8f925510e010863aef0b6b1595bf0babc3a565a03fc3abcc,2024-09-19 02:00:00,Content Downloads,google,email,content_10,keyword_7,Company P,Education,France,Contacted
+L10333,8f03cbbf258cd2d6ad53b52c110b5c378070e0692b9025300040c3ec81871ee5,2024-10-18 07:00:00,,google,organic,content_2,keyword_3,Company P,Healthcare,Germany,Nurture
+L10334,ce49727cb6323ac29ca42188abc4c88965c8e704138683c95cd550c1c3f5c165,2024-09-03 15:00:00,Content Downloads,organic,referral,content_9,keyword_8,Company S,Manufacturing,Germany,Nurture
+L10335,514bed947259a0dad33eba5fd51e85d5970e48a72bab9cb3a604ad49c76a960c,2024-10-22 13:00:00,Brand Awareness Q4,direct,social,content_2,,Company O,Retail,Germany,New
+L10336,f1f39215af61282ec8ff639e50577bfa860f14169be4d127d19316cc182af014,2024-10-14 06:00:00,Lead Generation | DE | Form,organic,social,content_4,keyword_20,Company K,Retail,France,Not Interested
+L10337,773576a69829612ed9a6796a2c84ec73ab77015cbc0376502040a528225f3e72,2024-09-28 06:00:00,Content Downloads,direct,social,content_10,,Company D,Education,Netherlands,Contacted
+L10338,edfad6f878e917f1d9231eeebce067c123a7c347241155a0affcb81de2a33b17,2024-10-06 13:00:00,,google,cpc,content_8,keyword_17,Company R,Education,Netherlands,Not Interested
+L10339,7f417b42a6b6dcb7bc016ee26988622cc64ff1de91a6c3d0f301455a128a3582,2024-09-20 08:00:00,Brand Awareness Q4,google,email,content_2,keyword_11,Company I,Retail,Netherlands,Nurture
+L10340,52216c122917a8113e2ff69f2b2aff6a66b348ddc24d64e8b9917bc437df8de3,2024-10-06 08:00:00,Google Brand Campaign,organic,organic,content_9,keyword_10,Company L,Retail,Austria,Not Interested
+L10341,ed363d92d5c5f99ed7206ce2c6822f93f984f2b0f0b7967bfeceb0dae64e4482,2024-10-20 23:00:00,Lead Generation | DE | Form,linkedin,social,,,Company K,Finance,Austria,Nurture
+L10342,8424476ad2d5b4296516a498eb01ac6505622fbc821b4aa6531e82b356afd21e,2024-09-26 02:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,email,content_7,keyword_15,Company L,Education,Austria,Nurture
+L10343,c817fd878b2466c98604676f2129276bd89345e2da26e11e291a88b0b12bd4b7,2024-09-29 13:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,cpc,content_7,keyword_3,Company P,Healthcare,Germany,New
+L10344,a2ad09cf43c1658da5cef29ec9406167abf8afa31646572a74867b19718cfb11,2024-10-20 12:00:00,Lead Generation | DE | Form,organic,referral,content_4,,Company O,Education,France,Contacted
+L10345,39b9e87c011326ddf32afd98cb3222784a658dcfcac0aa253e8e68af250f4e22,2024-10-04 05:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,referral,,,Company I,Healthcare,Switzerland,Contacted
+L10346,d3cf2a9ee7633f7cc2b64054f456a04693a9ebfd51c2f1dae80647ac781172e6,2024-10-15 17:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,organic,content_6,keyword_8,Company C,Finance,Netherlands,Qualified
+L10347,328330a505b99bd7fc3d7e51f47c33eb467d90bb9f20707bd6330495eb6063e8,2024-09-27 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,referral,content_8,,Company P,Retail,Germany,Not Interested
+L10348,31266933c39ca018ea704fecca9a75a6b6876160f56e093876c01025d14c55d5,2024-10-22 09:00:00,Brand Awareness Q4,google,organic,content_4,keyword_13,Company M,Manufacturing,Netherlands,New
+L10349,14d7ea4535e5643f51a709b9edd3388dac9cfb0cb4c77e743299b7e876643b7d,2024-09-28 20:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,organic,,keyword_3,Company F,Manufacturing,Netherlands,New
+L10350,b11ae5390020d40bb62a7c3494a89ee4d81eed2455799ed3f23b37ac8b1c295c,2024-10-11 14:00:00,Demo Requests Campaign,direct,cpc,content_9,keyword_4,Company J,Retail,France,Not Interested
+L10351,688d77a3456a751ab0a2180e7a27299e4478fe59afe477e816b7394ea12cd32b,2024-10-17 00:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,email,,keyword_12,Company O,Education,Germany,Qualified
+L10352,88e31c9ab96ef181464ba58a998c1474fec2fec45116bedfacf8dd05891830b4,2024-09-06 04:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,email,,,Company D,Education,France,Not Interested
+L10353,304d030ce885f0611c62d7065e32673c842224e0527b8acdd7b309b8606fe763,2024-10-20 14:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,social,content_5,,Company F,Education,Germany,Nurture
+L10354,c02abf14649f12f4ba1b4cb5e18362f9db10cada377bf64b914e137bbf1c0621,2024-10-04 03:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,linkedin,social,,keyword_14,Company K,Software,France,Qualified
+L10355,008075d80555ab21e0a44c6d8577c88a42e70129468576b209bcc97dd523e6f9,2024-10-08 03:00:00,Product Launch 2024,facebook,referral,content_3,keyword_3,Company H,Manufacturing,Switzerland,New
+L10356,a948547638053b6aa2937c40a98fcb265f80da51f4afbf09dcb837057ec77225,2024-10-14 19:00:00,Brand Awareness Q4,google,cpc,content_4,keyword_18,Company L,Finance,France,New
+L10357,06567751f222a8a6f61bb43b514f3812b405ae078c6b6c46b7762f62b5bfbf9c,2024-10-15 12:00:00,Retargeting Campaign,facebook,referral,content_9,,Company G,Healthcare,France,Nurture
+L10358,260366d980a96462844908137d2979c0988e44f98d4a82e72e0a7a67415a9c7d,2024-09-23 10:00:00,Test Campaign;1002;,organic,,content_2,,Company O,Retail,Netherlands,Nurture
+L10359,2fd299c2a57691f7ff003e258fcbe0828fb3b0d225eec8f99de7f3d058be600e,2024-09-24 14:00:00,Content Downloads;1006;Lookalike Audience;2016,google,organic,,,Company H,Retail,Germany,Nurture
+L10360,946a6999160c04ff308490d02e57cb16e3775d32094d3e8f4bc13dd16add72fd,2024-10-23 12:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,email,content_6,keyword_17,Company C,Software,France,Contacted
+L10361,4c672b350567626a848898a500ed1e3e358c6bbb7e7ed4eece0c754d0bf3e1c2,2024-10-26 01:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,referral,content_9,,Company S,Retail,Germany,Qualified
+L10362,6d7db74dbc2ac51b28b5ff34a1afd02aa68558bc72ef67b6cfcf79821feccf84,2024-09-15 19:00:00,Brand Campaign;1001,,referral,,,Company O,Education,Germany,Qualified
+L10363,adb122cc8099bb862fa59536ac6c01d15818bfcbcc254ff622af5dd1307fbd10,2024-10-06 23:00:00,,linkedin,cpc,,keyword_2,Company C,Retail,Germany,Contacted
+L10364,99899b208a151e3ab4232603d3ed30a47298ee9c70e7889be2a83b795a2c9980,2024-10-04 03:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,social,content_3,,Company R,Finance,Germany,Nurture
+L10365,2c99914d354b3e3a97f43daf1dc3f12189d27925c542f45c83713cf8aa48acfd,2024-09-23 21:00:00,Google Brand Campaign,google,organic,content_6,,Company R,Healthcare,Switzerland,Qualified
+L10366,e6ae16dcb3bdbe7f267c7ad043d8b106ca09cc3e94a1534d9c8fb336142c0c2b,2024-10-28 10:00:00,Content Downloads,direct,referral,,keyword_8,Company S,Healthcare,France,Not Interested
+L10367,dd9229de05c479bd624e4fbe746250a5676c4e9b96e65b027dad05e97916c556,2024-10-20 17:00:00,,direct,referral,content_1,,Company T,Software,Austria,Contacted
+L10368,e5163597e0c8e8b09bc1c1a9fb5e23d9e2726136500f0d6d15e115e9e15bf918,2024-10-27 09:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,email,,,Company S,Healthcare,France,New
+L10369,5223b023cf1aaf168b0dbfdb82422ba77b7f8c61601cf7e595c83678d067019e,2024-09-03 14:00:00,Retargeting Campaign,organic,email,,keyword_13,Company S,Manufacturing,Germany,Qualified
+L10370,2c82fdcb4e5b57157abc968fd6a635218a20e90c6f1d8cad43ec53b460b6f480,2024-10-21 15:00:00,Content Downloads;1006;Lookalike Audience;2016,facebook,email,content_10,keyword_2,Company K,Retail,Switzerland,Not Interested
+L10371,ba141c91482ee48ec6f6e9ecf5e5345e8651c0b32eb15cb572f35f0746447b8f,2024-10-30 03:00:00,,organic,,content_7,keyword_17,Company B,Retail,Austria,Nurture
+L10372,15d39f190f4a1138e9649933907530342afa9e85545017ef3a2fe5301dad79b3,2024-09-10 10:00:00,Product Launch 2024,direct,,,,Company C,Manufacturing,Switzerland,Qualified
+L10373,9bbb54fbc1b7c76d0abf3ae147917f20a17e9748126dfbd87883658cdc73672e,2024-10-21 12:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,organic,content_2,keyword_14,Company E,Manufacturing,Switzerland,Nurture
+L10374,d22bedde04a62f24bb8b833c71b27f628b57fc8dd0485dd1f2939fc8f855f243,2024-09-13 15:00:00,Product Launch 2024,organic,cpc,content_7,keyword_19,Company C,Software,Switzerland,Not Interested
+L10375,da0d3001290cb14ef55839a0537f8006d6f2ea852ce9efa17df231cd89ba6c2a,2024-09-24 11:00:00,Retargeting Campaign;1003;Retargeting;2007,facebook,social,,,Company O,Healthcare,France,Not Interested
+L10376,4ad60d963a556954733212f4531e29007e2a01e351a5cdf37b5687b1759932f0,2024-09-03 07:00:00,Retargeting Campaign;1003;Retargeting;2007,facebook,cpc,content_10,,Company J,Software,Netherlands,New
+L10377,a0c79d5b3d8afc6734954f5f534dfb7279ef6a6c3814fed130077b717f55a91f,2024-09-20 14:00:00,Content Downloads,organic,organic,content_5,,Company T,Education,France,New
+L10378,407f3110accf498176342650cb827ba08e5ec7ffc35cd35061fcc7c70e0344ed,2024-09-25 18:00:00,,linkedin,email,content_10,keyword_15,Company A,Software,Switzerland,Qualified
+L10379,4b2932951361721ec2f614a5e8f5d7253ca9e6efbd2014c0bab90b2ccf5c7b39,2024-10-13 21:00:00,Lead Generation | DE | Form,direct,referral,content_2,,Company P,Healthcare,Austria,New
+L10380,8dadfe6dc8fba51e348710180dd9148dacf545831e4449e431be21acf4efad53,2024-09-12 06:00:00,Google Search Prospecting,facebook,organic,content_8,keyword_6,Company A,Retail,Netherlands,Qualified
+L10381,c89f98d7fa0f9dfc006477bc38545f760364532e6f20b5dc6705033aaf82c7d4,2024-10-11 09:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,referral,,,Company A,Healthcare,Netherlands,Contacted
+L10382,11cf0e4cd257e0c1a0b029dc405e126d9824ed1ec59b4615a6a5117b98ea15b4,2024-09-10 10:00:00,,facebook,organic,,,Company H,Finance,France,Nurture
+L10383,a3aa09e3de0e4e1b6ce68e0f8ae8d8103ce8e7923ebb968428a9f5d9d0efc6f4,2024-09-10 13:00:00,,,organic,content_3,,Company G,Manufacturing,Netherlands,Nurture
+L10384,8d2fc2087f7d44e68004f80f83bb6eb65464afd65cf10cc99150a4e479d7cd72,2024-10-29 04:00:00,Retargeting Campaign,organic,,content_9,,Company D,Manufacturing,Netherlands,Contacted
+L10385,c244a267b78531d005de2c9100951a51958e43a9247d13535541b302509daad8,2024-10-17 00:00:00, Lead Generation | DE | Form ,,email,content_4,keyword_6,Company A,Healthcare,Austria,Qualified
+L10386,1380d8458825720fb19ff0ae14c7a2efd7d74ae9f8a2e0752c9be6a1a46da58a,2024-10-09 18:00:00,Product Launch 2024,facebook,referral,content_10,keyword_12,Company F,Finance,Switzerland,Not Interested
+L10387,3179fd1fafb59ce1cacd5607d76f4aaf809318e9d71becd61e83ce3f0b0338db,2024-09-09 05:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,,,keyword_7,Company G,Software,France,Not Interested
+L10388,f1ec5877fabe67de1fe1afd10782a009a7736ed9ad591722c754e9a510da3983,2024-10-26 19:00:00,Content Downloads,google,cpc,content_7,,Company M,Healthcare,Austria,Nurture
+L10389,5a281bdd43acae4da5fd17e6f209e4154d3d6fdc92ee099b264e591938735106,2024-10-05 16:00:00,Brand Awareness Q4,direct,cpc,,keyword_18,Company M,Education,Germany,Nurture
+L10390,16f38df2bb57316c099e29aa95f0b242482f1d8dc3615f917542c3c24dd938ff,2024-09-25 16:00:00,brand awareness q4,direct,email,,keyword_6,Company N,Retail,Austria,New
+L10391,7b62e9122de067f6eb07dc7018aa84ffc1c099c9ff0378cfcc0de83439ebd6ce,2024-10-15 16:00:00,,direct,organic,content_10,,Company R,Manufacturing,Switzerland,Not Interested
+L10392,7abb3a186c3e299163f15ceedbab5dd523d4e368b39926b2574c3b9dbeece0bc,2024-09-21 14:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,cpc,content_3,,Company D,Software,Germany,Not Interested
+L10393,a42b52a30b6f565b1d8f29f2d55baeec97038d795082291962ebd13843634646,2024-10-11 11:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,social,content_7,keyword_6,Company K,Healthcare,France,Contacted
+L10394,369d21f66917600e599803e81d1031b83931114ad8b9c0c0eb3807f6c576efce,2024-10-26 04:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,referral,content_3,keyword_5,Company G,Software,Austria,Qualified
+L10395,e197e98fccce95372a6846970f9bf6bca9fa04127dd56d8278cc46e152d804d3,2024-09-01 14:00:00,Google Search Prospecting,facebook,referral,content_10,,Company O,Finance,Switzerland,New
+L10396,da5b08dae1cbf1c07b79d76a3caf30ac428c91d4e89d0da56cb456865d72c57c,2024-10-09 19:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,social,content_3,keyword_12,Company B,Manufacturing,Germany,Nurture
+L10397,49c3cd42298e308cdf2f8d0f8b761ed7d241ed607420cd5d1d91f9706d2d76c1,2024-10-24 19:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,direct,,content_5,,Company T,Healthcare,Austria,Contacted
+L10398,23850f250221ff27cf54899c9184b9236f1668017477538f5cf0fdeea162d1b1,2024-09-30 23:00:00,Brand Awareness Q4,linkedin,referral,,,Company R,Software,Netherlands,Not Interested
+L10399,73bdc37d8734bfa7f3f5d78e9999e8742d57f606af9af171fae7c520f9f4a052,2024-09-09 03:00:00,Demo Requests Campaign,direct,social,content_2,,Company Q,Software,Switzerland,Nurture
+L10400,d9b5939b3b8e1017c09a87d8398714e36bd00a9f49ed5433e17fd6e7634cca67,2024-10-30 22:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,linkedin,organic,content_3,,Company P,Healthcare,Switzerland,Not Interested
+L10401,e5f43571b526fac780f7d05a5c8e6f5a1a5e3a718fa6d597759b5742ba4dd16f,2024-10-22 05:00:00,,linkedin,,content_1,keyword_4,Company G,Healthcare,Switzerland,Not Interested
+L10402,935fcb57e67160bfc67c3b43b65e8d919cd3b4726d754f1ef4667d96cedad04e,2024-09-03 10:00:00,Product Launch 2024,google,email,,keyword_17,Company R,Retail,Germany,New
+L10403,b59eb62f82a8933e52682f3e96ac315a21adf3a4909b5a140217121a2f879ee6,2024-10-14 10:00:00,Brand Awareness Q4,google,email,,keyword_16,Company B,Education,France,Not Interested
+L10404,e63714c7c52e48b6058ab5b8bcc7dac4a0024f3499d50421e9856a68874e45e4,2024-09-10 20:00:00,Content Downloads,direct,,content_9,keyword_11,Company R,Healthcare,Germany,Contacted
+L10405,6aabcae7c3a67f2a6c3056bbfde279f9bf69b1faac672754748f11e90099e111,2024-10-07 21:00:00,Content Downloads,google,cpc,content_7,,Company F,Healthcare,Austria,Not Interested
+L10406,808403a5194196957ee7a11f6a6011f5dc6d0006a72e04caa5905a87b13cbc24,2024-09-12 19:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,email,content_8,,Company L,Finance,Netherlands,Contacted
+L10407,8b515527a59e71dd43f68dfa6efa3721b1a4046fd5ae0e0dac6f4127ec7d2764,2024-10-04 09:00:00,Retargeting Campaign;1003;Retargeting;2007,google,,content_1,,Company Q,Manufacturing,France,Qualified
+L10408,ec42f76fb2cc64ca135c94aa076f3bb98d58fd9e794000139446b627d8cd1c5f,2024-10-30 15:00:00,;1003;Ad Group;2001,linkedin,cpc,,,Company E,Manufacturing,Germany,Not Interested
+L10409,a3f39431c7df17c30655db5497fa9fbb36d72fb9a45432808d88d7ceb6aede4f,2024-09-25 22:00:00,,linkedin,,content_10,,Company K,Finance,Germany,New
+L10410,45d54c57c721055faf2aeca2a6b5ee5227f4642150b5853345be85194a0abd3d,2024-10-04 21:00:00,Brand Campaign;1001,linkedin,social,content_4,keyword_18,Company K,Finance,Germany,Qualified
+L10411,507fdffc32d665006ac7e809d94f90bd8779e59b10dcfca68e09c36a412c91bb,2024-09-10 05:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,,cpc,content_6,,Company I,Manufacturing,Netherlands,Nurture
+L10412,5c61f0d342d76482bffcc0fd6e71f08ac8afe6bc849022c1b0a0a9ef9a8b951f,2024-09-16 05:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,social,content_1,keyword_2,Company C,Finance,Switzerland,Contacted
+L10413,e3e726b37ee14104616d82de452d95a8cd61c34cfe646fadc6f288506eff02f4,2024-10-16 19:00:00,,direct,email,content_4,,Company R,Software,Switzerland,Nurture
+L10414,4880b25c92f8a1cb96a4ddb158fbfd86ebe38f08a99fa9529f9d9e98682db211,2024-09-09 02:00:00,,,referral,content_8,keyword_8,Company E,Healthcare,Netherlands,Qualified
+L10415,230c49a02a1fecfa2004c128099e767a2e845c0dacc215bd28ba64991a07b17b,2024-09-26 05:00:00,Content Downloads,linkedin,cpc,content_2,keyword_15,Company F,Retail,Netherlands,Nurture
+L10416,39fa1ea20c6e09fb0e9574b062cb34936783ae30a5d16e91d8cb1240858e553a,2024-10-07 04:00:00,Google Brand Campaign,facebook,cpc,,,Company M,Healthcare,Switzerland,Contacted
+L10417,6523328e11775eb4e2ba976be0666fbb47ace9e39cd5937e9ad0612fe7bf7dc5,2024-10-10 07:00:00,Google Search Prospecting,linkedin,organic,content_7,,Company K,Healthcare,France,Contacted
+L10418,877cfad45ceca4ba70aef6dca04ca20ddafb9010d8adff4347d393f88c2e2103,2024-10-13 21:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,organic,content_9,keyword_15,Company F,Retail,Switzerland,New
+L10419,c2f09fd592518f3fffba29a983810413a1b09524adce1acdfbb10fd451b64cc1,2024-10-09 03:00:00,Google Brand Campaign,facebook,social,,,Company A,Manufacturing,France,Not Interested
+L10420,ece8c6d7421247d156e9246e5824dadd1f3ccbbe8e48df8ea6f8d3799aab5a84,2024-10-05 09:00:00,Google Search Prospecting,linkedin,email,,,Company L,Software,Austria,New
+L10421,d073d304323b06b07506d093ccc3a7bcf319b3cffba6fac159440390cfc9ac14,2024-10-10 16:00:00,Retargeting Campaign,facebook,organic,,keyword_18,Company L,Software,Netherlands,New
+L10422,77966eb45c8df69c95339389320c650950be1844548403202ab88bfe5a3f6123,2024-09-16 13:00:00,Test Campaign;1002;,direct,referral,content_3,keyword_7,Company R,Finance,Netherlands,Not Interested
+L10423,aa48bfbefa5be5d50f88fa98f6c3c9da396fb14a4b2c11b5ff39d13e3eb67349,2024-09-10 09:00:00,,google,cpc,content_8,,Company E,Software,France,Not Interested
+L10424,08e5a1f05b0d358504d5d64724863dcf2da5e88d7b0adeaaee68d47a887b5277,2024-10-26 14:00:00,,direct,referral,content_9,,Company M,Retail,France,Contacted
+L10425,0f75d1451e2c08f7639832d1cab35c0668207ae9de6aa7fffbd9d20c0c86cc9b,2024-09-28 19:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,email,content_9,,Company B,Software,Austria,Not Interested
+L10426,6f9be541d2e77e9bf096300b6478abea828ad4ac2742a64b45d823c2b6f0efdd,2024-10-16 11:00:00,Product Launch 2024;1004;Cold Traffic;2010,,organic,,,Company I,Finance,Austria,New
+L10427,bfb20642c1a0bb0cb1f9fc3b931560dc511fae42db5f90406af658b9e12e1e4b,2024-10-04 19:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,organic,,keyword_2,Company K,Healthcare,Germany,Not Interested
+L10428,53728ee1df0bf6703a58330a2224d53f1100a38a250b7daf3ecbfbbf27888f24,2024-09-30 16:00:00,,linkedin,email,content_1,,Company T,Education,Netherlands,Nurture
+L10429,a0fffa5c302e8c3d36cac33c3bbb51d662af2951a525b8949e5314ce13a06223,2024-09-17 01:00:00,Retargeting Campaign,linkedin,organic,content_8,keyword_17,Company C,Retail,Netherlands,Contacted
+L10430,c41d9f8287e0a278b5343a979b40c40d8f7b031e54a5a3d8ae40dee77bcf9f6b,2024-10-10 08:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,facebook,organic,,,Company L,Manufacturing,Netherlands,Contacted
+L10431,5846fee4d837fc1c95728cb632cd3637e14b2bb42e5e96a59b991cc8012ca887,2024-10-02 05:00:00,brand awareness q4,facebook,,content_3,,Company N,Finance,France,Not Interested
+L10432,0a517901c7b046f39f27ccdedf5bc89352bd9c242a5511d25e44bf008e9cf75e,2024-10-17 20:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,email,,keyword_6,Company O,Finance,Switzerland,Qualified
+L10433,af1d78f48501be9ea297b80872b7e33214a43d857429827cd0797035a942da0a,2024-10-01 23:00:00,,,referral,content_3,,Company N,Software,Netherlands,Not Interested
+L10434,4af3ac30ff44a7826257bd2fd142f7e55b5c5ba5b563e19299a10324ceb88d89,2024-09-25 21:00:00,Brand Awareness Q4,organic,referral,content_5,keyword_9,Company D,Retail,Austria,Not Interested
+L10435,1c334df84be04df5602e6c8b62cab5aa5a49cb50cad374fd24309aa8982fc261,2024-09-30 21:00:00,;1003;Ad Group;2001,google,social,content_1,,Company C,Software,Switzerland,New
+L10436,687e21b62e600546ebe53afb716b1383ecbea90705b18728f7c1aa3c99790b7e,2024-10-04 03:00:00,Content Downloads,linkedin,cpc,content_2,keyword_20,Company G,Healthcare,Germany,New
+L10437,4d212af5211beebfe337467b473afb4ed22acb108aa860465f5ccb67e9391250,2024-09-06 19:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,social,,,Company I,Retail,Switzerland,New
+L10438,5072dfce69bf2cdc7d3138f0fa115ad6be69dbb6180f615910135f8e0a3b9b9c,2024-10-11 14:00:00,,direct,email,content_2,keyword_2,Company M,Finance,Netherlands,New
+L10439,766b5e586b1a82ccc60cf9253238169d39ed1f4f86e9f4912d862cfd0a635fd9,2024-09-17 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,social,content_2,keyword_14,Company G,Healthcare,Germany,Not Interested
+L10440,bc657fb5ac373c2d698a4a33e0d9d8c43aee549b1c7cfcb201e953d440c8269a,2024-10-16 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,linkedin,cpc,,keyword_1,Company B,Education,Switzerland,Qualified
+L10441,705ab1cffb1c3bfdddc74d141d9a3e9621c72ad818cac035d84f65582d102a44,2024-09-10 22:00:00,Google Brand Campaign,organic,referral,content_7,,Company C,Healthcare,France,New
+L10442,e276ddcf76eea609f172b5e0586e58489285dc7045102425b8e8149278a3a2ca,2024-09-25 22:00:00,,organic,email,content_5,keyword_3,Company L,Healthcare,Netherlands,New
+L10443,e6d5127e8ed59a9d40cc7eba436a285fdb967d4be3b73d663d0d5a19fee52a82,2024-10-24 14:00:00,Product  Launch  2024,google,referral,content_5,,Company D,Education,Netherlands,Not Interested
+L10444,27e862c45acedc92d23f0faf630bfe6ac982343e9361ed54ef0aac68dcc8c340,2024-09-06 20:00:00,Product Launch 2024,google,organic,content_7,keyword_18,Company J,Finance,Austria,Not Interested
+L10445,e6444cbab65142d0d5e88d7d2611f47ba0ddcdc13c4541b16652d97e73ffc89f,2024-09-02 01:00:00,Content Downloads,facebook,social,,,Company O,Education,Austria,Contacted
+L10446,a10a8b2d44a5bbdca77526c9ae64df588882cbd6dcfa45df7cf62b4fb5b18bb3,2024-10-18 18:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,cpc,content_10,keyword_5,Company A,Manufacturing,Germany,Qualified
+L10447,b0dac13239b136a2b23d92bad964b39c1379518e5a6f139eb5c698f9d6c61138,2024-10-23 03:00:00,Retargeting Campaign,facebook,cpc,content_10,,Company H,Software,France,Not Interested
+L10448,ae9a7a5f8d8b729df4598eee5bdb7697d1698604265f151126331e4e60f76954,2024-09-22 23:00:00,Content Downloads,organic,email,,,Company B,Healthcare,France,Qualified
+L10449,a624cbaa52407d920922f3cc7550de4f00764dc06fa13b0eeaabd9db3caf87fd,2024-09-05 03:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,linkedin,referral,content_10,keyword_4,Company T,Finance,France,New
+L10450,c743489fec670cb16318ffb10e05ca5fb8408956fe827356fdb9ecdc8c054383,2024-10-27 15:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,organic,,keyword_16,Company E,Manufacturing,France,Qualified
+L10451,1ffcaef2cc17b10d8e2b8fb334aaae38b52236982ba33ebe400456d41cd9cb06,2024-10-04 14:00:00,Retargeting Campaign,facebook,referral,content_2,,Company J,Retail,Switzerland,New
+L10452,cfaf57021fb6fe8fdd3ec6625f93f1e6ed80a9f32433401e84d6fdf012d0db03,2024-10-06 07:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,,organic,content_8,,Company G,Retail,Germany,Contacted
+L10453,6186b8280c7871fe22bbca3fc335a1078538dd5fd37f7f72224122910ab06de4,2024-09-08 04:00:00,Google Search Prospecting,google,cpc,content_6,keyword_14,Company I,Retail,Austria,Not Interested
+L10454,03c61d956889a561bce992f78145ebe4dd7e3cfca3176bbf6b322d87c9d01afc,2024-09-03 03:00:00,;1003;Ad Group;2001,facebook,cpc,content_4,,Company S,Healthcare,Netherlands,Not Interested
+L10455,a2535b591381326d78602d4c21bc8e188e7eef0839bde0321ea5dc788ae60f1d,2024-09-13 23:00:00,Content Downloads,facebook,cpc,content_7,,Company M,Manufacturing,Germany,Not Interested
+L10456,bee04b88ba5112c96e8feefb0f08512ead689a797407e50ca1a7879e5958e1f3,2024-10-08 15:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,referral,content_8,,Company L,Retail,France,Qualified
+L10457,c19249824691f914973e309d68450e09672beefabaa1015986da266d632683a6,2024-09-09 01:00:00,Brand Awareness Q4,facebook,referral,content_6,keyword_10,Company T,Manufacturing,Austria,Contacted
+L10458,98fe4eb5383e2da0b377e8bb8666ffecd288c597edb5b8778276ed34aa0ffb1a,2024-10-07 17:00:00,,organic,social,content_8,keyword_14,Company H,Manufacturing,Netherlands,Not Interested
+L10459,a6073feaff25382fdbe8322edd1205dcb26ee14d69b876cdec8ab4fb90cb207f,2024-10-08 07:00:00,,google,,,keyword_2,Company B,Finance,Austria,New
+L10460,907ea33f464a8f57830cde993a85f75d929fd8be6aa56562d4200ac4282cc39c,2024-09-28 16:00:00,Lead Generation | DE | Form,google,cpc,content_7,,Company E,Retail,Netherlands,Contacted
+L10461,3e01e3e915a6240af3b484917131485dbdaef8c37c5eeaad459461808dca2bf6,2024-10-12 02:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,organic,content_8,keyword_5,Company M,Manufacturing,Netherlands,Not Interested
+L10462,97bcca392c9a294dba581c0217bb0bb5ecf645e5be947b390f7f6d425b9d4e7f,2024-10-16 20:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,email,content_5,,Company T,Healthcare,Austria,Contacted
+L10463,876b3f142f42cbdb8d3479526c5f2fbf2b826a370997251934dd9a58b5c06add,2024-10-21 21:00:00,Retargeting Campaign;1003;Retargeting;2007,facebook,email,,keyword_12,Company O,Healthcare,Germany,Qualified
+L10464,29bfd1094d8ece31adc5ce9dece321c5be685e6be66b81ce6655c2f3328e4b01,2024-09-24 05:00:00,Lead Generation | DE | Form,google,email,content_2,,Company S,Education,France,Contacted
+L10465,35ecc72d3da7f50f483a5d9c59a873f1d879807758aec9259715331a886000c9,2024-09-21 11:00:00,,direct,cpc,content_8,keyword_17,Company D,Finance,Austria,Nurture
+L10466,7d792ded0e9e3869206767b96b9fae0bdbb46d74ce2aef0201c876a9c970f18a,2024-10-28 09:00:00,Content Downloads,facebook,referral,content_7,,Company J,Software,Germany,Contacted
+L10467,f9fa366514fdc2878cc73232beb19d5d4e540c6549a94b3ab90b3f1588bd4e11,2024-09-18 03:00:00,Google Search Prospecting,google,cpc,content_9,,Company P,Retail,Switzerland,Not Interested
+L10468,75974026609f2805938f01efb497f8a8db33044b5d243ef2e9fa10a3180fea83,2024-10-18 20:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,organic,content_7,,Company K,Finance,Austria,Nurture
+L10469,722e12a9df537dc72e511ca8e0507a6aadf1ab917d013ec58ccf686a2a38738a,2024-10-24 17:00:00,Demo Requests Campaign,linkedin,email,content_6,,Company B,Manufacturing,Netherlands,Qualified
+L10470,9cc76e42ee2a3e916349d031e19cb8e6f35af0948d553c2414e8cc311715d1ae,2024-09-30 05:00:00,Retargeting Campaign,linkedin,social,,,Company E,Manufacturing,France,New
+L10471,e201fc0eca9504982f5baeb60420086f94b03f750955b03b3b213cd408bfc522,2024-09-03 10:00:00,Google Search Prospecting,google,cpc,content_6,keyword_15,Company R,Manufacturing,Austria,Qualified
+L10472,270d3c257ad2b47275763514ea8c3958d5fa93e4f05c8eb79db0c3f80595acaa,2024-09-08 00:00:00,Google Search Prospecting,direct,,content_9,,Company K,Education,Netherlands,Not Interested
+L10473,68bd7c7165c85878b52fba8ec8e2d5c216ee5cb84679c15e889bbf4d2926eb07,2024-10-28 09:00:00,,organic,organic,,,Company K,Education,Germany,Not Interested
+L10474,1a83333d27f45b7738028aece5618b07ec0f19f4c53ef79faf1fe9535cb047af,2024-10-28 01:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,social,content_2,keyword_20,Company G,Healthcare,Austria,Contacted
+L10475,d511d6ef7906cb0ce7047fa408f5ac8fef5f569747b5f9ed6116f725e262d6ad,2024-10-21 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,cpc,,keyword_16,Company K,Healthcare,Austria,Nurture
+L10476,0c3b413270579725188b76e4cfbc5f5e1ca2fad2ccd97b21bc09b7164b31d586,2024-09-04 21:00:00,Retargeting Campaign,direct,email,content_6,keyword_15,Company R,Software,France,Not Interested
+L10477,8fcbc7f365069cd42ce7a51f7bbe1103e8212cf5a1dd39de544af83bfa1c6d31,2024-10-18 13:00:00,,direct,referral,content_10,,Company E,Manufacturing,Netherlands,Not Interested
+L10478,95357543e3ef8fc6a12101dd3cc9357bc394a26641f335af8304dfc65efbb138,2024-10-26 16:00:00,,organic,cpc,content_5,keyword_18,Company O,Education,Austria,Contacted
+L10479,529ec4e56cccfa6c030098e629bd46e83b38baf88994c5906eb7aa9eeefacec9,2024-09-13 05:00:00,,direct,email,,keyword_18,Company O,Manufacturing,Germany,New
+L10480,82100c3a3d0c4c766e63751d6c96d2e3e41dcc2ca035fba074d42b94aa88d23f,2024-09-10 08:00:00,Google Search Prospecting,linkedin,referral,,,Company A,Software,Netherlands,Not Interested
+L10481,bce10593060c074af1781ffdf526340db4e6c65cd891473e7e00e5b147355c29,2024-09-05 19:00:00,;1003;Ad Group;2001,direct,referral,,,Company L,Healthcare,Austria,New
+L10482,92fb3fcaa5d17b104cda6224164b4c3fe57bd4f26dde0ef931819144569f77d1,2024-10-25 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,social,content_1,keyword_14,Company L,Software,Netherlands,Qualified
+L10483,909ef7e15468c5179743686938ba7870b616a7ba0ae699765b53cc925f014b63,2024-10-04 20:00:00,,google,organic,,,Company K,Education,Netherlands,Qualified
+L10484,de580fee97e033725f9ccea8f16bb0a3d26b76ae27bd47ada3a40c82ef51d657,2024-10-14 22:00:00,Lead Generation | DE | Form,linkedin,cpc,content_5,keyword_16,Company N,Retail,France,New
+L10485,1077d213474fc2ba6570fc33a1a619a960bb071a88f8d93b9a439d6ec5457dab,2024-09-14 04:00:00,Product Launch 2024,organic,organic,,,Company D,Finance,Switzerland,New
+L10486,29c7f3a1fa90afee9767e6451f5b0315c6b2b36c8958473bf8e6c9b67431a2da,2024-09-08 04:00:00,,linkedin,social,,,Company T,Healthcare,Netherlands,Contacted
+L10487,576ae5f1b08650323e8662cbf16f656f111e8889769abd5db879bdb3d2ebab60,2024-10-16 09:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,email,content_3,,Company N,Education,Germany,New
+L10488,78e1152635c8d7e02ee337097ea68ad62175a21f7fdbde19d2e2feb265328b15,2024-09-02 15:00:00,brand awareness q4,facebook,organic,content_8,keyword_9,Company B,Software,Netherlands,New
+L10489,8102e35b2dcece6aff6bc6826019365a411eff54d4ee3064833b692b0689a0b4,2024-10-19 03:00:00,RETARGETING CAMPAIGN,google,email,content_3,,Company I,Healthcare,Netherlands,Qualified
+L10490,65f5958a471adc83bc1ea24141ead52462c946ffb1b60435b0028d2f0af94ad4,2024-09-11 16:00:00,RETARGETING CAMPAIGN,facebook,organic,,,Company G,Retail,France,Nurture
+L10491,6e176101b5130544fff8823a64160bcb26a5598a1066aa0a7ba5f90c01cd9b9c,2024-09-01 23:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,,referral,content_10,keyword_4,Company F,Retail,Switzerland,Not Interested
+L10492,38ffcf2592de6f6b668a7ff148b22b051286d227e79552364aa45d7e1a92c07b,2024-09-14 16:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,linkedin,cpc,content_8,,Company J,Healthcare,Germany,New
+L10493,dcf3b9989c88d7a8d26ce721da540c12d2f596bf8d0a8eb84d5a1d2a9aed8f0c,2024-09-21 15:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,referral,content_7,keyword_14,Company G,Software,Switzerland,Qualified
+L10494,ecb953cefff1a9c026352ad6b1cd5bb0ea04d0342c5d7ff4986d32c0c7cc9885,2024-09-12 00:00:00,,facebook,organic,content_2,keyword_13,Company M,Education,Austria,New
+L10495,308c25f4aa2a5af040985641b1c8a5c0da971d90b264ee5111c0b9903d997728,2024-10-18 05:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,referral,content_7,,Company I,Education,Austria,Nurture
+L10496,86e2751b5362816a130db378f487e1264273ccea2d02766f9aab74b4dd2c1c5b,2024-09-18 20:00:00,,organic,,,,Company E,Finance,Germany,New
+L10497,83e9d1e184f13c5f971292712893bc91584ae2f7480fd2c0deb497d1fb381e4f,2024-09-17 15:00:00,Retargeting Campaign,facebook,referral,content_3,keyword_11,Company E,Retail,Austria,Nurture
+L10498,733ed36701dd230bea110b51870cf63c56e3210be40cc0d08e97c33233562131,2024-09-07 02:00:00,Google Search Prospecting,google,referral,content_5,,Company R,Healthcare,Germany,New
+L10499,13ba72e78ea751f0d4f0c63cfc26f569384cbd37f8b82ca1ec2e666537e06a84,2024-09-28 03:00:00,Content Downloads,direct,cpc,content_5,,Company F,Finance,Switzerland,Contacted
+L10500,c26ac261dfc86df38bb9d368bdec072c1f0b8a21059a2ffe5fed35de07da965b,2024-09-20 22:00:00,Lead Generation | DE | Form,direct,organic,content_8,,Company F,Healthcare,Germany,Not Interested
+L10501,d373bb0881d4c7515f32b591bff956441c15c5bf4a021f4cbdb87b1334362b06,2024-09-17 15:00:00,Google Brand Campaign,linkedin,email,content_1,,Company E,Retail,Netherlands,Nurture
+L10502,5e63780294ffdd540ba9eb0eedf47e8597f2d830131bedfbfefad10765c2f7e8,2024-09-02 20:00:00,Lead Generation | DE | Form,linkedin,cpc,content_4,keyword_10,Company S,Software,Germany,Qualified
+L10503,c3188f259cc8dae6390c2ed1b798c3801fe91e81649979187c2bbe186bf9826a,2024-09-08 10:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,direct,referral,content_7,keyword_16,Company S,Software,Netherlands,Not Interested
+L10504,62be11c103373edf2e612eab147c169c7f49370617dbe8a8c74b112a4d453286,2024-10-07 12:00:00,Lead Generation | DE | Form,facebook,social,content_9,,Company K,Manufacturing,Austria,Qualified
+L10505,66a06110015e06a49d9eb394b370aec462cdd7739b1db77f2e8d28960dc1aad2,2024-09-24 13:00:00,Content Downloads;1006;Lookalike Audience;2016,facebook,organic,content_5,keyword_19,Company M,Manufacturing,Austria,New
+L10506,9a56731b80fdcc6aae6f708d53ec3fa68ae07aa28617221d960eb2fe73e1a874,2024-10-16 18:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,referral,content_6,,Company J,Healthcare,Netherlands,Not Interested
+L10507,51b51963934c062a0548038d61ff2bf4e244e2cf1570f5a1b57c53695a957bb2,2024-10-13 17:00:00,Google Brand Campaign,organic,organic,content_1,,Company Q,Manufacturing,Austria,Not Interested
+L10508,148d6a0be02b099801647c130333ec77e90a26c87bf54896d5ec71c7640aaf01,2024-09-14 21:00:00,,direct,organic,,,Company N,Healthcare,Germany,Nurture
+L10509,19ec89262b59f3cd8978a52f6b0eb350951a50e226d01e8a16d68f8b07bd1bed,2024-09-13 11:00:00,Product Launch 2024,linkedin,referral,content_2,,Company N,Retail,Netherlands,Contacted
+L10510,a70e51cc30a8b1894448793a11634a59688aef5f0d5bff7ee0d7f9ff8338689b,2024-09-17 21:00:00,Google Brand Campaign,google,social,,keyword_16,Company R,Finance,Switzerland,New
+L10511,b735b674c9691e010926b5cda4bd490d537ba2310fecf87d531cdf515a613e51,2024-09-13 05:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,social,content_1,,Company P,Software,Germany,New
+L10512,17dc8b927f17303161a9e407c56e6671875d4371309895cb4643072f21815e11,2024-09-21 19:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,,email,content_2,keyword_5,Company H,Software,Austria,Nurture
+L10513,72d03b41a4f78a9a30db0e1d1ddef9e1ef7163463753b4a1c7618169fc210b9d,2024-10-30 03:00:00,Demo Requests Campaign,facebook,cpc,,keyword_19,Company M,Education,France,Not Interested
+L10514,a82a27b5e8bea88fc5c1c023423903f175f3093eea4978873ed7de628621d4ae,2024-09-14 04:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,,email,,keyword_18,Company L,Education,Germany,Qualified
+L10515,53dcda84eecdba73cffa1b2a94d96b91610583e801d8f3218ca92cbf407571fb,2024-10-05 13:00:00,Product Launch 2024,,social,content_6,,Company A,Education,Austria,New
+L10516,c7347351e4e34110db14928e7957487a0fdc91f07b5d2f0f9321782840c47a85,2024-10-24 23:00:00,Brand Awareness Q4,google,referral,content_6,,Company D,Healthcare,France,Not Interested
+L10517,c3d16edc9bbda9e3e275b079249b00dae6e9d9fbca9ee9ea1f235555374d9234,2024-09-25 00:00:00,,linkedin,social,content_3,,Company K,Education,Switzerland,New
+L10518,f7b98f08bd3ae5d3d09096af29f4e8b8c7ee93794152717f035336273f12f977,2024-09-18 02:00:00,,,referral,,keyword_14,Company D,Manufacturing,Netherlands,Nurture
+L10519,d680400f480a3eba7c139e4270670548f2b5544282767fc26f6fb728e8d131e4,2024-09-05 11:00:00,Content Downloads,facebook,social,content_3,keyword_7,Company J,Retail,Austria,New
+L10520,124a8597b2893ab251511e7c6fa219b814cbae4d36be8a737c2b4512115a1a6c,2024-09-08 05:00:00,Content Downloads;1006;Lookalike Audience;2016,,social,,,Company K,Finance,Switzerland,Contacted
+L10521,9ca89bd1082e946071b58bb4fa26b7ede07acf42410d549f3957ed978e70a71b,2024-09-17 05:00:00,Content Downloads,google,email,content_7,,Company S,Manufacturing,Germany,New
+L10522,dfa3d1bf270a45fbb7667d32543af328304049191f5610b03fadbb614f562133,2024-10-30 17:00:00,Product Launch 2024,,,content_3,keyword_20,Company N,Healthcare,Netherlands,Contacted
+L10523,504f2095dc4b167d452f05be5e578689f893ddf7dfca1b08b73f9f19bc47939d,2024-09-06 11:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,organic,referral,,keyword_8,Company G,Manufacturing,Netherlands,Qualified
+L10524,c73a9a84442f022252c34c539d570b52ed7cc2b884f4a300750c5979ab0352f5,2024-10-18 15:00:00,Google Brand Campaign,organic,email,,keyword_6,Company N,Manufacturing,Germany,Qualified
+L10525,7ea41c28d65e5f5b321efbfdb3f14375583614ae3ffa73468ebacef7bd3ee925,2024-09-17 07:00:00,Product Launch 2024,direct,referral,content_6,,Company M,Education,France,Not Interested
+L10526,4bb45a8abb79e6bd2bd6b887376e6d54701370787287957632d17ac8ba0d6e45,2024-10-16 13:00:00,Test Campaign;1002;,organic,email,,keyword_12,Company T,Education,Austria,New
+L10527,e5c4a3e451ddb4f36eff141b31413a6f0ecbb61f0534edc362790a0c8d43916a,2024-09-01 08:00:00,Google Brand Campaign,direct,social,,,Company S,Manufacturing,Netherlands,Contacted
+L10528,215450e6749919e30b8710d3c710503d94bf0d1c2ee5208f17b0cadbc668e888,2024-10-03 15:00:00,,google,organic,content_5,keyword_2,Company E,Finance,Netherlands,Qualified
+L10529,bc2e13c29ec43065d2837896a573115f79756613d7b790bd8c840eea768f0035,2024-10-30 13:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,linkedin,referral,,keyword_16,Company E,Healthcare,Switzerland,New
+L10530,281fcd93f8c481f085c6cb80c383c4e0d5daa3745120db8e5f33671a5baf644c,2024-09-13 04:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,referral,content_8,keyword_12,Company R,Finance,Switzerland,Not Interested
+L10531,e52b8941776845e14d4626fa126b3b1a727ed7b280991b90fd4dbcaac1545a42,2024-09-08 23:00:00,,facebook,email,content_3,,Company I,Healthcare,Austria,Contacted
+L10532,a80e1e5bc7dc601146b0c22d1a7d9a386f12be8c92ca444bcf9379d39ea8a970,2024-10-08 00:00:00,Retargeting Campaign,facebook,referral,content_6,keyword_4,Company M,Retail,Austria,New
+L10533,1f00199c68945c7d409e79e516595c9c37a6009549bbbfde14369720dcf02139,2024-10-24 10:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,email,content_1,keyword_2,Company T,Finance,Netherlands,Nurture
+L10534,074f26e64d45355aa9cc0f6aae66273ab0bfcfae667adba06746599e4c0dea1f,2024-09-09 06:00:00,,linkedin,cpc,,,Company T,Finance,Germany,Not Interested
+L10535,889575e3d61fbd15d451844b7c01139afdf9ed1d16058d6fb3a4c7b7b95bc32d,2024-09-17 05:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,referral,content_3,keyword_16,Company N,Education,Netherlands,Nurture
+L10536,42173713bcf0f9cec83982d9ba82c9f0c0dcd1e2f49622ecc25ad48cad4b1313,2024-09-09 11:00:00,Content Downloads,direct,referral,content_10,,Company C,Finance,Netherlands,Nurture
+L10537,564a301b3d63ea03e25b9ae4375c0922b10f471fd18d714baa0051603ee33ec4,2024-09-12 13:00:00,Lead Generation | DE | Form,linkedin,,content_3,,Company Q,Education,Austria,New
+L10538,0f1ad580c295fd77caa6cbeabc5e368145ccdf9e1629a2e97d3114e36ba2a037,2024-09-19 14:00:00,Google Search Prospecting,google,email,,,Company J,Healthcare,Germany,Nurture
+L10539,311f527d6ea479e8b1b3b9dd3f80531d34dc479243bf9efd9cf9a9a45a52f47a,2024-09-05 01:00:00,Google Brand Campaign,direct,organic,,keyword_19,Company C,Healthcare,Germany,New
+L10540,8d6b6a9460fa61e8b2aae7612cf697cab7df29380f8e0c04859295356f8d4f2c,2024-10-18 21:00:00,Retargeting Campaign,facebook,email,content_8,,Company O,Healthcare,Netherlands,Qualified
+L10541,0f911a696317de112e88c81de5a5b8aa66261fdb75f2a2004b52f12624039a4a,2024-10-29 05:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,cpc,content_1,keyword_4,Company A,Manufacturing,Switzerland,Not Interested
+L10542,3dfeccdbb3e92228305bc15378dff7a8ea7145c662067d7b53a5e2c3a98dfc2f,2024-10-15 12:00:00,,,referral,content_10,keyword_13,Company J,Software,France,Contacted
+L10543,ee0fe2130da34408e7d39d846b411164bd43aaecf1ec83f3160962843bdc9a87,2024-09-01 06:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,social,content_3,,Company N,Education,Austria,Contacted
+L10544,de96f48faef018ed88bc2f357bd938393d168b5894728e8a2689445e5406ad96,2024-09-06 09:00:00,RETARGETING CAMPAIGN,facebook,social,,keyword_16,Company P,Software,Switzerland,Nurture
+L10545,98fd2d2731cb734a162f48d4bd7f50ba47a47db4330bf694117554cba6988b3e,2024-09-16 06:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,facebook,referral,,,Company S,Healthcare,Austria,Qualified
+L10546,d4fa8b68b9872a0e41b36fda934982a1a9bccb751439b30cfd355896aaa3abff,2024-09-03 15:00:00,Google Search Prospecting,facebook,referral,content_9,keyword_14,Company P,Software,Switzerland,Nurture
+L10547,fd9b7f67238c1902d5f49e7fe139307e6839a72179a4bc746b79af1e5bbcb8f1,2024-10-12 11:00:00,Google Brand Campaign,linkedin,referral,content_4,,Company S,Education,Netherlands,Nurture
+L10548,530ac044e25630ccd80a6b48646b54f0b6b8d08b1f65cc6680863dcaa2ac4fe3,2024-10-25 22:00:00,Retargeting Campaign,direct,,,,Company L,Finance,France,Nurture
+L10549,4c4885a3849b66afa108f528fc88f8e16e16fd8bb230151cbc7926bbbc134b48,2024-09-14 09:00:00,Lead Generation | DE | Form,google,social,content_2,,Company P,Retail,France,Contacted
+L10550,d9aeb02b28b6ce92684effa55bc65458f67f75ae064ce5e25cd7c4c73c04bf4c,2024-10-06 01:00:00,,linkedin,social,content_9,keyword_3,Company K,Finance,Germany,Nurture
+L10551,bca5ad20f3904e87042c33863b56eb2254f57820bdd916f720b6c20da8c87a9a,2024-09-15 03:00:00,Google Search Prospecting,linkedin,cpc,,,Company E,Education,Austria,Nurture
+L10552,828962eee067674997197a674ea59d2c70ef379836572c68914a44db3ae697cc,2024-10-13 03:00:00,Test Campaign;1002;,facebook,,,,Company D,Healthcare,Germany,Nurture
+L10553,3710f5aa63e05dd254ef5e05b17bb473622e2984e2eb2fe7bef28cfcb3eb8c20,2024-09-07 05:00:00,Product Launch 2024,,email,,,Company P,Education,Germany,Contacted
+L10554,1f94ab35c74a6441c63ecef2f0175d7c65a2256a4aca7aaeaf3fd125e7b8f976,2024-10-12 11:00:00,Retargeting Campaign,google,referral,,keyword_16,Company K,Retail,Austria,Contacted
+L10555,528e874d9772887c80640c895c199829cdac7fd98156141e6b6feba88e51fbff,2024-09-06 08:00:00,Google Brand Campaign,google,organic,content_4,keyword_14,Company N,Finance,Switzerland,Nurture
+L10556,fcf861871e90cfc170188ed637573e771c5ffe077d09a1588ad2fba8419c95fb,2024-10-21 21:00:00,Brand Awareness Q4,facebook,organic,,keyword_11,Company M,Manufacturing,Switzerland,New
+L10557,d8a3ba70eedc5e7432a4d21d7554c8075672c20f1b746d205c00838780b83e51,2024-09-26 01:00:00,Retargeting Campaign,,organic,,keyword_18,Company J,Education,Netherlands,Qualified
+L10558,1149d0eaee77bd121815b6ef8cb5ffc39a7103703143342a32c787667c5727f5,2024-09-01 08:00:00,,google,referral,content_9,,Company T,Education,Switzerland,Qualified
+L10559,054fd9488d3493aeeb367ef07af8366031a3ff41809d9524dd85784bfaca9196,2024-10-27 20:00:00,Product Launch 2024,facebook,email,content_3,,Company R,Retail,France,New
+L10560,d9418c9a61e1cc99600cd261985c0d3b7138a338d81c6e4fa44d6990bbbd889a,2024-10-03 17:00:00,Content Downloads,google,organic,content_4,,Company J,Education,Switzerland,Nurture
+L10561,8acb0824ac320ea16f7b5e267ca5f7056ce6d4a7309e329339a591cf57c276ba,2024-09-08 23:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,cpc,,,Company O,Retail,Austria,New
+L10562,4b1a4156bfbf4212307939111c7bab7d90222b4ea70c69cd6b55d635004dcfff,2024-09-30 10:00:00,,organic,organic,,keyword_10,Company J,Education,Austria,Contacted
+L10563,fa200f14d570438a7a2f509b7507b20f472c403e4b2a873e4e7082be3b48aefb,2024-10-16 12:00:00,Product Launch 2024,organic,email,content_3,,Company N,Software,Germany,New
+L10564,f154bc0c5853ba7cd13717df70a49a43484bcc4d5fb6971a9074f018d1b3131c,2024-09-28 04:00:00,Google Search Prospecting,organic,organic,content_7,,Company S,Finance,Switzerland,Not Interested
+L10565,5a23a03f0970197db02e226558b9306a9719fb89865b577aff6e3a71b93fda83,2024-10-15 15:00:00,Test Campaign;1002;,google,referral,,keyword_17,Company Q,Software,France,Not Interested
+L10566,0f3ebeba8737895d50034d604291d8bf1687800be4052e23f89a82e77c1efacb,2024-10-01 01:00:00,;1003;Ad Group;2001,facebook,referral,content_6,,Company B,Healthcare,France,New
+L10567,c7e1b4bba7c243f52ed02ac7ee40e8afa320e69510c27cb5882c6634d4689b14,2024-09-24 09:00:00,,direct,social,content_10,keyword_10,Company J,Manufacturing,France,Not Interested
+L10568,b5404950dbbbb1ac43f8d8af9cac7a56bf66f49183f95550911402e598cc5693,2024-09-01 03:00:00,Lead Generation | DE | Form,direct,email,content_6,,Company P,Education,Austria,Contacted
+L10569,b5f6745b742ddce7d43b5c7547118df6af35a233da8ae1066160cea02ca31d8e,2024-10-19 04:00:00,Google Search Prospecting,direct,email,content_10,,Company N,Finance,France,Not Interested
+L10570,dc70d98f4f4355570e928b572b1c68434fedea0624f45cb8974693e86facf185,2024-09-22 17:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,social,,,Company J,Healthcare,Germany,Nurture
+L10571,2d5cb75d8a30447bb19f2022da5bb19812e9b28c1c86b953bb1aebe7febf18cb,2024-09-06 06:00:00,,facebook,,content_8,,Company A,Software,Austria,Contacted
+L10572,2e1b68dd32067ee9f365f16849ebf8abadc4c3aa42dd992d7c81a79fa68c9157,2024-09-02 08:00:00,RETARGETING CAMPAIGN,organic,organic,content_7,,Company P,Software,Netherlands,Not Interested
+L10573,b73c503f537e2007a95f95eb72954ae8389bfd9ebafa7f52408507578f5e7be6,2024-09-12 13:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,cpc,content_5,keyword_9,Company C,Manufacturing,Netherlands,Not Interested
+L10574,9bba96f5a02b78f438c0a44a25069d5e3aca0f0673912a2168ce6ae466246e94,2024-10-14 05:00:00,Retargeting Campaign;1003;Retargeting;2007,facebook,cpc,content_7,,Company I,Finance,Germany,New
+L10575,519a75d667eb75ee2585dc857d70461449721d0643b15a038048a7dcd71aa78d,2024-09-13 07:00:00,RETARGETING CAMPAIGN,organic,cpc,content_6,keyword_14,Company C,Finance,Germany,Not Interested
+L10576,c96bb58ef5ba2948a9f2bbeb54683d230f2dca1c775040b4025178b58a25a4d4,2024-10-11 07:00:00,,organic,,content_4,,Company E,Retail,Austria,Not Interested
+L10577,083a11a448e9b154c9685fb9deb7eb808b8ed1a36d14913cae321e2341aee28e,2024-09-29 02:00:00,,google,social,,,Company N,Healthcare,Switzerland,New
+L10578,20cfc0c0d826f8c89de3221417d398ca758713367850dedabe684714e4c3cc70,2024-09-01 14:00:00,,google,referral,content_5,,Company M,Retail,France,Nurture
+L10579,015e357ac1a55d6092d41335179f821d5db6b350bc9137cfea9e09ea1326ce94,2024-10-24 16:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,organic,cpc,content_2,,Company R,Retail,Switzerland,Contacted
+L10580,7f0a5c298177c03a0de48df87e1b5f53ec5a81f23dde343801591119bc68d26a,2024-10-10 16:00:00,,linkedin,referral,content_6,keyword_15,Company T,Retail,Germany,Contacted
+L10581,83ee68f4a1d09577f63545f7478b393b2a0d2470b29a70b92a4c730ea3708470,2024-10-12 00:00:00,Brand Awareness Q4,,referral,content_8,,Company R,Software,Germany,Nurture
+L10582,7c1623ea92d2754170b2fa2e30a5b5744c0c7fb29912f1e4a316bf8546d7007b,2024-09-02 21:00:00,Lead Generation | DE | Form,direct,email,content_1,keyword_12,Company G,Finance,Germany,Contacted
+L10583,12aafb432802fd1f231f5f91ac77a1f4a0cad02a9b321acb91a255d1ada277b2,2024-10-18 00:00:00,Product  Launch  2024,organic,social,content_8,,Company B,Retail,Switzerland,Nurture
+L10584,fdbfebe3aefce2f5e7cbb1c0c273057de84178df178e95b2565066cae6ba4542,2024-09-14 00:00:00,Content Downloads;1006;Lookalike Audience;2016,linkedin,referral,content_4,,Company S,Education,Austria,Nurture
+L10585,6142fbd8e950fed157f3d82952aefd5396372ea317020b5c3180d22f4969713c,2024-09-12 02:00:00,Lead Generation | DE | Form,organic,organic,,keyword_1,Company R,Healthcare,Netherlands,Nurture
+L10586,a09dfe4a3bd0bec04e6a4798c00d8f1a5b3f7509860ca529f6f509e2f1d83173,2024-10-27 14:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,email,content_7,keyword_17,Company O,Finance,Netherlands,Nurture
+L10587,75b7c633ab03fae754065b37be2f7affeaa566f157bf44ca2d97a78464d2f241,2024-10-19 01:00:00,,linkedin,,content_6,keyword_7,Company K,Software,Austria,New
+L10588,9caae8a11bbbe14022a68fdbd658f61c7d43c49c043d33af26295da723ca526e,2024-10-18 07:00:00,,facebook,,content_6,keyword_4,Company A,Finance,Switzerland,New
+L10589,7f86e3cbcca78b0e0ae84a24ffba447a9c94c8ffd071b2986d46d88d7ac45759,2024-10-08 20:00:00,,google,social,,,Company K,Healthcare,France,New
+L10590,b2c100c2a682a92106351b32cf0ad9689904e2c4f98cb2397a517c3c97096d1f,2024-10-20 19:00:00,Lead Generation | DE | Form,organic,cpc,,keyword_3,Company E,Software,Switzerland,New
+L10591,d3c3b32378076f792ba23c08b5f51d0c1ad30e27126e72c61354e815f98c8f9b,2024-09-20 19:00:00,Lead Generation | DE | Form,facebook,email,,keyword_20,Company N,Manufacturing,Austria,Nurture
+L10592,83a90b2f9800432cc4fc177dd0698ec7f18f98bc6a600f5b2ea0266270b79d29,2024-09-01 14:00:00,Google Brand Campaign,organic,cpc,content_6,,Company D,Software,Germany,Nurture
+L10593,09583148f0402dcda4c57423ae624014597e01a2161ec0dc3260d23c9c549ad2,2024-10-16 02:00:00,Product Launch 2024,,organic,content_7,keyword_20,Company O,Manufacturing,France,Contacted
+L10594,7ab6816cd00441f36cb7a224b74b1937f76210dda0f45d03d4ab397c598a3be3,2024-10-22 01:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,,,keyword_18,Company E,Manufacturing,Switzerland,Qualified
+L10595,6be17f912954eb305c35b9cf5ed292ab5d83939eb57275631886bb9d925c9dfa,2024-10-09 10:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,google,organic,,,Company B,Finance,Netherlands,Contacted
+L10596,4d5d97ac999421efa0f72bca4b713f3f59cc9928c1bb78e96d79623f9143c221,2024-09-13 20:00:00,,linkedin,referral,content_8,,Company K,Healthcare,Austria,Qualified
+L10597,5e406f8442a4dc93737839a44fa80682340f28dd3ecdc56603bb056e5f2be950,2024-10-10 09:00:00,Retargeting Campaign,facebook,cpc,content_4,keyword_7,Company H,Finance,Netherlands,Not Interested
+L10598,e0d360f0b89cd4b2e6f32ef61965326f7d6bd4e4ff4eb2d23f4c9796e5358b6e,2024-09-14 12:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,organic,content_5,keyword_19,Company L,Software,Germany,Contacted
+L10599,b84c2dda15cdbf3e1a594060a9e81f4a78a8e6753383a0f94e33a97973b8b456,2024-09-13 09:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,social,content_1,keyword_9,Company D,Software,France,Not Interested
+L10600,8e8be5323e25323db30fddb00648bee020f30e157fba56161542d159716404ec,2024-10-12 03:00:00,Product Launch 2024,google,email,content_9,,Company T,Finance,Germany,New
+L10601,a0e7d0790a99cbf539900d8d77c116c76f6179396de7630968e28ca524b4749e,2024-09-10 04:00:00,RETARGETING CAMPAIGN,linkedin,referral,,keyword_2,Company T,Healthcare,France,Nurture
+L10602,f86971691ea435a640f0062c8c21f85a935ebe8aa40e0ce14d1b5153667d5096,2024-09-19 04:00:00,Brand Awareness Q4,linkedin,organic,,,Company G,Education,Germany,Not Interested
+L10603,58f2801f198b25234eb0e516a93da2b4a6b7770648582d0cd2b7752a300d3897,2024-10-21 21:00:00,Retargeting Campaign,organic,organic,content_6,,Company Q,Education,Switzerland,Not Interested
+L10604,d02d37f8e5a1f599e7fae2a432adc90b73adf18dc375a94cce2c9de11e2bbef1,2024-10-01 08:00:00,Brand Awareness Q4,google,social,content_5,keyword_13,Company S,Manufacturing,Netherlands,Qualified
+L10605,71e111a322da8eb1f6dd81a169cab1f97b9e9b486f7f7ca8b57b41c4eba5099c,2024-10-06 02:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,organic,content_9,,Company N,Finance,Switzerland,Not Interested
+L10606,043e953ab46332fab78b0536c77bf4d8382b616b264e8042e0c25b74e94297be,2024-09-27 11:00:00,,direct,referral,content_2,keyword_3,Company J,Healthcare,Austria,Nurture
+L10607,68cd763a41da72493189f57e435b28845422b42c3809f0b1ee2487e9fb7fffc2,2024-10-12 02:00:00,RETARGETING CAMPAIGN,facebook,organic,content_4,,Company I,Retail,Netherlands,Contacted
+L10608,9b2cb07e7528d2ed2ca20e95b86d85aba10800274ecd864e79c4f2451980c2b2,2024-10-16 19:00:00,,,organic,,keyword_10,Company J,Retail,Switzerland,Not Interested
+L10609,58642697d6398814427f577dcb50bb645202164ed5bb52b409d99a94fa3428d5,2024-10-23 18:00:00,brand awareness q4,organic,,,,Company H,Manufacturing,France,Not Interested
+L10610,e7ce6755ba869d2af48f87636ac6492ba72bf69ced0c581a805149e0354cc093,2024-09-15 16:00:00,Google Search Prospecting,direct,cpc,content_4,keyword_14,Company G,Finance,Switzerland,Nurture
+L10611,d67809eb9bc44d5f8eafd0b4bfc9cbdbd6ed54832dcd6f63ba38155c22ce0920,2024-09-02 11:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,facebook,email,content_7,keyword_13,Company R,Retail,Netherlands,Nurture
+L10612,9fbd23aef81fdd58654fe3c677dafc2fa9f1144dd10c6208ffd7a9882245b17d,2024-09-02 18:00:00,RETARGETING CAMPAIGN,linkedin,organic,,,Company M,Finance,France,Not Interested
+L10613,2725cf33dc08d4c42d6bc323166e49717496199da2f3a725d2370357fd63ba20,2024-09-05 17:00:00,Google Search Prospecting,organic,,content_5,keyword_4,Company R,Manufacturing,Germany,Nurture
+L10614,e4fd56e4981927eb8fa45576040b5bbfcccced13c63d27e7f409cee52c6333c5,2024-10-02 00:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,,social,content_9,keyword_2,Company L,Healthcare,Germany,Contacted
+L10615,68d13197b6edadba7f630349603fe57f02591542b9fbb30661422d238f9ed7e7,2024-09-21 13:00:00,Lead Generation | DE | Form,direct,cpc,content_4,keyword_7,Company J,Finance,Switzerland,Contacted
+L10616,25fe45cdf761061d8a44a1b406ef2f9fe7ec11ffce5c73bdedb3c95613c4f16b,2024-10-09 18:00:00,,organic,referral,content_1,,Company O,Software,Switzerland,Nurture
+L10617,fd6742d5491d118026076bebe923a67300d1d4af515bcec68fe574ac58c50087,2024-10-22 07:00:00,Google Search Prospecting,organic,cpc,content_8,keyword_10,Company M,Healthcare,France,Not Interested
+L10618,8ac1635ff19310ae0afcae93f909fa5cb2728600d3c1e4ce4c0158a8f3f94620,2024-09-16 05:00:00,,direct,social,content_2,keyword_2,Company H,Manufacturing,Netherlands,Nurture
+L10619,f35db654adeeb939f92befb33f46bd5d71cb6d486aa83796c7c908c1bcf73dd8,2024-09-19 21:00:00,,google,,content_9,keyword_12,Company C,Software,Austria,Qualified
+L10620,59443491e7b32c344ae862a0bbd8def4328d708cf5fc8c486ce6b06c4615df1c,2024-09-27 14:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,referral,content_7,,Company M,Software,Germany,Qualified
+L10621,eed84816a10f3aed87d294a5399f9fb702f2046ca217e5ca6082338252a328d3,2024-09-08 22:00:00,,direct,cpc,content_4,,Company O,Manufacturing,Switzerland,Qualified
+L10622,3328a7745fb8abeb6a8dafb2ddfedc0dbf7a49203aedef0e0ecd85b8a5af2afc,2024-10-24 05:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,organic,,keyword_1,Company I,Manufacturing,Switzerland,Qualified
+L10623,b9cf94130ae178ba4fd5f8048e9eb15c031042f0276a391426d39a334ee22537,2024-09-12 06:00:00,;1003;Ad Group;2001,direct,organic,content_2,keyword_10,Company O,Software,Austria,New
+L10624,eeacc126d0543e2231f907414ba50f4c408233909340612617f026307436d156,2024-09-04 12:00:00,RETARGETING CAMPAIGN,google,cpc,content_1,keyword_7,Company C,Manufacturing,Germany,Contacted
+L10625,d95187db729ad49549f68b261c7de93176f94bb135a8f2bdecc48ab99746ba78,2024-10-17 05:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,linkedin,social,content_9,keyword_14,Company D,Manufacturing,France,New
+L10626,153b9c26ecb7ea5b9d75cc75228f00f2384e11b5398fd6ab002acd9bf7ca8bf9,2024-09-23 10:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,referral,content_5,,Company L,Software,Germany,Contacted
+L10627,b3d3569c82c6690fa7027b0594a57272f1ef497ecfef92cd36fd535e25a9f781,2024-09-27 09:00:00, Lead Generation | DE | Form ,,organic,,,Company S,Manufacturing,Netherlands,New
+L10628,ff0d6fe6b50a876f4c6a4226ee73d333265eb5c4e2ffbaac5b2e3eaa7b10de34,2024-10-09 10:00:00,,google,email,,,Company C,Retail,Germany,Nurture
+L10629,cffe6a25bb9eb7eb63825417326a000e6773a246947359c5b6cdb32c974c4a7e,2024-10-29 18:00:00,Product Launch 2024,facebook,organic,,keyword_8,Company N,Manufacturing,Austria,New
+L10630,ecccdd7b4b48c244be0f1bd684b5ab57cd9e9e1efe3870b2697daf4e4295f89d,2024-09-04 04:00:00,Demo Requests Campaign,direct,cpc,content_10,,Company O,Education,Netherlands,Contacted
+L10631,7c3077e23d457dc2af466ef9f1808ed45e8dab6c5f62d42cbec428928cc49e44,2024-09-18 10:00:00,Brand Awareness Q4,direct,email,,keyword_11,Company K,Manufacturing,France,Nurture
+L10632,f331805ea83e517c768dddabaa606afdc5e90af2b6899172798d502756be4ab4,2024-09-04 21:00:00,,google,referral,content_3,keyword_1,Company C,Finance,Germany,Contacted
+L10633,e8785189171e995aefbcfcbd81eb1ebe49a50b66976c83f7bdfcd217d54f3038,2024-09-04 20:00:00,,,social,content_4,keyword_3,Company N,Education,Switzerland,Qualified
+L10634,162f2ab0ecf1bca84cf1bad43af921358025e6f5255997c7ad2aede2b2ba73de,2024-09-11 23:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,organic,content_4,keyword_16,Company C,Retail,Switzerland,Not Interested
+L10635,cd159f2ffcfff4323229956db5817b95561cb918bbbcc3d76d85a395a18e0906,2024-09-11 15:00:00,Google Brand Campaign,direct,referral,content_2,,Company J,Healthcare,Austria,Contacted
+L10636,766d5a285aae71c1e811a8a72ca95774eb71d88a5cffb7d9386449a4993c1b3f,2024-10-06 23:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,organic,content_2,keyword_16,Company G,Manufacturing,France,New
+L10637,751c48a0fe318b999309f8ae3fb7b07fea9ac88ed31bac6e2565debd9eec563a,2024-09-01 16:00:00,Test Campaign;1002;,direct,,,keyword_16,Company J,Education,Austria,New
+L10638,063744bcc35b87eaa866690d8f041571e8eb15352e6855df66d9a41e91a50682,2024-09-27 01:00:00,,organic,referral,,,Company L,Healthcare,Switzerland,Qualified
+L10639,2a1cb26da057c9d78d8af3df662fe1e473631d89d81b9d42f0ce045865d7e3e1,2024-10-15 01:00:00,Google Brand Campaign,google,email,content_1,,Company E,Retail,Austria,Not Interested
+L10640,2b03aa61531ee25f681bd769c33b28f24c2a600a655b0b6ab8e4430803098db2,2024-10-14 04:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,google,cpc,content_7,keyword_19,Company C,Healthcare,France,Not Interested
+L10641,abaffed10425db6744d205a47236cc866c94ab386ee02cf167d559df67d3a3fe,2024-09-11 13:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,organic,referral,content_7,,Company C,Software,Austria,Qualified
+L10642,35d4caaf4c8896b84e0f6ffe47ff830997930de5f6aa308a0d0775fd50ad2c27,2024-10-23 04:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,,email,content_3,,Company A,Software,Germany,Not Interested
+L10643,a54bdd10a7491d1fe9b2f664f22e7f3525690a75669d006f248b4a652ea90199,2024-10-04 13:00:00,Google Brand Campaign,linkedin,social,content_3,,Company D,Finance,Austria,Contacted
+L10644,e524e9094df91e9b2ce486b838c6cf41b091cf4eb63371ee3de3c5a73332310c,2024-09-12 06:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,google,referral,content_10,keyword_6,Company C,Retail,Germany,Not Interested
+L10645,f12036c3bf08350f54cf789e6389f21c20a486f695bea6f49a9b6ce31c5a58de,2024-09-08 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,cpc,content_5,,Company A,Education,Austria,New
+L10646,4b1941329a5341d9f38c54ddc27c5b0d8ecef7c2a1527e7183bccc071dd7fd67,2024-09-07 06:00:00,Brand Awareness Q4,organic,,,,Company P,Retail,Austria,Not Interested
+L10647,082de87323f49c81cbb9dab07e9ab5debfdf9025c129533c64b7f0b515dbbe6a,2024-09-22 11:00:00,Content Downloads,,email,content_7,,Company L,Retail,Germany,New
+L10648,2185b7afef4a3bbe9bc2cd196b513ddf6b7d7d374e4110c2e32aafd647fb158c,2024-09-30 22:00:00,Retargeting Campaign,facebook,email,,,Company H,Retail,Switzerland,Nurture
+L10649,c925d07cd3ac223ab1945cadabb98b9f812e2aa7533c1b69cafb11676144dcc0,2024-10-14 21:00:00,,google,email,content_6,,Company K,Education,Switzerland,Contacted
+L10650,c5c1782bdea7cbe417282e3826b891ee066ee0330d8918f6c68518af7aca1fe6,2024-10-09 15:00:00,Lead Generation | DE | Form,direct,,,,Company M,Retail,Austria,Contacted
+L10651,f0131fb2b930bb2f6aa4f47ced76a876ea941d47ee3f9003cc46e4983e9075f4,2024-10-16 04:00:00,,organic,referral,,keyword_18,Company O,Manufacturing,Switzerland,New
+L10652,c92d8383f5dac9e2da11d7018a22b17f3421da453089fa1362525e35bbdd47d8,2024-10-01 21:00:00,Product Launch 2024,facebook,cpc,content_6,,Company I,Manufacturing,Netherlands,Not Interested
+L10653,19ff1c6c10f6ac44d3a7e53927dcd4423f2f6d2f7e7795fca2eeefa4046fce10,2024-10-28 21:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,,referral,content_6,,Company S,Healthcare,Germany,Qualified
+L10654,0b9b90cdc56536d98883585bfdff9a6221e2ac2fc34b4a15494dc6a62f7e21d6,2024-09-25 22:00:00,;1003;Ad Group;2001,organic,,content_4,keyword_4,Company J,Software,Germany,New
+L10655,556195ab6751a494e746dd79b93d4a4ceda795f055fb09f5ef29dc4adfd49967,2024-09-22 23:00:00,Product Launch 2024,facebook,social,,,Company S,Education,Germany,Qualified
+L10656,e433c5b90108a8f5728411f4d560243436e2dfd9492434ce2512237591f061bb,2024-09-04 18:00:00,Google Brand Campaign,,email,,,Company E,Healthcare,Austria,Nurture
+L10657,d7446e266ea042dc2f4038e6d997e90f6235c2aedb46cd583052e184f9d45674,2024-09-15 03:00:00,Google Search Prospecting,linkedin,referral,content_3,,Company E,Education,Germany,Nurture
+L10658,0f2d7bfc929afddb0a07022ce8e08b3748feedd8c6a6c8fb7586e85d6c83f19f,2024-09-21 09:00:00,Lead Generation | DE | Form,organic,social,content_7,keyword_11,Company E,Education,France,Contacted
+L10659,cd96cebb26c58f0c7d368570bd963c1063f7cfee09ccfd53accd1074efffb8d6,2024-10-15 23:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,social,,,Company K,Finance,Switzerland,Qualified
+L10660,79d97bf9d0ab6a45c99b84368e238d7a0a72d38c81386b1988aba976a5b3ec3a,2024-10-19 12:00:00,Demo Requests Campaign,google,organic,content_3,keyword_19,Company B,Education,Netherlands,Not Interested
+L10661,09ab98cc32190b63ac4025d70e501917e3954e2e7d17b3383091d3e7a99bd152,2024-10-12 05:00:00,Google Search Prospecting,linkedin,social,content_4,,Company A,Retail,Austria,New
+L10662,652b39eaca8508ce65079d873ddd231b5bd9485f3b567d1b9dde20808b9d0c2f,2024-10-14 04:00:00,Google Brand Campaign,google,,content_8,keyword_2,Company D,Healthcare,Netherlands,Nurture
+L10663,f218b036d27e6ae3cf1d96d838a04d07955553ca88fc387121441c47b9308e75,2024-09-28 04:00:00,Google Brand Campaign,facebook,referral,content_10,,Company M,Education,Germany,Not Interested
+L10664,bb19d9d8df7f1b5047787e5efab5c165ba802ca62038fdce18a75430dddcd582,2024-10-26 20:00:00,Google Search Prospecting,facebook,cpc,content_9,keyword_19,Company S,Healthcare,Switzerland,Qualified
+L10665,e4237261820a96938f8eb0ca18d37ea2ed42a5e4143f16ec80584c9c9198b127,2024-10-15 23:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,direct,,,keyword_5,Company D,Retail,Germany,Nurture
+L10666,7cb94bf590ac5ba6f45e690a286af795ccebdd9b94c715335078f98414435009,2024-09-12 12:00:00,,organic,organic,content_9,,Company R,Education,Germany,Contacted
+L10667,0c32e2e704dc0642418b3c2a1d6596e5209e03ca329d14799b938bc70505b5b5,2024-10-13 03:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,email,content_3,,Company F,Software,Austria,Qualified
+L10668,894a0718944ea6d939bc3d95133f9a58b884c6b675d6d232eca30dd3c8476cd0,2024-10-25 01:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,linkedin,,content_1,keyword_2,Company Q,Retail,Austria,Not Interested
+L10669,7494570b2d0de2ca05a6caa5dc37f8cb9866edebc6e178a226838b82c203d025,2024-09-09 18:00:00,Content Downloads,linkedin,organic,content_2,,Company B,Manufacturing,Germany,Contacted
+L10670,8482570c612213ac908c0669b049b5ecceeb77626bdde817e99c3819fcca8b1f,2024-09-10 09:00:00,,google,social,content_5,keyword_20,Company N,Software,Austria,Qualified
+L10671,f09bdb656bc58ff6c0d0a1a4f464c161f6b6d059c6ce262f3b4eb84c6dbf07b7,2024-09-17 12:00:00,Retargeting Campaign,facebook,,content_3,,Company C,Education,Netherlands,Contacted
+L10672,23aa4c54fb2b4e6603f63b849384772ce05066983f46343c02d128482afd5c9b,2024-10-16 11:00:00,Retargeting Campaign,google,referral,content_10,keyword_9,Company D,Healthcare,Germany,Nurture
+L10673,88d6c422aa8e3e13582953e3e5fac3add71686375db11f22b60c332af192cae1,2024-09-27 02:00:00,Lead Generation | DE | Form,linkedin,social,,keyword_1,Company D,Finance,France,Not Interested
+L10674,812d9588ff56bb74e11034421ddd4d5f2387283759b0d4bb1cd797ed8174d02f,2024-09-07 03:00:00,Content Downloads;1006;Lookalike Audience;2016,organic,referral,content_6,,Company J,Healthcare,Netherlands,Nurture
+L10675,db888336e0f055b55efda87f8eef14ba1080ce2bc8f6b58013e01fcdd7859e5a,2024-09-07 01:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,referral,content_3,keyword_17,Company E,Education,France,Contacted
+L10676,8aa81e704208b6e7b7f37ed0e83c7a69f262561502e381078825fd278dae039b,2024-09-25 18:00:00,Brand Campaign;1001,,email,,keyword_20,Company N,Education,Switzerland,Contacted
+L10677,d4e98b29e60efe30cd7ac7554be93b8d00cc47aac29cb09b577fbb7033ef8cbc,2024-09-29 11:00:00,Product  Launch  2024,direct,social,content_2,,Company N,Retail,Germany,New
+L10678,70cc5013d567f67fa9ad691696f2a81188f3fb06bf76322655d006b39ede4f31,2024-09-05 23:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,email,content_8,,Company A,Finance,Austria,Contacted
+L10679,667614744c9fd8ca118ccf07c29f695a92b0fcab767a2e01e974e39753f1d6ef,2024-10-01 15:00:00,Lead Generation | DE | Form,organic,cpc,,,Company L,Manufacturing,Austria,Nurture
+L10680,6c61414c0de7b8aa0992701d21f67f45a0e28549e8408fe1cfbb7a479d118a71,2024-09-03 19:00:00,Retargeting Campaign,organic,,content_6,,Company Q,Retail,Germany,Not Interested
+L10681,6b3d3913bfa78ff418255d59a655e855d07385f387bead7151189962b20cc0f9,2024-10-02 12:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,cpc,content_8,keyword_7,Company A,Education,Austria,Not Interested
+L10682,24c5e7d329e9978b80bf3f15ef8ee5f707c9f0652b45338166adf96bbd616114,2024-09-14 09:00:00,,,cpc,,,Company P,Software,Netherlands,New
+L10683,458e348e8ac97407ab28677d48e9fb57286fcea17c5209eb2dea0a6db24153fa,2024-10-10 14:00:00,Content Downloads,linkedin,social,content_1,keyword_16,Company G,Software,Austria,Nurture
+L10684,5671b1ef4dbf863f09e960ba64b25c119052ce39c25a44f5805ab69ca31fa5f9,2024-10-28 04:00:00,Google Search Prospecting,linkedin,referral,content_6,keyword_6,Company R,Retail,Germany,Not Interested
+L10685,fc0a4a9c146997521ac4b0805aad88ec973509f146887fd9f5b1a5adcac1e93b,2024-10-13 14:00:00,Retargeting Campaign;1003;Retargeting;2007,facebook,social,content_5,keyword_13,Company N,Education,Netherlands,New
+L10686,4afdba122d0c518964267350a40dbed9dc8ca6a338b5afd9b0b88081d9ec1037,2024-09-11 21:00:00,Product Launch 2024;1004;Cold Traffic;2010,,,content_8,,Company E,Retail,Switzerland,Nurture
+L10687,5a9d6cf47f6a726e5015c808c6d4ea9a7ddc0f56591f2452dc9ac3929235f493,2024-10-17 23:00:00,,facebook,,,keyword_12,Company Q,Software,France,New
+L10688,773f26300a70fa13eda9a65d53c5c40b11abfd211eb6b59f98cb11e8711c149e,2024-10-14 10:00:00,Brand Awareness Q4,linkedin,cpc,,keyword_5,Company Q,Manufacturing,France,Qualified
+L10689,4898dd6c7c64826b06ac30f4f083349da678107f0f9e36c212421d24915b53e6,2024-10-20 03:00:00,,,referral,content_2,,Company Q,Healthcare,France,Contacted
+L10690,a00aa01d543706926887b182caf8a120fe5f3677061d9f94b5eb9376afd5b1ac,2024-10-25 18:00:00,Retargeting Campaign,google,email,,,Company N,Software,Austria,Contacted
+L10691,b47e467abd2656cf1fd9111efa5e84610df95dd90a505e0527a4372bf85a7087,2024-09-06 01:00:00,Demo Requests Campaign,google,referral,content_9,keyword_2,Company J,Software,Netherlands,Qualified
+L10692,143afc072412c01cb7efd13640ae87dac3dfac9d60f4b807e8e410c380753181,2024-09-18 11:00:00,Brand Campaign;1001,facebook,cpc,content_6,keyword_16,Company I,Healthcare,Germany,Not Interested
+L10693,5bfadfc42d321d0adf345fe34a9237c5ceba2fc5bbdccc46bbd45f6235652ebb,2024-09-12 08:00:00,,linkedin,cpc,content_3,keyword_12,Company S,Healthcare,Austria,Qualified
+L10694,ef929f02f476d376a87469d7ecb35b34ffe8d3037fe84dfd5b0a646b5e13141a,2024-09-16 20:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,facebook,organic,content_10,,Company G,Manufacturing,Switzerland,New
+L10695,2782ec55b821e6d676f1e36376619fd177dd7d5e66162901f77d8d3ea9f1748c,2024-09-05 17:00:00,Demo Requests Campaign,google,social,content_4,keyword_9,Company R,Retail,Netherlands,Not Interested
+L10696,bf0801a667ec1833bbd0bc01bfe73c9ad6f17fb676b58ad4ff7e3e2df40b7db7,2024-10-11 22:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,organic,,keyword_9,Company E,Retail,Germany,Nurture
+L10697,83500719f8d9a076b5de4228afd98659c39019581cc02a4d67ceca63cf80137f,2024-09-04 22:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,cpc,content_9,keyword_13,Company M,Healthcare,Netherlands,Contacted
+L10698,dcdaae5fb528019b9270564abd8421ecc09ee617fa6e1202ba0340b273594541,2024-09-12 00:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,facebook,organic,content_9,keyword_8,Company J,Education,Netherlands,Nurture
+L10699,ac8e0b7f67c89e89eac634fc69e5088b561abc17722d8de5fb09101bc99d52b8,2024-09-08 05:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,email,,keyword_2,Company H,Manufacturing,Austria,New
+L10700,6289720bd2eea48f1c23c9461d6896882313427ef179e60d5fc65c5c860522a1,2024-09-01 20:00:00,Content Downloads,organic,social,content_10,keyword_2,Company A,Retail,France,Qualified
+L10701,5bcdb7d16a9226e385c183a795687d779955ee05f540874c02bd48261f34d831,2024-09-12 08:00:00,,organic,referral,,keyword_20,Company R,Manufacturing,Switzerland,Contacted
+L10702,687654cd2ebd98807efecb215a988eb2bcd36316e3e26df5aec620d515bc6e2c,2024-09-21 08:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,social,,keyword_5,Company P,Software,Switzerland,Contacted
+L10703,5aec235c04a4176219b543320998322e8dcf4d8df5da3228bc3e88162c8f184f,2024-09-30 05:00:00,,organic,social,content_1,keyword_6,Company M,Education,Austria,Contacted
+L10704,5cfa7ded27b6485607ab07a56b1594cbe0c65994f02f32c4a5767ab58e2da79b,2024-09-05 04:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,direct,organic,content_1,,Company M,Finance,Germany,New
+L10705,91b48f425e9b7e7e44175357dfff02660ae20564239f5d4e93befbc87b64e0a5,2024-10-23 00:00:00,brand awareness q4,facebook,organic,content_1,,Company D,Healthcare,Netherlands,New
+L10706,42adcecd8bd8a9f8cdc8ee0ba8a6d48b66b6530a6ee8767eb074ba6726cf5f55,2024-09-13 04:00:00,Google Search Prospecting,linkedin,social,content_9,,Company R,Software,Germany,New
+L10707,197acab272174751e41fe32daa54594d1a5d223bba3684355e1524210875307c,2024-09-07 17:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,direct,social,content_7,keyword_12,Company J,Manufacturing,Switzerland,New
+L10708,5093374f8071860ccc8327661a69bb6a42b9fab7253ff87442d0877c8c945e30,2024-10-02 05:00:00,,linkedin,organic,content_6,,Company C,Software,Austria,Contacted
+L10709,552d2ee9afa476b63a8108eb52661810474c3ede64bdd7c21cf31bd6fb794fca,2024-09-12 13:00:00,Retargeting Campaign,google,email,content_5,keyword_4,Company I,Finance,Netherlands,Qualified
+L10710,4301d13d8733a300ed06d29266931bb33e658383c0572b8690ee778a8993b744,2024-10-22 22:00:00,brand awareness q4,google,social,content_7,keyword_16,Company C,Software,Austria,Not Interested
+L10711,3312932374532de0ce57aa4f78a1b5b85647a560ed57cdf6bfacb47fe2ccb23c,2024-10-17 08:00:00,Retargeting Campaign;1003;Retargeting;2007,,referral,content_8,keyword_14,Company T,Education,Netherlands,Contacted
+L10712,54850dac9922f6a3f397baf1dfe23a9db0ec51df1b55b91dbd561153009f9f45,2024-10-22 20:00:00,,organic,organic,content_9,,Company M,Software,Austria,Not Interested
+L10713,68f3cb30155a4207e1325f532e1a149fe3877a90a546d477ec3f45e82c886f74,2024-10-04 18:00:00,RETARGETING CAMPAIGN,google,social,,keyword_18,Company P,Manufacturing,Germany,New
+L10714,8ed5b296ca299c6bf8865a0b4f20f540920eb2e5dc5958f009d46246b1023f80,2024-10-29 11:00:00,Retargeting Campaign,google,organic,,,Company H,Manufacturing,France,New
+L10715,c41502ab79723e482ae1cb028709945a9b87a837f78421c46aaa0fdb98751da7,2024-10-18 04:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,referral,content_2,,Company C,Finance,Austria,Contacted
+L10716,defce6b963f1baa4c47c19b25186b8229ba544bee78ac70868117e0e0fc72e70,2024-09-02 04:00:00,Lead Generation | DE | Form,facebook,referral,content_3,keyword_5,Company Q,Education,Netherlands,Not Interested
+L10717,db946e5b99d9fef990079bf4f8ed0b5f21392da0782b3df7289e2bbcd80998b8,2024-09-27 23:00:00,Brand Awareness Q4,google,cpc,content_3,,Company A,Finance,Switzerland,Not Interested
+L10718,96f47c1967b82fb3b89d0379a298b50c155abd361551435a83f0991f12022b10,2024-10-06 22:00:00,,,social,content_3,keyword_3,Company Q,Finance,France,Contacted
+L10719,e1f57b78c891fc9a52c64b1939d4ecd834e739feaff50e7fb346cc2127a5d680,2024-09-26 19:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,cpc,,keyword_11,Company M,Finance,France,New
+L10720,7fa9735fcc6e9d1e4d478b95bfb30c8bdf41284f3912fbdecb13717c55878337,2024-10-22 11:00:00,Product Launch 2024,facebook,organic,,keyword_8,Company J,Manufacturing,Austria,New
+L10721,f41c9ee38a2630ec8494012e9e0756a203b1d5ee2fde9f2794e9c483acb0c2cd,2024-09-05 06:00:00,Demo Requests Campaign,google,cpc,content_2,,Company S,Software,Austria,Not Interested
+L10722,43e2ba2ea14ca2ed1d45a24d7736797120facb556708bd09506ca0185a7fef6c,2024-09-03 01:00:00,Demo Requests Campaign,linkedin,referral,content_6,,Company L,Manufacturing,Germany,Qualified
+L10723,e94d558713f3199b08ebcfc081e0a8a80b6382cf28da5762204235a1460c1cca,2024-09-27 23:00:00,Retargeting Campaign,direct,cpc,content_3,,Company C,Education,Germany,Contacted
+L10724,7a3b7af961ae0865c66fc48683537b6f3a55c76ab36697e19eb295d0f53b295d,2024-10-27 06:00:00,,google,,content_10,,Company K,Finance,France,Qualified
+L10725,7748cd1b1a01fbb8d9b6d7d0836f74a8444c23237cfa8c0363899bc162554cb8,2024-09-19 11:00:00,Google Brand Campaign,direct,organic,content_3,,Company P,Software,Germany,Contacted
+L10726,9f1157d2f0b576878d55a0978fa087131df6529765987a7cf4be8eef4ae9556f,2024-10-20 09:00:00,Lead Generation | DE | Form,direct,email,content_5,,Company L,Software,Germany,Contacted
+L10727,e10b9144960e6c6ac40bdb052bae63aaf451afb6a957aa41d6adca3ff4b310c4,2024-10-16 14:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,,referral,content_3,,Company S,Finance,Germany,Qualified
+L10728,af2664329146bab77d9cf670bed0e04d7b46be4a01d6deb7f971bca28b8e28e7,2024-10-25 09:00:00,Retargeting Campaign,organic,email,content_7,,Company I,Education,Germany,Nurture
+L10729,6fbba09e5ee1a53239faacde8cf8311c98ad41c6cfe06983a9d516a503201bd5,2024-10-12 01:00:00,Brand Campaign;1001,organic,cpc,content_3,,Company C,Manufacturing,Switzerland,Not Interested
+L10730,c0c85129e216724795b0b5286271f4a7792090c934e5141da364233470e95a10,2024-10-13 02:00:00,Google Search Prospecting,direct,social,,,Company M,Finance,France,Not Interested
+L10731,a31dc0f3f5dcb3bec04469c40cc38ca1008d977550aef973a50b0938cc8e4e63,2024-09-22 02:00:00,Google Search Prospecting,direct,referral,content_3,,Company E,Education,France,Qualified
+L10732,64f0187f4ece85bec0ef9206c32b8a2039748416a78807728e9b2140a2c02daa,2024-10-07 01:00:00,,facebook,,content_7,,Company G,Software,France,New
+L10733,94118a25be0da171458d0608e24140259b5dc7d8adaf38f8b7ba7bf8f33f78ed,2024-10-19 21:00:00,Demo Requests Campaign,facebook,email,content_5,,Company O,Finance,Austria,Contacted
+L10734,a3d019cce528594fa35a41798bf77aa9b27466b205f8d4907a21220ccfe419a5,2024-10-13 08:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,email,content_6,,Company P,Finance,Austria,Contacted
+L10735,caf0aef134f2a122725dc1923b327adea4e8b917d55de7cb51a49d18597226e0,2024-10-15 13:00:00,Google Brand Campaign,organic,organic,content_10,,Company K,Education,Netherlands,New
+L10736,341ed80f9557fa9c08af8234ad583d17b1c6055763a38e564f67c29606629497,2024-09-10 14:00:00,,linkedin,referral,content_1,,Company E,Education,Switzerland,Nurture
+L10737,6672f741a15f9862884a00f63f65ab386d8bdd25aee48444f6860a51017e67eb,2024-09-07 01:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,organic,content_6,keyword_7,Company S,Software,Netherlands,Qualified
+L10738,d9b0d12f50ab926563d4805704b02727eee015782768b792e19a07316f4f565a,2024-09-02 09:00:00,,facebook,referral,content_6,keyword_18,Company N,Healthcare,Netherlands,New
+L10739,656b8f423367f6d7932739cd0655b52faed9d575a1da14cd10a5f7cb17379a76,2024-10-30 05:00:00,Content Downloads,organic,referral,content_7,,Company T,Software,Germany,New
+L10740,eecfcce9a3b3fbb8e31a5ca7407c102d360506652701dc51e0e1ee66582b9677,2024-09-06 20:00:00,Product Launch 2024;1004;Cold Traffic;2010,organic,,content_8,,Company B,Education,Netherlands,Not Interested
+L10741,6df2cb371344c173c754203a039d8f1c6c31b6c795b8ae1a423aa2b818ff350b,2024-09-14 07:00:00, Lead Generation | DE | Form ,direct,,content_8,keyword_13,Company A,Retail,France,Nurture
+L10742,68f381b7ffa07f4169e6b71718656509ce9dbe191c6381c96970e03c39b3e501,2024-09-19 08:00:00,,direct,cpc,,keyword_1,Company A,Manufacturing,Netherlands,Nurture
+L10743,505694f13df383bd285619951d1e7cec81d8b03ba87036c11ecf8c2578f9e9a2,2024-10-23 23:00:00,Content Downloads,organic,,content_7,keyword_13,Company B,Healthcare,Switzerland,Contacted
+L10744,5f347a123741e4c1a8bf05349d572d27c852768ed6fc67718eedbe44ab1a0ae9,2024-10-11 12:00:00,,linkedin,referral,content_3,,Company S,Finance,Netherlands,Nurture
+L10745,27bb8682190e139dae7efbc42c1f071bb922d8e9fbbe53e12a9241d034c4476e,2024-09-11 10:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,organic,content_10,,Company C,Healthcare,Switzerland,New
+L10746,d29b0446764d700d6f60151dd669df30982a2ec82a259fe01b75a9326905689a,2024-10-18 23:00:00,Product Launch 2024;1004;Cold Traffic;2010,linkedin,social,content_9,,Company M,Retail,Germany,Qualified
+L10747,db128eb6bbd87e90115a3c312bd595de2035af748fd6d9e61d40914c93721add,2024-09-06 04:00:00,Lead Generation | DE | Form,organic,social,content_3,keyword_16,Company L,Manufacturing,Switzerland,New
+L10748,66f30cd8c1b8bb5421619da632ad59477873f979a55fc61cc69eb05d57d07d2d,2024-10-02 00:00:00,Google Search Prospecting,,referral,content_6,,Company O,Manufacturing,France,Qualified
+L10749,dcb70e072e3933190a18f989925c926ea0747eeb46075e79946a1458e6b28e66,2024-09-01 05:00:00,Brand Awareness Q4,linkedin,,content_10,,Company A,Manufacturing,Austria,Qualified
+L10750,64281429539ca8e8ea021823d3dfa570f028dafb12c830e1d1137898fc1ac38a,2024-10-30 03:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,organic,social,content_6,keyword_7,Company A,Retail,France,Contacted
+L10751,f3377f8c9535bb7831e2b1f0465f83760373e55f1aa88a903bc3bf0175eb32d6,2024-09-06 23:00:00,Retargeting Campaign,direct,cpc,content_9,,Company O,Education,Switzerland,Not Interested
+L10752,7b76f3d8eb12da7c78f4390946e2ed96d16f8489f99cae0c4af9ee4cc2360900,2024-10-03 12:00:00,,google,email,,keyword_19,Company J,Manufacturing,France,Not Interested
+L10753,276f4bb10c298ef87b112a2212723e558f9010c3aac250639ad187144718fcbd,2024-09-28 14:00:00,Demo Requests Campaign,organic,referral,content_10,keyword_3,Company O,Manufacturing,Germany,Nurture
+L10754,27c10605d8d80fbe0c037cff09d4d73242cef754f5672d7e640860bc634aa841,2024-09-17 18:00:00,Content Downloads,facebook,email,content_3,keyword_3,Company G,Education,Netherlands,Qualified
+L10755,c0a27278c8e1f7cbd3155c068fd5577afc3155cf28438cea8701228cf263c4c8,2024-09-10 10:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,organic,,,Company R,Software,Switzerland,Qualified
+L10756,130408fc9de3d7eefb7a07d8d2aa5b6acdf35956c36c42e975f9e54f6fd5ad7d,2024-10-09 06:00:00,Lead Generation | DE | Form,organic,,,,Company S,Education,Switzerland,Not Interested
+L10757,6e3d83e7863b8c34ad99c902a046e7a8e9bd76617a51a3ce785d858232976238,2024-09-21 10:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,direct,email,content_2,keyword_20,Company K,Healthcare,Switzerland,Contacted
+L10758,d05cec2aef6b39bbb1497766d30edabd9052dc3fb76d82b45724e3c4f27907ea,2024-10-07 00:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,organic,,,keyword_13,Company B,Healthcare,Austria,New
+L10759,a32b2382a5b008d8afa86bd79cae3daf9ed9486690235846363db1318bd5b78c,2024-09-22 20:00:00,Product Launch 2024;1004;Cold Traffic;2010,direct,email,content_6,keyword_18,Company K,Finance,Austria,New
+L10760,1ee2e17beda1f90d5613d4e1b47e1ca7d43c28ceac7805ce42e355b756aaec3c,2024-09-26 09:00:00,Google Search Prospecting,facebook,organic,content_4,keyword_1,Company E,Software,Netherlands,Not Interested
+L10761,18210e6e9df29f2d45dbe2d27a1914f8fba1e1cc5a734171613f718aa4ff7921,2024-09-15 05:00:00,Content Downloads;1006;Lookalike Audience;2016,,organic,,,Company B,Retail,Germany,New
+L10762,bb53e2d2cdedbe2e20f86bbbde5f6b8e0ab7c175d4abf7fda8eb5f0e1ffe717c,2024-09-04 09:00:00,Retargeting Campaign;1003;Retargeting;2007,direct,social,,,Company D,Manufacturing,Netherlands,Contacted
+L10763,4c3eb05ec76a7336e9012bca1750926adff01b8cdd35868371706716602b0d0b,2024-10-19 18:00:00,,,referral,content_9,,Company S,Finance,Switzerland,Qualified
+L10764,7201a119733c3e489fce6c84bf3702ca89deebc74965face5f602f0ee6ab4f9c,2024-09-21 23:00:00,Lead Generation | DE | Form,linkedin,email,content_4,,Company G,Education,Germany,New
+L10765,ea2b6ae7643ec8424ba0a5021aa8537dc3f0b4c869870c2fb8cb6abb7a2a87bf,2024-10-02 01:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,cpc,content_10,,Company Q,Retail,Netherlands,Not Interested
+L10766,972b632805af87a8ed0ad6e04e33f5c038ded0f43933231182bc91f039b31a34,2024-10-12 04:00:00,,google,email,content_8,,Company Q,Manufacturing,Switzerland,Contacted
+L10767,31135193e8e2835ecb1583b81a3d00e149506e4d316bd8ca55193a73192f301e,2024-09-05 08:00:00,Demo Requests Campaign,,cpc,content_2,,Company H,Software,Switzerland,Contacted
+L10768,2346a346e4c5bcbf83a239914599067d5ee7ba6588682af566a302b4ac192caf,2024-09-18 00:00:00,Google Search Prospecting,facebook,,content_7,keyword_13,Company Q,Finance,Austria,Qualified
+L10769,d95935f20344fcf4289a8a2e504057b41563aa306e9dbd4e7f2ef9821287cf40,2024-09-04 14:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,direct,referral,content_4,keyword_20,Company I,Healthcare,Austria,Not Interested
+L10770,5aebd551902a18c7889996038e1b48f339fcd92acb6440aeeb276bddab48524a,2024-10-04 13:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,cpc,,,Company H,Software,Austria,New
+L10771,8843125d205c4268df561673d876b1b9672affdd85296d8d04f742119374bca4,2024-09-18 07:00:00,,direct,cpc,content_5,keyword_6,Company G,Retail,Netherlands,Nurture
+L10772,5531c06cd6a223ebf74ec6461f23e4704273f6892f0bab50d357361e4b1b55f7,2024-09-19 23:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,organic,email,,,Company F,Retail,Germany,Contacted
+L10773,e235dfa65a7da5f8a123e17497e5e5bc5b30ba8c01a1c97326818d43d93a49b9,2024-09-12 10:00:00,,facebook,referral,content_3,,Company C,Manufacturing,Germany,Nurture
+L10774,fc122de6e7e48f4c9bc3b2f709fc8293f8d26b2f47a314008f9f4f96ae53e7d2,2024-09-23 15:00:00,Google Search Prospecting,direct,cpc,content_5,,Company Q,Healthcare,France,Contacted
+L10775,1ab028a239dead8efd36773423735296532bc1d7d98499c9ab2439e50f1e229d,2024-10-20 03:00:00,Content Downloads;1006;Lookalike Audience;2016,direct,organic,content_8,keyword_15,Company A,Retail,Netherlands,Qualified
+L10776,9ae72cd0e3e197cd1e988e0359bd2bd82f0c9532a09464fd59f3b760881cf37f,2024-10-28 16:00:00, Lead Generation | DE | Form ,organic,cpc,content_7,,Company E,Retail,Switzerland,New
+L10777,49d6171a263a56707bef6852c08604e968c61f68e9e9f5445785ddc287c2337f,2024-09-16 18:00:00,Test Campaign;1002;,facebook,referral,content_5,,Company R,Finance,Austria,Contacted
+L10778,d26e4d7969475e799378a155976927a1d2d73983a7cb433bdd8f6e01f4939d75,2024-09-17 21:00:00,Content Downloads,direct,,content_4,keyword_17,Company K,Healthcare,Germany,Not Interested
+L10779,413fda29a439ae32753085b3175ecaa063e68b3d07789b53fc55b0d4ea86d6d1,2024-10-21 14:00:00,Content Downloads,facebook,social,content_3,,Company J,Healthcare,Austria,Contacted
+L10780,59e38a7d4cf48d47f973dcfa2de281ec7599203de31ab63b2923759faaf414eb,2024-09-20 15:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,facebook,organic,content_8,keyword_14,Company L,Education,Germany,New
+L10781,32923f9e6cb734ab4461210b589e44c0cc473a1f73455a4525130e29c6a1b74e,2024-09-17 04:00:00,Demo Requests Campaign,organic,organic,content_2,,Company E,Education,France,Not Interested
+L10782,c59e54d540d45fa391498ede64c8189a940d6ea502ad41a694c0d7a16bb3d05a,2024-10-08 02:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,referral,content_2,,Company J,Healthcare,Netherlands,Contacted
+L10783,a7afc725f3ab70023693cf1adac9fd26131103203c0c9265520649a567819773,2024-10-07 13:00:00,Content Downloads,google,social,content_7,,Company J,Retail,Germany,Qualified
+L10784,a8f1339ba286079148b8e82e92155c63c5e7808395f7ffea28c0cffed1183aa4,2024-10-07 20:00:00,Retargeting Campaign,direct,organic,content_6,,Company L,Finance,Netherlands,Not Interested
+L10785,2d41c9ed8f8abd1255dceb7fc49bdc1bcaa8ade3334fb83a98427d1dd49a2184,2024-09-30 13:00:00,,organic,referral,content_3,,Company J,Manufacturing,Austria,Nurture
+L10786,d0143a1e89fe5b2fd948bfde256317f4dc3d2753f1e37dea70e2c4ae81ee3b6e,2024-09-24 04:00:00,Demo Requests Campaign,direct,cpc,content_9,keyword_2,Company C,Software,Netherlands,New
+L10787,8bea31ddc85934d934d256a0a3336d129e33380a58eb21b1ed17fec7a5005324,2024-09-22 19:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,cpc,,,Company B,Education,France,Nurture
+L10788,b7032505f52c787bd2fe86990152e8268ccc6c46cbe4cc93604c5c43861629dd,2024-09-10 17:00:00,Test Campaign;1002;,google,email,,,Company P,Healthcare,France,New
+L10789,175bcef864e68a72fee053161dbe819df520b2818b643cc15343d8cc239e900e,2024-09-05 00:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,google,referral,content_9,keyword_2,Company D,Retail,Switzerland,Not Interested
+L10790,67eb8c7b1231328fcd8604084bf53ceda96b99a2defacd487859bfe1a8b665a2,2024-09-12 07:00:00,,organic,organic,content_3,,Company F,Manufacturing,France,Contacted
+L10791,942c241ce9d4aa57e5651df28a48af0a49b6f9262cc092c2988b5a0745dacffb,2024-10-03 23:00:00,Product Launch 2024,linkedin,cpc,,keyword_9,Company M,Finance,Germany,Not Interested
+L10792,7c91bb263b84f15e30cdb1ea5ded70a81057157428872551c302c65f3fb6875f,2024-09-27 13:00:00,Retargeting Campaign;1003;Retargeting;2007,organic,organic,content_10,keyword_12,Company E,Finance,Switzerland,Qualified
+L10793,f51bc6db2d11f80a1b579144bfa76749a1830fa336b04bfd99e595e3015cbed9,2024-09-01 05:00:00,Product Launch 2024,organic,cpc,content_3,keyword_19,Company K,Finance,France,Qualified
+L10794,8acdd34912b158ebd7261108dcd843055e6349e8b979e646ebd59f49d1dcddc9,2024-10-21 21:00:00,Google Brand Campaign,direct,referral,content_3,,Company Q,Education,Austria,Qualified
+L10795,46b367ac6954f1b8d9279b5bd8bb53f1719d73bf5ea3fc278cb0d58d6433d724,2024-09-09 22:00:00,Content Downloads,direct,cpc,,keyword_4,Company D,Finance,Switzerland,Qualified
+L10796,bc7c722fb05336e875d3d9abdcd9d0628fc55520ef6d3d5e9bb1c2bd3c9adfe3,2024-10-19 07:00:00,,google,social,,keyword_14,Company C,Software,Austria,Qualified
+L10797,514d6b25718d69814c8defc9734cc126cbd1c60c2c76432762a4781f2604ecdf,2024-09-08 01:00:00,,linkedin,cpc,,keyword_15,Company M,Manufacturing,Austria,Nurture
+L10798,353372e3b9f4b6376e68d34349ad5ef7954c655774a514e26c360734932f5b49,2024-09-13 06:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,google,social,content_9,,Company G,Software,Austria,New
+L10799,20a86ca3476df1f16c17ed93806301d4de6364bc3fa8f439405e317b2754dfab,2024-10-11 21:00:00,Brand Awareness Q4;1001;Interest Targeting;2001,facebook,referral,content_2,keyword_17,Company P,Manufacturing,France,Nurture
+L10800,2ba58997458db616da4edcd311717697f1929261a273c8e8e3d8d906fca6a582,2024-10-23 15:00:00,Content Downloads,organic,cpc,content_7,,Company S,Software,France,Nurture
+L10801,7808fce89742662b7cc5e42cbb6aefb8ae048fd45a4e536c92efc93a35798e50,2024-09-25 07:00:00,;1003;Ad Group;2001,linkedin,email,,keyword_12,Company J,Finance,Austria,New
+L10802,f0ab8aec567e8c77f032a0b17a5f3905b90b5f7969bd1b08bc9aef2ac73f14eb,2024-10-11 22:00:00,,direct,email,,,Company Q,Software,Switzerland,Nurture
+L10803,9677932077e7c977a3a1fa34c6f1f89e116250e4331f9af4d292ef11bca737ef,2024-09-26 20:00:00,Google Brand Campaign,,social,content_6,keyword_3,Company S,Manufacturing,Austria,Qualified
+L10804,b735b674c9691e010926b5cda4bd490d537ba2310fecf87d531cdf515a613e51,2024-09-21 05:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,social,content_1,,Company P,Software,Germany,New
+L10805,13221abbb8d17a79ce895cc24e4bc05fd74c4aed8338ea3033f004038835d350,2024-10-04 00:00:00,24-09 | DE | Leads | Form | ALC+ | 120220805451400171,linkedin,cpc,,keyword_15,Company N,Manufacturing,Switzerland,Not Interested
+L10806,cb86709cd5f0da234e81a39e8530f871f3050f7434d4b556dcad47a40b28f13b,2024-09-13 01:00:00,24-10 | FR | Awareness | Video | BRD | 098765432109876543,facebook,cpc,content_1,keyword_19,Company J,Software,France,New
+L10807,25fe45cdf761061d8a44a1b406ef2f9fe7ec11ffce5c73bdedb3c95613c4f16b,2024-10-10 18:00:00,,organic,referral,content_1,,Company O,Software,Switzerland,Nurture
+L10808,1f94ab35c74a6441c63ecef2f0175d7c65a2256a4aca7aaeaf3fd125e7b8f976,2024-10-18 11:00:00,Retargeting Campaign,google,referral,,keyword_16,Company K,Retail,Austria,Contacted
+L10809,7f417b42a6b6dcb7bc016ee26988622cc64ff1de91a6c3d0f301455a128a3582,2024-09-27 08:00:00,Brand Awareness Q4,google,email,content_2,keyword_11,Company I,Retail,Netherlands,Nurture
+L10810,ef821487ae03a4f288445dfa0bf202822516a858b9d9439ea50fa5d8b7806b09,2024-10-19 20:00:00,,linkedin,,,keyword_14,Company I,Software,Germany,Qualified
+L10811,3fe73383c28b5d3840051da41c816b25c771af8fe67e582d57482d0227e957ff,2024-09-20 21:00:00,Demo Requests Campaign;1005;Interest Targeting;2013,facebook,social,content_7,keyword_6,Company F,Manufacturing,Austria,Qualified
+L10812,c757ec34d5f23a0c9fa323f38777513c2113430a55b073d95313405940a237e1,2024-10-09 16:00:00,Brand Awareness Q4,google,cpc,,keyword_18,Company R,Software,Germany,Contacted
+L10813,41dcba57e8c04b73f32c95c73a547fef849110f1016ffc54b27359a619d990ed,2024-10-14 10:00:00,Brand Awareness Q4,linkedin,referral,content_1,,Company S,Manufacturing,Netherlands,Contacted
+L10814,d9b5939b3b8e1017c09a87d8398714e36bd00a9f49ed5433e17fd6e7634cca67,2024-11-02 22:00:00,24-09 | NL | Conversion | Image | RET | 112233445566778899,linkedin,organic,content_3,,Company P,Healthcare,Switzerland,Not Interested
+L10815,f41c9ee38a2630ec8494012e9e0756a203b1d5ee2fde9f2794e9c483acb0c2cd,2024-09-09 06:00:00,Demo Requests Campaign,google,cpc,content_2,,Company S,Software,Austria,Not Interested
+L10816,dd9229de05c479bd624e4fbe746250a5676c4e9b96e65b027dad05e97916c556,2024-10-29 17:00:00,,direct,referral,content_1,,Company T,Software,Austria,Contacted
+L10817,8bbc41fdce5a2ab38d474eed6901c872f10ec2f4b4aef85822d1bcb2dc36af12,2024-10-05 05:00:00,Brand Awareness Q4,facebook,email,content_4,,Company S,Education,France,Contacted
+L10818,13e2b93c2ff14ad9d1c05f5cd06761b78a69980548ca35f01fad77cf5932be1d,2024-10-07 16:00:00,Lead Generation | DE | Form;1002;Lookalike Audience;2004,linkedin,referral,,keyword_7,Company B,Retail,Switzerland,Nurture
+L10819,c56c704ffe29417299900b9061ec05a532f78e57d8ee011393a84cad76d4514f,2024-09-19 06:00:00,Content Downloads,google,,content_8,,Company A,Software,Netherlands,Not Interested
+L10820,8ceb33c1577266ac2c95ed3f796c2457774f35222ba68d48333649d87ae900d0,2024-09-25 17:00:00,Retargeting Campaign;1003;Retargeting;2007,linkedin,email,content_4,keyword_20,Company R,Retail,Austria,Contacted
+L10821,530ac044e25630ccd80a6b48646b54f0b6b8d08b1f65cc6680863dcaa2ac4fe3,2024-10-27 22:00:00,Retargeting Campaign,direct,,,,Company L,Finance,France,Nurture
+L10822,b2c100c2a682a92106351b32cf0ad9689904e2c4f98cb2397a517c3c97096d1f,2024-10-30 19:00:00,Lead Generation | DE | Form,organic,cpc,,keyword_3,Company E,Software,Switzerland,New
+L10823,5d44377a00cbdde3e034ea725cd14dc50fe06493e92639789726594316aefcd8,2024-10-30 03:00:00,Product  Launch  2024,linkedin,referral,content_8,keyword_9,Company M,Manufacturing,Austria,Nurture
+L10824,e52b8941776845e14d4626fa126b3b1a727ed7b280991b90fd4dbcaac1545a42,2024-09-09 23:00:00,,facebook,email,content_3,,Company I,Healthcare,Austria,Contacted
+L10825,153b9c26ecb7ea5b9d75cc75228f00f2384e11b5398fd6ab002acd9bf7ca8bf9,2024-09-29 10:00:00,Product Launch 2024;1004;Cold Traffic;2010,facebook,referral,content_5,,Company L,Software,Germany,Contacted
+L10826,72d03b41a4f78a9a30db0e1d1ddef9e1ef7163463753b4a1c7618169fc210b9d,2024-11-01 03:00:00,Demo Requests Campaign,facebook,cpc,,keyword_19,Company M,Education,France,Not Interested
+L10827,012103f6a1dc3d790b9d4d0d061289778f99fcb2dff4860d14afd243ecad2579,2024-11-02 01:00:00,Google Brand Campaign,direct,referral,content_10,keyword_5,Company I,Finance,France,New
+L10828,a3f39431c7df17c30655db5497fa9fbb36d72fb9a45432808d88d7ceb6aede4f,2024-10-05 22:00:00,,linkedin,,content_10,,Company K,Finance,Germany,New
+L10829,162f2ab0ecf1bca84cf1bad43af921358025e6f5255997c7ad2aede2b2ba73de,2024-09-21 23:00:00,Product Launch 2024;1004;Cold Traffic;2010,google,organic,content_4,keyword_16,Company C,Retail,Switzerland,Not Interested
+L10830,847b1d227419f3cb9879093d9fb7e4a80115bff20112341b6330ac91a78cb6c5,2024-09-08 07:00:00,,organic,cpc,,,Company I,Healthcare,Germany,Contacted
