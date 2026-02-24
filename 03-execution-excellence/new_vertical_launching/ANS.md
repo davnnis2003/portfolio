@@ -36,7 +36,7 @@ Reasoning to be entailed behind the proposal
 
 # Assumed Data Org - Embedded Model
 
-![alt text](./images/embedded_model.png)
+![alt text](./supporting_docs/embedded_model.png)
 
 - From the article [How should our company structure our data team?](https://medium.com/super/how-should-our-company-structure-our-data-team-e71f6846024d) by David Murray
 - Assuming the Embedded Model is employed, i.e. Central Data Platform team + Decentralized Analysts
@@ -55,7 +55,7 @@ Reasoning to be entailed behind the proposal
 How Data Platform enable business
 
 Proposed Roadmap
-![alt text](./images/proposed_roadmap.png)
+![alt text](./supporting_docs/proposed_roadmap.png)
 
 
 # Phase 1 - Discovery
@@ -129,7 +129,7 @@ The Key points are as follows:
 # Beyond the Roadmap
 Deep Dive per Data Platform components
 
-## Data Collection*
+## Data Collection
 
 ### Overview
 - Data typically come from Frontend Tracking & Backend application(s)
@@ -163,11 +163,11 @@ GDPR compliance is critical in this context, details to be covered later
   - Fact Tables (OBT flavour) → Denormalization as a best practice in Non-Relational DWH (e.g. Snowflake, BigQuery etc.)
   - Aggregated Tables → There ought to be BU and entity specific Aggregated tables
 
-* Source: The Data Transformation Manifest
+* Source: [The Data Transformation Manifest](./supporting_docs/data_transformation_manifest.md)
 
 ### New Vertical specific Aggregated tables
 
-![alt text](./images/new_vertical_specific_aggregated_tables.png)
+![alt text](./supporting_docs/new_vertical_specific_aggregated_tables.png)
 
 ## Data Activation
 - The part where data creates value
@@ -180,7 +180,7 @@ GDPR compliance is critical in this context, details to be covered later
 ** See details in Appendix
 
 Data Activation - Lineage
-![alt text](./images/data_activation_lineage.png)
+![alt text](./supporting_docs/data_activation_lineage.png)
 
 ## Data Governance
 
@@ -197,16 +197,16 @@ Data Activation - Lineage
 Relevant Resources
 
 ## BCG (Boston Consulting Group) Matrix
-![alt text](./images/bcg_matrix.png)
+![alt text](./supporting_docs/bcg_matrix.png)
 
 ## Metrics Layer (aka Semantic Layer)
 
-![alt text](./images/metrics_layer.png)
+![alt text](./supporting_docs/metrics_layer.png)
 From the article [The missing piece of the modern data stack](https://open.substack.com/pub/benn/p/metrics-layer?utm_campaign=post-expanded-share&utm_medium=web) by Benn Stancil
 
 ## Spotify Model
 
-![alt text](./images/spotify_model.png)
+![alt text](./supporting_docs/spotify_model.png)
 From the article [Discover the Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify).
 
 Thank you!
