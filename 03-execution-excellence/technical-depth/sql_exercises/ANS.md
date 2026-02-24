@@ -2,19 +2,6 @@
 
 ## Jimmy Pang
 
-# Notes
-
-* I use very explicit names for CTEs and aliases to improve readability. Names like `a` or `t` alias don’t help readers to understand the queries as it introduces guessing games (not everyone could instantly understand `t` stands for “transaction”, for example)   
-* The `ROUND` function is avoided as it may unnecessarily sacrifice the precision of FLOATs. Truncating the long tail in dashboards like Tableau is generally better.    
-  * This is to preserve precision for different use cases of the same query, e.g., Machine Learning, and Finance reporting.  
-  * By doing so, we could reuse the same queries for different use cases instead of writing new queries every time new business requests arrive.  
-* My preferred coding styles in SQL are:  
-  * 2 spaces indentation  
-  * Reserved words being upper case (it is handy while SQL code is mixed with Python code)  
-  * Lead commas (as against trail commas)  
-  * Explicit over Implicit (e.g. using `INNER JOIN` instead of just `JOIN`  
-* ChatGPT is used for this assignment. Generally, the whole PDF file is passed to the AI, and I validate the generated outcome. This ensures the speed and quality of the outcome—convo for reference [here](https://chatgpt.com/share/67a7644c-917c-8010-b113-32f6491a57d2).
-
 # Questions
 
 ## 1. Write a query that calculates the average transaction value for each** restaurant brand** in the last 7 days.
@@ -178,4 +165,13 @@ ORDER BY lastest_transaction_date DESC
 
 # Appendix
 
-* ChatGPT convo: [https://chatgpt.com/share/67a7644c-917c-8010-b113-32f6491a57d2](https://chatgpt.com/share/67a7644c-917c-8010-b113-32f6491a57d2)
+* I use very explicit names for CTEs and aliases to improve readability. Names like `a` or `t` alias don’t help readers to understand the queries as it introduces guessing games (not everyone could instantly understand `t` stands for “transaction”, for example)   
+* The `ROUND` function is avoided as it may unnecessarily sacrifice the precision of FLOATs. Truncating the long tail in dashboards like Tableau is generally better.    
+  * This is to preserve precision for different use cases of the same query, e.g., Machine Learning, and Finance reporting.  
+  * By doing so, we could reuse the same queries for different use cases instead of writing new queries every time new business requests arrive.  
+* My preferred coding styles in SQL are:  
+  * 2 spaces indentation  
+  * Reserved words being upper case (it is handy while SQL code is mixed with Python code)  
+  * Lead commas (as against trail commas)  
+  * Explicit over Implicit (e.g. using `INNER JOIN` instead of just `JOIN`  
+* ChatGPT is used for this assignment. Generally, the whole PDF file is passed to the AI, and I validate the generated outcome. This ensures the speed and quality of the outcome—convo for reference [here](https://chatgpt.com/share/67a7644c-917c-8010-b113-32f6491a57d2).
