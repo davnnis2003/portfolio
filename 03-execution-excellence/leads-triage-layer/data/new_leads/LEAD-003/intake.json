@@ -1,0 +1,26 @@
+{
+  "lead_id": "LEAD-003",
+  "created_at": "2026-04-19",
+  "customer": {
+    "title": "Herr",
+    "surname": "Becker",
+    "segment": "owner_occupier"
+  },
+  "address": {
+    "region": "DDR_Ost",
+    "postal_area": "04XXX",
+    "city": "Leipzig"
+  },
+  "product": "fassade",
+  "rep_id": "R04",
+  "call_duration_min": 6,
+  "fields": {
+    "building_type": "EFH",
+    "building_year": 1940,
+    "n_vollgeschosse": 2,
+    "heating_system": "oel",
+    "fassaden_typ": "rotklinker",
+    "mauerstarke_cm": null,
+    "has_hohlraum": null
+  }
+}

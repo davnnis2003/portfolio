@@ -1,0 +1,26 @@
+{
+  "lead_id": "LEAD-004",
+  "created_at": "2026-04-20",
+  "customer": {
+    "title": "Herr",
+    "surname": "Weber",
+    "segment": "owner_occupier"
+  },
+  "address": {
+    "region": "NRW_SudNieder",
+    "postal_area": "48XXX",
+    "city": "Münster"
+  },
+  "product": "fassade",
+  "rep_id": "R02",
+  "call_duration_min": 9,
+  "fields": {
+    "building_type": "EFH",
+    "building_year": 1978,
+    "n_vollgeschosse": 2,
+    "heating_system": "gas",
+    "fassaden_typ": "verputzt",
+    "mauerstarke_cm": 30,
+    "has_hohlraum": false
+  }
+}
