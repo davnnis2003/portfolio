@@ -1,0 +1,45 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: climatetech_ollama
+    restart: always
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  ollama-pull-model:
+    image: curlimages/curl:latest
+    container_name: climatetech_ollama_pull
+    depends_on:
+      - ollama
+    entrypoint: /bin/sh
+    command:
+      - "-c"
+      - |
+        echo "Waiting for Ollama to start..."
+        while ! curl -s http://ollama:11434/api/tags > /dev/null; do sleep 5; done
+        echo "Pulling gemma3:4b model..."
+        curl -X POST http://ollama:11434/api/pull -d '{"name": "gemma3:4b"}'
+        echo "Model pulled successfully."
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: climatetech_backend
+    depends_on:
+      - ollama
+    env_file:
+      - docker/.env
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - PYTHONPATH=/app/src
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /app/.venv
+
+volumes:
+  ollama_data:
