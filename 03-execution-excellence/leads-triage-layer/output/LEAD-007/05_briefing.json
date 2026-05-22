@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-007",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 60,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** The potential for future expansion (children moving out) needs careful handling. Don’t over-commit to a solution that might not be fully utilized. Document the customer’s stated timeline clearly."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Verify *absolutely* that there is no existing insulation present. The intake data contradicts the customer’s verbal confirmation."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** Given the lack of cavity depth (None), ensure the proposed ogd solution’s cost aligns with the expected performance and the customer’s budget."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm the exact dimensions of the ‘Laufsteg/begehbaren Elementen’ – this will directly impact material quantities and installation time."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:** Historical close rate for similar leads is 0%. Focus on a pragmatic, value-driven presentation, highlighting energy savings and addressing any concerns about the lack of future expansion plans."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** The potential for future expansion (children moving out) needs careful handling. Don’t over-commit to a solution that might not be fully utilized. Document the customer’s stated timeline clearly.\n\n•\t**CONFIRM ON-SITE:** Verify *absolutely* that there is no existing insulation present. The intake data contradicts the customer’s verbal confirmation.\n\n•\t**PRICE CAREFULLY:** Given the lack of cavity depth (None), ensure the proposed ogd solution’s cost aligns with the expected performance and the customer’s budget.\n\n•\t**CLARIFY:** Confirm the exact dimensions of the ‘Laufsteg/begehbaren Elementen’ – this will directly impact material quantities and installation time.\n\n•\t**NOTE:** Historical close rate for similar leads is 0%. Focus on a pragmatic, value-driven presentation, highlighting energy savings and addressing any concerns about the lack of future expansion plans."
+}

@@ -1,0 +1,36 @@
+{
+  "lead_id": "LEAD-008",
+  "decision": "pitch",
+  "confidence_score": 5,
+  "reasoning": [
+    "Qualified lead with high success likelihood and consistent data."
+  ],
+  "rule_status": "QUALIFIED",
+  "rule_reasons": [],
+  "llm_analysis": {
+    "entities": {
+      "house_type": "EFH",
+      "insulation_type": "Mineralwool",
+      "cavity": "None",
+      "access": "None",
+      "region": "SH_NordNieder_HH",
+      "constraints": "Potential for moisture on concrete floor during heavy rain"
+    },
+    "contradictions": [],
+    "risk_factors": [
+      {
+        "tag": "Moisture Risk",
+        "description": "Potential for localized moisture on concrete floor due to heavy rainfall.",
+        "severity": "LOW"
+      }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+  },
+  "memory_stats": {
+    "total_similar": 5,
+    "close_rate": 0.6,
+    "avg_overrun_eur": -14.2,
+    "common_issues": []
+  }
+}

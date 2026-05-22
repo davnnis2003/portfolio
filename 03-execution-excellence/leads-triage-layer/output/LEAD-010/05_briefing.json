@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-010",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 80,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** This is a PITCH_WITH_FLAG, so be prepared to discuss the potential for increased costs and complexity due to the existing rotklinker façade. Document the exact location and extent of the rotklinker thoroughly."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm with the homeowner that they absolutely do not want the rotklinker covered – this is a critical constraint impacting the proposed Einblasdämmung method."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Verify the cavity depth is truly 5cm. Measure it directly; discrepancies will impact the required insulation thickness and therefore cost."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** The access method – drilling through existing fuge (joints) – will likely increase material and labour costs. Get a detailed breakdown of this aspect from the estimator."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:** Previous similar leads in DDR_Ost have had a 0% close rate. Be prepared for a potentially lengthy sales process and focus on clearly demonstrating the benefits of Kerndämmung alongside the Einblasdämmung."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** This is a PITCH_WITH_FLAG, so be prepared to discuss the potential for increased costs and complexity due to the existing rotklinker façade. Document the exact location and extent of the rotklinker thoroughly.\n•\t**CLARIFY:** Confirm with the homeowner that they absolutely do not want the rotklinker covered – this is a critical constraint impacting the proposed Einblasdämmung method.\n•\t**CONFIRM ON-SITE:** Verify the cavity depth is truly 5cm. Measure it directly; discrepancies will impact the required insulation thickness and therefore cost.\n•\t**PRICE CAREFULLY:** The access method – drilling through existing fuge (joints) – will likely increase material and labour costs. Get a detailed breakdown of this aspect from the estimator.\n•\t**NOTE:** Previous similar leads in DDR_Ost have had a 0% close rate. Be prepared for a potentially lengthy sales process and focus on clearly demonstrating the benefits of Kerndämmung alongside the Einblasdämmung."
+}

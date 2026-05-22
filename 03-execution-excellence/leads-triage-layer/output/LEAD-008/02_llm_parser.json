@@ -1,0 +1,20 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Mineralwool",
+        "cavity": "None",
+        "access": "None",
+        "region": "SH_NordNieder_HH",
+        "constraints": "Potential for moisture on concrete floor during heavy rain"
+    },
+    "contradictions": [],
+    "risk_factors": [
+        {
+            "tag": "Moisture Risk",
+            "description": "Potential for localized moisture on concrete floor due to heavy rainfall.",
+            "severity": "LOW"
+        }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

@@ -1,0 +1,40 @@
+{
+    "entities": {
+        "house_type": "EFH (Ein-Familienhaus)",
+        "insulation_type": "Fassadend\u00e4mmung (Kernd\u00e4mmung / Einblasd\u00e4mmung)",
+        "cavity": "Kein Hohlraum vorhanden (massive W\u00e4nde)",
+        "access": "Au\u00dfend\u00e4mmung m\u00f6glich aufgrund fehlendem Hohlraum",
+        "region": "Wiesbaden",
+        "constraints": "Mauerst\u00e4rke von 34 cm schr\u00e4nkt Kernd\u00e4mmung ein."
+    },
+    "contradictions": [
+        {
+            "field": "has_hohlraum",
+            "transcript_value": "Kunde ist sich nicht sicher, aber glaubt, dass die Lange keine Hohlr\u00e4ume hatten.",
+            "intake_value": "false",
+            "reason": "Kunde \u00e4u\u00dfert Unsicherheit, Intake gibt explizit 'kein Hohlraum' an."
+        },
+        {
+            "field": "insulation_type",
+            "transcript_value": "Kunde bevorzugt die gleiche L\u00f6sung wie die Lange (Platten au\u00dfen).",
+            "intake_value": "Keine explizite Pr\u00e4ferenz, aber WDVS (W\u00e4rmed\u00e4mmverbundsystem) wird als Standardl\u00f6sung vorgeschlagen.",
+            "reason": "Kundenwunsch nach \u00e4hnlicher L\u00f6sung wie Nachbarn, Intake schl\u00e4gt Standardl\u00f6sung WDVS vor."
+        }
+    ],
+    "risk_factors": [
+        {
+            "tag": "Technical Feasibility",
+            "description": "Mauerst\u00e4rke von 34 cm stellt eine Herausforderung f\u00fcr Kernd\u00e4mmung dar.",
+            "severity": "MEDIUM"
+        },
+        {
+            "tag": "Customer Uncertainty",
+            "description": "Kundenunsicherheit bez\u00fcglich Hohlraums kann zu Verz\u00f6gerungen bei der Planung f\u00fchren.",
+            "severity": "LOW"
+        }
+    ],
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+        "Region Sud_Hessen_RLP: Nur Klinker, 30-33cm Mauerst\u00e4rke, Baujahr < 1950 erlaubt"
+    ]
+}

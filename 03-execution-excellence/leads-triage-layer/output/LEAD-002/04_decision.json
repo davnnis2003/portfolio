@@ -1,0 +1,30 @@
+{
+  "lead_id": "LEAD-002",
+  "decision": "pitch_with_flag",
+  "confidence_score": 4,
+  "reasoning": [
+    "Historical close rate is low (0.0%) for similar projects."
+  ],
+  "rule_status": "QUALIFIED",
+  "rule_reasons": [],
+  "llm_analysis": {
+    "entities": {
+      "house_type": "EFH",
+      "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+      "cavity": "Hohlraum von 6 cm",
+      "access": "Keine spezifischen Einschr\u00e4nkungen genannt",
+      "region": "SH_NordNieder_HH",
+      "constraints": "Rotklinkerfassade"
+    },
+    "contradictions": [],
+    "risk_factors": [],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+  },
+  "memory_stats": {
+    "total_similar": 5,
+    "close_rate": 0.0,
+    "avg_overrun_eur": -5.0,
+    "common_issues": []
+  }
+}

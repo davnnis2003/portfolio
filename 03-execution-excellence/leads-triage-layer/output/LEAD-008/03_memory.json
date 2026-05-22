@@ -1,0 +1,98 @@
+{
+  "query": {
+    "region": "SH_NordNieder_HH",
+    "product": "kellerdecke",
+    "building_year": 1955,
+    "fassaden_typ": null,
+    "transcript_text": "# Qualification Call Transcript \u2014 LEAD-008\n\n**Datum:** 2026-04-22\n**Rep:** Marek (R02)\n**Kunde:** Herr Lang\n**Dauer:** ~7 min\n**Produkt:** Kellerdeckend\u00e4mmung\n\n---\n\n**Rep:** Ja, guten Tag, Herr Lang. Marek von ClimateTech hier. Sie interessieren sich f\u00fcr eine Kellerdeckend\u00e4mmung, richtig?\n\n**Kunde:** Ja, genau. Wir haben da so ein, ja, \u00e4lteres Haus, Baujahr 55, und die Kellerdecke ist noch komplett unged\u00e4mmt. Oben ist es dann manchmal etwas k\u00fchl im Winter, wissen Sie?\n\n**Rep:** Verstehe. Also, ein Einfamilienhaus, Baujahr 1955. Das ist ja ein typischer Fall f\u00fcr uns. Wie viele Vollgeschosse hat das Haus denn?\n\n**Kunde:** Nur ein Vollgeschoss. Also, Erdgeschoss und dann eben der Keller drunter.\n\n**Rep:** Alles klar. Und die Heizung, ist das Gas oder etwas anderes?\n\n**Kunde:** Ja, Gasheizung. Ganz normal.\n\n**Rep:** Perfekt. Das notiere ich mir. Jetzt zur Kellerdecke selbst: Haben Sie einen Gew\u00f6lbekeller oder eine normale, flache Decke?\n\n**Kunde:** Nee, nee, kein Gew\u00f6lbe. Ganz normale, flache Betondecke, w\u00fcrde ich sagen.\n\n**Rep:** Okay, super. Und bez\u00fcglich Feuchtigkeit im Keller: Gibt es da irgendwelche Anzeichen von Schimmel, feuchten W\u00e4nden oder sowas? Das ist wichtig f\u00fcr die D\u00e4mmung.\n\n**Kunde:** \u00c4hm, Schimmel hab ich noch nie gesehen, nein. Die W\u00e4nde selbst sind auch trocken, also, da ist nichts. Manchmal, wenn\u2019s tagelang regnet, wird der Boden unten etwas feucht, aber das ist wirklich nur auf dem Betonboden und zieht auch schnell wieder weg. Kein Problem mit den W\u00e4nden.\n\n**Rep:** Alles klar, also keine Feuchtigkeit an den W\u00e4nden. Der Boden kann mal etwas feucht werden bei starkem Regen, das ist notiert. Das ist f\u00fcr die D\u00e4mmung der Decke meistens unkritisch. Haben Sie denn schon eine Vorstellung, welche Art von D\u00e4mmung Sie sich w\u00fcnschen w\u00fcrden? Oder darf ich Ihnen da unsere Standardl\u00f6sungen anbieten?\n\n**Kunde:** Ne, da bin ich offen. Was am besten passt und was nicht zu teuer wird, wissen Sie. Das soll einfach funktionieren.\n\n**Rep:** Genau. Wir haben da verschiedene Systeme, aber f\u00fcr H\u00e4user aus der Zeit ist unsere Mineralwolld\u00e4mmung sehr beliebt. Die ist effektiv und hat ein gutes Preis-Leistungs-Verh\u00e4ltnis. Ich w\u00fcrde vorschlagen, wir schicken Ihnen mal ein paar Unterlagen und dann k\u00f6nnen wir einen Termin vor Ort vereinbaren, damit sich das ein Kollege mal ansehen kann. Das w\u00e4re unverbindlich und kostenlos.\n\n**Kunde:** Ja, das klingt gut. Unterlagen vorab und dann ein Termin, ja, das passt.\n\n**Rep:** Sehr gut, Herr Lang. Dann br\u00e4uchte ich noch Ihre E-Mail-Adresse, damit ich Ihnen die Informationen zusenden kann. Und in welcher Stadt ist das Objekt nochmal? Ich glaube, Sie hatten Bremen erw\u00e4hnt, richtig?\n\n**Kunde:** Ja, Bremen, ganz genau. Meine E-Mail ist...\n\n**Rep:** Danke, Herr Lang. Ich habe alles notiert und sende Ihnen die Unterlagen gleich zu. Dann melden wir uns n\u00e4chste Woche f\u00fcr einen m\u00f6glichen Besichtigungstermin. Haben Sie noch Fragen an mich?\n\n**Kunde:** Nein, vorerst nicht. Das klingt ja alles erstmal unproblematisch.\n\n**Rep:** Wunderbar. Dann w\u00fcnsche ich Ihnen noch einen sch\u00f6nen Tag!\n\n**Kunde:** Ihnen auch. Auf Wiederh\u00f6ren.\n",
+    "top_k": 5
+  },
+  "similar_projects": [
+    {
+      "project_id": "PROJECT-00578",
+      "region": "SH_NordNieder_HH",
+      "product": "kellerdecke",
+      "building_type": "EFH",
+      "building_year": 1953,
+      "fassaden_typ": null,
+      "mauerstarke_cm": null,
+      "has_hohlraum": null,
+      "sales_call_summary": "Quali Call mit Herrn Weber (Eigennutzer) in Hamburg. Interesse an Kellerdeckend\u00e4mmung f\u00fcr EFH, Baujahr 1953, 1 Vollgeschoss. Gasheizung. Kein Gew\u00f6lbekeller, keine Feuchtigkeit festgestellt. Kunde m\u00f6chte Heizkosten senken und sucht eine L\u00f6sung bis Herbst/Winter. Scheint gut qualifiziert zu sein.",
+      "stage": "qualified_declined",
+      "initial_quote_eur": 2700.0,
+      "final_quote_eur": 2700.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00632",
+      "region": "SH_NordNieder_HH",
+      "product": "kellerdecke",
+      "building_type": "EFH",
+      "building_year": 1953,
+      "fassaden_typ": null,
+      "mauerstarke_cm": null,
+      "has_hohlraum": null,
+      "sales_call_summary": "Quali Call Herr Meyer (Eigennutzer) \u2013 Hamburg.\n\nGeb\u00e4ude:\n* Einfamilienhaus, Baujahr 1953, zwei Vollgeschosse.\n* Massivbauweise, Backstein (vermutlich Rotklinker).\n* Heizung: Gasheizung. Kunde \u00e4u\u00dfert Unmut \u00fcber die gestiegenen Heizkosten, speziell in den Wintermonaten.\n\nAnliegen:\n* Kellerdeckend\u00e4mmung.\n* Keller ist unbeheizt, kein Gew\u00f6lbe, keine Feuchtigkeit erkennbar (nach Aussage des Kunden).\n* Zugang zum Keller ist frei, keine Hindernisse wie Einbauten oder Regale an der Decke.\n* Kunde m\u00f6chte 'kalte F\u00fc\u00dfe' im Erdgeschoss vermeiden und Heizenergie sparen.\n\nN\u00e4chste Schritte:\n* Kunde ist grunds\u00e4tzlich aufgeschlossen f\u00fcr eine D\u00e4mmung und w\u00fcnscht eine Vor-Ort-Begehung zur genauen Aufnahme und Angebotserstellung.\n* Zeitlicher Horizont f\u00fcr die Umsetzung: Herbst dieses Jahres bis sp\u00e4testens Winter, um die Effekte noch in der kommenden Heizperiode zu nutzen.\n* Ich werde einen Vor-Ort-Termin f\u00fcr einen unserer Techniker in der Region Hamburg/Schleswig-Holstein koordinieren. Erste freie Termine vorgeschlagen f\u00fcr KW 28/29, Kunde bevorzugt Nachmittagstermine.\n\nAnmerkungen:\n* Kunde wirkte informiert, hat sich bereits grundlegend mit dem Thema auseinandergesetzt.\n* Hatte Fragen zur Materialauswahl, konnte ich gut beantworten.",
+      "stage": "qualified_lost",
+      "initial_quote_eur": 5850.0,
+      "final_quote_eur": 5850.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00899",
+      "region": "SH_NordNieder_HH",
+      "product": "kellerdecke",
+      "building_type": "EFH",
+      "building_year": 1959,
+      "fassaden_typ": null,
+      "mauerstarke_cm": null,
+      "has_hohlraum": null,
+      "sales_call_summary": "Gerade den ersten Call mit Frau Hartmann gehabt, eine nette Dame aus dem Raum Hamburg/Schleswig-Holstein. Sie wohnt in einem Einfamilienhaus von 1959, zwei Vollgeschosse, und denkt \u00fcber Kellerdeckend\u00e4mmung nach. Ihre Heizkosten sind ihr einfach zu hoch, das \u00e4rgert sie schon l\u00e4nger. Sie hat extra darauf geachtet, ob es einen Gew\u00f6lbekeller gibt oder Feuchtigkeitsprobleme \u2013 beides ist zum Gl\u00fcck nicht der Fall. Das ist schon mal nice, da haben wir eine gute Basis. Sie hatte noch keine genaue Vorstellung vom Zeitrahmen, wann das umgesetzt werden soll, aber der Leidensdruck wegen der Kosten ist da. Wir haben noch nicht \u00fcber die Heizungsart gesprochen, das kommt dann beim n\u00e4chsten Schritt. Aber ich hab das Gef\u00fchl, das k\u00f6nnte ein guter case werden.",
+      "stage": "signed_installed",
+      "initial_quote_eur": 4250.0,
+      "final_quote_eur": 4301.0,
+      "on_site_issues": [],
+      "customer_satisfaction": 4
+    },
+    {
+      "project_id": "PROJECT-00291",
+      "region": "SH_NordNieder_HH",
+      "product": "kellerdecke",
+      "building_type": "EFH",
+      "building_year": 1961,
+      "fassaden_typ": null,
+      "mauerstarke_cm": null,
+      "has_hohlraum": null,
+      "sales_call_summary": "Gespr\u00e4ch mit Herrn K\u00f6nig (Eigennutzer) zu Kellerdeckend\u00e4mmung.\n\nGeb\u00e4ude: Einfamilienhaus, 1 Vollgeschoss, Baujahr 1961.\nStandort: Region Hamburg/Schleswig-Holstein/n\u00f6rdliches Niedersachsen.\nHeizung: \u00d6l. Kunde m\u00f6chte prim\u00e4r Heizkosten senken und sucht mittelfristig eine L\u00f6sung (n\u00e4chste 3-6 Monate).\n\nKellerdetails:\n- Gew\u00f6lbekeller: Nein.\n- Feuchtigkeit: Nein.\n\nWeiteres Vorgehen: Termin f\u00fcr Vor-Ort-Beratung vereinbart, um genaue Gegebenheiten zu pr\u00fcfen und ein Angebot zu erstellen.",
+      "stage": "signed_installed",
+      "initial_quote_eur": 4800.0,
+      "final_quote_eur": 4744.0,
+      "on_site_issues": [],
+      "customer_satisfaction": 4
+    },
+    {
+      "project_id": "PROJECT-00374",
+      "region": "SH_NordNieder_HH",
+      "product": "kellerdecke",
+      "building_type": "EFH",
+      "building_year": 1962,
+      "fassaden_typ": null,
+      "mauerstarke_cm": null,
+      "has_hohlraum": null,
+      "sales_call_summary": "Quali-Call mit Frau Schulze (Eigennutzerin). Interesse an Kellerdeckend\u00e4mmung f\u00fcr EFH in der Region Hamburg/Schleswig-Holstein/n\u00f6rdliches Niedersachsen. Baujahr 1962, 1 Vollgeschoss. Heizung ist \u00d6l. Keine Hinweise auf Feuchtigkeit im Keller, kein Gew\u00f6lbekeller. Aktuell zu hohe Heizkosten, m\u00f6chte das \"zeitnah\" angehen.",
+      "stage": "signed_installed",
+      "initial_quote_eur": 4550.0,
+      "final_quote_eur": 4484.0,
+      "on_site_issues": [],
+      "customer_satisfaction": 4
+    }
+  ],
+  "stats": {
+    "total_similar": 5,
+    "close_rate": 0.6,
+    "avg_overrun_eur": -14.2,
+    "common_issues": []
+  }
+}

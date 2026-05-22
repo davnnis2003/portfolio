@@ -1,0 +1,14 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+        "cavity": "Hohlraum von 6 cm",
+        "access": "Keine spezifischen Einschr\u00e4nkungen genannt",
+        "region": "SH_NordNieder_HH",
+        "constraints": "Rotklinkerfassade"
+    },
+    "contradictions": [],
+    "risk_factors": [],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

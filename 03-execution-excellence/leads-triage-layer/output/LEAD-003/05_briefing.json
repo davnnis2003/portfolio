@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-003",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 80,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Specifically ask the homeowner about the certainty of existing cavities. The statement ‘vielleicht hatte das Haus damals schon Hohlräume?’ needs absolute confirmation – don’t proceed assuming they’re present."
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** The potential incompatibility of Kerndämmung with a massive construction is a significant risk. Be prepared to discuss alternative solutions if the cavity is absent or unsuitable."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Physically inspect the wall junctions and potential access points (fugenlöcher) to assess the feasibility of accessing the cavity. Document the Mauerwerksart clearly."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** Given the uncertainty regarding cavities, build a contingency into the quote. A €500 buffer for unexpected access challenges is advisable."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:** Previous similar leads in Leipzig have closed at 0%. Focus on detailed documentation and clear communication of potential risks to secure the sale."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**CLARIFY:** Specifically ask the homeowner about the certainty of existing cavities. The statement ‘vielleicht hatte das Haus damals schon Hohlräume?’ needs absolute confirmation – don’t proceed assuming they’re present.\n•\t**FLAG:** The potential incompatibility of Kerndämmung with a massive construction is a significant risk. Be prepared to discuss alternative solutions if the cavity is absent or unsuitable.\n•\t**CONFIRM ON-SITE:** Physically inspect the wall junctions and potential access points (fugenlöcher) to assess the feasibility of accessing the cavity. Document the Mauerwerksart clearly.\n•\t**PRICE CAREFULLY:** Given the uncertainty regarding cavities, build a contingency into the quote. A €500 buffer for unexpected access challenges is advisable.\n•\t**NOTE:** Previous similar leads in Leipzig have closed at 0%. Focus on detailed documentation and clear communication of potential risks to secure the sale."
+}

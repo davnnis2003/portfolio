@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-008",
+  "decision": "pitch",
+  "confidence_pct": 100,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** The potential for moisture on the concrete floor during heavy rainfall is a significant risk. We need to assess the drainage around the property and confirm the customer’s understanding of the implications – could lead to issues with the mineralwool installation."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm with the homeowner that there’s no existing damp-proof course (DPC) in the floor. If there isn’t, we’ll need to discuss a supplementary moisture barrier strategy."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Visually inspect the external walls for any signs of existing dampness or previous remedial work. Document this thoroughly."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** Given the potential moisture risk, factor in a contingency of approximately €50-€100 into the quote for potential remedial work or moisture protection."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:** Historical data shows a 60% close rate for similar EFH leads in SH_NordNieder_HH. Focus on clearly demonstrating the benefits of mineralwool and addressing the moisture concern proactively."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** The potential for moisture on the concrete floor during heavy rainfall is a significant risk. We need to assess the drainage around the property and confirm the customer’s understanding of the implications – could lead to issues with the mineralwool installation.\n\n•\t**CLARIFY:** Confirm with the homeowner that there’s no existing damp-proof course (DPC) in the floor. If there isn’t, we’ll need to discuss a supplementary moisture barrier strategy.\n\n•\t**CONFIRM ON-SITE:** Visually inspect the external walls for any signs of existing dampness or previous remedial work. Document this thoroughly.\n\n•\t**PRICE CAREFULLY:** Given the potential moisture risk, factor in a contingency of approximately €50-€100 into the quote for potential remedial work or moisture protection.\n\n•\t**NOTE:** Historical data shows a 60% close rate for similar EFH leads in SH_NordNieder_HH. Focus on clearly demonstrating the benefits of mineralwool and addressing the moisture concern proactively."
+}

@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-009",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 80,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** The significant thermal loss in the roof and basement, combined with the outdated oil heating system, represents a substantial opportunity for a complete energy efficiency solution. We need to clearly articulate the value of addressing this comprehensively."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm with the homeowner that they are genuinely open to discussing a full insulation upgrade, not just the cavity wall. Previous similar leads have closed at 0%."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Visually verify the cavity depth is truly 7cm. Any deviation will impact the Einblasdämmung calculation and potentially the cost."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** The Klinker constraint means we need to meticulously plan the Einblasdämmung application to avoid any risk of covering it. Factor in potential rework costs if this isn’t addressed upfront."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:**  Historical data shows a €50 average cost overrun on similar projects – be prepared to justify the scope and materials thoroughly."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** The significant thermal loss in the roof and basement, combined with the outdated oil heating system, represents a substantial opportunity for a complete energy efficiency solution. We need to clearly articulate the value of addressing this comprehensively.\n•\t**CLARIFY:** Confirm with the homeowner that they are genuinely open to discussing a full insulation upgrade, not just the cavity wall. Previous similar leads have closed at 0%.\n•\t**CONFIRM ON-SITE:** Visually verify the cavity depth is truly 7cm. Any deviation will impact the Einblasdämmung calculation and potentially the cost.\n•\t**PRICE CAREFULLY:** The Klinker constraint means we need to meticulously plan the Einblasdämmung application to avoid any risk of covering it. Factor in potential rework costs if this isn’t addressed upfront.\n•\t**NOTE:**  Historical data shows a €50 average cost overrun on similar projects – be prepared to justify the scope and materials thoroughly."
+}

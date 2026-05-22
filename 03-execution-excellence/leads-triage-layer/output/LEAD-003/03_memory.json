@@ -1,0 +1,98 @@
+{
+  "query": {
+    "region": "DDR_Ost",
+    "product": "fassade",
+    "building_year": 1940,
+    "fassaden_typ": "rotklinker",
+    "transcript_text": "# Qualification Call Transcript \u2014 LEAD-003\n\n**Datum:** 2026-04-19\n**Rep:** Tobi (R04)\n**Kunde:** Herr Becker\n**Dauer:** ~6 min\n**Produkt:** Fassadend\u00e4mmung (Kernd\u00e4mmung / Einblasd\u00e4mmung)\n\n---\n\n**Rep:** ClimateTech, Tobi Richter, guten Tag.\n\n**Kunde:** Guten Tag, hier ist Becker. Ich hatte ja wegen einer D\u00e4mmung angerufen.\n\n**Rep:** Ah, Herr Becker, ja, perfekt! Sch\u00f6n, dass wir uns jetzt mal kurzschlie\u00dfen k\u00f6nnen. Erz\u00e4hlen Sie mal, um was geht's denn genau? Hausd\u00e4mmung, ist das richtig?\n\n**Kunde:** Ja, genau. Also, das Haus, das ist schon ein bisschen \u00e4lter. Baujahr 1940, da ist ja noch gar nichts gemacht worden, damals. Und jetzt, mit den Heizkosten, das wird ja immer teurer, da dachte ich...\n\n**Rep:** Ja, klar, das verstehe ich. Gerade bei den aktuellen Preisen! Und welches Heizsystem haben Sie denn aktuell, Herr Becker?\n\n**Kunde:** Wir haben noch eine \u00d6lheizung, ja. Die ist auch schon... naja, tut ihren Dienst.\n\n**Rep:** \u00d6l, alles klar. Und \u00e4hm, ist das ein Einfamilienhaus bei Ihnen?\n\n**Kunde:** Ja, ein Einfamilienhaus. Zwei Vollgeschosse, mit Keller und Dachboden. Steht in Leipzig hier.\n\n**Rep:** Leipzig, super, da sind wir ja auch aktiv. Und die Fassade, was ist das f\u00fcr ein Material? Haben Sie da Putz oder Klinker oder...?\n\n**Kunde:** Das ist Rotklinker. So ein richtig sch\u00f6ner alter Klinker. Den wollten wir eigentlich auch nicht wegmachen oder \u00fcberputzen.\n\n**Rep:** Rotklinker, ah, sehr gut! Dann ist Kernd\u00e4mmung wahrscheinlich das Richtige f\u00fcr Sie. Das ist eine Einblasd\u00e4mmung, da bohren wir kleine L\u00f6cher in die Fugen, blasen das D\u00e4mmmaterial rein und verschlie\u00dfen die L\u00f6cher wieder. Dann sieht man eigentlich gar nichts. Das ist super, wenn man die Optik erhalten will.\n\n**Kunde:** Ach so, das geht? Ich dachte, da muss man immer so Platten dranmachen.\n\n**Rep:** Nein, nein, bei Klinker geht das oft wunderbar. Aber daf\u00fcr br\u00e4uchten wir ein bisschen mehr Infos. Wissen Sie denn, ob das Haus vielleicht damals schon Hohlr\u00e4ume hatte? Oder ob es massiv gebaut ist?\n\n**Kunde:** Puh, da muss ich ehrlich sagen, da wei\u00df ich nicht. Wir wohnen ja seit den 60ern hier drin, aber Unterlagen vom Bau, die hab ich so auf die Schnelle nicht parat. Das war ja auch noch zu DDR-Zeiten, da war das mit den Papieren manchmal anders.\n\n**Rep:** Ja, verstehe ich total. Ist ja auch lange her. Aber es w\u00e4re schon wichtig, dass wir wissen, ob da ein Hohlraum ist, wo wir reinblasen k\u00f6nnen. Wenn das massiv ist, dann geht's ja nicht. Aber oft, gerade bei den alten Klinkerh\u00e4usern, da ist ein Hohlraum. K\u00f6nnten Sie vielleicht mal schauen, ob Sie doch noch irgendwelche Baupl\u00e4ne oder alte Bauunterlagen finden? Das w\u00e4re super hilfreich.\n\n**Kunde:** Ich kann mal gucken, ja. Ich hab da so eine Kiste auf dem Dachboden, da k\u00f6nnte was drin sein. Oder gibt's da nicht so einen Trick, wie man das rausfinden kann? Mit so einem Klopftest oder so?\n\n**Rep:** Ja, wir k\u00f6nnen das nat\u00fcrlich auch vor Ort pr\u00fcfen, wenn wir bei Ihnen sind. Aber ein paar Infos vorab w\u00e4ren gut, damit wir schon mal wissen, ob das \u00fcberhaupt in Frage kommt. Also, wenn Sie was finden, schicken Sie's uns einfach. Oder rufen Sie nochmal an. Wir k\u00f6nnen dann auch einen kostenlosen Termin bei Ihnen vereinbaren, wo einer unserer Techniker sich das Haus mal anschaut und das genau pr\u00fcft. Das w\u00e4re dann der n\u00e4chste Schritt, wenn Sie m\u00f6chten.\n\n**Kunde:** Das klingt gut. Also, ich schau mal nach den Papieren. Und wenn ich nichts finde, dann melde ich mich nochmal wegen so einem Termin. Ist das in Ordnung?\n\n**Rep:** Ja, absolut! Das ist perfekt, Herr Becker. Schauen Sie in Ruhe nach und melden Sie sich dann wieder bei uns. Wir sind da. Und wenn Sie Fragen haben, einfach anrufen.\n\n**Kunde:** Alles klar, Herr Richter. Vielen Dank erstmal!\n\n**Rep:** Gerne, Herr Becker. Einen sch\u00f6nen Tag Ihnen!\n\n**Kunde:** Ihnen auch. Auf Wiederh\u00f6ren.\n\n**Rep:** Auf Wiederh\u00f6ren!\n",
+    "top_k": 5
+  },
+  "similar_projects": [
+    {
+      "project_id": "PROJECT-00357",
+      "region": "DDR_Ost",
+      "product": "fassade",
+      "building_type": "EFH",
+      "building_year": 1942,
+      "fassaden_typ": "rotklinker",
+      "mauerstarke_cm": null,
+      "has_hohlraum": true,
+      "sales_call_summary": "Gesprochen mit Herrn Schmidt aus Ostdeutschland. Hat ein EFH von 1942 mit W\u00e4rmepumpe, roter Klinkerfassade. Er will Kernd\u00e4mmung (10cm Hohlraum). Wegen hoher Heizkosten im Winter ist das dringend. Er m\u00f6chte das noch dieses Jahr machen.",
+      "stage": "qualified_declined",
+      "initial_quote_eur": 5250.0,
+      "final_quote_eur": 5250.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00038",
+      "region": "DDR_Ost",
+      "product": "fassade",
+      "building_type": "MFH",
+      "building_year": 1943,
+      "fassaden_typ": "rotklinker",
+      "mauerstarke_cm": 32.0,
+      "has_hohlraum": false,
+      "sales_call_summary": "Kunde Herr Mayer, Vermieter aus Ostdeutschland. Hat MFH, 2 Etagen, BJ '43 mit \u00d6lheizung. Sucht D\u00e4mmung wg. hoher Heizkosten. Hat roten Klinker aber leider keinen Hohlraum f\u00fcr Einblasd\u00e4mmung bei 32cm Wandst\u00e4rke. Muss mal checken, ob wir da ne andere L\u00f6sung haben oder ob sich's nicht lohnt. Er will das so schnell wie m\u00f6glich angehen. Mal intern kl\u00e4ren.",
+      "stage": "qualified_declined",
+      "initial_quote_eur": 5100.0,
+      "final_quote_eur": 5100.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00248",
+      "region": "DDR_Ost",
+      "product": "fassade",
+      "building_type": "EFH",
+      "building_year": 1945,
+      "fassaden_typ": "rotklinker",
+      "mauerstarke_cm": null,
+      "has_hohlraum": false,
+      "sales_call_summary": "Herr Schwarz aus Ostdeutschland, Einfamilienhaus Bj. 45 mit rotem Klinker. Will Fassade d\u00e4mmen, aber hat keinen Hohlraum in der Wand. Also Kernd\u00e4mmung/Einblasd\u00e4mmung f\u00e4llt weg. Schade, aber er sucht aktiv nach ner L\u00f6sung weil Heizkosten hoch sind. Muss ihn disqualifizieren, aber evtl. gibts sp\u00e4ter mal andere L\u00f6sungen f\u00fcr ihn.",
+      "stage": "qualified_declined",
+      "initial_quote_eur": 6150.0,
+      "final_quote_eur": 6150.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00576",
+      "region": "DDR_Ost",
+      "product": "fassade",
+      "building_type": "RH",
+      "building_year": 1946,
+      "fassaden_typ": "rotklinker",
+      "mauerstarke_cm": 38.0,
+      "has_hohlraum": false,
+      "sales_call_summary": "Gespr\u00e4ch mit Frau Koch (Eigennutzerin) betr. Fassadend\u00e4mmung (Kernd\u00e4mmung/Einblasd\u00e4mmung) f\u00fcr ihr Reihenhaus in Ostdeutschland (Region ehemalige DDR, bspw. Sachsen/Brandenburg).\n\nGeb\u00e4ude-Eckdaten:\n- Baujahr 1946, 2 Vollgeschosse.\n- Roter Klinker, Mauerst\u00e4rke lt. Frau Koch exakt 38 cm.\n- Heizung: Gas.\n\nProblem:\n- Frau Koch hatte die Hoffnung auf eine Kernd\u00e4mmung/Einblasd\u00e4mmung. \n- Bei einer Wandst\u00e4rke von 38cm, wie vom Kunden genannt, ist aber davon auszugehen, dass es sich um eine massive, unverputzte Klinkerwand handelt (kein Hohlraum).\n- Es wurde w\u00e4hrend des Telefonats klar, dass kein Hohlraum vorhanden ist \u2013 dies wurde direkt abgefragt und verneint.\n\nDisqualifikation:\n- Aufgrund der festgestellten Wandkonstruktion (38 cm massiv, kein Hohlraum) ist eine Einblasd\u00e4mmung konstruktiv nicht m\u00f6glich. Andere D\u00e4mmmethoden wurden nicht besprochen, da der Fokus auf der Einblasd\u00e4mmung lag und die Erwartung des Kunden in diese Richtung ging. Das Objekt ist f\u00fcr unser Angebot nicht geeignet.",
+      "stage": "disqualified_phase1",
+      "initial_quote_eur": null,
+      "final_quote_eur": null,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    },
+    {
+      "project_id": "PROJECT-00069",
+      "region": "DDR_Ost",
+      "product": "fassade",
+      "building_type": "RH",
+      "building_year": 1949,
+      "fassaden_typ": "rotklinker",
+      "mauerstarke_cm": 28.0,
+      "has_hohlraum": true,
+      "sales_call_summary": "Quali-Call mit Herrn Lang, Vermieter eines Reihenhauses in Ostdeutschland (Region \u00e4hnl. Sachsen/Brandenburg), Baujahr 1949, 2 Vollgeschosse. Geb\u00e4ude hat rote Klinkerfassade. Fokus lag auf Kernd\u00e4mmung/Einblasd\u00e4mmung. Herr Lang hat explizit nach der M\u00f6glichkeit gefragt, die Fassade zu d\u00e4mmen, da die Gasheizkosten ihm zu hoch sind.  Die Au\u00dfenmauer ist 28 cm dick, es gibt einen Hohlraum von ca. 10 cm, der f\u00fcr die Einblasd\u00e4mmung genutzt werden soll. Kunde hat hohe Gasrechnungen und m\u00f6chte die Energieeffizienz vor dem n\u00e4chsten Winter verbessern.  Ist offen f\u00fcr einen Ortstermin zur genauen Begutachtung der Gegebenheiten und Materialauswahl.  Wunsch nach Kosteneffizienz bei der D\u00e4mmung, da er das Objekt vermietet und die Mietrendite nicht zu stark belasten m\u00f6chte. Er hat erw\u00e4hnt, dass er auch auf die F\u00f6rderungen achten muss. Weiteres Vorgehen: Angebot und Ortsbesichtigung terminieren.",
+      "stage": "qualified_declined",
+      "initial_quote_eur": 5250.0,
+      "final_quote_eur": 5250.0,
+      "on_site_issues": [],
+      "customer_satisfaction": null
+    }
+  ],
+  "stats": {
+    "total_similar": 5,
+    "close_rate": 0.0,
+    "avg_overrun_eur": 0.0,
+    "common_issues": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+        "cavity": "Possible Hohlraum vorhanden, aber unbest\u00e4tigt",
+        "access": "Zugang durch L\u00f6cher in Fugen m\u00f6glich, aber abh\u00e4ngig von Mauerwerksart",
+        "region": "Leipzig",
+        "constraints": "M\u00f6glicherweise keine geeignete D\u00e4mmung bei massiver Konstruktion, fehlende Baupl\u00e4ne"
+    },
+    "contradictions": [
+        {
+            "field": "has_hohlraum",
+            "transcript_value": "vielleicht hatte das Haus damals schon Hohlr\u00e4ume?",
+            "intake_value": "null",
+            "reason": "Customer unsure about existing cavities"
+        }
+    ],
+    "risk_factors": [
+        {
+            "tag": "Uncertainty",
+            "description": "Lack of historical building documentation leading to uncertainty about construction type and cavity presence.",
+            "severity": "MEDIUM"
+        },
+        {
+            "tag": "Construction Type",
+            "description": "Potential incompatibility of insulation type with existing massive construction.",
+            "severity": "MEDIUM"
+        }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

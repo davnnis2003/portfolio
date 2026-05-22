@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-002",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 80,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** This is a PITCH_WITH_FLAG – the 80% confidence suggests potential issues. We’ve had zero success with similar Einblasdämmung projects in SH_NordNieder_HH, and a previous overrun of €-5 is a concern. Be prepared to justify the proposal thoroughly."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Verify the cavity depth is genuinely 6cm. Rotklinker facades often present challenges with accurate measurement – don’t rely solely on the initial assessment."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** The Kerndämmung/Einblasdämmung combination is pushing the margin. Ensure the proposed cost accurately reflects the complexity of the rotklinker cladding and potential access difficulties."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm with the homeowner that there are *no* specific access restrictions beyond the general lack of stated limitations.  A blocked access route will significantly impact installation time and cost."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:**  Historical data indicates no common on-site issues. However, the low close rate warrants extra diligence and proactive communication throughout the visit."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** This is a PITCH_WITH_FLAG – the 80% confidence suggests potential issues. We’ve had zero success with similar Einblasdämmung projects in SH_NordNieder_HH, and a previous overrun of €-5 is a concern. Be prepared to justify the proposal thoroughly.\n\n•\t**CONFIRM ON-SITE:** Verify the cavity depth is genuinely 6cm. Rotklinker facades often present challenges with accurate measurement – don’t rely solely on the initial assessment.\n\n•\t**PRICE CAREFULLY:** The Kerndämmung/Einblasdämmung combination is pushing the margin. Ensure the proposed cost accurately reflects the complexity of the rotklinker cladding and potential access difficulties.\n\n•\t**CLARIFY:** Confirm with the homeowner that there are *no* specific access restrictions beyond the general lack of stated limitations.  A blocked access route will significantly impact installation time and cost.\n\n•\t**NOTE:**  Historical data indicates no common on-site issues. However, the low close rate warrants extra diligence and proactive communication throughout the visit."
+}

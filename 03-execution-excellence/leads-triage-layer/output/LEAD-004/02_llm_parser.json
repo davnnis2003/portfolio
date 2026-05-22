@@ -1,0 +1,45 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+        "cavity": "30 cm (estimated)",
+        "access": "No specific access constraints mentioned",
+        "region": "NRW_SudNieder",
+        "constraints": "Building year 1978, existing gypsum walls, cold exterior walls"
+    },
+    "contradictions": [
+        {
+            "field": "mauerstarke_cm",
+            "transcript_value": "ziemlich dick",
+            "intake_value": "30",
+            "reason": "Customer estimates wall thickness as 'ziemlich dick' (approximately 30cm), but intake data specifies 30cm.  Potential for larger wall thickness."
+        },
+        {
+            "field": "has_hohlraum",
+            "transcript_value": "vermuten einen Hohlraum in der Wand",
+            "intake_value": "false",
+            "reason": "Customer suspects a cavity, while the intake data indicates no cavity."
+        }
+    ],
+    "risk_factors": [
+        {
+            "tag": "Age of Building",
+            "description": "Building constructed in 1978, likely to have thermal deficiencies.",
+            "severity": "MEDIUM"
+        },
+        {
+            "tag": "Existing Gypsum Walls",
+            "description": "Presence of existing gypsum walls could impede insulation installation.",
+            "severity": "LOW"
+        },
+        {
+            "tag": "Cold Exterior Walls",
+            "description": "Customer reports cold exterior walls, indicating significant heat loss.",
+            "severity": "HIGH"
+        }
+    ],
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+        "Region NRW_SudNieder: Baujahr 1978 > 1970 ohne 36.5cm Mauerst\u00e4rke oder Klinker"
+    ]
+}

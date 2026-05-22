@@ -1,0 +1,281 @@
+[
+  {
+    "lead_id": "LEAD-001",
+    "decision": "disqualified",
+    "confidence_score": 5,
+    "confidence": "high",
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+      "Region NRW_SudNieder: Baujahr 1995 > 1970 ohne 36.5cm Mauerstärke oder Klinker"
+    ],
+    "reasoning": [
+      "Region NRW_SudNieder: Baujahr 1995 > 1970 ohne 36.5cm Mauerstärke oder Klinker"
+    ],
+    "field_briefing": []
+  },
+  {
+    "lead_id": "LEAD-002",
+    "decision": "pitch_with_flag",
+    "confidence_score": 4,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Historical close rate is low (0.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** This is a PITCH_WITH_FLAG – the 80% confidence suggests potential issues. We’ve had zero success with similar Einblasdämmung projects in SH_NordNieder_HH, and a previous overrun of €-5 is a concern. Be prepared to justify the proposal thoroughly."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Verify the cavity depth is genuinely 6cm. Rotklinker facades often present challenges with accurate measurement – don’t rely solely on the initial assessment."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** The Kerndämmung/Einblasdämmung combination is pushing the margin. Ensure the proposed cost accurately reflects the complexity of the rotklinker cladding and potential access difficulties."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm with the homeowner that there are *no* specific access restrictions beyond the general lack of stated limitations.  A blocked access route will significantly impact installation time and cost."
+      },
+      {
+        "label": "NOTE",
+        "text": "**  Historical data indicates no common on-site issues. However, the low close rate warrants extra diligence and proactive communication throughout the visit."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-003",
+    "decision": "pitch_with_flag",
+    "confidence_score": 4,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Detected 1 discrepancies between intake and transcript.",
+      "Medium risk factors: Uncertainty, Construction Type",
+      "Historical close rate is low (0.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "CLARIFY",
+        "text": "** Specifically ask the homeowner about the certainty of existing cavities. The statement ‘vielleicht hatte das Haus damals schon Hohlräume?’ needs absolute confirmation – don’t proceed assuming they’re present."
+      },
+      {
+        "label": "FLAG",
+        "text": "** The potential incompatibility of Kerndämmung with a massive construction is a significant risk. Be prepared to discuss alternative solutions if the cavity is absent or unsuitable."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Physically inspect the wall junctions and potential access points (fugenlöcher) to assess the feasibility of accessing the cavity. Document the Mauerwerksart clearly."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** Given the uncertainty regarding cavities, build a contingency into the quote. A €500 buffer for unexpected access challenges is advisable."
+      },
+      {
+        "label": "NOTE",
+        "text": "** Previous similar leads in Leipzig have closed at 0%. Focus on detailed documentation and clear communication of potential risks to secure the sale."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-004",
+    "decision": "disqualified",
+    "confidence_score": 5,
+    "confidence": "high",
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+      "Region NRW_SudNieder: Baujahr 1978 > 1970 ohne 36.5cm Mauerstärke oder Klinker"
+    ],
+    "reasoning": [
+      "Region NRW_SudNieder: Baujahr 1978 > 1970 ohne 36.5cm Mauerstärke oder Klinker"
+    ],
+    "field_briefing": []
+  },
+  {
+    "lead_id": "LEAD-005",
+    "decision": "disqualified",
+    "confidence_score": 5,
+    "confidence": "high",
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+      "Region Sud_Hessen_RLP: Nur Klinker, 30-33cm Mauerstärke, Baujahr < 1950 erlaubt"
+    ],
+    "reasoning": [
+      "Region Sud_Hessen_RLP: Nur Klinker, 30-33cm Mauerstärke, Baujahr < 1950 erlaubt"
+    ],
+    "field_briefing": []
+  },
+  {
+    "lead_id": "LEAD-006",
+    "decision": "pitch_with_flag",
+    "confidence_score": 4,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Medium risk factors: Denkmalsschutz",
+      "Historical close rate is low (20.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** The Ensemble-Schutz requirement in Kiel necessitates careful consideration of potential complications and possible delays. We need to thoroughly assess the implications of this with the homeowner."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Verify the actual cavity depth is precisely 6cm – discrepancies here will directly impact the Kerndämmung calculation and cost. Measure the wall thickness (36.5cm) independently."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** Previous similar projects in Kiel have experienced an average cost overrun of €34. Factor this into your proposed quote and be prepared to justify the price against the constraints."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm with the homeowner if they’ve already investigated the potential need for a building permit due to the Ensemble-Schutz. Don’t assume – get a direct answer."
+      },
+      {
+        "label": "NOTE",
+        "text": "** Close rate for similar Einblasdämmung projects is 20%. Manage expectations accordingly."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-007",
+    "decision": "pitch_with_flag",
+    "confidence_score": 3,
+    "confidence": "medium",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Detected 2 discrepancies between intake and transcript.",
+      "Medium risk factors: Future_Expansion",
+      "Historical close rate is low (0.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** The potential for future expansion (children moving out) needs careful handling. Don’t over-commit to a solution that might not be fully utilized. Document the customer’s stated timeline clearly."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Verify *absolutely* that there is no existing insulation present. The intake data contradicts the customer’s verbal confirmation."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** Given the lack of cavity depth (None), ensure the proposed ogd solution’s cost aligns with the expected performance and the customer’s budget."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm the exact dimensions of the ‘Laufsteg/begehbaren Elementen’ – this will directly impact material quantities and installation time."
+      },
+      {
+        "label": "NOTE",
+        "text": "** Historical close rate for similar leads is 0%. Focus on a pragmatic, value-driven presentation, highlighting energy savings and addressing any concerns about the lack of future expansion plans."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-008",
+    "decision": "pitch",
+    "confidence_score": 5,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Qualified lead with high success likelihood and consistent data."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** The potential for moisture on the concrete floor during heavy rainfall is a significant risk. We need to assess the drainage around the property and confirm the customer’s understanding of the implications – could lead to issues with the mineralwool installation."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm with the homeowner that there’s no existing damp-proof course (DPC) in the floor. If there isn’t, we’ll need to discuss a supplementary moisture barrier strategy."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Visually inspect the external walls for any signs of existing dampness or previous remedial work. Document this thoroughly."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** Given the potential moisture risk, factor in a contingency of approximately €50-€100 into the quote for potential remedial work or moisture protection."
+      },
+      {
+        "label": "NOTE",
+        "text": "** Historical data shows a 60% close rate for similar EFH leads in SH_NordNieder_HH. Focus on clearly demonstrating the benefits of mineralwool and addressing the moisture concern proactively."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-009",
+    "decision": "pitch_with_flag",
+    "confidence_score": 4,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Medium risk factors: Unaddressed_Thermal_Loss, Outdated_Heating_System",
+      "Historical close rate is low (0.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** The significant thermal loss in the roof and basement, combined with the outdated oil heating system, represents a substantial opportunity for a complete energy efficiency solution. We need to clearly articulate the value of addressing this comprehensively."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm with the homeowner that they are genuinely open to discussing a full insulation upgrade, not just the cavity wall. Previous similar leads have closed at 0%."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Visually verify the cavity depth is truly 7cm. Any deviation will impact the Einblasdämmung calculation and potentially the cost."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** The Klinker constraint means we need to meticulously plan the Einblasdämmung application to avoid any risk of covering it. Factor in potential rework costs if this isn’t addressed upfront."
+      },
+      {
+        "label": "NOTE",
+        "text": "**  Historical data shows a €50 average cost overrun on similar projects – be prepared to justify the scope and materials thoroughly."
+      }
+    ]
+  },
+  {
+    "lead_id": "LEAD-010",
+    "decision": "pitch_with_flag",
+    "confidence_score": 4,
+    "confidence": "high",
+    "rule_status": "QUALIFIED",
+    "rule_reasons": [],
+    "reasoning": [
+      "Historical close rate is low (0.0%) for similar projects."
+    ],
+    "field_briefing": [
+      {
+        "label": "FLAG",
+        "text": "** This is a PITCH_WITH_FLAG, so be prepared to discuss the potential for increased costs and complexity due to the existing rotklinker façade. Document the exact location and extent of the rotklinker thoroughly."
+      },
+      {
+        "label": "CLARIFY",
+        "text": "** Confirm with the homeowner that they absolutely do not want the rotklinker covered – this is a critical constraint impacting the proposed Einblasdämmung method."
+      },
+      {
+        "label": "CONFIRM ON-SITE",
+        "text": "** Verify the cavity depth is truly 5cm. Measure it directly; discrepancies will impact the required insulation thickness and therefore cost."
+      },
+      {
+        "label": "PRICE CAREFULLY",
+        "text": "** The access method – drilling through existing fuge (joints) – will likely increase material and labour costs. Get a detailed breakdown of this aspect from the estimator."
+      },
+      {
+        "label": "NOTE",
+        "text": "** Previous similar leads in DDR_Ost have had a 0% close rate. Be prepared for a potentially lengthy sales process and focus on clearly demonstrating the benefits of Kerndämmung alongside the Einblasdämmung."
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "lead_id": "LEAD-009",
+  "decision": "pitch_with_flag",
+  "confidence_score": 4,
+  "reasoning": [
+    "Medium risk factors: Unaddressed_Thermal_Loss, Outdated_Heating_System",
+    "Historical close rate is low (0.0%) for similar projects."
+  ],
+  "rule_status": "QUALIFIED",
+  "rule_reasons": [],
+  "llm_analysis": {
+    "entities": {
+      "house_type": "EFH",
+      "insulation_type": "fassadend\u00e4mmung (Kernd\u00e4mmung / Einblasd\u00e4mmung)",
+      "cavity": "Hohlraum mit 7 cm Dicke",
+      "access": "Keine spezifischen Access Constraints",
+      "region": "SH_NordNieder_HH",
+      "constraints": "Klinker soll nicht \u00fcberdeckt werden"
+    },
+    "contradictions": [],
+    "risk_factors": [
+      {
+        "tag": "Unaddressed_Thermal_Loss",
+        "description": "Significant thermal loss in uninsulated roof and basement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "tag": "Outdated_Heating_System",
+        "description": "Old oil heating system contributing to high energy costs.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+  },
+  "memory_stats": {
+    "total_similar": 5,
+    "close_rate": 0.0,
+    "avg_overrun_eur": -50.0,
+    "common_issues": []
+  }
+}

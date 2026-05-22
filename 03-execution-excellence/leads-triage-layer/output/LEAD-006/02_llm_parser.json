@@ -1,0 +1,25 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+        "cavity": "Hohlraum von 6 Zentimetern, Mauerst\u00e4rke 36,5 Zentimeter",
+        "access": "Ensemble-Schutz, Fassade darf au\u00dfen nicht ver\u00e4ndert werden",
+        "region": "Kiel",
+        "constraints": "Fassade muss exakt so bleiben, keine Au\u00dfend\u00e4mmung, keine neue Farbe"
+    },
+    "contradictions": [],
+    "risk_factors": [
+        {
+            "tag": "Denkmalsschutz",
+            "description": "Potential for complications due to Ensemble-Schutz regulations.",
+            "severity": "MEDIUM"
+        },
+        {
+            "tag": "Genehmigungspflicht",
+            "description": "Although exterior changes are not visible, a permit might be required, requiring further investigation.",
+            "severity": "LOW"
+        }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

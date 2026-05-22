@@ -1,0 +1,14 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+        "cavity": "Hohlraum vorhanden, 5 cm",
+        "access": "Einblasd\u00e4mmung - L\u00f6cher in Fugen",
+        "region": "DDR_Ost",
+        "constraints": "Rotklinker soll nicht \u00fcberputzt werden"
+    },
+    "contradictions": [],
+    "risk_factors": [],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

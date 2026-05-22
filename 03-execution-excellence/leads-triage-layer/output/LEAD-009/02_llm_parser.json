@@ -1,0 +1,25 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "fassadend\u00e4mmung (Kernd\u00e4mmung / Einblasd\u00e4mmung)",
+        "cavity": "Hohlraum mit 7 cm Dicke",
+        "access": "Keine spezifischen Access Constraints",
+        "region": "SH_NordNieder_HH",
+        "constraints": "Klinker soll nicht \u00fcberdeckt werden"
+    },
+    "contradictions": [],
+    "risk_factors": [
+        {
+            "tag": "Unaddressed_Thermal_Loss",
+            "description": "Significant thermal loss in uninsulated roof and basement.",
+            "severity": "MEDIUM"
+        },
+        {
+            "tag": "Outdated_Heating_System",
+            "description": "Old oil heating system contributing to high energy costs.",
+            "severity": "MEDIUM"
+        }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

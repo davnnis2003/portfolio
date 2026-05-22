@@ -1,0 +1,33 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "ogd",
+        "cavity": "None",
+        "access": "Accessible, with potential for Laufsteg/begehbaren Elementen",
+        "region": "NRW_SudNieder",
+        "constraints": "Unbewohnter Raum, keine Pl\u00e4ne f\u00fcr Ausbau in naher Zukunft"
+    },
+    "contradictions": [
+        {
+            "field": "dachboden_zukunft_wohnraum",
+            "transcript_value": "Langfristige \u00dcberlegung f\u00fcr den Fall, dass die Kinder ausziehen",
+            "intake_value": "false",
+            "reason": "Customer expresses a potential future use, though not currently planned."
+        },
+        {
+            "field": "existing_insulation",
+            "transcript_value": "Gar keine D\u00e4mmung vorhanden",
+            "intake_value": "false",
+            "reason": "Customer confirms no existing insulation."
+        }
+    ],
+    "risk_factors": [
+        {
+            "tag": "Future_Expansion",
+            "description": "Potential for future expansion, though currently not planned.",
+            "severity": "MEDIUM"
+        }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+}

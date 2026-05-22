@@ -1,0 +1,42 @@
+{
+  "lead_id": "LEAD-006",
+  "decision": "pitch_with_flag",
+  "confidence_score": 4,
+  "reasoning": [
+    "Medium risk factors: Denkmalsschutz",
+    "Historical close rate is low (20.0%) for similar projects."
+  ],
+  "rule_status": "QUALIFIED",
+  "rule_reasons": [],
+  "llm_analysis": {
+    "entities": {
+      "house_type": "EFH",
+      "insulation_type": "Kernd\u00e4mmung / Einblasd\u00e4mmung",
+      "cavity": "Hohlraum von 6 Zentimetern, Mauerst\u00e4rke 36,5 Zentimeter",
+      "access": "Ensemble-Schutz, Fassade darf au\u00dfen nicht ver\u00e4ndert werden",
+      "region": "Kiel",
+      "constraints": "Fassade muss exakt so bleiben, keine Au\u00dfend\u00e4mmung, keine neue Farbe"
+    },
+    "contradictions": [],
+    "risk_factors": [
+      {
+        "tag": "Denkmalsschutz",
+        "description": "Potential for complications due to Ensemble-Schutz regulations.",
+        "severity": "MEDIUM"
+      },
+      {
+        "tag": "Genehmigungspflicht",
+        "description": "Although exterior changes are not visible, a permit might be required, requiring further investigation.",
+        "severity": "LOW"
+      }
+    ],
+    "rule_status": "QUALIFIED",
+    "rule_reasons": []
+  },
+  "memory_stats": {
+    "total_similar": 5,
+    "close_rate": 0.2,
+    "avg_overrun_eur": -33.8,
+    "common_issues": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lead_id": "LEAD-006",
+  "decision": "pitch_with_flag",
+  "confidence_pct": 80,
+  "bullets": [
+    {
+      "label": "NOTE",
+      "text": "Here’s your field briefing:"
+    },
+    {
+      "label": "NOTE",
+      "text": "**FLAG:** The Ensemble-Schutz requirement in Kiel necessitates careful consideration of potential complications and possible delays. We need to thoroughly assess the implications of this with the homeowner."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CONFIRM ON-SITE:** Verify the actual cavity depth is precisely 6cm – discrepancies here will directly impact the Kerndämmung calculation and cost. Measure the wall thickness (36.5cm) independently."
+    },
+    {
+      "label": "NOTE",
+      "text": "**PRICE CAREFULLY:** Previous similar projects in Kiel have experienced an average cost overrun of €34. Factor this into your proposed quote and be prepared to justify the price against the constraints."
+    },
+    {
+      "label": "NOTE",
+      "text": "**CLARIFY:** Confirm with the homeowner if they’ve already investigated the potential need for a building permit due to the Ensemble-Schutz. Don’t assume – get a direct answer."
+    },
+    {
+      "label": "NOTE",
+      "text": "**NOTE:** Close rate for similar Einblasdämmung projects is 20%. Manage expectations accordingly."
+    }
+  ],
+  "raw_text": "Here’s your field briefing:\n\n•\t**FLAG:** The Ensemble-Schutz requirement in Kiel necessitates careful consideration of potential complications and possible delays. We need to thoroughly assess the implications of this with the homeowner.\n•\t**CONFIRM ON-SITE:** Verify the actual cavity depth is precisely 6cm – discrepancies here will directly impact the Kerndämmung calculation and cost. Measure the wall thickness (36.5cm) independently.\n•\t**PRICE CAREFULLY:** Previous similar projects in Kiel have experienced an average cost overrun of €34. Factor this into your proposed quote and be prepared to justify the price against the constraints.\n•\t**CLARIFY:** Confirm with the homeowner if they’ve already investigated the potential need for a building permit due to the Ensemble-Schutz. Don’t assume – get a direct answer.\n•\t**NOTE:** Close rate for similar Einblasdämmung projects is 20%. Manage expectations accordingly."
+}

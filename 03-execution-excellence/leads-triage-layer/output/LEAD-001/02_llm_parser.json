@@ -1,0 +1,35 @@
+{
+    "entities": {
+        "house_type": "EFH",
+        "insulation_type": "Einblasd\u00e4mmung",
+        "cavity": "Massiv",
+        "access": "None",
+        "region": "NRW_SudNieder",
+        "constraints": "Baujahr 1995, 30 cm Mauerst\u00e4rke, kein Hohlraum"
+    },
+    "contradictions": [
+        {
+            "field": "has_hohlraum",
+            "transcript_value": "kein Hohlraum",
+            "intake_value": "false",
+            "reason": "Customer states no hohlraum, intake data indicates no hohlraum."
+        },
+        {
+            "field": "insulation_type",
+            "transcript_value": "Einblasd\u00e4mmung",
+            "intake_value": "Einblasd\u00e4mmung",
+            "reason": "Customer initially inquired about Einblasd\u00e4mmung, but it's deemed unsuitable."
+        }
+    ],
+    "risk_factors": [
+        {
+            "tag": "Technical Infeasibility",
+            "description": "Proposed insulation type is not suitable for the building's construction and characteristics.",
+            "severity": "HIGH"
+        }
+    ],
+    "rule_status": "DISQUALIFIED",
+    "rule_reasons": [
+        "Region NRW_SudNieder: Baujahr 1995 > 1970 ohne 36.5cm Mauerst\u00e4rke oder Klinker"
+    ]
+}
